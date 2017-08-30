@@ -9,7 +9,7 @@
 npm install
 
 # build with webpack
-npm run dev
+npm run build
 
 # serve build on localhost:8080 with npm http-server
 npm start
