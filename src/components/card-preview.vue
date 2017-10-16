@@ -34,12 +34,12 @@
 
 <script>
 
-import TableCards from '../data/table-cards.js';
-import TableCombos from '../data/table-combos.js';
-import TableRaces from '../data/table-races.js';
-import TableRarities from '../data/table-rarities.js';
-import TableHandBase from '../data/table-hand-base.js';
-import TableHandMods from '../data/table-hand-mods.js';
+import TableCards from '@/data/table-cards.js';
+import TableCombos from '@/data/table-combos.js';
+import TableRaces from '@/data/table-races.js';
+import TableRarities from '@/data/table-rarities.js';
+import TableHandBase from '@/data/table-hand-base.js';
+import TableHandMods from '@/data/table-hand-mods.js';
 
 export default {
   name: 'card-preview',
