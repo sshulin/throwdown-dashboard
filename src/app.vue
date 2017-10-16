@@ -18,12 +18,8 @@
 import TableCards from './data/table-cards.js';
 import TableCombos from './data/table-combos.js';
 import TableRaces from './data/table-races.js';
-
-
-var table_hands_base = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var table_hands_mods = [10, 11, 12, 13, 14, 15, 16, 17, 18];
-// var table_hands_base = [1, 2, 3, 4, 5, 6, 7, 8, 9, 20, 22];
-// var table_hands_mods = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21];
+import TableHandBase from './data/table-hand-base.js';
+import TableHandMods from './data/table-hand-mods.js';
 
 import  CardPreview from './components/card-preview.vue';
   
@@ -34,8 +30,8 @@ export default {
     return { 
       cards: TableCards,
       combos: TableCombos,
-      hand_base: table_hands_base,
-      hand_mods: table_hands_mods,
+      hand_base: TableHandBase,
+      hand_mods: TableHandMods,
       selected_base_id: '',
       selected_mod_id: '',
       selected_base_combos: null,
