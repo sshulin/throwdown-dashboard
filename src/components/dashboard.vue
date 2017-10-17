@@ -1,6 +1,5 @@
 <template>
     <div class="dasboard">
-      <router-link to="/cardpicker">Go to Foo</router-link>
       <div class="dashboard__bank">
         <div class="dashboard__col">
           <card-preview v-for="item in hand_base"  v-on:selection="select_base_id(item)" :card="cards[item]" :blured="(selected_base_combos &&
@@ -80,7 +79,9 @@ export default {
 
 .dashboard {
   &__bank {
-    display: flex;    
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
   }
   &__col {
     box-sizing: border-box;

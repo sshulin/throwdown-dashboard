@@ -9,8 +9,9 @@ const routes = [
 	{ path: '/', name: 'dashboard', component: DashboardComponent },
 	{ path: '/cardpicker', name: 'cardpicker', component: CardpickerComponent },
 ]
-
-export default new VueRouter({
+const router = new VueRouter({
 	routes,
 	mode: 'hash'
 });
+
+export default router;
