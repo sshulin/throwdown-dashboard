@@ -38,8 +38,7 @@ import TableCards from '@/data/table-cards.js';
 import TableCombos from '@/data/table-combos.js';
 import TableRaces from '@/data/table-races.js';
 import TableRarities from '@/data/table-rarities.js';
-import TableHandBase from '@/data/table-hand-base.js';
-import TableHandMods from '@/data/table-hand-mods.js';
+import Hand from '@/data/hand.js';
 
 export default {
   name: 'card-preview',
@@ -47,8 +46,8 @@ export default {
     return {
       combos: TableCombos,
       combos_number: 0,
-      hand_base: TableHandBase,
-      hand_mods: TableHandMods,
+      hand_base: Hand.base,
+      hand_mods: Hand.mods,
       opened: false,
       races: TableRaces,
       rarities: TableRarities,

@@ -40,8 +40,9 @@ body {
     width: 150px;
   }
   &__content {
-    padding: 10px;
     flex-grow: 1;
+    height: 100%;
+    overflow-y: auto;
   }
 }
 </style>

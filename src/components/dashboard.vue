@@ -18,8 +18,7 @@
 import TableCards from '@/data/table-cards.js';
 import TableCombos from '@/data/table-combos.js';
 import TableRaces from '@/data/table-races.js';
-import TableHandBase from '@/data/table-hand-base.js';
-import TableHandMods from '@/data/table-hand-mods.js';
+import Hand from '@/data/hand.js';
 
 import  CardPreview from '@/components/card-preview.vue';
   
@@ -29,8 +28,8 @@ export default {
     return { 
       cards: TableCards,
       combos: TableCombos,
-      hand_base: TableHandBase,
-      hand_mods: TableHandMods,
+      hand_base: Hand.base,
+      hand_mods: Hand.mods,
       selected_base_id: '',
       selected_mod_id: '',
       selected_base_combos: null,
@@ -78,6 +77,8 @@ export default {
 <style lang="scss">
 
 .dashboard {
+  box-sizing: border-box;
+  padding: 10px;
   &__bank {
     display: flex;
     margin-left: -5px;
