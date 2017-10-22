@@ -1,11 +1,16 @@
 <template>
     <div class="cardpicker">
       <div class="cardpicker__pool">
-        <card-preview v-for="item in cards"  :card="item"></card-preview>         
+        <div class="cardpicker__card cardpicker__card--aval" v-for="card in cards">
+          {{ card.name }}
+          <i class="fa fa-plus" v-if="!checkCard(card.id)" v-on:click="addCard(card.id)"></i>
+          <i class="fa fa-minus" v-if="checkCard(card.id)" v-on:click="removeCard(card.id)"></i>
+        </div>
       </div>
       <div class="cardpicker__hand">
-        <div class="cardpicker__card" v-for="card in hand_all">
+        <div class="cardpicker__card cardpicker__card--hand" v-for="card in hand_all">
           {{ cards[card].name }}
+          <i class="fa fa-minus" v-on:click="removeCard(card)"></i>
         </div>
       </div>
     </div>
@@ -29,7 +34,7 @@ export default {
       combos: TableCombos,
       hand_base: Hand.base,
       hand_mods: Hand.mods,
-      hand_all: [],
+      hand_all: Hand.value,
       selected_base_id: '',
       selected_mod_id: '',
       selected_base_combos: null,
@@ -38,9 +43,19 @@ export default {
     }
   },
   methods: {
+    addCard: function(id) {
+      Hand.add(id);
+      this.hand_all = Hand.value;
+    },
+    removeCard: function(id) {
+      Hand.remove(id);
+      this.hand_all = Hand.value;
+    },
+    checkCard: function(id) {
+      return Hand.check(id);
+    }
   },
   created: function () {
-    this.hand_all = this.hand_base.concat(this.hand_mods);
   },
 };
 </script>
@@ -72,8 +87,17 @@ export default {
   }
   &__card {
     border: 1px solid rgba(0,0,0,0.5);
-    display: inline-block;
-    padding: 3px;
+    background: rgba(0,0,0,0.05125);
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    &--aval {
+      display: block;
+      padding: 5px 10px;
+    }
+    &--hand {
+      display: inline-block;
+      padding: 3px;
+    }
   }
 }
 </style>
