@@ -1,5 +1,6 @@
 <template>
-    <div class="dasboard">
+    <div class="dashboard">
+      <empty-hand></empty-hand>
       <div class="dashboard__bank">
         <div class="dashboard__col">
           <card-preview v-for="item in hand_base"  v-on:selection="select_base_id(item)" :card="cards[item]" :blured="(selected_base_combos &&
@@ -20,10 +21,11 @@ import TableCombos from '@/data/table-combos.js';
 import TableRaces from '@/data/table-races.js';
 import Hand from '@/data/hand.js';
 
+import  EmptyHand from '@/components/empty-hand.vue';
 import  CardPreview from '@/components/card-preview.vue';
   
 export default {
-  components: { CardPreview },
+  components: { CardPreview, EmptyHand },
   data: function(){
     return { 
       cards: TableCards,

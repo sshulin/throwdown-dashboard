@@ -32,8 +32,6 @@ export default {
       test: 'test',
       cards: TableCards,
       combos: TableCombos,
-      hand_base: Hand.base,
-      hand_mods: Hand.mods,
       hand_all: Hand.value,
       selected_base_id: '',
       selected_mod_id: '',
@@ -52,6 +50,9 @@ export default {
       this.hand_all = Hand.value;
     },
     checkCard: function(id) {
+      if(!this.hand_all || this.hand_all.length == '0') {
+        return false;
+      }
       return Hand.check(id);
     }
   },
