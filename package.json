@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "vue": "^2.4.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuedraggable": "^2.14.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

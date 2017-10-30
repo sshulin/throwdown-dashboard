@@ -1,6 +1,6 @@
 <template>
     <div class="dashboard">
-      <empty-hand></empty-hand>
+      <empty-hand v-if="hand.length == 0"></empty-hand>
       <div class="dashboard__bank">
         <div class="dashboard__col">
           <card-preview v-for="item in hand_base"  v-on:selection="select_base_id(item)" :card="cards[item]" :blured="(selected_base_combos &&
@@ -30,6 +30,7 @@ export default {
     return { 
       cards: TableCards,
       combos: TableCombos,
+      hand: Hand.value,
       hand_base: Hand.base,
       hand_mods: Hand.mods,
       selected_base_id: '',
