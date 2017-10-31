@@ -8,7 +8,7 @@ function resolve (dir) {
 module.exports = {
   entry: './src/main.js',
   output: {
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, './dist'),
     filename: 'build.js'
   },
   module: {
