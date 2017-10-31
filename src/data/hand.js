@@ -10,13 +10,25 @@ let lsArrayGetter = function(key) {
 let lsSetter = function(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
 }
+let lsArraySetter = function(key, value) {
+  if(!typeof(value.forEach === 'function')) {
+    return false;
+  }
+  let newValue = [];
+  value.forEach(function(elem) {
+    if(!isNaN(parseInt(elem))) {
+      newValue.push(parseInt(elem));
+    }
+  });
+  lsSetter(key, newValue);
+}
 
 export default {
   get value() {
     return lsArrayGetter('hand');
   },
   set value(value) {
-    lsSetter('hand', value);
+    lsArraySetter('hand', value);
   },
   get base() {
     // return [1, 2, 3, 4, 5, 6, 7, 8, 9, 20, 22, 23, 27];
@@ -36,23 +48,23 @@ export default {
   },
   add(value) {
     let arHand = lsArrayGetter('hand');
-    let index = arHand.indexOf(value);
+    let index = arHand.indexOf(parseInt(value));
     if(index == -1) {
       arHand.push(value);
-      lsSetter('hand', arHand);
+      lsArraySetter('hand', arHand);
   	}
   },
   remove(value) {
     let arHand = lsArrayGetter('hand');
-    let index = arHand.indexOf(value);
+    let index = arHand.indexOf(parseInt(value));
     if(index > -1) {
       arHand.splice(index, 1);
   	}
-    lsSetter('hand', arHand);
+    lsArraySetter('hand', arHand);
   },
   check(value) {
     let arHand = lsArrayGetter('hand');
-    let index = arHand.indexOf(value);
+    let index = arHand.indexOf(parseInt(value));
     if(index != -1) {
       return true;
     } else {
