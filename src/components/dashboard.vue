@@ -92,8 +92,8 @@ export default {
   &__col {
     box-sizing: border-box;
     padding-left: 5px;
-    padding-right: 5px;
-    width: 50%;    
+    padding-right: 5px;  
+    flex-shrink: 0;
   }
 }
 </style>

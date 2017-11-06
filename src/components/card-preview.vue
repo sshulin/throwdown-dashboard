@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div class="card " v-bind:style="{background: rarities[card.rarity_id].color }" v-bind:class="{ 'card--blured': blured }">
     <div class="card__header">
       <span class="card__name">
@@ -15,8 +15,43 @@
       </div>
     </div>
     <div class="card__body" v-if="opened">
-      <div class="card__race">
-        {{ races[card.race_id].name }}
+      <div class="card__image">
+        <img v-bind:src="'https://cartoon-battle.narzekasz.pl/deck/cards/' + races[card.race_id].system_name + '_' + card.picture + '.png'">
+      </div>
+      <div class="card__description">
+        {{ card.desc }}
+      </div>
+      <div class="card__prop card__prop--race">
+        <div class="card__prop-label">
+          Type:
+        </div>
+        <div class="card__prop-val">
+          {{ races[card.race_id].name }}
+        </div>
+      </div>
+      <div class="card__prop card__prop--attack">
+        <div class="card__prop-label">
+          Attack:
+        </div>
+        <div class="card__prop-val">
+          {{ card.base_attack }}
+        </div>
+      </div>
+      <div class="card__prop card__prop--health">
+        <div class="card__prop-label">
+          Health:
+        </div>
+        <div class="card__prop-val">
+          {{ card.base_health }}
+        </div>
+      </div>
+      <div class="card__prop card__prop--trait" v-if="card.trait_id">
+        <div class="card__prop-label">
+          Trait:          
+        </div>
+        <div class="card__prop-val">
+          {{ traits[card.trait_id].name }}          
+        </div>
       </div>
       <div class="card__section"><!--
         <div class="card__prop">
@@ -38,6 +73,7 @@ import TableCards from '@/data/table-cards.js';
 import TableCombos from '@/data/table-combos.js';
 import TableRaces from '@/data/table-races.js';
 import TableRarities from '@/data/table-rarities.js';
+import TableTraits from '@/data/table-traits.js';
 import Hand from '@/data/hand.js';
 
 export default {
@@ -51,6 +87,7 @@ export default {
       opened: false,
       races: TableRaces,
       rarities: TableRarities,
+      traits: TableTraits,
     }
   },
   methods: {
@@ -82,6 +119,7 @@ export default {
   },
   created: function () {
     this.combos_number = this.count_combos();
+    this.card.picture = this.card.picture.replace(/bb_/g, '').replace(/BB_/g, '').replace(/fg_/g, '').replace(/FG_/g, '').replace(/fr_/g, '');
   },
   props: ['card', 'blured']
 }
@@ -93,7 +131,7 @@ export default {
   box-sizing: border-box;
   display: block;
   margin-bottom: 5px;
-
+  width: 440px;
   &--blured {
     opacity: 0.25;
   }
@@ -111,15 +149,57 @@ export default {
     justify-content: space-between;
     padding: 5px 10px;
   }
+  &__name {
+    font-weight: bold;
+  }
   &__body {
-    background: rgba(255,255,255,0.75);
+    background: rgba(255,255,255,0.95);
     border-bottom: 1px solid rgba(0,0,0,0.5);
     border-left: 1px solid rgba(0,0,0,0.5);
     border-right: 1px solid rgba(0,0,0,0.5);
-    padding: 5px 10px;
+    box-sizing: border-box;
+    height: 330px;
+    padding-bottom: 10px;
+    padding-left: 240px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: relative;
   }
-  &__name {
+  &__description {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  &__prop {
+    height: 1.15em;
+    margin-bottom: 5px;
+    position: relative;
+    &:after {
+      clear: both;
+      content: ' ';
+      display: table;
+    }
+    &--attack {
+
+    }
+    &--health {
+
+    }
+  }
+  &__prop-label {
+    float: left;
+  }
+  &__prop-val {
+    float: right;
     font-weight: bold;
+  }
+  &__image {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    img {
+      height: 100%;
+    }
   }
   &__actions {
     color: rgba(0,0,0,0.75);

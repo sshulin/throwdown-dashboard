@@ -1,20 +1,26 @@
 export default {
   '1': {
-    name: 'American dad'
+    name: 'Family Guy',
+    system_name: 'FG'
   },
   '2': {
-    name: 'Bobs Burgers'
+    name: 'American dad',
+    system_name: 'AD'
   },
   '3': {
-    name: 'Family Guy'
+    name: 'Bobs Burgers',
+    system_name: 'BB'
   },
   '4': {
-    name: 'Futurama'
+    name: 'King of the hill',
+    system_name: 'KH'
   },
   '5': {
-    name: 'King of the hill'
+    name: 'Futurama',
+    system_name: 'FT'
   },
   '6': {
-    name: 'Generic'
+    name: 'Generic',
+    system_name: 'generic'
   }
 }
