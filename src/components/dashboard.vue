@@ -73,6 +73,8 @@ export default {
           return combo.base_id
         })
     }
+  },
+  created: function() {
   }
 };
 </script>

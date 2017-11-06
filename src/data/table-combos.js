@@ -1,148 +1,20301 @@
-export default [
-  {base_id: 1, mod_id: 10},
-  {base_id: 1, mod_id: 11},
-  {base_id: 1, mod_id: 12},
-  {base_id: 1, mod_id: 13},
-  {base_id: 1, mod_id: 14},
-  {base_id: 1, mod_id: 15},
-  {base_id: 1, mod_id: 16},
-  {base_id: 1, mod_id: 17},
-  {base_id: 1, mod_id: 18},
-  {base_id: 2, mod_id: 11},
-  {base_id: 2, mod_id: 14},
-  {base_id: 2, mod_id: 15},
-  {base_id: 2, mod_id: 16},
-  {base_id: 2, mod_id: 17},
-  {base_id: 3, mod_id: 10},
-  {base_id: 3, mod_id: 12},
-  {base_id: 3, mod_id: 16},
-  {base_id: 3, mod_id: 17},
-  {base_id: 3, mod_id: 18},
-  {base_id: 4, mod_id: 10},
-  {base_id: 4, mod_id: 11},
-  {base_id: 4, mod_id: 12},
-  {base_id: 4, mod_id: 13},
-  {base_id: 4, mod_id: 14},
-  {base_id: 4, mod_id: 16},
-  {base_id: 4, mod_id: 17},
-  {base_id: 4, mod_id: 18},
-  {base_id: 5, mod_id: 10},
-  {base_id: 5, mod_id: 11},
-  {base_id: 5, mod_id: 12},
-  {base_id: 5, mod_id: 13},
-  {base_id: 5, mod_id: 14},
-  {base_id: 5, mod_id: 15},
-  {base_id: 5, mod_id: 16},
-  {base_id: 5, mod_id: 17},
-  {base_id: 5, mod_id: 18},
-  {base_id: 6, mod_id: 10},
-  {base_id: 6, mod_id: 11},
-  {base_id: 6, mod_id: 13},
-  {base_id: 6, mod_id: 15},
-  {base_id: 6, mod_id: 17},
-  {base_id: 6, mod_id: 18},
-  {base_id: 7, mod_id: 10},
-  {base_id: 7, mod_id: 11},
-  {base_id: 7, mod_id: 13},
-  {base_id: 7, mod_id: 14},
-  {base_id: 7, mod_id: 15},
-  {base_id: 7, mod_id: 16},
-  {base_id: 7, mod_id: 17},
-  {base_id: 7, mod_id: 18},
-  {base_id: 8, mod_id: 11},
-  {base_id: 8, mod_id: 12},
-  {base_id: 8, mod_id: 13},
-  {base_id: 8, mod_id: 14},
-  {base_id: 8, mod_id: 16},
-  {base_id: 8, mod_id: 18},
-  {base_id: 9, mod_id: 11},
-  {base_id: 9, mod_id: 12},
-  {base_id: 9, mod_id: 13},
-  {base_id: 9, mod_id: 14},
-  {base_id: 9, mod_id: 15},
-  {base_id: 9, mod_id: 17},
-  {base_id: 9, mod_id: 18},
-  {base_id: 1, mod_id: 19},
-  {base_id: 3, mod_id: 19},
-  {base_id: 4, mod_id: 19},
-  {base_id: 5, mod_id: 19},
-  {base_id: 6, mod_id: 19},
-  {base_id: 7, mod_id: 19},
-  {base_id: 9, mod_id: 19},
-  {base_id: 20, mod_id: 11},
-  {base_id: 20, mod_id: 13},
-  {base_id: 20, mod_id: 14},
-  {base_id: 20, mod_id: 15},
-  {base_id: 20, mod_id: 16},
-  {base_id: 20, mod_id: 17},
-  {base_id: 20, mod_id: 18},
-  {base_id: 20, mod_id: 19},
-  {base_id: 20, mod_id: 21},
-  {base_id: 1, mod_id: 21},
-  {base_id: 4, mod_id: 21},
-  {base_id: 5, mod_id: 21},
-  {base_id: 7, mod_id: 21},
-  {base_id: 22, mod_id: 10},
-  {base_id: 22, mod_id: 11},
-  {base_id: 22, mod_id: 12},
-  {base_id: 22, mod_id: 14},
-  {base_id: 22, mod_id: 15},
-  {base_id: 22, mod_id: 16},
-  {base_id: 22, mod_id: 17},
-  {base_id: 22, mod_id: 18},
-  {base_id: 22, mod_id: 19},
-  {base_id: 22, mod_id: 21},
-  {base_id: 23, mod_id: 10},
-  {base_id: 23, mod_id: 12},
-  {base_id: 23, mod_id: 14},
-  {base_id: 23, mod_id: 15},
-  {base_id: 23, mod_id: 16},
-  {base_id: 23, mod_id: 17},
-  {base_id: 23, mod_id: 18},
-  {base_id: 23, mod_id: 19},
-  {base_id: 23, mod_id: 21},
-  {base_id: 23, mod_id: 24},
-  {base_id: 23, mod_id: 25},
-  {base_id: 23, mod_id: 26},
-  {base_id: 27, mod_id: 10},
-  {base_id: 27, mod_id: 11},
-  {base_id: 27, mod_id: 12},
-  {base_id: 27, mod_id: 13},
-  {base_id: 27, mod_id: 14},
-  {base_id: 27, mod_id: 15},
-  {base_id: 27, mod_id: 16},
-  {base_id: 27, mod_id: 17},
-  {base_id: 27, mod_id: 19},
-  {base_id: 27, mod_id: 21},
-  {base_id: 27, mod_id: 24},
-  {base_id: 27, mod_id: 26},
-  {base_id: 1, mod_id: 24},
-  {base_id: 2, mod_id: 24},
-  {base_id: 5, mod_id: 24},
-  {base_id: 6, mod_id: 24},
-  {base_id: 7, mod_id: 24},
-  {base_id: 6, mod_id: 24},
-  {base_id: 9, mod_id: 24},
-  {base_id: 20, mod_id: 24},
-  {base_id: 22, mod_id: 24},
-  {base_id: 1, mod_id: 25},
-  {base_id: 2, mod_id: 25},
-  {base_id: 3, mod_id: 25},
-  {base_id: 4, mod_id: 25},
-  {base_id: 5, mod_id: 25},
-  {base_id: 6, mod_id: 25},
-  {base_id: 7, mod_id: 25},
-  {base_id: 8, mod_id: 25},
-  {base_id: 9, mod_id: 25},
-  {base_id: 20, mod_id: 25},
-  {base_id: 22, mod_id: 25},
-  {base_id: 1, mod_id: 26},
-  {base_id: 2, mod_id: 26},
-  {base_id: 3, mod_id: 26},
-  {base_id: 4, mod_id: 26},
-  {base_id: 5, mod_id: 26},
-  {base_id: 7, mod_id: 26},
-  {base_id: 8, mod_id: 26},
-  {base_id: 20, mod_id: 26},
-  {base_id: 22, mod_id: 26},
-];
+export default [{
+    "base_id": 10007,
+    "mod_id": 50043,
+    "result_id": 15144
+}, {
+    "base_id": 10007,
+    "mod_id": 20025,
+    "result_id": 15144
+}, {
+    "base_id": 10007,
+    "mod_id": 40026,
+    "result_id": 15144
+}, {
+    "base_id": 10007,
+    "mod_id": 30039,
+    "result_id": 15144
+}, {
+    "base_id": 10007,
+    "mod_id": 20032,
+    "result_id": 15144
+}, {
+    "base_id": 10007,
+    "mod_id": 50033,
+    "result_id": 15144
+}, {
+    "base_id": 10007,
+    "mod_id": 10048,
+    "result_id": 15144
+}, {
+    "base_id": 10007,
+    "mod_id": 30051,
+    "result_id": 15144
+}, {
+    "base_id": 10006,
+    "mod_id": 10048,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 10048,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 10033,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 10033,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 10034,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 10034,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 20025,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 20025,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 40026,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 40026,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 50026,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 50026,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 30039,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 30039,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 40031,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 40031,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 50033,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 50033,
+    "result_id": 15143
+}, {
+    "base_id": 10006,
+    "mod_id": 40038,
+    "result_id": 15143
+}, {
+    "base_id": 10030,
+    "mod_id": 40038,
+    "result_id": 15143
+}, {
+    "base_id": 10007,
+    "mod_id": 40024,
+    "result_id": 15142
+}, {
+    "base_id": 10007,
+    "mod_id": 20033,
+    "result_id": 15142
+}, {
+    "base_id": 10007,
+    "mod_id": 10040,
+    "result_id": 15142
+}, {
+    "base_id": 10007,
+    "mod_id": 40037,
+    "result_id": 15142
+}, {
+    "base_id": 10007,
+    "mod_id": 20038,
+    "result_id": 15142
+}, {
+    "base_id": 10007,
+    "mod_id": 50042,
+    "result_id": 15142
+}, {
+    "base_id": 10009,
+    "mod_id": 30050,
+    "result_id": 15141
+}, {
+    "base_id": 1100001,
+    "mod_id": 30050,
+    "result_id": 15141
+}, {
+    "base_id": 10009,
+    "mod_id": 40037,
+    "result_id": 15141
+}, {
+    "base_id": 1100001,
+    "mod_id": 40037,
+    "result_id": 15141
+}, {
+    "base_id": 10009,
+    "mod_id": 10047,
+    "result_id": 15141
+}, {
+    "base_id": 1100001,
+    "mod_id": 10047,
+    "result_id": 15141
+}, {
+    "base_id": 10005,
+    "mod_id": 50041,
+    "result_id": 15140
+}, {
+    "base_id": 10005,
+    "mod_id": 50032,
+    "result_id": 15140
+}, {
+    "base_id": 10005,
+    "mod_id": 30023,
+    "result_id": 15140
+}, {
+    "base_id": 10005,
+    "mod_id": 10046,
+    "result_id": 15140
+}, {
+    "base_id": 10005,
+    "mod_id": 10038,
+    "result_id": 15140
+}, {
+    "base_id": 10005,
+    "mod_id": 40036,
+    "result_id": 15140
+}, {
+    "base_id": 10005,
+    "mod_id": 30049,
+    "result_id": 15140
+}, {
+    "base_id": 10005,
+    "mod_id": 20037,
+    "result_id": 15140
+}, {
+    "base_id": 10001,
+    "mod_id": 30023,
+    "result_id": 15139
+}, {
+    "base_id": 10001,
+    "mod_id": 30049,
+    "result_id": 15139
+}, {
+    "base_id": 10001,
+    "mod_id": 10046,
+    "result_id": 15139
+}, {
+    "base_id": 10001,
+    "mod_id": 10044,
+    "result_id": 15138
+}, {
+    "base_id": 10001,
+    "mod_id": 30046,
+    "result_id": 15138
+}, {
+    "base_id": 10001,
+    "mod_id": 50039,
+    "result_id": 15138
+}, {
+    "base_id": 10001,
+    "mod_id": 40035,
+    "result_id": 15138
+}, {
+    "base_id": 10018,
+    "mod_id": 30046,
+    "result_id": 15137
+}, {
+    "base_id": 10018,
+    "mod_id": 10044,
+    "result_id": 15137
+}, {
+    "base_id": 10018,
+    "mod_id": 50039,
+    "result_id": 15137
+}, {
+    "base_id": 10018,
+    "mod_id": 20036,
+    "result_id": 15137
+}, {
+    "base_id": 10018,
+    "mod_id": 30047,
+    "result_id": 15137
+}, {
+    "base_id": 10018,
+    "mod_id": 40035,
+    "result_id": 15137
+}, {
+    "base_id": 10001,
+    "mod_id": 10043,
+    "result_id": 15136
+}, {
+    "base_id": 10001,
+    "mod_id": 30029,
+    "result_id": 15136
+}, {
+    "base_id": 10001,
+    "mod_id": 30044,
+    "result_id": 15136
+}, {
+    "base_id": 10001,
+    "mod_id": 20035,
+    "result_id": 15136
+}, {
+    "base_id": 10001,
+    "mod_id": 50037,
+    "result_id": 15136
+}, {
+    "base_id": 10007,
+    "mod_id": 20035,
+    "result_id": 15135
+}, {
+    "base_id": 10007,
+    "mod_id": 10026,
+    "result_id": 15135
+}, {
+    "base_id": 10007,
+    "mod_id": 40023,
+    "result_id": 15135
+}, {
+    "base_id": 10007,
+    "mod_id": 40029,
+    "result_id": 15135
+}, {
+    "base_id": 10007,
+    "mod_id": 20030,
+    "result_id": 15135
+}, {
+    "base_id": 10007,
+    "mod_id": 50031,
+    "result_id": 15135
+}, {
+    "base_id": 10007,
+    "mod_id": 10043,
+    "result_id": 15135
+}, {
+    "base_id": 10007,
+    "mod_id": 50037,
+    "result_id": 15135
+}, {
+    "base_id": 10009,
+    "mod_id": 30044,
+    "result_id": 15134
+}, {
+    "base_id": 1100001,
+    "mod_id": 30044,
+    "result_id": 15134
+}, {
+    "base_id": 10009,
+    "mod_id": 50030,
+    "result_id": 15134
+}, {
+    "base_id": 1100001,
+    "mod_id": 50030,
+    "result_id": 15134
+}, {
+    "base_id": 10009,
+    "mod_id": 50023,
+    "result_id": 15134
+}, {
+    "base_id": 1100001,
+    "mod_id": 50023,
+    "result_id": 15134
+}, {
+    "base_id": 10009,
+    "mod_id": 20035,
+    "result_id": 15134
+}, {
+    "base_id": 1100001,
+    "mod_id": 20035,
+    "result_id": 15134
+}, {
+    "base_id": 10009,
+    "mod_id": 10043,
+    "result_id": 15134
+}, {
+    "base_id": 1100001,
+    "mod_id": 10043,
+    "result_id": 15134
+}, {
+    "base_id": 10006,
+    "mod_id": 10042,
+    "result_id": 15133
+}, {
+    "base_id": 10030,
+    "mod_id": 10042,
+    "result_id": 15133
+}, {
+    "base_id": 10006,
+    "mod_id": 40033,
+    "result_id": 15133
+}, {
+    "base_id": 10030,
+    "mod_id": 40033,
+    "result_id": 15133
+}, {
+    "base_id": 10006,
+    "mod_id": 50036,
+    "result_id": 15133
+}, {
+    "base_id": 10030,
+    "mod_id": 50036,
+    "result_id": 15133
+}, {
+    "base_id": 10006,
+    "mod_id": 30042,
+    "result_id": 15133
+}, {
+    "base_id": 10030,
+    "mod_id": 30042,
+    "result_id": 15133
+}, {
+    "base_id": 10006,
+    "mod_id": 40034,
+    "result_id": 15133
+}, {
+    "base_id": 10030,
+    "mod_id": 40034,
+    "result_id": 15133
+}, {
+    "base_id": 10009,
+    "mod_id": 50036,
+    "result_id": 15132
+}, {
+    "base_id": 1100001,
+    "mod_id": 50036,
+    "result_id": 15132
+}, {
+    "base_id": 10009,
+    "mod_id": 40033,
+    "result_id": 15132
+}, {
+    "base_id": 1100001,
+    "mod_id": 40033,
+    "result_id": 15132
+}, {
+    "base_id": 10009,
+    "mod_id": 30042,
+    "result_id": 15132
+}, {
+    "base_id": 1100001,
+    "mod_id": 30042,
+    "result_id": 15132
+}, {
+    "base_id": 10009,
+    "mod_id": 10042,
+    "result_id": 15132
+}, {
+    "base_id": 1100001,
+    "mod_id": 10042,
+    "result_id": 15132
+}, {
+    "base_id": 10009,
+    "mod_id": 40034,
+    "result_id": 15132
+}, {
+    "base_id": 1100001,
+    "mod_id": 40034,
+    "result_id": 15132
+}, {
+    "base_id": 10001,
+    "mod_id": 40033,
+    "result_id": 15131
+}, {
+    "base_id": 10001,
+    "mod_id": 50036,
+    "result_id": 15131
+}, {
+    "base_id": 10001,
+    "mod_id": 30042,
+    "result_id": 15131
+}, {
+    "base_id": 10001,
+    "mod_id": 10042,
+    "result_id": 15131
+}, {
+    "base_id": 10001,
+    "mod_id": 30043,
+    "result_id": 15131
+}, {
+    "base_id": 10006,
+    "mod_id": 20034,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 20034,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 20028,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 20028,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 50021,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 50021,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 50027,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 50027,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 40028,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 40028,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 30038,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 30038,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 10036,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 10036,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 50035,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 50035,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 40032,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 40032,
+    "result_id": 15130
+}, {
+    "base_id": 10006,
+    "mod_id": 10041,
+    "result_id": 15130
+}, {
+    "base_id": 10030,
+    "mod_id": 10041,
+    "result_id": 15130
+}, {
+    "base_id": 10009,
+    "mod_id": 50035,
+    "result_id": 15129
+}, {
+    "base_id": 1100001,
+    "mod_id": 50035,
+    "result_id": 15129
+}, {
+    "base_id": 10009,
+    "mod_id": 40028,
+    "result_id": 15129
+}, {
+    "base_id": 1100001,
+    "mod_id": 40028,
+    "result_id": 15129
+}, {
+    "base_id": 10009,
+    "mod_id": 30041,
+    "result_id": 15129
+}, {
+    "base_id": 1100001,
+    "mod_id": 30041,
+    "result_id": 15129
+}, {
+    "base_id": 10009,
+    "mod_id": 20034,
+    "result_id": 15129
+}, {
+    "base_id": 1100001,
+    "mod_id": 20034,
+    "result_id": 15129
+}, {
+    "base_id": 10009,
+    "mod_id": 40032,
+    "result_id": 15129
+}, {
+    "base_id": 1100001,
+    "mod_id": 40032,
+    "result_id": 15129
+}, {
+    "base_id": 10009,
+    "mod_id": 10041,
+    "result_id": 15129
+}, {
+    "base_id": 1100001,
+    "mod_id": 10041,
+    "result_id": 15129
+}, {
+    "base_id": 10009,
+    "mod_id": 30040,
+    "result_id": 15128
+}, {
+    "base_id": 1100001,
+    "mod_id": 30040,
+    "result_id": 15128
+}, {
+    "base_id": 10009,
+    "mod_id": 10040,
+    "result_id": 15128
+}, {
+    "base_id": 1100001,
+    "mod_id": 10040,
+    "result_id": 15128
+}, {
+    "base_id": 10009,
+    "mod_id": 50034,
+    "result_id": 15128
+}, {
+    "base_id": 1100001,
+    "mod_id": 50034,
+    "result_id": 15128
+}, {
+    "base_id": 10006,
+    "mod_id": 30040,
+    "result_id": 15127
+}, {
+    "base_id": 10030,
+    "mod_id": 30040,
+    "result_id": 15127
+}, {
+    "base_id": 10006,
+    "mod_id": 10040,
+    "result_id": 15127
+}, {
+    "base_id": 10030,
+    "mod_id": 10040,
+    "result_id": 15127
+}, {
+    "base_id": 10006,
+    "mod_id": 50034,
+    "result_id": 15127
+}, {
+    "base_id": 10030,
+    "mod_id": 50034,
+    "result_id": 15127
+}, {
+    "base_id": 10006,
+    "mod_id": 30050,
+    "result_id": 15127
+}, {
+    "base_id": 10030,
+    "mod_id": 30050,
+    "result_id": 15127
+}, {
+    "base_id": 10006,
+    "mod_id": 40037,
+    "result_id": 15127
+}, {
+    "base_id": 10030,
+    "mod_id": 40037,
+    "result_id": 15127
+}, {
+    "base_id": 10006,
+    "mod_id": 10047,
+    "result_id": 15127
+}, {
+    "base_id": 10030,
+    "mod_id": 10047,
+    "result_id": 15127
+}, {
+    "base_id": 10001,
+    "mod_id": 30040,
+    "result_id": 15126
+}, {
+    "base_id": 10001,
+    "mod_id": 30031,
+    "result_id": 15126
+}, {
+    "base_id": 10001,
+    "mod_id": 50034,
+    "result_id": 15126
+}, {
+    "base_id": 10001,
+    "mod_id": 10040,
+    "result_id": 15126
+}, {
+    "base_id": 10001,
+    "mod_id": 30050,
+    "result_id": 15126
+}, {
+    "base_id": 1100001,
+    "mod_id": 10016,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 10016,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 20013,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 20013,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 30003,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 30003,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 40006,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 40006,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 50014,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 50014,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 60005,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 60005,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 10039,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 10039,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 40026,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 40026,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 50026,
+    "result_id": 15125
+}, {
+    "base_id": 10009,
+    "mod_id": 50026,
+    "result_id": 15125
+}, {
+    "base_id": 1100001,
+    "mod_id": 40031,
+    "result_id": 15086
+}, {
+    "base_id": 10009,
+    "mod_id": 40031,
+    "result_id": 15086
+}, {
+    "base_id": 1100001,
+    "mod_id": 30033,
+    "result_id": 15086
+}, {
+    "base_id": 10009,
+    "mod_id": 30033,
+    "result_id": 15086
+}, {
+    "base_id": 1100001,
+    "mod_id": 20025,
+    "result_id": 15086
+}, {
+    "base_id": 10009,
+    "mod_id": 20025,
+    "result_id": 15086
+}, {
+    "base_id": 1100001,
+    "mod_id": 50033,
+    "result_id": 15086
+}, {
+    "base_id": 10009,
+    "mod_id": 50033,
+    "result_id": 15086
+}, {
+    "base_id": 10002,
+    "mod_id": 30039,
+    "result_id": 15042
+}, {
+    "base_id": 10002,
+    "mod_id": 10033,
+    "result_id": 15042
+}, {
+    "base_id": 10002,
+    "mod_id": 30033,
+    "result_id": 15042
+}, {
+    "base_id": 10002,
+    "mod_id": 20025,
+    "result_id": 15042
+}, {
+    "base_id": 10002,
+    "mod_id": 50026,
+    "result_id": 15042
+}, {
+    "base_id": 10002,
+    "mod_id": 10039,
+    "result_id": 15042
+}, {
+    "base_id": 30005,
+    "mod_id": 30023,
+    "result_id": 35099
+}, {
+    "base_id": 30005,
+    "mod_id": 40030,
+    "result_id": 35099
+}, {
+    "base_id": 1100001,
+    "mod_id": 10038,
+    "result_id": 15039
+}, {
+    "base_id": 10009,
+    "mod_id": 10038,
+    "result_id": 15039
+}, {
+    "base_id": 1100001,
+    "mod_id": 50032,
+    "result_id": 15039
+}, {
+    "base_id": 10009,
+    "mod_id": 50032,
+    "result_id": 15039
+}, {
+    "base_id": 10009,
+    "mod_id": 20031,
+    "result_id": 15039
+}, {
+    "base_id": 1100001,
+    "mod_id": 20031,
+    "result_id": 15039
+}, {
+    "base_id": 1100001,
+    "mod_id": 30023,
+    "result_id": 15039
+}, {
+    "base_id": 10009,
+    "mod_id": 30023,
+    "result_id": 15039
+}, {
+    "base_id": 1100001,
+    "mod_id": 40030,
+    "result_id": 15039
+}, {
+    "base_id": 10009,
+    "mod_id": 40030,
+    "result_id": 15039
+}, {
+    "base_id": 1100001,
+    "mod_id": 40036,
+    "result_id": 15039
+}, {
+    "base_id": 10009,
+    "mod_id": 40036,
+    "result_id": 15039
+}, {
+    "base_id": 10002,
+    "mod_id": 10038,
+    "result_id": 15041
+}, {
+    "base_id": 10002,
+    "mod_id": 50032,
+    "result_id": 15041
+}, {
+    "base_id": 10002,
+    "mod_id": 20031,
+    "result_id": 15041
+}, {
+    "base_id": 10002,
+    "mod_id": 40030,
+    "result_id": 15041
+}, {
+    "base_id": 10002,
+    "mod_id": 10046,
+    "result_id": 15041
+}, {
+    "base_id": 10002,
+    "mod_id": 40036,
+    "result_id": 15041
+}, {
+    "base_id": 10018,
+    "mod_id": 10026,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 40023,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 50030,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 40029,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 20030,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 30044,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 20035,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 10043,
+    "result_id": 15092
+}, {
+    "base_id": 10018,
+    "mod_id": 30045,
+    "result_id": 15092
+}, {
+    "base_id": 10001,
+    "mod_id": 10026,
+    "result_id": 15089
+}, {
+    "base_id": 10001,
+    "mod_id": 30027,
+    "result_id": 15089
+}, {
+    "base_id": 10001,
+    "mod_id": 40029,
+    "result_id": 15089
+}, {
+    "base_id": 10001,
+    "mod_id": 50031,
+    "result_id": 15089
+}, {
+    "base_id": 1100001,
+    "mod_id": 30031,
+    "result_id": 15115
+}, {
+    "base_id": 1100001,
+    "mod_id": 40025,
+    "result_id": 15115
+}, {
+    "base_id": 1100001,
+    "mod_id": 20038,
+    "result_id": 15115
+}, {
+    "base_id": 1100001,
+    "mod_id": 50042,
+    "result_id": 15115
+}, {
+    "base_id": 1100001,
+    "mod_id": 50027,
+    "result_id": 15121
+}, {
+    "base_id": 1100001,
+    "mod_id": 10036,
+    "result_id": 15121
+}, {
+    "base_id": 1100001,
+    "mod_id": 50029,
+    "result_id": 15121
+}, {
+    "base_id": 1100001,
+    "mod_id": 30038,
+    "result_id": 15121
+}, {
+    "base_id": 1100001,
+    "mod_id": 40024,
+    "result_id": 15120
+}, {
+    "base_id": 1100001,
+    "mod_id": 50024,
+    "result_id": 15120
+}, {
+    "base_id": 1100001,
+    "mod_id": 30032,
+    "result_id": 15120
+}, {
+    "base_id": 1100001,
+    "mod_id": 30014,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 40020,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 20019,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 10019,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 10021,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 60003,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 50021,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 30030,
+    "result_id": 15020
+}, {
+    "base_id": 1100001,
+    "mod_id": 20006,
+    "result_id": 15032
+}, {
+    "base_id": 1100001,
+    "mod_id": 40007,
+    "result_id": 15032
+}, {
+    "base_id": 1100001,
+    "mod_id": 30010,
+    "result_id": 15032
+}, {
+    "base_id": 1100001,
+    "mod_id": 50008,
+    "result_id": 15032
+}, {
+    "base_id": 1100001,
+    "mod_id": 10011,
+    "result_id": 15032
+}, {
+    "base_id": 1100001,
+    "mod_id": 60009,
+    "result_id": 15032
+}, {
+    "base_id": 1100001,
+    "mod_id": 10029,
+    "result_id": 15032
+}, {
+    "base_id": 1100001,
+    "mod_id": 20011,
+    "result_id": 15014
+}, {
+    "base_id": 1100001,
+    "mod_id": 40011,
+    "result_id": 15014
+}, {
+    "base_id": 1100001,
+    "mod_id": 30016,
+    "result_id": 15014
+}, {
+    "base_id": 1100001,
+    "mod_id": 50007,
+    "result_id": 15014
+}, {
+    "base_id": 1100001,
+    "mod_id": 10013,
+    "result_id": 15014
+}, {
+    "base_id": 1100001,
+    "mod_id": 60001,
+    "result_id": 15014
+}, {
+    "base_id": 1100001,
+    "mod_id": 20014,
+    "result_id": 15018
+}, {
+    "base_id": 1100001,
+    "mod_id": 30018,
+    "result_id": 15018
+}, {
+    "base_id": 1100001,
+    "mod_id": 40015,
+    "result_id": 15018
+}, {
+    "base_id": 1100001,
+    "mod_id": 50015,
+    "result_id": 15018
+}, {
+    "base_id": 1100001,
+    "mod_id": 10003,
+    "result_id": 15018
+}, {
+    "base_id": 1100001,
+    "mod_id": 60004,
+    "result_id": 15018
+}, {
+    "base_id": 1100001,
+    "mod_id": 30037,
+    "result_id": 15018
+}, {
+    "base_id": 1100001,
+    "mod_id": 20010,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 40013,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 30009,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 50009,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 10014,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 60007,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 20024,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 50025,
+    "result_id": 15029
+}, {
+    "base_id": 1100001,
+    "mod_id": 30008,
+    "result_id": 15034
+}, {
+    "base_id": 1100001,
+    "mod_id": 10010,
+    "result_id": 15034
+}, {
+    "base_id": 1100001,
+    "mod_id": 20015,
+    "result_id": 15034
+}, {
+    "base_id": 1100001,
+    "mod_id": 40016,
+    "result_id": 15034
+}, {
+    "base_id": 1100001,
+    "mod_id": 50016,
+    "result_id": 15034
+}, {
+    "base_id": 1100001,
+    "mod_id": 60008,
+    "result_id": 15034
+}, {
+    "base_id": 1100001,
+    "mod_id": 40010,
+    "result_id": 15040
+}, {
+    "base_id": 1100001,
+    "mod_id": 10015,
+    "result_id": 15040
+}, {
+    "base_id": 1100001,
+    "mod_id": 20008,
+    "result_id": 15040
+}, {
+    "base_id": 1100001,
+    "mod_id": 50013,
+    "result_id": 15040
+}, {
+    "base_id": 1100001,
+    "mod_id": 60002,
+    "result_id": 15040
+}, {
+    "base_id": 1100001,
+    "mod_id": 10031,
+    "result_id": 15040
+}, {
+    "base_id": 1100001,
+    "mod_id": 10027,
+    "result_id": 15111
+}, {
+    "base_id": 1100001,
+    "mod_id": 20016,
+    "result_id": 15009
+}, {
+    "base_id": 1100001,
+    "mod_id": 40018,
+    "result_id": 15009
+}, {
+    "base_id": 1100001,
+    "mod_id": 30020,
+    "result_id": 15009
+}, {
+    "base_id": 1100001,
+    "mod_id": 10017,
+    "result_id": 15009
+}, {
+    "base_id": 1100001,
+    "mod_id": 50018,
+    "result_id": 15009
+}, {
+    "base_id": 1100001,
+    "mod_id": 60012,
+    "result_id": 15009
+}, {
+    "base_id": 1100001,
+    "mod_id": 30036,
+    "result_id": 15009
+}, {
+    "base_id": 1100001,
+    "mod_id": 30011,
+    "result_id": 15012
+}, {
+    "base_id": 1100001,
+    "mod_id": 50010,
+    "result_id": 15012
+}, {
+    "base_id": 1100001,
+    "mod_id": 20017,
+    "result_id": 15079
+}, {
+    "base_id": 1100001,
+    "mod_id": 40017,
+    "result_id": 15079
+}, {
+    "base_id": 1100001,
+    "mod_id": 30019,
+    "result_id": 15079
+}, {
+    "base_id": 1100001,
+    "mod_id": 50017,
+    "result_id": 15079
+}, {
+    "base_id": 1100001,
+    "mod_id": 60010,
+    "result_id": 15079
+}, {
+    "base_id": 1100001,
+    "mod_id": 10035,
+    "result_id": 15079
+}, {
+    "base_id": 1100001,
+    "mod_id": 10008,
+    "result_id": 15063
+}, {
+    "base_id": 1100001,
+    "mod_id": 60013,
+    "result_id": 15063
+}, {
+    "base_id": 1100001,
+    "mod_id": 20020,
+    "result_id": 15066
+}, {
+    "base_id": 1100001,
+    "mod_id": 50020,
+    "result_id": 15066
+}, {
+    "base_id": 1100001,
+    "mod_id": 10020,
+    "result_id": 15066
+}, {
+    "base_id": 1100001,
+    "mod_id": 60011,
+    "result_id": 15066
+}, {
+    "base_id": 10018,
+    "mod_id": 50021,
+    "result_id": 15038
+}, {
+    "base_id": 10018,
+    "mod_id": 50027,
+    "result_id": 15038
+}, {
+    "base_id": 10018,
+    "mod_id": 10036,
+    "result_id": 15038
+}, {
+    "base_id": 10018,
+    "mod_id": 40028,
+    "result_id": 15038
+}, {
+    "base_id": 10018,
+    "mod_id": 30038,
+    "result_id": 15038
+}, {
+    "base_id": 10005,
+    "mod_id": 50027,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 10036,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 50021,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 40028,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 30038,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 50035,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 30041,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 20034,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 40032,
+    "result_id": 15033
+}, {
+    "base_id": 10005,
+    "mod_id": 10041,
+    "result_id": 15033
+}, {
+    "base_id": 10030,
+    "mod_id": 20014,
+    "result_id": 15004
+}, {
+    "base_id": 10030,
+    "mod_id": 30018,
+    "result_id": 15004
+}, {
+    "base_id": 10030,
+    "mod_id": 40015,
+    "result_id": 15004
+}, {
+    "base_id": 10030,
+    "mod_id": 50015,
+    "result_id": 15004
+}, {
+    "base_id": 10030,
+    "mod_id": 10003,
+    "result_id": 15004
+}, {
+    "base_id": 10030,
+    "mod_id": 60004,
+    "result_id": 15004
+}, {
+    "base_id": 10030,
+    "mod_id": 30037,
+    "result_id": 15004
+}, {
+    "base_id": 10030,
+    "mod_id": 50011,
+    "result_id": 15112
+}, {
+    "base_id": 10030,
+    "mod_id": 30027,
+    "result_id": 15112
+}, {
+    "base_id": 10030,
+    "mod_id": 50023,
+    "result_id": 15112
+}, {
+    "base_id": 10030,
+    "mod_id": 10026,
+    "result_id": 15112
+}, {
+    "base_id": 10030,
+    "mod_id": 40023,
+    "result_id": 15112
+}, {
+    "base_id": 10030,
+    "mod_id": 30029,
+    "result_id": 15112
+}, {
+    "base_id": 10030,
+    "mod_id": 50030,
+    "result_id": 15112
+}, {
+    "base_id": 10030,
+    "mod_id": 40014,
+    "result_id": 15005
+}, {
+    "base_id": 10030,
+    "mod_id": 30017,
+    "result_id": 15005
+}, {
+    "base_id": 10030,
+    "mod_id": 50012,
+    "result_id": 15005
+}, {
+    "base_id": 10030,
+    "mod_id": 10004,
+    "result_id": 15005
+}, {
+    "base_id": 10030,
+    "mod_id": 20013,
+    "result_id": 15019
+}, {
+    "base_id": 10030,
+    "mod_id": 40006,
+    "result_id": 15019
+}, {
+    "base_id": 10030,
+    "mod_id": 30003,
+    "result_id": 15019
+}, {
+    "base_id": 10030,
+    "mod_id": 50014,
+    "result_id": 15019
+}, {
+    "base_id": 10030,
+    "mod_id": 10016,
+    "result_id": 15019
+}, {
+    "base_id": 10030,
+    "mod_id": 60005,
+    "result_id": 15019
+}, {
+    "base_id": 10030,
+    "mod_id": 30033,
+    "result_id": 15019
+}, {
+    "base_id": 10030,
+    "mod_id": 20011,
+    "result_id": 15013
+}, {
+    "base_id": 10030,
+    "mod_id": 40011,
+    "result_id": 15013
+}, {
+    "base_id": 10030,
+    "mod_id": 30016,
+    "result_id": 15013
+}, {
+    "base_id": 10030,
+    "mod_id": 50007,
+    "result_id": 15013
+}, {
+    "base_id": 10030,
+    "mod_id": 10013,
+    "result_id": 15013
+}, {
+    "base_id": 10030,
+    "mod_id": 60001,
+    "result_id": 15013
+}, {
+    "base_id": 10030,
+    "mod_id": 20006,
+    "result_id": 15022
+}, {
+    "base_id": 10030,
+    "mod_id": 40007,
+    "result_id": 15022
+}, {
+    "base_id": 10030,
+    "mod_id": 30010,
+    "result_id": 15022
+}, {
+    "base_id": 10030,
+    "mod_id": 50008,
+    "result_id": 15022
+}, {
+    "base_id": 10030,
+    "mod_id": 10011,
+    "result_id": 15022
+}, {
+    "base_id": 10030,
+    "mod_id": 60009,
+    "result_id": 15022
+}, {
+    "base_id": 10030,
+    "mod_id": 10029,
+    "result_id": 15022
+}, {
+    "base_id": 10030,
+    "mod_id": 20010,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 40013,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 30009,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 50009,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 10014,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 60007,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 30031,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 20024,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 50025,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 40025,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 20038,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 50042,
+    "result_id": 15028
+}, {
+    "base_id": 10030,
+    "mod_id": 20016,
+    "result_id": 15050
+}, {
+    "base_id": 10030,
+    "mod_id": 40018,
+    "result_id": 15050
+}, {
+    "base_id": 10030,
+    "mod_id": 30020,
+    "result_id": 15050
+}, {
+    "base_id": 10030,
+    "mod_id": 50018,
+    "result_id": 15050
+}, {
+    "base_id": 10030,
+    "mod_id": 10017,
+    "result_id": 15050
+}, {
+    "base_id": 10030,
+    "mod_id": 60012,
+    "result_id": 15050
+}, {
+    "base_id": 10030,
+    "mod_id": 30036,
+    "result_id": 15050
+}, {
+    "base_id": 10030,
+    "mod_id": 20020,
+    "result_id": 15094
+}, {
+    "base_id": 10030,
+    "mod_id": 50020,
+    "result_id": 15094
+}, {
+    "base_id": 10030,
+    "mod_id": 60011,
+    "result_id": 15094
+}, {
+    "base_id": 10030,
+    "mod_id": 20018,
+    "result_id": 15062
+}, {
+    "base_id": 10030,
+    "mod_id": 30013,
+    "result_id": 15062
+}, {
+    "base_id": 10030,
+    "mod_id": 40019,
+    "result_id": 15062
+}, {
+    "base_id": 10030,
+    "mod_id": 10008,
+    "result_id": 15062
+}, {
+    "base_id": 10030,
+    "mod_id": 60013,
+    "result_id": 15062
+}, {
+    "base_id": 10030,
+    "mod_id": 30034,
+    "result_id": 15062
+}, {
+    "base_id": 10001,
+    "mod_id": 50025,
+    "result_id": 15117
+}, {
+    "base_id": 10001,
+    "mod_id": 20024,
+    "result_id": 15117
+}, {
+    "base_id": 10001,
+    "mod_id": 40037,
+    "result_id": 15117
+}, {
+    "base_id": 10001,
+    "mod_id": 20021,
+    "result_id": 15124
+}, {
+    "base_id": 10001,
+    "mod_id": 40021,
+    "result_id": 15124
+}, {
+    "base_id": 10001,
+    "mod_id": 30021,
+    "result_id": 15124
+}, {
+    "base_id": 10001,
+    "mod_id": 50022,
+    "result_id": 15124
+}, {
+    "base_id": 10001,
+    "mod_id": 20029,
+    "result_id": 15124
+}, {
+    "base_id": 10001,
+    "mod_id": 10037,
+    "result_id": 15124
+}, {
+    "base_id": 10002,
+    "mod_id": 30031,
+    "result_id": 15116
+}, {
+    "base_id": 10002,
+    "mod_id": 40025,
+    "result_id": 15116
+}, {
+    "base_id": 10002,
+    "mod_id": 10047,
+    "result_id": 15116
+}, {
+    "base_id": 10009,
+    "mod_id": 30031,
+    "result_id": 15115
+}, {
+    "base_id": 10009,
+    "mod_id": 40025,
+    "result_id": 15115
+}, {
+    "base_id": 10009,
+    "mod_id": 20038,
+    "result_id": 15115
+}, {
+    "base_id": 10009,
+    "mod_id": 50042,
+    "result_id": 15115
+}, {
+    "base_id": 10009,
+    "mod_id": 50027,
+    "result_id": 15121
+}, {
+    "base_id": 10009,
+    "mod_id": 10036,
+    "result_id": 15121
+}, {
+    "base_id": 10009,
+    "mod_id": 50029,
+    "result_id": 15121
+}, {
+    "base_id": 10009,
+    "mod_id": 30038,
+    "result_id": 15121
+}, {
+    "base_id": 10009,
+    "mod_id": 40024,
+    "result_id": 15120
+}, {
+    "base_id": 10009,
+    "mod_id": 50024,
+    "result_id": 15120
+}, {
+    "base_id": 10009,
+    "mod_id": 30032,
+    "result_id": 15120
+}, {
+    "base_id": 10001,
+    "mod_id": 50024,
+    "result_id": 15113
+}, {
+    "base_id": 10001,
+    "mod_id": 40024,
+    "result_id": 15113
+}, {
+    "base_id": 10001,
+    "mod_id": 40025,
+    "result_id": 15113
+}, {
+    "base_id": 10001,
+    "mod_id": 20033,
+    "result_id": 15113
+}, {
+    "base_id": 10018,
+    "mod_id": 50024,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 40024,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 30028,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 20024,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 50025,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 40025,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 20033,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 10040,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 40037,
+    "result_id": 15114
+}, {
+    "base_id": 10018,
+    "mod_id": 10047,
+    "result_id": 15114
+}, {
+    "base_id": 10007,
+    "mod_id": 20021,
+    "result_id": 15122
+}, {
+    "base_id": 10007,
+    "mod_id": 30021,
+    "result_id": 15122
+}, {
+    "base_id": 10007,
+    "mod_id": 40021,
+    "result_id": 15122
+}, {
+    "base_id": 10007,
+    "mod_id": 10037,
+    "result_id": 15122
+}, {
+    "base_id": 10007,
+    "mod_id": 20029,
+    "result_id": 15122
+}, {
+    "base_id": 10007,
+    "mod_id": 20010,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 40013,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 30009,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 50009,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 10014,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 10024,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 60007,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 50024,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 30031,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 20024,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 50025,
+    "result_id": 15002
+}, {
+    "base_id": 10007,
+    "mod_id": 10047,
+    "result_id": 15002
+}, {
+    "base_id": 10006,
+    "mod_id": 20014,
+    "result_id": 15004
+}, {
+    "base_id": 10006,
+    "mod_id": 30018,
+    "result_id": 15004
+}, {
+    "base_id": 10006,
+    "mod_id": 40015,
+    "result_id": 15004
+}, {
+    "base_id": 10006,
+    "mod_id": 50015,
+    "result_id": 15004
+}, {
+    "base_id": 10006,
+    "mod_id": 10003,
+    "result_id": 15004
+}, {
+    "base_id": 10006,
+    "mod_id": 60004,
+    "result_id": 15004
+}, {
+    "base_id": 10006,
+    "mod_id": 30037,
+    "result_id": 15004
+}, {
+    "base_id": 10006,
+    "mod_id": 50011,
+    "result_id": 15112
+}, {
+    "base_id": 10006,
+    "mod_id": 30027,
+    "result_id": 15112
+}, {
+    "base_id": 10006,
+    "mod_id": 50023,
+    "result_id": 15112
+}, {
+    "base_id": 10006,
+    "mod_id": 10026,
+    "result_id": 15112
+}, {
+    "base_id": 10006,
+    "mod_id": 40023,
+    "result_id": 15112
+}, {
+    "base_id": 10006,
+    "mod_id": 30029,
+    "result_id": 15112
+}, {
+    "base_id": 10006,
+    "mod_id": 50030,
+    "result_id": 15112
+}, {
+    "base_id": 10006,
+    "mod_id": 40014,
+    "result_id": 15005
+}, {
+    "base_id": 10006,
+    "mod_id": 30017,
+    "result_id": 15005
+}, {
+    "base_id": 10006,
+    "mod_id": 50012,
+    "result_id": 15005
+}, {
+    "base_id": 10006,
+    "mod_id": 10004,
+    "result_id": 15005
+}, {
+    "base_id": 10006,
+    "mod_id": 20013,
+    "result_id": 15019
+}, {
+    "base_id": 10006,
+    "mod_id": 40006,
+    "result_id": 15019
+}, {
+    "base_id": 10006,
+    "mod_id": 30003,
+    "result_id": 15019
+}, {
+    "base_id": 10006,
+    "mod_id": 50014,
+    "result_id": 15019
+}, {
+    "base_id": 10006,
+    "mod_id": 10016,
+    "result_id": 15019
+}, {
+    "base_id": 10006,
+    "mod_id": 60005,
+    "result_id": 15019
+}, {
+    "base_id": 10006,
+    "mod_id": 30033,
+    "result_id": 15019
+}, {
+    "base_id": 10009,
+    "mod_id": 30014,
+    "result_id": 15020
+}, {
+    "base_id": 10009,
+    "mod_id": 40020,
+    "result_id": 15020
+}, {
+    "base_id": 10009,
+    "mod_id": 20019,
+    "result_id": 15020
+}, {
+    "base_id": 10009,
+    "mod_id": 10019,
+    "result_id": 15020
+}, {
+    "base_id": 10009,
+    "mod_id": 10021,
+    "result_id": 15020
+}, {
+    "base_id": 10009,
+    "mod_id": 60003,
+    "result_id": 15020
+}, {
+    "base_id": 10009,
+    "mod_id": 50021,
+    "result_id": 15020
+}, {
+    "base_id": 10009,
+    "mod_id": 30030,
+    "result_id": 15020
+}, {
+    "base_id": 10005,
+    "mod_id": 40018,
+    "result_id": 15023
+}, {
+    "base_id": 10005,
+    "mod_id": 20016,
+    "result_id": 15023
+}, {
+    "base_id": 10005,
+    "mod_id": 30020,
+    "result_id": 15023
+}, {
+    "base_id": 10005,
+    "mod_id": 50018,
+    "result_id": 15023
+}, {
+    "base_id": 10005,
+    "mod_id": 10017,
+    "result_id": 15023
+}, {
+    "base_id": 10005,
+    "mod_id": 60012,
+    "result_id": 15023
+}, {
+    "base_id": 10005,
+    "mod_id": 30036,
+    "result_id": 15023
+}, {
+    "base_id": 10005,
+    "mod_id": 20012,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 40012,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 30015,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 10012,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 50011,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 60006,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 10026,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 50030,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 40029,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 20030,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 50031,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 30044,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 20035,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 10043,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 50037,
+    "result_id": 15024
+}, {
+    "base_id": 10005,
+    "mod_id": 30045,
+    "result_id": 15024
+}, {
+    "base_id": 10018,
+    "mod_id": 20017,
+    "result_id": 15026
+}, {
+    "base_id": 10018,
+    "mod_id": 40017,
+    "result_id": 15026
+}, {
+    "base_id": 10018,
+    "mod_id": 30019,
+    "result_id": 15026
+}, {
+    "base_id": 10018,
+    "mod_id": 50017,
+    "result_id": 15026
+}, {
+    "base_id": 10018,
+    "mod_id": 60010,
+    "result_id": 15026
+}, {
+    "base_id": 10018,
+    "mod_id": 10032,
+    "result_id": 15026
+}, {
+    "base_id": 10018,
+    "mod_id": 10035,
+    "result_id": 15026
+}, {
+    "base_id": 10018,
+    "mod_id": 20011,
+    "result_id": 15031
+}, {
+    "base_id": 10018,
+    "mod_id": 40011,
+    "result_id": 15031
+}, {
+    "base_id": 10018,
+    "mod_id": 30016,
+    "result_id": 15031
+}, {
+    "base_id": 10018,
+    "mod_id": 50007,
+    "result_id": 15031
+}, {
+    "base_id": 10018,
+    "mod_id": 10013,
+    "result_id": 15031
+}, {
+    "base_id": 10018,
+    "mod_id": 60001,
+    "result_id": 15031
+}, {
+    "base_id": 10009,
+    "mod_id": 20006,
+    "result_id": 15032
+}, {
+    "base_id": 10009,
+    "mod_id": 40007,
+    "result_id": 15032
+}, {
+    "base_id": 10009,
+    "mod_id": 30010,
+    "result_id": 15032
+}, {
+    "base_id": 10009,
+    "mod_id": 50008,
+    "result_id": 15032
+}, {
+    "base_id": 10009,
+    "mod_id": 10011,
+    "result_id": 15032
+}, {
+    "base_id": 10009,
+    "mod_id": 60009,
+    "result_id": 15032
+}, {
+    "base_id": 10009,
+    "mod_id": 10029,
+    "result_id": 15032
+}, {
+    "base_id": 10002,
+    "mod_id": 20021,
+    "result_id": 15109
+}, {
+    "base_id": 10002,
+    "mod_id": 40021,
+    "result_id": 15109
+}, {
+    "base_id": 10002,
+    "mod_id": 30021,
+    "result_id": 15109
+}, {
+    "base_id": 10002,
+    "mod_id": 10037,
+    "result_id": 15109
+}, {
+    "base_id": 10002,
+    "mod_id": 50022,
+    "result_id": 15109
+}, {
+    "base_id": 10002,
+    "mod_id": 20029,
+    "result_id": 15109
+}, {
+    "base_id": 10001,
+    "mod_id": 20012,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 40012,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 30015,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 10012,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 50011,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 60006,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 10027,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 40023,
+    "result_id": 15001
+}, {
+    "base_id": 10001,
+    "mod_id": 30028,
+    "result_id": 15001
+}, {
+    "base_id": 10002,
+    "mod_id": 20012,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 40012,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 30015,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 10012,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 50011,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 60006,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 10026,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 30027,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 50023,
+    "result_id": 15006
+}, {
+    "base_id": 10002,
+    "mod_id": 30028,
+    "result_id": 15006
+}, {
+    "base_id": 10001,
+    "mod_id": 20011,
+    "result_id": 15007
+}, {
+    "base_id": 10001,
+    "mod_id": 40011,
+    "result_id": 15007
+}, {
+    "base_id": 10001,
+    "mod_id": 30016,
+    "result_id": 15007
+}, {
+    "base_id": 10001,
+    "mod_id": 50007,
+    "result_id": 15007
+}, {
+    "base_id": 10001,
+    "mod_id": 10013,
+    "result_id": 15007
+}, {
+    "base_id": 10001,
+    "mod_id": 60001,
+    "result_id": 15007
+}, {
+    "base_id": 10007,
+    "mod_id": 20011,
+    "result_id": 15008
+}, {
+    "base_id": 10007,
+    "mod_id": 40011,
+    "result_id": 15008
+}, {
+    "base_id": 10007,
+    "mod_id": 30016,
+    "result_id": 15008
+}, {
+    "base_id": 10007,
+    "mod_id": 50007,
+    "result_id": 15008
+}, {
+    "base_id": 10007,
+    "mod_id": 10013,
+    "result_id": 15008
+}, {
+    "base_id": 10007,
+    "mod_id": 60001,
+    "result_id": 15008
+}, {
+    "base_id": 10006,
+    "mod_id": 20011,
+    "result_id": 15013
+}, {
+    "base_id": 10006,
+    "mod_id": 40011,
+    "result_id": 15013
+}, {
+    "base_id": 10006,
+    "mod_id": 30016,
+    "result_id": 15013
+}, {
+    "base_id": 10006,
+    "mod_id": 50007,
+    "result_id": 15013
+}, {
+    "base_id": 10006,
+    "mod_id": 10013,
+    "result_id": 15013
+}, {
+    "base_id": 10006,
+    "mod_id": 60001,
+    "result_id": 15013
+}, {
+    "base_id": 10009,
+    "mod_id": 20011,
+    "result_id": 15014
+}, {
+    "base_id": 10009,
+    "mod_id": 40011,
+    "result_id": 15014
+}, {
+    "base_id": 10009,
+    "mod_id": 30016,
+    "result_id": 15014
+}, {
+    "base_id": 10009,
+    "mod_id": 50007,
+    "result_id": 15014
+}, {
+    "base_id": 10009,
+    "mod_id": 10013,
+    "result_id": 15014
+}, {
+    "base_id": 10009,
+    "mod_id": 60001,
+    "result_id": 15014
+}, {
+    "base_id": 10002,
+    "mod_id": 20011,
+    "result_id": 15015
+}, {
+    "base_id": 10002,
+    "mod_id": 40011,
+    "result_id": 15015
+}, {
+    "base_id": 10002,
+    "mod_id": 30016,
+    "result_id": 15015
+}, {
+    "base_id": 10002,
+    "mod_id": 50007,
+    "result_id": 15015
+}, {
+    "base_id": 10002,
+    "mod_id": 10013,
+    "result_id": 15015
+}, {
+    "base_id": 10002,
+    "mod_id": 60001,
+    "result_id": 15015
+}, {
+    "base_id": 10001,
+    "mod_id": 20014,
+    "result_id": 15016
+}, {
+    "base_id": 10001,
+    "mod_id": 50015,
+    "result_id": 15016
+}, {
+    "base_id": 10001,
+    "mod_id": 10003,
+    "result_id": 15016
+}, {
+    "base_id": 10001,
+    "mod_id": 60004,
+    "result_id": 15016
+}, {
+    "base_id": 10001,
+    "mod_id": 30037,
+    "result_id": 15016
+}, {
+    "base_id": 10007,
+    "mod_id": 20014,
+    "result_id": 15017
+}, {
+    "base_id": 10007,
+    "mod_id": 30018,
+    "result_id": 15017
+}, {
+    "base_id": 10007,
+    "mod_id": 40015,
+    "result_id": 15017
+}, {
+    "base_id": 10007,
+    "mod_id": 50015,
+    "result_id": 15017
+}, {
+    "base_id": 10007,
+    "mod_id": 10003,
+    "result_id": 15017
+}, {
+    "base_id": 10007,
+    "mod_id": 60004,
+    "result_id": 15017
+}, {
+    "base_id": 10007,
+    "mod_id": 30037,
+    "result_id": 15017
+}, {
+    "base_id": 10009,
+    "mod_id": 20014,
+    "result_id": 15018
+}, {
+    "base_id": 10009,
+    "mod_id": 30018,
+    "result_id": 15018
+}, {
+    "base_id": 10009,
+    "mod_id": 40015,
+    "result_id": 15018
+}, {
+    "base_id": 10009,
+    "mod_id": 50015,
+    "result_id": 15018
+}, {
+    "base_id": 10009,
+    "mod_id": 10003,
+    "result_id": 15018
+}, {
+    "base_id": 10009,
+    "mod_id": 60004,
+    "result_id": 15018
+}, {
+    "base_id": 10009,
+    "mod_id": 30037,
+    "result_id": 15018
+}, {
+    "base_id": 10001,
+    "mod_id": 40014,
+    "result_id": 15093
+}, {
+    "base_id": 10001,
+    "mod_id": 30017,
+    "result_id": 15093
+}, {
+    "base_id": 10001,
+    "mod_id": 50012,
+    "result_id": 15093
+}, {
+    "base_id": 10001,
+    "mod_id": 10004,
+    "result_id": 15093
+}, {
+    "base_id": 10005,
+    "mod_id": 20006,
+    "result_id": 15021
+}, {
+    "base_id": 10005,
+    "mod_id": 40007,
+    "result_id": 15021
+}, {
+    "base_id": 10005,
+    "mod_id": 30010,
+    "result_id": 15021
+}, {
+    "base_id": 10005,
+    "mod_id": 50008,
+    "result_id": 15021
+}, {
+    "base_id": 10005,
+    "mod_id": 10011,
+    "result_id": 15021
+}, {
+    "base_id": 10005,
+    "mod_id": 60009,
+    "result_id": 15021
+}, {
+    "base_id": 10005,
+    "mod_id": 10029,
+    "result_id": 15021
+}, {
+    "base_id": 10006,
+    "mod_id": 20006,
+    "result_id": 15022
+}, {
+    "base_id": 10006,
+    "mod_id": 40007,
+    "result_id": 15022
+}, {
+    "base_id": 10006,
+    "mod_id": 30010,
+    "result_id": 15022
+}, {
+    "base_id": 10006,
+    "mod_id": 50008,
+    "result_id": 15022
+}, {
+    "base_id": 10006,
+    "mod_id": 10011,
+    "result_id": 15022
+}, {
+    "base_id": 10006,
+    "mod_id": 60009,
+    "result_id": 15022
+}, {
+    "base_id": 10006,
+    "mod_id": 10029,
+    "result_id": 15022
+}, {
+    "base_id": 10001,
+    "mod_id": 20010,
+    "result_id": 15025
+}, {
+    "base_id": 10001,
+    "mod_id": 40013,
+    "result_id": 15025
+}, {
+    "base_id": 10001,
+    "mod_id": 30009,
+    "result_id": 15025
+}, {
+    "base_id": 10001,
+    "mod_id": 50009,
+    "result_id": 15025
+}, {
+    "base_id": 10001,
+    "mod_id": 10014,
+    "result_id": 15025
+}, {
+    "base_id": 10001,
+    "mod_id": 10024,
+    "result_id": 15025
+}, {
+    "base_id": 10001,
+    "mod_id": 60007,
+    "result_id": 15025
+}, {
+    "base_id": 10005,
+    "mod_id": 20010,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 40013,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 30009,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 50009,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 10014,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 10024,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 60007,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 30031,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 20024,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 50025,
+    "result_id": 15027
+}, {
+    "base_id": 10005,
+    "mod_id": 20033,
+    "result_id": 15027
+}, {
+    "base_id": 10006,
+    "mod_id": 20010,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 40013,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 30009,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 50009,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 10014,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 60007,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 30031,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 20024,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 50025,
+    "result_id": 15028
+}, {
+    "base_id": 10006,
+    "mod_id": 20033,
+    "result_id": 15028
+}, {
+    "base_id": 10009,
+    "mod_id": 20010,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 40013,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 30009,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 50009,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 10014,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 60007,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 20024,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 50025,
+    "result_id": 15029
+}, {
+    "base_id": 10009,
+    "mod_id": 20033,
+    "result_id": 15029
+}, {
+    "base_id": 10002,
+    "mod_id": 20010,
+    "result_id": 15030
+}, {
+    "base_id": 10002,
+    "mod_id": 40013,
+    "result_id": 15030
+}, {
+    "base_id": 10002,
+    "mod_id": 30009,
+    "result_id": 15030
+}, {
+    "base_id": 10002,
+    "mod_id": 50009,
+    "result_id": 15030
+}, {
+    "base_id": 10002,
+    "mod_id": 10014,
+    "result_id": 15030
+}, {
+    "base_id": 10002,
+    "mod_id": 60007,
+    "result_id": 15030
+}, {
+    "base_id": 10009,
+    "mod_id": 30008,
+    "result_id": 15034
+}, {
+    "base_id": 10009,
+    "mod_id": 10010,
+    "result_id": 15034
+}, {
+    "base_id": 10009,
+    "mod_id": 20015,
+    "result_id": 15034
+}, {
+    "base_id": 10009,
+    "mod_id": 40016,
+    "result_id": 15034
+}, {
+    "base_id": 10009,
+    "mod_id": 50016,
+    "result_id": 15034
+}, {
+    "base_id": 10009,
+    "mod_id": 60008,
+    "result_id": 15034
+}, {
+    "base_id": 10001,
+    "mod_id": 30008,
+    "result_id": 15045
+}, {
+    "base_id": 10001,
+    "mod_id": 20015,
+    "result_id": 15045
+}, {
+    "base_id": 10001,
+    "mod_id": 40016,
+    "result_id": 15045
+}, {
+    "base_id": 10001,
+    "mod_id": 50016,
+    "result_id": 15045
+}, {
+    "base_id": 10001,
+    "mod_id": 60008,
+    "result_id": 15045
+}, {
+    "base_id": 10002,
+    "mod_id": 20015,
+    "result_id": 15035
+}, {
+    "base_id": 10002,
+    "mod_id": 40016,
+    "result_id": 15035
+}, {
+    "base_id": 10002,
+    "mod_id": 30008,
+    "result_id": 15035
+}, {
+    "base_id": 10002,
+    "mod_id": 50016,
+    "result_id": 15035
+}, {
+    "base_id": 10002,
+    "mod_id": 10010,
+    "result_id": 15035
+}, {
+    "base_id": 10002,
+    "mod_id": 60008,
+    "result_id": 15035
+}, {
+    "base_id": 10001,
+    "mod_id": 40010,
+    "result_id": 15036
+}, {
+    "base_id": 10001,
+    "mod_id": 10015,
+    "result_id": 15036
+}, {
+    "base_id": 10001,
+    "mod_id": 20008,
+    "result_id": 15036
+}, {
+    "base_id": 10001,
+    "mod_id": 50013,
+    "result_id": 15036
+}, {
+    "base_id": 10001,
+    "mod_id": 60002,
+    "result_id": 15036
+}, {
+    "base_id": 10001,
+    "mod_id": 10031,
+    "result_id": 15036
+}, {
+    "base_id": 10007,
+    "mod_id": 40010,
+    "result_id": 15037
+}, {
+    "base_id": 10007,
+    "mod_id": 10015,
+    "result_id": 15037
+}, {
+    "base_id": 10007,
+    "mod_id": 20008,
+    "result_id": 15037
+}, {
+    "base_id": 10007,
+    "mod_id": 50013,
+    "result_id": 15037
+}, {
+    "base_id": 10007,
+    "mod_id": 60002,
+    "result_id": 15037
+}, {
+    "base_id": 10007,
+    "mod_id": 10031,
+    "result_id": 15037
+}, {
+    "base_id": 10009,
+    "mod_id": 40010,
+    "result_id": 15040
+}, {
+    "base_id": 10009,
+    "mod_id": 10015,
+    "result_id": 15040
+}, {
+    "base_id": 10009,
+    "mod_id": 20008,
+    "result_id": 15040
+}, {
+    "base_id": 10009,
+    "mod_id": 50013,
+    "result_id": 15040
+}, {
+    "base_id": 10009,
+    "mod_id": 60002,
+    "result_id": 15040
+}, {
+    "base_id": 10009,
+    "mod_id": 10031,
+    "result_id": 15040
+}, {
+    "base_id": 10009,
+    "mod_id": 10027,
+    "result_id": 15111
+}, {
+    "base_id": 10009,
+    "mod_id": 50031,
+    "result_id": 15111
+}, {
+    "base_id": 1100001,
+    "mod_id": 50031,
+    "result_id": 15111
+}, {
+    "base_id": 10001,
+    "mod_id": 30003,
+    "result_id": 15044
+}, {
+    "base_id": 10001,
+    "mod_id": 50014,
+    "result_id": 15044
+}, {
+    "base_id": 10001,
+    "mod_id": 10033,
+    "result_id": 15118
+}, {
+    "base_id": 10001,
+    "mod_id": 20025,
+    "result_id": 15091
+}, {
+    "base_id": 10001,
+    "mod_id": 50026,
+    "result_id": 15091
+}, {
+    "base_id": 10005,
+    "mod_id": 10033,
+    "result_id": 15119
+}, {
+    "base_id": 10005,
+    "mod_id": 20025,
+    "result_id": 15119
+}, {
+    "base_id": 10005,
+    "mod_id": 50026,
+    "result_id": 15119
+}, {
+    "base_id": 10005,
+    "mod_id": 20032,
+    "result_id": 15119
+}, {
+    "base_id": 10001,
+    "mod_id": 20013,
+    "result_id": 15043
+}, {
+    "base_id": 10001,
+    "mod_id": 40006,
+    "result_id": 15043
+}, {
+    "base_id": 10001,
+    "mod_id": 10016,
+    "result_id": 15043
+}, {
+    "base_id": 10001,
+    "mod_id": 60005,
+    "result_id": 15043
+}, {
+    "base_id": 10005,
+    "mod_id": 20013,
+    "result_id": 15046
+}, {
+    "base_id": 10005,
+    "mod_id": 30003,
+    "result_id": 15046
+}, {
+    "base_id": 10005,
+    "mod_id": 50014,
+    "result_id": 15046
+}, {
+    "base_id": 10005,
+    "mod_id": 40006,
+    "result_id": 15046
+}, {
+    "base_id": 10005,
+    "mod_id": 10016,
+    "result_id": 15046
+}, {
+    "base_id": 10005,
+    "mod_id": 60005,
+    "result_id": 15046
+}, {
+    "base_id": 10002,
+    "mod_id": 20013,
+    "result_id": 15048
+}, {
+    "base_id": 10002,
+    "mod_id": 30003,
+    "result_id": 15048
+}, {
+    "base_id": 10002,
+    "mod_id": 50014,
+    "result_id": 15048
+}, {
+    "base_id": 10002,
+    "mod_id": 40006,
+    "result_id": 15048
+}, {
+    "base_id": 10002,
+    "mod_id": 10016,
+    "result_id": 15048
+}, {
+    "base_id": 10002,
+    "mod_id": 60005,
+    "result_id": 15048
+}, {
+    "base_id": 10002,
+    "mod_id": 10034,
+    "result_id": 15048
+}, {
+    "base_id": 10002,
+    "mod_id": 40026,
+    "result_id": 15048
+}, {
+    "base_id": 10001,
+    "mod_id": 20016,
+    "result_id": 15049
+}, {
+    "base_id": 10001,
+    "mod_id": 40018,
+    "result_id": 15049
+}, {
+    "base_id": 10001,
+    "mod_id": 30020,
+    "result_id": 15049
+}, {
+    "base_id": 10001,
+    "mod_id": 50018,
+    "result_id": 15049
+}, {
+    "base_id": 10001,
+    "mod_id": 60012,
+    "result_id": 15049
+}, {
+    "base_id": 10001,
+    "mod_id": 10017,
+    "result_id": 15049
+}, {
+    "base_id": 10001,
+    "mod_id": 30036,
+    "result_id": 15049
+}, {
+    "base_id": 10006,
+    "mod_id": 20016,
+    "result_id": 15050
+}, {
+    "base_id": 10006,
+    "mod_id": 40018,
+    "result_id": 15050
+}, {
+    "base_id": 10006,
+    "mod_id": 30020,
+    "result_id": 15050
+}, {
+    "base_id": 10006,
+    "mod_id": 50018,
+    "result_id": 15050
+}, {
+    "base_id": 10006,
+    "mod_id": 10017,
+    "result_id": 15050
+}, {
+    "base_id": 10006,
+    "mod_id": 60012,
+    "result_id": 15050
+}, {
+    "base_id": 10006,
+    "mod_id": 30036,
+    "result_id": 15050
+}, {
+    "base_id": 10009,
+    "mod_id": 20016,
+    "result_id": 15009
+}, {
+    "base_id": 10009,
+    "mod_id": 40018,
+    "result_id": 15009
+}, {
+    "base_id": 10009,
+    "mod_id": 30020,
+    "result_id": 15009
+}, {
+    "base_id": 10009,
+    "mod_id": 10017,
+    "result_id": 15009
+}, {
+    "base_id": 10009,
+    "mod_id": 50018,
+    "result_id": 15009
+}, {
+    "base_id": 10009,
+    "mod_id": 60012,
+    "result_id": 15009
+}, {
+    "base_id": 10009,
+    "mod_id": 30036,
+    "result_id": 15009
+}, {
+    "base_id": 10002,
+    "mod_id": 20016,
+    "result_id": 15053
+}, {
+    "base_id": 10002,
+    "mod_id": 40018,
+    "result_id": 15053
+}, {
+    "base_id": 10002,
+    "mod_id": 30020,
+    "result_id": 15053
+}, {
+    "base_id": 10002,
+    "mod_id": 50018,
+    "result_id": 15053
+}, {
+    "base_id": 10002,
+    "mod_id": 10017,
+    "result_id": 15053
+}, {
+    "base_id": 10002,
+    "mod_id": 60012,
+    "result_id": 15053
+}, {
+    "base_id": 10002,
+    "mod_id": 30036,
+    "result_id": 15053
+}, {
+    "base_id": 10001,
+    "mod_id": 20006,
+    "result_id": 15003
+}, {
+    "base_id": 10001,
+    "mod_id": 10011,
+    "result_id": 15003
+}, {
+    "base_id": 10001,
+    "mod_id": 50008,
+    "result_id": 15003
+}, {
+    "base_id": 10001,
+    "mod_id": 60009,
+    "result_id": 15003
+}, {
+    "base_id": 10001,
+    "mod_id": 10029,
+    "result_id": 15003
+}, {
+    "base_id": 10001,
+    "mod_id": 40007,
+    "result_id": 15072
+}, {
+    "base_id": 10001,
+    "mod_id": 30010,
+    "result_id": 15072
+}, {
+    "base_id": 10001,
+    "mod_id": 30011,
+    "result_id": 15011
+}, {
+    "base_id": 10001,
+    "mod_id": 50010,
+    "result_id": 15011
+}, {
+    "base_id": 10009,
+    "mod_id": 30011,
+    "result_id": 15012
+}, {
+    "base_id": 10009,
+    "mod_id": 50010,
+    "result_id": 15012
+}, {
+    "base_id": 10002,
+    "mod_id": 20006,
+    "result_id": 15010
+}, {
+    "base_id": 10002,
+    "mod_id": 40007,
+    "result_id": 15010
+}, {
+    "base_id": 10002,
+    "mod_id": 30010,
+    "result_id": 15010
+}, {
+    "base_id": 10002,
+    "mod_id": 50008,
+    "result_id": 15010
+}, {
+    "base_id": 10002,
+    "mod_id": 10011,
+    "result_id": 15010
+}, {
+    "base_id": 10002,
+    "mod_id": 60009,
+    "result_id": 15010
+}, {
+    "base_id": 10002,
+    "mod_id": 10029,
+    "result_id": 15010
+}, {
+    "base_id": 10002,
+    "mod_id": 20017,
+    "result_id": 15075
+}, {
+    "base_id": 10002,
+    "mod_id": 40017,
+    "result_id": 15075
+}, {
+    "base_id": 10002,
+    "mod_id": 30019,
+    "result_id": 15075
+}, {
+    "base_id": 10002,
+    "mod_id": 50017,
+    "result_id": 15075
+}, {
+    "base_id": 10002,
+    "mod_id": 60010,
+    "result_id": 15075
+}, {
+    "base_id": 10002,
+    "mod_id": 10032,
+    "result_id": 15075
+}, {
+    "base_id": 10002,
+    "mod_id": 10035,
+    "result_id": 15075
+}, {
+    "base_id": 10009,
+    "mod_id": 20017,
+    "result_id": 15079
+}, {
+    "base_id": 10009,
+    "mod_id": 40017,
+    "result_id": 15079
+}, {
+    "base_id": 10009,
+    "mod_id": 30019,
+    "result_id": 15079
+}, {
+    "base_id": 10009,
+    "mod_id": 50017,
+    "result_id": 15079
+}, {
+    "base_id": 10009,
+    "mod_id": 60010,
+    "result_id": 15079
+}, {
+    "base_id": 10009,
+    "mod_id": 10035,
+    "result_id": 15079
+}, {
+    "base_id": 10001,
+    "mod_id": 20017,
+    "result_id": 15081
+}, {
+    "base_id": 10001,
+    "mod_id": 40017,
+    "result_id": 15081
+}, {
+    "base_id": 10001,
+    "mod_id": 30019,
+    "result_id": 15081
+}, {
+    "base_id": 10001,
+    "mod_id": 50017,
+    "result_id": 15081
+}, {
+    "base_id": 10001,
+    "mod_id": 60010,
+    "result_id": 15081
+}, {
+    "base_id": 10001,
+    "mod_id": 10032,
+    "result_id": 15081
+}, {
+    "base_id": 10001,
+    "mod_id": 10035,
+    "result_id": 15081
+}, {
+    "base_id": 10018,
+    "mod_id": 20010,
+    "result_id": 15076
+}, {
+    "base_id": 10018,
+    "mod_id": 40013,
+    "result_id": 15076
+}, {
+    "base_id": 10018,
+    "mod_id": 30009,
+    "result_id": 15076
+}, {
+    "base_id": 10018,
+    "mod_id": 50009,
+    "result_id": 15076
+}, {
+    "base_id": 10018,
+    "mod_id": 10014,
+    "result_id": 15076
+}, {
+    "base_id": 10018,
+    "mod_id": 60007,
+    "result_id": 15076
+}, {
+    "base_id": 10018,
+    "mod_id": 30032,
+    "result_id": 15076
+}, {
+    "base_id": 10018,
+    "mod_id": 30040,
+    "result_id": 15076
+}, {
+    "base_id": 10001,
+    "mod_id": 20020,
+    "result_id": 15057
+}, {
+    "base_id": 10001,
+    "mod_id": 50020,
+    "result_id": 15057
+}, {
+    "base_id": 10001,
+    "mod_id": 60011,
+    "result_id": 15057
+}, {
+    "base_id": 10001,
+    "mod_id": 10020,
+    "result_id": 15058
+}, {
+    "base_id": 10006,
+    "mod_id": 20020,
+    "result_id": 15094
+}, {
+    "base_id": 10006,
+    "mod_id": 50020,
+    "result_id": 15094
+}, {
+    "base_id": 10006,
+    "mod_id": 60011,
+    "result_id": 15094
+}, {
+    "base_id": 10007,
+    "mod_id": 30014,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 40020,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 20019,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 10019,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 10021,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 50021,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 60003,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 30030,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 50027,
+    "result_id": 15059
+}, {
+    "base_id": 10007,
+    "mod_id": 10036,
+    "result_id": 15059
+}, {
+    "base_id": 10005,
+    "mod_id": 40020,
+    "result_id": 15060
+}, {
+    "base_id": 10005,
+    "mod_id": 20019,
+    "result_id": 15060
+}, {
+    "base_id": 10005,
+    "mod_id": 10019,
+    "result_id": 15060
+}, {
+    "base_id": 10005,
+    "mod_id": 10021,
+    "result_id": 15060
+}, {
+    "base_id": 10005,
+    "mod_id": 60003,
+    "result_id": 15060
+}, {
+    "base_id": 10005,
+    "mod_id": 30030,
+    "result_id": 15060
+}, {
+    "base_id": 10005,
+    "mod_id": 50029,
+    "result_id": 15060
+}, {
+    "base_id": 10006,
+    "mod_id": 20018,
+    "result_id": 15062
+}, {
+    "base_id": 10006,
+    "mod_id": 30013,
+    "result_id": 15062
+}, {
+    "base_id": 10006,
+    "mod_id": 40019,
+    "result_id": 15062
+}, {
+    "base_id": 10006,
+    "mod_id": 10008,
+    "result_id": 15062
+}, {
+    "base_id": 10006,
+    "mod_id": 60013,
+    "result_id": 15062
+}, {
+    "base_id": 10006,
+    "mod_id": 30034,
+    "result_id": 15062
+}, {
+    "base_id": 10009,
+    "mod_id": 10008,
+    "result_id": 15063
+}, {
+    "base_id": 10009,
+    "mod_id": 60013,
+    "result_id": 15063
+}, {
+    "base_id": 10018,
+    "mod_id": 20018,
+    "result_id": 15064
+}, {
+    "base_id": 10018,
+    "mod_id": 30013,
+    "result_id": 15064
+}, {
+    "base_id": 10018,
+    "mod_id": 40019,
+    "result_id": 15064
+}, {
+    "base_id": 10018,
+    "mod_id": 10008,
+    "result_id": 15064
+}, {
+    "base_id": 10018,
+    "mod_id": 60013,
+    "result_id": 15064
+}, {
+    "base_id": 10018,
+    "mod_id": 30034,
+    "result_id": 15064
+}, {
+    "base_id": 10009,
+    "mod_id": 20020,
+    "result_id": 15066
+}, {
+    "base_id": 10009,
+    "mod_id": 50020,
+    "result_id": 15066
+}, {
+    "base_id": 10009,
+    "mod_id": 10020,
+    "result_id": 15066
+}, {
+    "base_id": 10009,
+    "mod_id": 60011,
+    "result_id": 15066
+}, {
+    "base_id": 10002,
+    "mod_id": 20020,
+    "result_id": 15067
+}, {
+    "base_id": 10002,
+    "mod_id": 50020,
+    "result_id": 15067
+}, {
+    "base_id": 10002,
+    "mod_id": 10020,
+    "result_id": 15067
+}, {
+    "base_id": 10002,
+    "mod_id": 60011,
+    "result_id": 15067
+}, {
+    "base_id": 10018,
+    "mod_id": 20020,
+    "result_id": 15068
+}, {
+    "base_id": 10018,
+    "mod_id": 50020,
+    "result_id": 15068
+}, {
+    "base_id": 10018,
+    "mod_id": 10020,
+    "result_id": 15068
+}, {
+    "base_id": 10018,
+    "mod_id": 60011,
+    "result_id": 15068
+}, {
+    "base_id": 10007,
+    "mod_id": 20013,
+    "result_id": 15069
+}, {
+    "base_id": 10007,
+    "mod_id": 40006,
+    "result_id": 15069
+}, {
+    "base_id": 10007,
+    "mod_id": 10016,
+    "result_id": 15069
+}, {
+    "base_id": 10007,
+    "mod_id": 60005,
+    "result_id": 15069
+}, {
+    "base_id": 10007,
+    "mod_id": 10033,
+    "result_id": 15069
+}, {
+    "base_id": 10007,
+    "mod_id": 30003,
+    "result_id": 15070
+}, {
+    "base_id": 10007,
+    "mod_id": 50014,
+    "result_id": 15070
+}, {
+    "base_id": 10007,
+    "mod_id": 40031,
+    "result_id": 15070
+}, {
+    "base_id": 10001,
+    "mod_id": 40020,
+    "result_id": 15088
+}, {
+    "base_id": 10001,
+    "mod_id": 20019,
+    "result_id": 15088
+}, {
+    "base_id": 10001,
+    "mod_id": 10019,
+    "result_id": 15088
+}, {
+    "base_id": 10001,
+    "mod_id": 50021,
+    "result_id": 15088
+}, {
+    "base_id": 10001,
+    "mod_id": 60003,
+    "result_id": 15088
+}, {
+    "base_id": 10001,
+    "mod_id": 30030,
+    "result_id": 15088
+}, {
+    "base_id": 10002,
+    "mod_id": 20018,
+    "result_id": 15090
+}, {
+    "base_id": 10002,
+    "mod_id": 30013,
+    "result_id": 15090
+}, {
+    "base_id": 10002,
+    "mod_id": 40019,
+    "result_id": 15090
+}, {
+    "base_id": 10002,
+    "mod_id": 10008,
+    "result_id": 15090
+}, {
+    "base_id": 10002,
+    "mod_id": 60013,
+    "result_id": 15090
+}, {
+    "base_id": 10002,
+    "mod_id": 30034,
+    "result_id": 15090
+}, {
+    "base_id": 10018,
+    "mod_id": 20013,
+    "result_id": 15082
+}, {
+    "base_id": 10018,
+    "mod_id": 30003,
+    "result_id": 15082
+}, {
+    "base_id": 10018,
+    "mod_id": 50014,
+    "result_id": 15082
+}, {
+    "base_id": 10018,
+    "mod_id": 40006,
+    "result_id": 15082
+}, {
+    "base_id": 10018,
+    "mod_id": 10016,
+    "result_id": 15082
+}, {
+    "base_id": 10018,
+    "mod_id": 60005,
+    "result_id": 15082
+}, {
+    "base_id": 10001,
+    "mod_id": 40015,
+    "result_id": 15074
+}, {
+    "base_id": 10001,
+    "mod_id": 30018,
+    "result_id": 15074
+}, {
+    "base_id": 10018,
+    "mod_id": 20006,
+    "result_id": 15084
+}, {
+    "base_id": 10018,
+    "mod_id": 40007,
+    "result_id": 15084
+}, {
+    "base_id": 10018,
+    "mod_id": 30010,
+    "result_id": 15084
+}, {
+    "base_id": 10018,
+    "mod_id": 50008,
+    "result_id": 15084
+}, {
+    "base_id": 10018,
+    "mod_id": 10011,
+    "result_id": 15084
+}, {
+    "base_id": 10018,
+    "mod_id": 60009,
+    "result_id": 15084
+}, {
+    "base_id": 10018,
+    "mod_id": 10029,
+    "result_id": 15084
+}, {
+    "base_id": 10018,
+    "mod_id": 20014,
+    "result_id": 15085
+}, {
+    "base_id": 10018,
+    "mod_id": 30018,
+    "result_id": 15085
+}, {
+    "base_id": 10018,
+    "mod_id": 40015,
+    "result_id": 15085
+}, {
+    "base_id": 10018,
+    "mod_id": 50015,
+    "result_id": 15085
+}, {
+    "base_id": 10018,
+    "mod_id": 10003,
+    "result_id": 15085
+}, {
+    "base_id": 10018,
+    "mod_id": 60004,
+    "result_id": 15085
+}, {
+    "base_id": 10018,
+    "mod_id": 30037,
+    "result_id": 15085
+}, {
+    "base_id": 10001,
+    "mod_id": 10021,
+    "result_id": 15095
+}, {
+    "base_id": 10018,
+    "mod_id": 10021,
+    "result_id": 15096
+}, {
+    "base_id": 10001,
+    "mod_id": 10022,
+    "result_id": 15097
+}, {
+    "base_id": 10018,
+    "mod_id": 10022,
+    "result_id": 15098
+}, {
+    "base_id": 10023,
+    "mod_id": 10022,
+    "result_id": 15099
+}, {
+    "base_id": 10023,
+    "mod_id": 10018,
+    "result_id": 15100
+}, {
+    "base_id": 10023,
+    "mod_id": 10001,
+    "result_id": 15101
+}, {
+    "base_id": 10023,
+    "mod_id": 10007,
+    "result_id": 15102
+}, {
+    "base_id": 10024,
+    "mod_id": 10002,
+    "result_id": 15103
+}, {
+    "base_id": 10024,
+    "mod_id": 10009,
+    "result_id": 15104
+}, {
+    "base_id": 10024,
+    "mod_id": 10006,
+    "result_id": 15105
+}, {
+    "base_id": 20007,
+    "mod_id": 40038,
+    "result_id": 25123
+}, {
+    "base_id": 20007,
+    "mod_id": 10033,
+    "result_id": 25123
+}, {
+    "base_id": 20007,
+    "mod_id": 10034,
+    "result_id": 25123
+}, {
+    "base_id": 20007,
+    "mod_id": 40026,
+    "result_id": 25123
+}, {
+    "base_id": 20007,
+    "mod_id": 30039,
+    "result_id": 25123
+}, {
+    "base_id": 20007,
+    "mod_id": 40031,
+    "result_id": 25123
+}, {
+    "base_id": 20007,
+    "mod_id": 50033,
+    "result_id": 25123
+}, {
+    "base_id": 20003,
+    "mod_id": 10033,
+    "result_id": 25122
+}, {
+    "base_id": 20026,
+    "mod_id": 10033,
+    "result_id": 25122
+}, {
+    "base_id": 20003,
+    "mod_id": 50026,
+    "result_id": 25122
+}, {
+    "base_id": 20026,
+    "mod_id": 50026,
+    "result_id": 25122
+}, {
+    "base_id": 20003,
+    "mod_id": 30039,
+    "result_id": 25122
+}, {
+    "base_id": 20026,
+    "mod_id": 30039,
+    "result_id": 25122
+}, {
+    "base_id": 20003,
+    "mod_id": 20032,
+    "result_id": 25122
+}, {
+    "base_id": 20026,
+    "mod_id": 20032,
+    "result_id": 25122
+}, {
+    "base_id": 20003,
+    "mod_id": 50033,
+    "result_id": 25122
+}, {
+    "base_id": 20026,
+    "mod_id": 50033,
+    "result_id": 25122
+}, {
+    "base_id": 20003,
+    "mod_id": 50043,
+    "result_id": 25122
+}, {
+    "base_id": 20026,
+    "mod_id": 50043,
+    "result_id": 25122
+}, {
+    "base_id": 20003,
+    "mod_id": 30051,
+    "result_id": 25122
+}, {
+    "base_id": 20026,
+    "mod_id": 30051,
+    "result_id": 25122
+}, {
+    "base_id": 20001,
+    "mod_id": 10048,
+    "result_id": 25121
+}, {
+    "base_id": 20001,
+    "mod_id": 10033,
+    "result_id": 25121
+}, {
+    "base_id": 20001,
+    "mod_id": 30033,
+    "result_id": 25121
+}, {
+    "base_id": 20001,
+    "mod_id": 40031,
+    "result_id": 25121
+}, {
+    "base_id": 20001,
+    "mod_id": 50043,
+    "result_id": 25121
+}, {
+    "base_id": 20001,
+    "mod_id": 30051,
+    "result_id": 25121
+}, {
+    "base_id": 20007,
+    "mod_id": 50034,
+    "result_id": 25120
+}, {
+    "base_id": 20007,
+    "mod_id": 10040,
+    "result_id": 25120
+}, {
+    "base_id": 20007,
+    "mod_id": 40037,
+    "result_id": 25120
+}, {
+    "base_id": 20007,
+    "mod_id": 20038,
+    "result_id": 25120
+}, {
+    "base_id": 20007,
+    "mod_id": 50042,
+    "result_id": 25120
+}, {
+    "base_id": 20009,
+    "mod_id": 30032,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 30032,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 20033,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 20033,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 50034,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 50034,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 30040,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 30040,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 10040,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 10040,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 10047,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 10047,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 30050,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 30050,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 20038,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 20038,
+    "result_id": 25119
+}, {
+    "base_id": 20009,
+    "mod_id": 50042,
+    "result_id": 25119
+}, {
+    "base_id": 20027,
+    "mod_id": 50042,
+    "result_id": 25119
+}, {
+    "base_id": 20003,
+    "mod_id": 40037,
+    "result_id": 25118
+}, {
+    "base_id": 20026,
+    "mod_id": 40037,
+    "result_id": 25118
+}, {
+    "base_id": 20003,
+    "mod_id": 20038,
+    "result_id": 25118
+}, {
+    "base_id": 20026,
+    "mod_id": 20038,
+    "result_id": 25118
+}, {
+    "base_id": 20003,
+    "mod_id": 10047,
+    "result_id": 25118
+}, {
+    "base_id": 20026,
+    "mod_id": 10047,
+    "result_id": 25118
+}, {
+    "base_id": 20003,
+    "mod_id": 50042,
+    "result_id": 25118
+}, {
+    "base_id": 20026,
+    "mod_id": 50042,
+    "result_id": 25118
+}, {
+    "base_id": 20001,
+    "mod_id": 20037,
+    "result_id": 25117
+}, {
+    "base_id": 20001,
+    "mod_id": 40030,
+    "result_id": 25117
+}, {
+    "base_id": 20002,
+    "mod_id": 50041,
+    "result_id": 25116
+}, {
+    "base_id": 1200001,
+    "mod_id": 50041,
+    "result_id": 25116
+}, {
+    "base_id": 20002,
+    "mod_id": 30023,
+    "result_id": 25116
+}, {
+    "base_id": 1200001,
+    "mod_id": 30023,
+    "result_id": 25116
+}, {
+    "base_id": 20002,
+    "mod_id": 20031,
+    "result_id": 25116
+}, {
+    "base_id": 1200001,
+    "mod_id": 20031,
+    "result_id": 25116
+}, {
+    "base_id": 20002,
+    "mod_id": 10038,
+    "result_id": 25116
+}, {
+    "base_id": 1200001,
+    "mod_id": 10038,
+    "result_id": 25116
+}, {
+    "base_id": 20002,
+    "mod_id": 40036,
+    "result_id": 25116
+}, {
+    "base_id": 1200001,
+    "mod_id": 40036,
+    "result_id": 25116
+}, {
+    "base_id": 20002,
+    "mod_id": 30049,
+    "result_id": 25116
+}, {
+    "base_id": 1200001,
+    "mod_id": 30049,
+    "result_id": 25116
+}, {
+    "base_id": 20002,
+    "mod_id": 20037,
+    "result_id": 25116
+}, {
+    "base_id": 1200001,
+    "mod_id": 20037,
+    "result_id": 25116
+}, {
+    "base_id": 20001,
+    "mod_id": 50039,
+    "result_id": 25115
+}, {
+    "base_id": 20001,
+    "mod_id": 10044,
+    "result_id": 25115
+}, {
+    "base_id": 20001,
+    "mod_id": 30046,
+    "result_id": 25115
+}, {
+    "base_id": 20001,
+    "mod_id": 20036,
+    "result_id": 25115
+}, {
+    "base_id": 20001,
+    "mod_id": 30047,
+    "result_id": 25115
+}, {
+    "base_id": 20001,
+    "mod_id": 50040,
+    "result_id": 25115
+}, {
+    "base_id": 20002,
+    "mod_id": 50037,
+    "result_id": 25114
+}, {
+    "base_id": 1200001,
+    "mod_id": 50037,
+    "result_id": 25114
+}, {
+    "base_id": 20002,
+    "mod_id": 30044,
+    "result_id": 25114
+}, {
+    "base_id": 1200001,
+    "mod_id": 30044,
+    "result_id": 25114
+}, {
+    "base_id": 20002,
+    "mod_id": 10043,
+    "result_id": 25114
+}, {
+    "base_id": 1200001,
+    "mod_id": 10043,
+    "result_id": 25114
+}, {
+    "base_id": 20002,
+    "mod_id": 20035,
+    "result_id": 25114
+}, {
+    "base_id": 1200001,
+    "mod_id": 20035,
+    "result_id": 25114
+}, {
+    "base_id": 20001,
+    "mod_id": 20035,
+    "result_id": 25113
+}, {
+    "base_id": 20001,
+    "mod_id": 30044,
+    "result_id": 25113
+}, {
+    "base_id": 20001,
+    "mod_id": 30042,
+    "result_id": 25112
+}, {
+    "base_id": 20001,
+    "mod_id": 40033,
+    "result_id": 25112
+}, {
+    "base_id": 20001,
+    "mod_id": 10042,
+    "result_id": 25112
+}, {
+    "base_id": 20001,
+    "mod_id": 30043,
+    "result_id": 25112
+}, {
+    "base_id": 20007,
+    "mod_id": 50036,
+    "result_id": 25111
+}, {
+    "base_id": 20007,
+    "mod_id": 40033,
+    "result_id": 25111
+}, {
+    "base_id": 20007,
+    "mod_id": 30042,
+    "result_id": 25111
+}, {
+    "base_id": 20007,
+    "mod_id": 30043,
+    "result_id": 25111
+}, {
+    "base_id": 20007,
+    "mod_id": 40034,
+    "result_id": 25111
+}, {
+    "base_id": 20007,
+    "mod_id": 10041,
+    "result_id": 25110
+}, {
+    "base_id": 20007,
+    "mod_id": 50029,
+    "result_id": 25110
+}, {
+    "base_id": 20007,
+    "mod_id": 50035,
+    "result_id": 25110
+}, {
+    "base_id": 20007,
+    "mod_id": 40028,
+    "result_id": 25110
+}, {
+    "base_id": 20007,
+    "mod_id": 20034,
+    "result_id": 25110
+}, {
+    "base_id": 20007,
+    "mod_id": 30041,
+    "result_id": 25110
+}, {
+    "base_id": 20007,
+    "mod_id": 40032,
+    "result_id": 25110
+}, {
+    "base_id": 20009,
+    "mod_id": 30041,
+    "result_id": 25109
+}, {
+    "base_id": 20027,
+    "mod_id": 30041,
+    "result_id": 25109
+}, {
+    "base_id": 20009,
+    "mod_id": 50029,
+    "result_id": 25109
+}, {
+    "base_id": 20027,
+    "mod_id": 50029,
+    "result_id": 25109
+}, {
+    "base_id": 20009,
+    "mod_id": 40028,
+    "result_id": 25109
+}, {
+    "base_id": 20027,
+    "mod_id": 40028,
+    "result_id": 25109
+}, {
+    "base_id": 20009,
+    "mod_id": 50035,
+    "result_id": 25109
+}, {
+    "base_id": 20027,
+    "mod_id": 50035,
+    "result_id": 25109
+}, {
+    "base_id": 20009,
+    "mod_id": 40032,
+    "result_id": 25109
+}, {
+    "base_id": 20027,
+    "mod_id": 40032,
+    "result_id": 25109
+}, {
+    "base_id": 20009,
+    "mod_id": 10041,
+    "result_id": 25109
+}, {
+    "base_id": 20027,
+    "mod_id": 10041,
+    "result_id": 25109
+}, {
+    "base_id": 20002,
+    "mod_id": 30040,
+    "result_id": 25108
+}, {
+    "base_id": 1200001,
+    "mod_id": 30040,
+    "result_id": 25108
+}, {
+    "base_id": 20002,
+    "mod_id": 10040,
+    "result_id": 25108
+}, {
+    "base_id": 1200001,
+    "mod_id": 10040,
+    "result_id": 25108
+}, {
+    "base_id": 20002,
+    "mod_id": 30050,
+    "result_id": 25108
+}, {
+    "base_id": 1200001,
+    "mod_id": 30050,
+    "result_id": 25108
+}, {
+    "base_id": 20003,
+    "mod_id": 20033,
+    "result_id": 25107
+}, {
+    "base_id": 20026,
+    "mod_id": 20033,
+    "result_id": 25107
+}, {
+    "base_id": 20003,
+    "mod_id": 20024,
+    "result_id": 25107
+}, {
+    "base_id": 20026,
+    "mod_id": 20024,
+    "result_id": 25107
+}, {
+    "base_id": 20003,
+    "mod_id": 30031,
+    "result_id": 25107
+}, {
+    "base_id": 20026,
+    "mod_id": 30031,
+    "result_id": 25107
+}, {
+    "base_id": 20003,
+    "mod_id": 50034,
+    "result_id": 25107
+}, {
+    "base_id": 20026,
+    "mod_id": 50034,
+    "result_id": 25107
+}, {
+    "base_id": 20003,
+    "mod_id": 10040,
+    "result_id": 25107
+}, {
+    "base_id": 20026,
+    "mod_id": 10040,
+    "result_id": 25107
+}, {
+    "base_id": 20001,
+    "mod_id": 20033,
+    "result_id": 25106
+}, {
+    "base_id": 20001,
+    "mod_id": 50034,
+    "result_id": 25106
+}, {
+    "base_id": 20001,
+    "mod_id": 10040,
+    "result_id": 25106
+}, {
+    "base_id": 20007,
+    "mod_id": 20017,
+    "result_id": 25105
+}, {
+    "base_id": 20007,
+    "mod_id": 30019,
+    "result_id": 25105
+}, {
+    "base_id": 20007,
+    "mod_id": 40017,
+    "result_id": 25105
+}, {
+    "base_id": 20007,
+    "mod_id": 50017,
+    "result_id": 25105
+}, {
+    "base_id": 20007,
+    "mod_id": 60010,
+    "result_id": 25105
+}, {
+    "base_id": 20007,
+    "mod_id": 10035,
+    "result_id": 25105
+}, {
+    "base_id": 20007,
+    "mod_id": 10032,
+    "result_id": 25105
+}, {
+    "base_id": 20001,
+    "mod_id": 20032,
+    "result_id": 25104
+}, {
+    "base_id": 20001,
+    "mod_id": 50033,
+    "result_id": 25104
+}, {
+    "base_id": 20002,
+    "mod_id": 30039,
+    "result_id": 25103
+}, {
+    "base_id": 1200001,
+    "mod_id": 30039,
+    "result_id": 25103
+}, {
+    "base_id": 20002,
+    "mod_id": 40031,
+    "result_id": 25103
+}, {
+    "base_id": 1200001,
+    "mod_id": 40031,
+    "result_id": 25103
+}, {
+    "base_id": 20002,
+    "mod_id": 50026,
+    "result_id": 25103
+}, {
+    "base_id": 1200001,
+    "mod_id": 50026,
+    "result_id": 25103
+}, {
+    "base_id": 20002,
+    "mod_id": 20032,
+    "result_id": 25103
+}, {
+    "base_id": 1200001,
+    "mod_id": 20032,
+    "result_id": 25103
+}, {
+    "base_id": 20002,
+    "mod_id": 50033,
+    "result_id": 25103
+}, {
+    "base_id": 1200001,
+    "mod_id": 50033,
+    "result_id": 25103
+}, {
+    "base_id": 20001,
+    "mod_id": 50032,
+    "result_id": 25038
+}, {
+    "base_id": 20001,
+    "mod_id": 30023,
+    "result_id": 25038
+}, {
+    "base_id": 20001,
+    "mod_id": 10038,
+    "result_id": 25038
+}, {
+    "base_id": 20001,
+    "mod_id": 10046,
+    "result_id": 25038
+}, {
+    "base_id": 20007,
+    "mod_id": 50032,
+    "result_id": 25102
+}, {
+    "base_id": 20007,
+    "mod_id": 20031,
+    "result_id": 25102
+}, {
+    "base_id": 20007,
+    "mod_id": 30023,
+    "result_id": 25102
+}, {
+    "base_id": 20007,
+    "mod_id": 40030,
+    "result_id": 25102
+}, {
+    "base_id": 20007,
+    "mod_id": 10046,
+    "result_id": 25102
+}, {
+    "base_id": 20007,
+    "mod_id": 40036,
+    "result_id": 25102
+}, {
+    "base_id": 20007,
+    "mod_id": 20037,
+    "result_id": 25102
+}, {
+    "base_id": 20002,
+    "mod_id": 10027,
+    "result_id": 25100
+}, {
+    "base_id": 1200001,
+    "mod_id": 10027,
+    "result_id": 25100
+}, {
+    "base_id": 20002,
+    "mod_id": 30027,
+    "result_id": 25100
+}, {
+    "base_id": 1200001,
+    "mod_id": 30027,
+    "result_id": 25100
+}, {
+    "base_id": 20002,
+    "mod_id": 50023,
+    "result_id": 25100
+}, {
+    "base_id": 1200001,
+    "mod_id": 50023,
+    "result_id": 25098
+}, {
+    "base_id": 20002,
+    "mod_id": 30029,
+    "result_id": 25100
+}, {
+    "base_id": 1200001,
+    "mod_id": 30029,
+    "result_id": 25100
+}, {
+    "base_id": 20002,
+    "mod_id": 30045,
+    "result_id": 25100
+}, {
+    "base_id": 1200001,
+    "mod_id": 30045,
+    "result_id": 25100
+}, {
+    "base_id": 20001,
+    "mod_id": 10026,
+    "result_id": 25099
+}, {
+    "base_id": 20001,
+    "mod_id": 40023,
+    "result_id": 25099
+}, {
+    "base_id": 20001,
+    "mod_id": 50030,
+    "result_id": 25099
+}, {
+    "base_id": 20001,
+    "mod_id": 40029,
+    "result_id": 25099
+}, {
+    "base_id": 20001,
+    "mod_id": 30029,
+    "result_id": 25099
+}, {
+    "base_id": 20001,
+    "mod_id": 20030,
+    "result_id": 25099
+}, {
+    "base_id": 20001,
+    "mod_id": 50031,
+    "result_id": 25099
+}, {
+    "base_id": 20001,
+    "mod_id": 50037,
+    "result_id": 25099
+}, {
+    "base_id": 20002,
+    "mod_id": 50030,
+    "result_id": 25098
+}, {
+    "base_id": 1200001,
+    "mod_id": 50030,
+    "result_id": 25098
+}, {
+    "base_id": 20002,
+    "mod_id": 10026,
+    "result_id": 25098
+}, {
+    "base_id": 1200001,
+    "mod_id": 10026,
+    "result_id": 25098
+}, {
+    "base_id": 20002,
+    "mod_id": 40023,
+    "result_id": 25098
+}, {
+    "base_id": 1200001,
+    "mod_id": 40023,
+    "result_id": 25098
+}, {
+    "base_id": 20002,
+    "mod_id": 40029,
+    "result_id": 25098
+}, {
+    "base_id": 1200001,
+    "mod_id": 40029,
+    "result_id": 25098
+}, {
+    "base_id": 20002,
+    "mod_id": 20030,
+    "result_id": 25098
+}, {
+    "base_id": 1200001,
+    "mod_id": 20030,
+    "result_id": 25098
+}, {
+    "base_id": 20002,
+    "mod_id": 50031,
+    "result_id": 25098
+}, {
+    "base_id": 1200001,
+    "mod_id": 50031,
+    "result_id": 25098
+}, {
+    "base_id": 1200001,
+    "mod_id": 20028,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 50021,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 10036,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 30038,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 50035,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 50035,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 20034,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 20034,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 40032,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 40032,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 10041,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 10041,
+    "result_id": 25095
+}, {
+    "base_id": 1200001,
+    "mod_id": 20021,
+    "result_id": 25097
+}, {
+    "base_id": 1200001,
+    "mod_id": 10037,
+    "result_id": 25097
+}, {
+    "base_id": 1200001,
+    "mod_id": 20029,
+    "result_id": 25097
+}, {
+    "base_id": 1200001,
+    "mod_id": 20011,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 40011,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 30016,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 50007,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 10013,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 60001,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 30046,
+    "result_id": 25057
+}, {
+    "base_id": 20002,
+    "mod_id": 30046,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 10044,
+    "result_id": 25057
+}, {
+    "base_id": 20002,
+    "mod_id": 10044,
+    "result_id": 25057
+}, {
+    "base_id": 1200001,
+    "mod_id": 40007,
+    "result_id": 25044
+}, {
+    "base_id": 1200001,
+    "mod_id": 30010,
+    "result_id": 25044
+}, {
+    "base_id": 1200001,
+    "mod_id": 20006,
+    "result_id": 25044
+}, {
+    "base_id": 1200001,
+    "mod_id": 50008,
+    "result_id": 25044
+}, {
+    "base_id": 1200001,
+    "mod_id": 10011,
+    "result_id": 25044
+}, {
+    "base_id": 1200001,
+    "mod_id": 60009,
+    "result_id": 25044
+}, {
+    "base_id": 1200001,
+    "mod_id": 10029,
+    "result_id": 25044
+}, {
+    "base_id": 1200001,
+    "mod_id": 20017,
+    "result_id": 25042
+}, {
+    "base_id": 1200001,
+    "mod_id": 40017,
+    "result_id": 25042
+}, {
+    "base_id": 1200001,
+    "mod_id": 30019,
+    "result_id": 25042
+}, {
+    "base_id": 1200001,
+    "mod_id": 50017,
+    "result_id": 25042
+}, {
+    "base_id": 1200001,
+    "mod_id": 60010,
+    "result_id": 25042
+}, {
+    "base_id": 1200001,
+    "mod_id": 10032,
+    "result_id": 25042
+}, {
+    "base_id": 1200001,
+    "mod_id": 10035,
+    "result_id": 25042
+}, {
+    "base_id": 1200001,
+    "mod_id": 20013,
+    "result_id": 25031
+}, {
+    "base_id": 1200001,
+    "mod_id": 10033,
+    "result_id": 25031
+}, {
+    "base_id": 1200001,
+    "mod_id": 10034,
+    "result_id": 25031
+}, {
+    "base_id": 1200001,
+    "mod_id": 20010,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 30009,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 50009,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 40013,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 10014,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 10024,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 60007,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 50024,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 30031,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 40024,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 20024,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 50025,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 40025,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 50034,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 50034,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 20033,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 20033,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 10047,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 10047,
+    "result_id": 25020
+}, {
+    "base_id": 1200001,
+    "mod_id": 10015,
+    "result_id": 25002
+}, {
+    "base_id": 1200001,
+    "mod_id": 20008,
+    "result_id": 25002
+}, {
+    "base_id": 1200001,
+    "mod_id": 50013,
+    "result_id": 25002
+}, {
+    "base_id": 1200001,
+    "mod_id": 40010,
+    "result_id": 25002
+}, {
+    "base_id": 1200001,
+    "mod_id": 60002,
+    "result_id": 25002
+}, {
+    "base_id": 1200001,
+    "mod_id": 10031,
+    "result_id": 25002
+}, {
+    "base_id": 1200001,
+    "mod_id": 20019,
+    "result_id": 25025
+}, {
+    "base_id": 1200001,
+    "mod_id": 10019,
+    "result_id": 25025
+}, {
+    "base_id": 1200001,
+    "mod_id": 40020,
+    "result_id": 25025
+}, {
+    "base_id": 1200001,
+    "mod_id": 60003,
+    "result_id": 25025
+}, {
+    "base_id": 1200001,
+    "mod_id": 30030,
+    "result_id": 25025
+}, {
+    "base_id": 1200001,
+    "mod_id": 20015,
+    "result_id": 25045
+}, {
+    "base_id": 1200001,
+    "mod_id": 40016,
+    "result_id": 25045
+}, {
+    "base_id": 1200001,
+    "mod_id": 30008,
+    "result_id": 25045
+}, {
+    "base_id": 1200001,
+    "mod_id": 50016,
+    "result_id": 25045
+}, {
+    "base_id": 1200001,
+    "mod_id": 10010,
+    "result_id": 25045
+}, {
+    "base_id": 1200001,
+    "mod_id": 60008,
+    "result_id": 25045
+}, {
+    "base_id": 1200001,
+    "mod_id": 30020,
+    "result_id": 25046
+}, {
+    "base_id": 1200001,
+    "mod_id": 60012,
+    "result_id": 25046
+}, {
+    "base_id": 1200001,
+    "mod_id": 30036,
+    "result_id": 25046
+}, {
+    "base_id": 1200001,
+    "mod_id": 20018,
+    "result_id": 25030
+}, {
+    "base_id": 1200001,
+    "mod_id": 30013,
+    "result_id": 25030
+}, {
+    "base_id": 1200001,
+    "mod_id": 40019,
+    "result_id": 25030
+}, {
+    "base_id": 1200001,
+    "mod_id": 10008,
+    "result_id": 25030
+}, {
+    "base_id": 1200001,
+    "mod_id": 60013,
+    "result_id": 25030
+}, {
+    "base_id": 1200001,
+    "mod_id": 30034,
+    "result_id": 25030
+}, {
+    "base_id": 1200001,
+    "mod_id": 10020,
+    "result_id": 25017
+}, {
+    "base_id": 1200001,
+    "mod_id": 60011,
+    "result_id": 25017
+}, {
+    "base_id": 20023,
+    "mod_id": 50027,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 10036,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 50021,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 20028,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 30038,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 50035,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 30041,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 40032,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 10041,
+    "result_id": 25094
+}, {
+    "base_id": 20023,
+    "mod_id": 20021,
+    "result_id": 25096
+}, {
+    "base_id": 20023,
+    "mod_id": 40021,
+    "result_id": 25096
+}, {
+    "base_id": 20023,
+    "mod_id": 10037,
+    "result_id": 25096
+}, {
+    "base_id": 20009,
+    "mod_id": 50027,
+    "result_id": 25093
+}, {
+    "base_id": 20009,
+    "mod_id": 10036,
+    "result_id": 25093
+}, {
+    "base_id": 20009,
+    "mod_id": 50021,
+    "result_id": 25093
+}, {
+    "base_id": 20009,
+    "mod_id": 30038,
+    "result_id": 25093
+}, {
+    "base_id": 20027,
+    "mod_id": 50027,
+    "result_id": 25093
+}, {
+    "base_id": 20027,
+    "mod_id": 10036,
+    "result_id": 25093
+}, {
+    "base_id": 20027,
+    "mod_id": 50021,
+    "result_id": 25093
+}, {
+    "base_id": 20027,
+    "mod_id": 30038,
+    "result_id": 25093
+}, {
+    "base_id": 20009,
+    "mod_id": 20034,
+    "result_id": 25093
+}, {
+    "base_id": 20027,
+    "mod_id": 20034,
+    "result_id": 25093
+}, {
+    "base_id": 20027,
+    "mod_id": 20016,
+    "result_id": 25013
+}, {
+    "base_id": 20027,
+    "mod_id": 40018,
+    "result_id": 25013
+}, {
+    "base_id": 20027,
+    "mod_id": 30020,
+    "result_id": 25013
+}, {
+    "base_id": 20027,
+    "mod_id": 50018,
+    "result_id": 25013
+}, {
+    "base_id": 20027,
+    "mod_id": 10017,
+    "result_id": 25013
+}, {
+    "base_id": 20027,
+    "mod_id": 60012,
+    "result_id": 25013
+}, {
+    "base_id": 20027,
+    "mod_id": 30036,
+    "result_id": 25013
+}, {
+    "base_id": 20027,
+    "mod_id": 20010,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 30009,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 50009,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 40013,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 10014,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 10024,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 60007,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 30031,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 50025,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 40025,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 40037,
+    "result_id": 25053
+}, {
+    "base_id": 20027,
+    "mod_id": 20017,
+    "result_id": 25001
+}, {
+    "base_id": 20027,
+    "mod_id": 40017,
+    "result_id": 25001
+}, {
+    "base_id": 20027,
+    "mod_id": 30019,
+    "result_id": 25001
+}, {
+    "base_id": 20027,
+    "mod_id": 50017,
+    "result_id": 25001
+}, {
+    "base_id": 20027,
+    "mod_id": 60010,
+    "result_id": 25001
+}, {
+    "base_id": 20027,
+    "mod_id": 10032,
+    "result_id": 25001
+}, {
+    "base_id": 20027,
+    "mod_id": 10035,
+    "result_id": 25001
+}, {
+    "base_id": 20027,
+    "mod_id": 20006,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 40007,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 30010,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 50008,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 10011,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 60009,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 10029,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 20037,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 20037,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 20014,
+    "result_id": 25065
+}, {
+    "base_id": 20027,
+    "mod_id": 30018,
+    "result_id": 25065
+}, {
+    "base_id": 20027,
+    "mod_id": 40015,
+    "result_id": 25065
+}, {
+    "base_id": 20027,
+    "mod_id": 50015,
+    "result_id": 25065
+}, {
+    "base_id": 20027,
+    "mod_id": 10003,
+    "result_id": 25065
+}, {
+    "base_id": 20027,
+    "mod_id": 60004,
+    "result_id": 25065
+}, {
+    "base_id": 20027,
+    "mod_id": 30037,
+    "result_id": 25065
+}, {
+    "base_id": 20027,
+    "mod_id": 20012,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 40012,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 30015,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 10012,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 50011,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 60006,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 10026,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 30027,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 50023,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 10027,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 30029,
+    "result_id": 25051
+}, {
+    "base_id": 20004,
+    "mod_id": 10033,
+    "result_id": 25092
+}, {
+    "base_id": 20004,
+    "mod_id": 50026,
+    "result_id": 25092
+}, {
+    "base_id": 20004,
+    "mod_id": 20025,
+    "result_id": 25092
+}, {
+    "base_id": 20003,
+    "mod_id": 10034,
+    "result_id": 25091
+}, {
+    "base_id": 20003,
+    "mod_id": 20025,
+    "result_id": 25091
+}, {
+    "base_id": 20026,
+    "mod_id": 10034,
+    "result_id": 25091
+}, {
+    "base_id": 20026,
+    "mod_id": 20025,
+    "result_id": 25091
+}, {
+    "base_id": 20026,
+    "mod_id": 20013,
+    "result_id": 25036
+}, {
+    "base_id": 20026,
+    "mod_id": 20010,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 30009,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 50009,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 40013,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 10014,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 10024,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 60007,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 50024,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 50025,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 30032,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 30040,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 30040,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 40025,
+    "result_id": 25022
+}, {
+    "base_id": 20026,
+    "mod_id": 40007,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 30010,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 50008,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 10011,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 60009,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 10029,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 10038,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 20037,
+    "result_id": 25011
+}, {
+    "base_id": 20003,
+    "mod_id": 20037,
+    "result_id": 25011
+}, {
+    "base_id": 20026,
+    "mod_id": 20006,
+    "result_id": 25070
+}, {
+    "base_id": 20026,
+    "mod_id": 30023,
+    "result_id": 25070
+}, {
+    "base_id": 20003,
+    "mod_id": 30023,
+    "result_id": 25070
+}, {
+    "base_id": 20026,
+    "mod_id": 10046,
+    "result_id": 25070
+}, {
+    "base_id": 20003,
+    "mod_id": 40036,
+    "result_id": 25070
+}, {
+    "base_id": 20026,
+    "mod_id": 40036,
+    "result_id": 25070
+}, {
+    "base_id": 20026,
+    "mod_id": 20017,
+    "result_id": 25033
+}, {
+    "base_id": 20026,
+    "mod_id": 40017,
+    "result_id": 25033
+}, {
+    "base_id": 20026,
+    "mod_id": 30019,
+    "result_id": 25033
+}, {
+    "base_id": 20026,
+    "mod_id": 50017,
+    "result_id": 25033
+}, {
+    "base_id": 20026,
+    "mod_id": 60010,
+    "result_id": 25033
+}, {
+    "base_id": 20026,
+    "mod_id": 10035,
+    "result_id": 25033
+}, {
+    "base_id": 20026,
+    "mod_id": 40033,
+    "result_id": 25033
+}, {
+    "base_id": 20003,
+    "mod_id": 40033,
+    "result_id": 25033
+}, {
+    "base_id": 20026,
+    "mod_id": 10015,
+    "result_id": 25062
+}, {
+    "base_id": 20026,
+    "mod_id": 20008,
+    "result_id": 25062
+}, {
+    "base_id": 20026,
+    "mod_id": 50013,
+    "result_id": 25062
+}, {
+    "base_id": 20026,
+    "mod_id": 40010,
+    "result_id": 25062
+}, {
+    "base_id": 20026,
+    "mod_id": 60002,
+    "result_id": 25062
+}, {
+    "base_id": 20026,
+    "mod_id": 40020,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 20019,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 10019,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 10021,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 50021,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 60003,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 30030,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 40028,
+    "result_id": 25028
+}, {
+    "base_id": 20026,
+    "mod_id": 40014,
+    "result_id": 25035
+}, {
+    "base_id": 20026,
+    "mod_id": 30017,
+    "result_id": 25035
+}, {
+    "base_id": 20026,
+    "mod_id": 50012,
+    "result_id": 25035
+}, {
+    "base_id": 20026,
+    "mod_id": 10004,
+    "result_id": 25035
+}, {
+    "base_id": 20026,
+    "mod_id": 20014,
+    "result_id": 25066
+}, {
+    "base_id": 20026,
+    "mod_id": 30018,
+    "result_id": 25066
+}, {
+    "base_id": 20026,
+    "mod_id": 40015,
+    "result_id": 25066
+}, {
+    "base_id": 20026,
+    "mod_id": 50015,
+    "result_id": 25066
+}, {
+    "base_id": 20026,
+    "mod_id": 10003,
+    "result_id": 25066
+}, {
+    "base_id": 20026,
+    "mod_id": 60004,
+    "result_id": 25066
+}, {
+    "base_id": 20026,
+    "mod_id": 30037,
+    "result_id": 25066
+}, {
+    "base_id": 20026,
+    "mod_id": 20018,
+    "result_id": 25029
+}, {
+    "base_id": 20026,
+    "mod_id": 30013,
+    "result_id": 25029
+}, {
+    "base_id": 20026,
+    "mod_id": 40019,
+    "result_id": 25029
+}, {
+    "base_id": 20026,
+    "mod_id": 10008,
+    "result_id": 25029
+}, {
+    "base_id": 20026,
+    "mod_id": 60013,
+    "result_id": 25029
+}, {
+    "base_id": 20026,
+    "mod_id": 20020,
+    "result_id": 25023
+}, {
+    "base_id": 20026,
+    "mod_id": 50020,
+    "result_id": 25023
+}, {
+    "base_id": 20026,
+    "mod_id": 10020,
+    "result_id": 25023
+}, {
+    "base_id": 20026,
+    "mod_id": 60011,
+    "result_id": 25023
+}, {
+    "base_id": 20026,
+    "mod_id": 40018,
+    "result_id": 25061
+}, {
+    "base_id": 20026,
+    "mod_id": 20016,
+    "result_id": 25061
+}, {
+    "base_id": 20026,
+    "mod_id": 30020,
+    "result_id": 25061
+}, {
+    "base_id": 20026,
+    "mod_id": 50018,
+    "result_id": 25061
+}, {
+    "base_id": 20026,
+    "mod_id": 10017,
+    "result_id": 25061
+}, {
+    "base_id": 20026,
+    "mod_id": 60012,
+    "result_id": 25061
+}, {
+    "base_id": 20026,
+    "mod_id": 30036,
+    "result_id": 25061
+}, {
+    "base_id": 20007,
+    "mod_id": 40025,
+    "result_id": 25089
+}, {
+    "base_id": 20004,
+    "mod_id": 40025,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 40024,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 30031,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 20024,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 50025,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 20033,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 10040,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 30050,
+    "result_id": 25088
+}, {
+    "base_id": 20004,
+    "mod_id": 10047,
+    "result_id": 25088
+}, {
+    "base_id": 20001,
+    "mod_id": 30032,
+    "result_id": 25087
+}, {
+    "base_id": 20001,
+    "mod_id": 30031,
+    "result_id": 25087
+}, {
+    "base_id": 20001,
+    "mod_id": 20038,
+    "result_id": 25087
+}, {
+    "base_id": 20001,
+    "mod_id": 10047,
+    "result_id": 25087
+}, {
+    "base_id": 20001,
+    "mod_id": 20024,
+    "result_id": 25086
+}, {
+    "base_id": 20001,
+    "mod_id": 50025,
+    "result_id": 25086
+}, {
+    "base_id": 20001,
+    "mod_id": 40025,
+    "result_id": 25086
+}, {
+    "base_id": 20007,
+    "mod_id": 40024,
+    "result_id": 25085
+}, {
+    "base_id": 20007,
+    "mod_id": 30031,
+    "result_id": 25085
+}, {
+    "base_id": 20007,
+    "mod_id": 50024,
+    "result_id": 25085
+}, {
+    "base_id": 20007,
+    "mod_id": 20024,
+    "result_id": 25085
+}, {
+    "base_id": 20007,
+    "mod_id": 50025,
+    "result_id": 25085
+}, {
+    "base_id": 20007,
+    "mod_id": 30032,
+    "result_id": 25085
+}, {
+    "base_id": 20007,
+    "mod_id": 20033,
+    "result_id": 25085
+}, {
+    "base_id": 20023,
+    "mod_id": 20006,
+    "result_id": 25006
+}, {
+    "base_id": 20023,
+    "mod_id": 40007,
+    "result_id": 25006
+}, {
+    "base_id": 20023,
+    "mod_id": 30010,
+    "result_id": 25006
+}, {
+    "base_id": 20023,
+    "mod_id": 50008,
+    "result_id": 25006
+}, {
+    "base_id": 20023,
+    "mod_id": 10011,
+    "result_id": 25006
+}, {
+    "base_id": 20023,
+    "mod_id": 60009,
+    "result_id": 25006
+}, {
+    "base_id": 20023,
+    "mod_id": 10029,
+    "result_id": 25006
+}, {
+    "base_id": 20023,
+    "mod_id": 10038,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 20031,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 30023,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 40030,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 30049,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 10046,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 40036,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 50041,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 20037,
+    "result_id": 25101
+}, {
+    "base_id": 20023,
+    "mod_id": 10033,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 10034,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 40026,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 50026,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 30039,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 40031,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 50033,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 10048,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 50043,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 30051,
+    "result_id": 25090
+}, {
+    "base_id": 20023,
+    "mod_id": 40038,
+    "result_id": 25090
+}, {
+    "base_id": 20009,
+    "mod_id": 20016,
+    "result_id": 25013
+}, {
+    "base_id": 20009,
+    "mod_id": 40018,
+    "result_id": 25013
+}, {
+    "base_id": 20009,
+    "mod_id": 30020,
+    "result_id": 25013
+}, {
+    "base_id": 20009,
+    "mod_id": 50018,
+    "result_id": 25013
+}, {
+    "base_id": 20009,
+    "mod_id": 10017,
+    "result_id": 25013
+}, {
+    "base_id": 20009,
+    "mod_id": 60012,
+    "result_id": 25013
+}, {
+    "base_id": 20009,
+    "mod_id": 30036,
+    "result_id": 25013
+}, {
+    "base_id": 20023,
+    "mod_id": 20012,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 40012,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 30015,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 10012,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 50011,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 60006,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 10026,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 30027,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 10027,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 40023,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 30028,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 30029,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 50030,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 40029,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 20030,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 50031,
+    "result_id": 25077
+}, {
+    "base_id": 20023,
+    "mod_id": 20014,
+    "result_id": 25078
+}, {
+    "base_id": 20023,
+    "mod_id": 30018,
+    "result_id": 25078
+}, {
+    "base_id": 20023,
+    "mod_id": 40015,
+    "result_id": 25078
+}, {
+    "base_id": 20023,
+    "mod_id": 50015,
+    "result_id": 25078
+}, {
+    "base_id": 20023,
+    "mod_id": 10003,
+    "result_id": 25078
+}, {
+    "base_id": 20023,
+    "mod_id": 60004,
+    "result_id": 25078
+}, {
+    "base_id": 20023,
+    "mod_id": 30037,
+    "result_id": 25078
+}, {
+    "base_id": 20023,
+    "mod_id": 20010,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 30009,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 50009,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 40013,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 10014,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 10024,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 60007,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 50024,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 30031,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 40025,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 40037,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 10047,
+    "result_id": 25079
+}, {
+    "base_id": 20023,
+    "mod_id": 20008,
+    "result_id": 25080
+}, {
+    "base_id": 20023,
+    "mod_id": 50013,
+    "result_id": 25080
+}, {
+    "base_id": 20023,
+    "mod_id": 10015,
+    "result_id": 25080
+}, {
+    "base_id": 20023,
+    "mod_id": 40010,
+    "result_id": 25080
+}, {
+    "base_id": 20023,
+    "mod_id": 60002,
+    "result_id": 25080
+}, {
+    "base_id": 20023,
+    "mod_id": 10031,
+    "result_id": 25080
+}, {
+    "base_id": 20023,
+    "mod_id": 20017,
+    "result_id": 25081
+}, {
+    "base_id": 20023,
+    "mod_id": 40017,
+    "result_id": 25081
+}, {
+    "base_id": 20023,
+    "mod_id": 30019,
+    "result_id": 25081
+}, {
+    "base_id": 20023,
+    "mod_id": 50017,
+    "result_id": 25081
+}, {
+    "base_id": 20023,
+    "mod_id": 60010,
+    "result_id": 25081
+}, {
+    "base_id": 20023,
+    "mod_id": 10032,
+    "result_id": 25081
+}, {
+    "base_id": 20023,
+    "mod_id": 10035,
+    "result_id": 25081
+}, {
+    "base_id": 20023,
+    "mod_id": 20018,
+    "result_id": 25082
+}, {
+    "base_id": 20023,
+    "mod_id": 30013,
+    "result_id": 25082
+}, {
+    "base_id": 20023,
+    "mod_id": 40019,
+    "result_id": 25082
+}, {
+    "base_id": 20023,
+    "mod_id": 10008,
+    "result_id": 25082
+}, {
+    "base_id": 20023,
+    "mod_id": 60013,
+    "result_id": 25082
+}, {
+    "base_id": 20023,
+    "mod_id": 30034,
+    "result_id": 25082
+}, {
+    "base_id": 20023,
+    "mod_id": 30014,
+    "result_id": 25083
+}, {
+    "base_id": 20023,
+    "mod_id": 60003,
+    "result_id": 25083
+}, {
+    "base_id": 20023,
+    "mod_id": 50029,
+    "result_id": 25083
+}, {
+    "base_id": 20001,
+    "mod_id": 20021,
+    "result_id": 25075
+}, {
+    "base_id": 20001,
+    "mod_id": 40021,
+    "result_id": 25075
+}, {
+    "base_id": 20001,
+    "mod_id": 30021,
+    "result_id": 25075
+}, {
+    "base_id": 20001,
+    "mod_id": 10037,
+    "result_id": 25075
+}, {
+    "base_id": 20001,
+    "mod_id": 50022,
+    "result_id": 25075
+}, {
+    "base_id": 20001,
+    "mod_id": 20029,
+    "result_id": 25075
+}, {
+    "base_id": 20002,
+    "mod_id": 20028,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 50021,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 10036,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 30038,
+    "result_id": 25095
+}, {
+    "base_id": 20002,
+    "mod_id": 20021,
+    "result_id": 25097
+}, {
+    "base_id": 20002,
+    "mod_id": 10037,
+    "result_id": 25097
+}, {
+    "base_id": 20002,
+    "mod_id": 20029,
+    "result_id": 25097
+}, {
+    "base_id": 20002,
+    "mod_id": 20011,
+    "result_id": 25057
+}, {
+    "base_id": 20002,
+    "mod_id": 40011,
+    "result_id": 25057
+}, {
+    "base_id": 20002,
+    "mod_id": 30016,
+    "result_id": 25057
+}, {
+    "base_id": 20002,
+    "mod_id": 50007,
+    "result_id": 25057
+}, {
+    "base_id": 20002,
+    "mod_id": 10013,
+    "result_id": 25057
+}, {
+    "base_id": 20002,
+    "mod_id": 60001,
+    "result_id": 25057
+}, {
+    "base_id": 20001,
+    "mod_id": 20011,
+    "result_id": 25069
+}, {
+    "base_id": 20001,
+    "mod_id": 40011,
+    "result_id": 25069
+}, {
+    "base_id": 20001,
+    "mod_id": 30016,
+    "result_id": 25069
+}, {
+    "base_id": 20001,
+    "mod_id": 50007,
+    "result_id": 25069
+}, {
+    "base_id": 20001,
+    "mod_id": 10013,
+    "result_id": 25069
+}, {
+    "base_id": 20001,
+    "mod_id": 60001,
+    "result_id": 25069
+}, {
+    "base_id": 20002,
+    "mod_id": 40007,
+    "result_id": 25044
+}, {
+    "base_id": 20002,
+    "mod_id": 30010,
+    "result_id": 25044
+}, {
+    "base_id": 20002,
+    "mod_id": 20006,
+    "result_id": 25044
+}, {
+    "base_id": 20002,
+    "mod_id": 50008,
+    "result_id": 25044
+}, {
+    "base_id": 20002,
+    "mod_id": 10011,
+    "result_id": 25044
+}, {
+    "base_id": 20002,
+    "mod_id": 60009,
+    "result_id": 25044
+}, {
+    "base_id": 20002,
+    "mod_id": 10029,
+    "result_id": 25044
+}, {
+    "base_id": 20007,
+    "mod_id": 20006,
+    "result_id": 25047
+}, {
+    "base_id": 20007,
+    "mod_id": 50008,
+    "result_id": 25047
+}, {
+    "base_id": 20007,
+    "mod_id": 10011,
+    "result_id": 25047
+}, {
+    "base_id": 20007,
+    "mod_id": 40007,
+    "result_id": 25047
+}, {
+    "base_id": 20007,
+    "mod_id": 30010,
+    "result_id": 25047
+}, {
+    "base_id": 20007,
+    "mod_id": 60009,
+    "result_id": 25047
+}, {
+    "base_id": 20007,
+    "mod_id": 10029,
+    "result_id": 25047
+}, {
+    "base_id": 20002,
+    "mod_id": 20017,
+    "result_id": 25042
+}, {
+    "base_id": 20002,
+    "mod_id": 40017,
+    "result_id": 25042
+}, {
+    "base_id": 20002,
+    "mod_id": 30019,
+    "result_id": 25042
+}, {
+    "base_id": 20002,
+    "mod_id": 50017,
+    "result_id": 25042
+}, {
+    "base_id": 20002,
+    "mod_id": 60010,
+    "result_id": 25042
+}, {
+    "base_id": 20002,
+    "mod_id": 10032,
+    "result_id": 25042
+}, {
+    "base_id": 20002,
+    "mod_id": 10035,
+    "result_id": 25042
+}, {
+    "base_id": 20001,
+    "mod_id": 20008,
+    "result_id": 25003
+}, {
+    "base_id": 20001,
+    "mod_id": 50013,
+    "result_id": 25003
+}, {
+    "base_id": 20001,
+    "mod_id": 10015,
+    "result_id": 25003
+}, {
+    "base_id": 20001,
+    "mod_id": 40010,
+    "result_id": 25003
+}, {
+    "base_id": 20001,
+    "mod_id": 60002,
+    "result_id": 25003
+}, {
+    "base_id": 20001,
+    "mod_id": 10031,
+    "result_id": 25003
+}, {
+    "base_id": 20002,
+    "mod_id": 20013,
+    "result_id": 25031
+}, {
+    "base_id": 20002,
+    "mod_id": 10033,
+    "result_id": 25031
+}, {
+    "base_id": 20002,
+    "mod_id": 10034,
+    "result_id": 25031
+}, {
+    "base_id": 20003,
+    "mod_id": 20013,
+    "result_id": 25036
+}, {
+    "base_id": 20005,
+    "mod_id": 20013,
+    "result_id": 25056
+}, {
+    "base_id": 20001,
+    "mod_id": 20013,
+    "result_id": 25039
+}, {
+    "base_id": 20001,
+    "mod_id": 40006,
+    "result_id": 25039
+}, {
+    "base_id": 20001,
+    "mod_id": 30003,
+    "result_id": 25039
+}, {
+    "base_id": 20001,
+    "mod_id": 50014,
+    "result_id": 25039
+}, {
+    "base_id": 20001,
+    "mod_id": 10016,
+    "result_id": 25039
+}, {
+    "base_id": 20001,
+    "mod_id": 40026,
+    "result_id": 25039
+}, {
+    "base_id": 20001,
+    "mod_id": 30039,
+    "result_id": 25039
+}, {
+    "base_id": 20002,
+    "mod_id": 20010,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 30009,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 50009,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 40013,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 10014,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 10024,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 60007,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 50024,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 30031,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 40024,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 20024,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 50025,
+    "result_id": 25020
+}, {
+    "base_id": 20002,
+    "mod_id": 40025,
+    "result_id": 25020
+}, {
+    "base_id": 20004,
+    "mod_id": 20010,
+    "result_id": 25068
+}, {
+    "base_id": 20004,
+    "mod_id": 30009,
+    "result_id": 25068
+}, {
+    "base_id": 20004,
+    "mod_id": 50009,
+    "result_id": 25068
+}, {
+    "base_id": 20004,
+    "mod_id": 40013,
+    "result_id": 25068
+}, {
+    "base_id": 20004,
+    "mod_id": 10014,
+    "result_id": 25068
+}, {
+    "base_id": 20004,
+    "mod_id": 10024,
+    "result_id": 25068
+}, {
+    "base_id": 20004,
+    "mod_id": 60007,
+    "result_id": 25068
+}, {
+    "base_id": 20007,
+    "mod_id": 20010,
+    "result_id": 25021
+}, {
+    "base_id": 20007,
+    "mod_id": 30009,
+    "result_id": 25021
+}, {
+    "base_id": 20007,
+    "mod_id": 50009,
+    "result_id": 25021
+}, {
+    "base_id": 20007,
+    "mod_id": 40013,
+    "result_id": 25021
+}, {
+    "base_id": 20007,
+    "mod_id": 10014,
+    "result_id": 25021
+}, {
+    "base_id": 20007,
+    "mod_id": 10024,
+    "result_id": 25021
+}, {
+    "base_id": 20007,
+    "mod_id": 60007,
+    "result_id": 25021
+}, {
+    "base_id": 20003,
+    "mod_id": 20010,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 30009,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 50009,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 40013,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 10014,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 10024,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 60007,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 50024,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 50025,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 30032,
+    "result_id": 25022
+}, {
+    "base_id": 20003,
+    "mod_id": 40025,
+    "result_id": 25022
+}, {
+    "base_id": 20009,
+    "mod_id": 20010,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 30009,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 50009,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 40013,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 10014,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 10024,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 60007,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 30031,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 50025,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 40025,
+    "result_id": 25053
+}, {
+    "base_id": 20009,
+    "mod_id": 40037,
+    "result_id": 25053
+}, {
+    "base_id": 20005,
+    "mod_id": 20010,
+    "result_id": 25055
+}, {
+    "base_id": 20005,
+    "mod_id": 30009,
+    "result_id": 25055
+}, {
+    "base_id": 20005,
+    "mod_id": 50009,
+    "result_id": 25055
+}, {
+    "base_id": 20005,
+    "mod_id": 40013,
+    "result_id": 25055
+}, {
+    "base_id": 20005,
+    "mod_id": 10014,
+    "result_id": 25055
+}, {
+    "base_id": 20005,
+    "mod_id": 10024,
+    "result_id": 25055
+}, {
+    "base_id": 20005,
+    "mod_id": 60007,
+    "result_id": 25055
+}, {
+    "base_id": 20001,
+    "mod_id": 20010,
+    "result_id": 25072
+}, {
+    "base_id": 20001,
+    "mod_id": 30009,
+    "result_id": 25072
+}, {
+    "base_id": 20001,
+    "mod_id": 50009,
+    "result_id": 25072
+}, {
+    "base_id": 20001,
+    "mod_id": 40013,
+    "result_id": 25072
+}, {
+    "base_id": 20001,
+    "mod_id": 10014,
+    "result_id": 25072
+}, {
+    "base_id": 20001,
+    "mod_id": 10024,
+    "result_id": 25072
+}, {
+    "base_id": 20001,
+    "mod_id": 60007,
+    "result_id": 25072
+}, {
+    "base_id": 20003,
+    "mod_id": 40007,
+    "result_id": 25011
+}, {
+    "base_id": 20003,
+    "mod_id": 30010,
+    "result_id": 25011
+}, {
+    "base_id": 20003,
+    "mod_id": 50008,
+    "result_id": 25011
+}, {
+    "base_id": 20003,
+    "mod_id": 10011,
+    "result_id": 25011
+}, {
+    "base_id": 20003,
+    "mod_id": 60009,
+    "result_id": 25011
+}, {
+    "base_id": 20003,
+    "mod_id": 10029,
+    "result_id": 25011
+}, {
+    "base_id": 20005,
+    "mod_id": 40007,
+    "result_id": 25054
+}, {
+    "base_id": 20005,
+    "mod_id": 30010,
+    "result_id": 25054
+}, {
+    "base_id": 20005,
+    "mod_id": 50008,
+    "result_id": 25054
+}, {
+    "base_id": 20005,
+    "mod_id": 10011,
+    "result_id": 25054
+}, {
+    "base_id": 20003,
+    "mod_id": 20006,
+    "result_id": 25070
+}, {
+    "base_id": 20003,
+    "mod_id": 10046,
+    "result_id": 25070
+}, {
+    "base_id": 20005,
+    "mod_id": 20006,
+    "result_id": 25071
+}, {
+    "base_id": 20009,
+    "mod_id": 20017,
+    "result_id": 25001
+}, {
+    "base_id": 20009,
+    "mod_id": 40017,
+    "result_id": 25001
+}, {
+    "base_id": 20009,
+    "mod_id": 30019,
+    "result_id": 25001
+}, {
+    "base_id": 20009,
+    "mod_id": 50017,
+    "result_id": 25001
+}, {
+    "base_id": 20009,
+    "mod_id": 60010,
+    "result_id": 25001
+}, {
+    "base_id": 20009,
+    "mod_id": 10032,
+    "result_id": 25001
+}, {
+    "base_id": 20009,
+    "mod_id": 10035,
+    "result_id": 25001
+}, {
+    "base_id": 20003,
+    "mod_id": 20017,
+    "result_id": 25033
+}, {
+    "base_id": 20003,
+    "mod_id": 40017,
+    "result_id": 25033
+}, {
+    "base_id": 20003,
+    "mod_id": 30019,
+    "result_id": 25033
+}, {
+    "base_id": 20003,
+    "mod_id": 50017,
+    "result_id": 25033
+}, {
+    "base_id": 20003,
+    "mod_id": 60010,
+    "result_id": 25033
+}, {
+    "base_id": 20003,
+    "mod_id": 10032,
+    "result_id": 25033
+}, {
+    "base_id": 20003,
+    "mod_id": 10035,
+    "result_id": 25033
+}, {
+    "base_id": 20002,
+    "mod_id": 10015,
+    "result_id": 25002
+}, {
+    "base_id": 20002,
+    "mod_id": 20008,
+    "result_id": 25002
+}, {
+    "base_id": 20002,
+    "mod_id": 50013,
+    "result_id": 25002
+}, {
+    "base_id": 20002,
+    "mod_id": 40010,
+    "result_id": 25002
+}, {
+    "base_id": 20002,
+    "mod_id": 60002,
+    "result_id": 25002
+}, {
+    "base_id": 20002,
+    "mod_id": 10031,
+    "result_id": 25002
+}, {
+    "base_id": 20007,
+    "mod_id": 10015,
+    "result_id": 25064
+}, {
+    "base_id": 20007,
+    "mod_id": 20008,
+    "result_id": 25064
+}, {
+    "base_id": 20007,
+    "mod_id": 50013,
+    "result_id": 25064
+}, {
+    "base_id": 20007,
+    "mod_id": 40010,
+    "result_id": 25064
+}, {
+    "base_id": 20007,
+    "mod_id": 60002,
+    "result_id": 25064
+}, {
+    "base_id": 20007,
+    "mod_id": 10031,
+    "result_id": 25064
+}, {
+    "base_id": 20004,
+    "mod_id": 10015,
+    "result_id": 25063
+}, {
+    "base_id": 20004,
+    "mod_id": 20008,
+    "result_id": 25063
+}, {
+    "base_id": 20004,
+    "mod_id": 50013,
+    "result_id": 25063
+}, {
+    "base_id": 20004,
+    "mod_id": 40010,
+    "result_id": 25063
+}, {
+    "base_id": 20004,
+    "mod_id": 60002,
+    "result_id": 25063
+}, {
+    "base_id": 20004,
+    "mod_id": 10031,
+    "result_id": 25063
+}, {
+    "base_id": 20003,
+    "mod_id": 10015,
+    "result_id": 25062
+}, {
+    "base_id": 20003,
+    "mod_id": 20008,
+    "result_id": 25062
+}, {
+    "base_id": 20003,
+    "mod_id": 50013,
+    "result_id": 25062
+}, {
+    "base_id": 20003,
+    "mod_id": 40010,
+    "result_id": 25062
+}, {
+    "base_id": 20003,
+    "mod_id": 60002,
+    "result_id": 25062
+}, {
+    "base_id": 20003,
+    "mod_id": 10031,
+    "result_id": 25062
+}, {
+    "base_id": 20001,
+    "mod_id": 20006,
+    "result_id": 25004
+}, {
+    "base_id": 20001,
+    "mod_id": 40007,
+    "result_id": 25004
+}, {
+    "base_id": 20001,
+    "mod_id": 30010,
+    "result_id": 25004
+}, {
+    "base_id": 20001,
+    "mod_id": 50008,
+    "result_id": 25004
+}, {
+    "base_id": 20001,
+    "mod_id": 10011,
+    "result_id": 25004
+}, {
+    "base_id": 20001,
+    "mod_id": 60009,
+    "result_id": 25004
+}, {
+    "base_id": 20001,
+    "mod_id": 10029,
+    "result_id": 25004
+}, {
+    "base_id": 20004,
+    "mod_id": 20006,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 40007,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 30010,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 50008,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 10011,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 60009,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 10029,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 40030,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 30049,
+    "result_id": 25005
+}, {
+    "base_id": 20004,
+    "mod_id": 50041,
+    "result_id": 25005
+}, {
+    "base_id": 20009,
+    "mod_id": 20006,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 40007,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 30010,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 50008,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 10011,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 60009,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 10029,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 10046,
+    "result_id": 25052
+}, {
+    "base_id": 20009,
+    "mod_id": 50041,
+    "result_id": 25052
+}, {
+    "base_id": 20027,
+    "mod_id": 50041,
+    "result_id": 25052
+}, {
+    "base_id": 20002,
+    "mod_id": 20019,
+    "result_id": 25025
+}, {
+    "base_id": 20002,
+    "mod_id": 10019,
+    "result_id": 25025
+}, {
+    "base_id": 20002,
+    "mod_id": 40020,
+    "result_id": 25025
+}, {
+    "base_id": 20002,
+    "mod_id": 60003,
+    "result_id": 25025
+}, {
+    "base_id": 20002,
+    "mod_id": 30030,
+    "result_id": 25025
+}, {
+    "base_id": 20007,
+    "mod_id": 30014,
+    "result_id": 25027
+}, {
+    "base_id": 20007,
+    "mod_id": 10021,
+    "result_id": 25027
+}, {
+    "base_id": 20007,
+    "mod_id": 60003,
+    "result_id": 25027
+}, {
+    "base_id": 20001,
+    "mod_id": 30014,
+    "result_id": 25007
+}, {
+    "base_id": 20001,
+    "mod_id": 40020,
+    "result_id": 25026
+}, {
+    "base_id": 20001,
+    "mod_id": 20019,
+    "result_id": 25026
+}, {
+    "base_id": 20001,
+    "mod_id": 10019,
+    "result_id": 25026
+}, {
+    "base_id": 20001,
+    "mod_id": 10021,
+    "result_id": 25026
+}, {
+    "base_id": 20001,
+    "mod_id": 60003,
+    "result_id": 25026
+}, {
+    "base_id": 20001,
+    "mod_id": 30030,
+    "result_id": 25026
+}, {
+    "base_id": 20001,
+    "mod_id": 50027,
+    "result_id": 25026
+}, {
+    "base_id": 20001,
+    "mod_id": 10036,
+    "result_id": 25026
+}, {
+    "base_id": 20003,
+    "mod_id": 40020,
+    "result_id": 25028
+}, {
+    "base_id": 20003,
+    "mod_id": 20019,
+    "result_id": 25028
+}, {
+    "base_id": 20003,
+    "mod_id": 10019,
+    "result_id": 25028
+}, {
+    "base_id": 20003,
+    "mod_id": 10021,
+    "result_id": 25028
+}, {
+    "base_id": 20003,
+    "mod_id": 50021,
+    "result_id": 25028
+}, {
+    "base_id": 20003,
+    "mod_id": 60003,
+    "result_id": 25028
+}, {
+    "base_id": 20003,
+    "mod_id": 30030,
+    "result_id": 25028
+}, {
+    "base_id": 20003,
+    "mod_id": 40028,
+    "result_id": 25028
+}, {
+    "base_id": 20007,
+    "mod_id": 20014,
+    "result_id": 25008
+}, {
+    "base_id": 20007,
+    "mod_id": 30018,
+    "result_id": 25008
+}, {
+    "base_id": 20007,
+    "mod_id": 40015,
+    "result_id": 25008
+}, {
+    "base_id": 20007,
+    "mod_id": 50015,
+    "result_id": 25008
+}, {
+    "base_id": 20007,
+    "mod_id": 10003,
+    "result_id": 25008
+}, {
+    "base_id": 20007,
+    "mod_id": 60004,
+    "result_id": 25008
+}, {
+    "base_id": 20007,
+    "mod_id": 30037,
+    "result_id": 25008
+}, {
+    "base_id": 20002,
+    "mod_id": 20014,
+    "result_id": 25040
+}, {
+    "base_id": 20002,
+    "mod_id": 10003,
+    "result_id": 25040
+}, {
+    "base_id": 20002,
+    "mod_id": 60004,
+    "result_id": 25040
+}, {
+    "base_id": 20002,
+    "mod_id": 30037,
+    "result_id": 25040
+}, {
+    "base_id": 1200001,
+    "mod_id": 20014,
+    "result_id": 25040
+}, {
+    "base_id": 1200001,
+    "mod_id": 10003,
+    "result_id": 25040
+}, {
+    "base_id": 1200001,
+    "mod_id": 60004,
+    "result_id": 25040
+}, {
+    "base_id": 1200001,
+    "mod_id": 30037,
+    "result_id": 25040
+}, {
+    "base_id": 20002,
+    "mod_id": 30018,
+    "result_id": 25041
+}, {
+    "base_id": 20002,
+    "mod_id": 50015,
+    "result_id": 25009
+}, {
+    "base_id": 20002,
+    "mod_id": 20012,
+    "result_id": 25010
+}, {
+    "base_id": 20002,
+    "mod_id": 40012,
+    "result_id": 25010
+}, {
+    "base_id": 20002,
+    "mod_id": 30015,
+    "result_id": 25010
+}, {
+    "base_id": 20002,
+    "mod_id": 10012,
+    "result_id": 25010
+}, {
+    "base_id": 20002,
+    "mod_id": 50011,
+    "result_id": 25010
+}, {
+    "base_id": 20002,
+    "mod_id": 60006,
+    "result_id": 25010
+}, {
+    "base_id": 20002,
+    "mod_id": 30028,
+    "result_id": 25010
+}, {
+    "base_id": 1200001,
+    "mod_id": 20012,
+    "result_id": 25010
+}, {
+    "base_id": 1200001,
+    "mod_id": 40012,
+    "result_id": 25010
+}, {
+    "base_id": 1200001,
+    "mod_id": 30015,
+    "result_id": 25010
+}, {
+    "base_id": 1200001,
+    "mod_id": 10012,
+    "result_id": 25010
+}, {
+    "base_id": 1200001,
+    "mod_id": 50011,
+    "result_id": 25010
+}, {
+    "base_id": 1200001,
+    "mod_id": 60006,
+    "result_id": 25010
+}, {
+    "base_id": 1200001,
+    "mod_id": 30028,
+    "result_id": 25010
+}, {
+    "base_id": 20007,
+    "mod_id": 20012,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 40012,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 30015,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 10012,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 50011,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 60006,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 10026,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 30027,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 50023,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 10027,
+    "result_id": 25032
+}, {
+    "base_id": 20007,
+    "mod_id": 30029,
+    "result_id": 25032
+}, {
+    "base_id": 20001,
+    "mod_id": 20012,
+    "result_id": 25034
+}, {
+    "base_id": 20001,
+    "mod_id": 40012,
+    "result_id": 25034
+}, {
+    "base_id": 20001,
+    "mod_id": 30015,
+    "result_id": 25034
+}, {
+    "base_id": 20001,
+    "mod_id": 10012,
+    "result_id": 25034
+}, {
+    "base_id": 20001,
+    "mod_id": 50011,
+    "result_id": 25034
+}, {
+    "base_id": 20001,
+    "mod_id": 60006,
+    "result_id": 25034
+}, {
+    "base_id": 20001,
+    "mod_id": 50023,
+    "result_id": 25084
+}, {
+    "base_id": 20001,
+    "mod_id": 30027,
+    "result_id": 25084
+}, {
+    "base_id": 20001,
+    "mod_id": 10027,
+    "result_id": 25084
+}, {
+    "base_id": 20001,
+    "mod_id": 30028,
+    "result_id": 25084
+}, {
+    "base_id": 20001,
+    "mod_id": 30045,
+    "result_id": 25084
+}, {
+    "base_id": 20003,
+    "mod_id": 40014,
+    "result_id": 25035
+}, {
+    "base_id": 20003,
+    "mod_id": 30017,
+    "result_id": 25035
+}, {
+    "base_id": 20003,
+    "mod_id": 50012,
+    "result_id": 25035
+}, {
+    "base_id": 20003,
+    "mod_id": 10004,
+    "result_id": 25035
+}, {
+    "base_id": 20001,
+    "mod_id": 20015,
+    "result_id": 25037
+}, {
+    "base_id": 20001,
+    "mod_id": 40016,
+    "result_id": 25037
+}, {
+    "base_id": 20001,
+    "mod_id": 30008,
+    "result_id": 25037
+}, {
+    "base_id": 20001,
+    "mod_id": 50016,
+    "result_id": 25037
+}, {
+    "base_id": 20001,
+    "mod_id": 10010,
+    "result_id": 25037
+}, {
+    "base_id": 20001,
+    "mod_id": 60008,
+    "result_id": 25037
+}, {
+    "base_id": 20002,
+    "mod_id": 20015,
+    "result_id": 25045
+}, {
+    "base_id": 20002,
+    "mod_id": 40016,
+    "result_id": 25045
+}, {
+    "base_id": 20002,
+    "mod_id": 30008,
+    "result_id": 25045
+}, {
+    "base_id": 20002,
+    "mod_id": 50016,
+    "result_id": 25045
+}, {
+    "base_id": 20002,
+    "mod_id": 10010,
+    "result_id": 25045
+}, {
+    "base_id": 20002,
+    "mod_id": 60008,
+    "result_id": 25045
+}, {
+    "base_id": 20002,
+    "mod_id": 30020,
+    "result_id": 25046
+}, {
+    "base_id": 20002,
+    "mod_id": 60012,
+    "result_id": 25046
+}, {
+    "base_id": 20002,
+    "mod_id": 30036,
+    "result_id": 25046
+}, {
+    "base_id": 20007,
+    "mod_id": 30020,
+    "result_id": 25049
+}, {
+    "base_id": 20007,
+    "mod_id": 60012,
+    "result_id": 25049
+}, {
+    "base_id": 20007,
+    "mod_id": 30036,
+    "result_id": 25049
+}, {
+    "base_id": 20001,
+    "mod_id": 30020,
+    "result_id": 25050
+}, {
+    "base_id": 20001,
+    "mod_id": 20014,
+    "result_id": 25012
+}, {
+    "base_id": 20001,
+    "mod_id": 30018,
+    "result_id": 25012
+}, {
+    "base_id": 20001,
+    "mod_id": 40015,
+    "result_id": 25012
+}, {
+    "base_id": 20001,
+    "mod_id": 50015,
+    "result_id": 25012
+}, {
+    "base_id": 20001,
+    "mod_id": 10003,
+    "result_id": 25012
+}, {
+    "base_id": 20001,
+    "mod_id": 60004,
+    "result_id": 25012
+}, {
+    "base_id": 20001,
+    "mod_id": 30037,
+    "result_id": 25012
+}, {
+    "base_id": 20003,
+    "mod_id": 20014,
+    "result_id": 25066
+}, {
+    "base_id": 20003,
+    "mod_id": 30018,
+    "result_id": 25066
+}, {
+    "base_id": 20003,
+    "mod_id": 40015,
+    "result_id": 25066
+}, {
+    "base_id": 20003,
+    "mod_id": 50015,
+    "result_id": 25066
+}, {
+    "base_id": 20003,
+    "mod_id": 10003,
+    "result_id": 25066
+}, {
+    "base_id": 20003,
+    "mod_id": 60004,
+    "result_id": 25066
+}, {
+    "base_id": 20003,
+    "mod_id": 30037,
+    "result_id": 25066
+}, {
+    "base_id": 20009,
+    "mod_id": 20014,
+    "result_id": 25065
+}, {
+    "base_id": 20009,
+    "mod_id": 30018,
+    "result_id": 25065
+}, {
+    "base_id": 20009,
+    "mod_id": 40015,
+    "result_id": 25065
+}, {
+    "base_id": 20009,
+    "mod_id": 50015,
+    "result_id": 25065
+}, {
+    "base_id": 20009,
+    "mod_id": 10003,
+    "result_id": 25065
+}, {
+    "base_id": 20009,
+    "mod_id": 60004,
+    "result_id": 25065
+}, {
+    "base_id": 20009,
+    "mod_id": 30037,
+    "result_id": 25065
+}, {
+    "base_id": 20005,
+    "mod_id": 20018,
+    "result_id": 25014
+}, {
+    "base_id": 20005,
+    "mod_id": 30013,
+    "result_id": 25014
+}, {
+    "base_id": 20005,
+    "mod_id": 40019,
+    "result_id": 25014
+}, {
+    "base_id": 20005,
+    "mod_id": 10008,
+    "result_id": 25014
+}, {
+    "base_id": 20001,
+    "mod_id": 20018,
+    "result_id": 25067
+}, {
+    "base_id": 20001,
+    "mod_id": 30013,
+    "result_id": 25067
+}, {
+    "base_id": 20001,
+    "mod_id": 40019,
+    "result_id": 25067
+}, {
+    "base_id": 20001,
+    "mod_id": 10008,
+    "result_id": 25067
+}, {
+    "base_id": 20001,
+    "mod_id": 60013,
+    "result_id": 25067
+}, {
+    "base_id": 20001,
+    "mod_id": 30034,
+    "result_id": 25067
+}, {
+    "base_id": 20003,
+    "mod_id": 20018,
+    "result_id": 25029
+}, {
+    "base_id": 20003,
+    "mod_id": 30013,
+    "result_id": 25029
+}, {
+    "base_id": 20003,
+    "mod_id": 40019,
+    "result_id": 25029
+}, {
+    "base_id": 20003,
+    "mod_id": 10008,
+    "result_id": 25029
+}, {
+    "base_id": 20003,
+    "mod_id": 60013,
+    "result_id": 25029
+}, {
+    "base_id": 20003,
+    "mod_id": 30034,
+    "result_id": 25029
+}, {
+    "base_id": 20002,
+    "mod_id": 20018,
+    "result_id": 25030
+}, {
+    "base_id": 20002,
+    "mod_id": 30013,
+    "result_id": 25030
+}, {
+    "base_id": 20002,
+    "mod_id": 40019,
+    "result_id": 25030
+}, {
+    "base_id": 20002,
+    "mod_id": 10008,
+    "result_id": 25030
+}, {
+    "base_id": 20002,
+    "mod_id": 60013,
+    "result_id": 25030
+}, {
+    "base_id": 20002,
+    "mod_id": 30034,
+    "result_id": 25030
+}, {
+    "base_id": 20004,
+    "mod_id": 20012,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 40012,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 30015,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 10012,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 50011,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 60006,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 10026,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 30027,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 50023,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 10027,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 30029,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 50031,
+    "result_id": 25015
+}, {
+    "base_id": 20004,
+    "mod_id": 10043,
+    "result_id": 25015
+}, {
+    "base_id": 20009,
+    "mod_id": 20012,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 40012,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 30015,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 10012,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 50011,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 60006,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 10026,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 30027,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 50023,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 10027,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 30029,
+    "result_id": 25051
+}, {
+    "base_id": 20009,
+    "mod_id": 30044,
+    "result_id": 25051
+}, {
+    "base_id": 20027,
+    "mod_id": 30044,
+    "result_id": 25051
+}, {
+    "base_id": 20003,
+    "mod_id": 20012,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 40012,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 30015,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 10012,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 50011,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 60006,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 10026,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 30027,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 10027,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 40023,
+    "result_id": 25060
+}, {
+    "base_id": 20003,
+    "mod_id": 30028,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 20012,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 40012,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 30015,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 10012,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 50011,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 60006,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 10026,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 30027,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 10027,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 40023,
+    "result_id": 25060
+}, {
+    "base_id": 20026,
+    "mod_id": 30028,
+    "result_id": 25060
+}, {
+    "base_id": 20001,
+    "mod_id": 20020,
+    "result_id": 25016
+}, {
+    "base_id": 20001,
+    "mod_id": 50020,
+    "result_id": 25016
+}, {
+    "base_id": 20001,
+    "mod_id": 10020,
+    "result_id": 25016
+}, {
+    "base_id": 20001,
+    "mod_id": 60011,
+    "result_id": 25016
+}, {
+    "base_id": 20002,
+    "mod_id": 10020,
+    "result_id": 25017
+}, {
+    "base_id": 20002,
+    "mod_id": 60011,
+    "result_id": 25017
+}, {
+    "base_id": 20004,
+    "mod_id": 20020,
+    "result_id": 25018
+}, {
+    "base_id": 20004,
+    "mod_id": 50020,
+    "result_id": 25018
+}, {
+    "base_id": 20004,
+    "mod_id": 10020,
+    "result_id": 25018
+}, {
+    "base_id": 20004,
+    "mod_id": 60011,
+    "result_id": 25018
+}, {
+    "base_id": 20007,
+    "mod_id": 20020,
+    "result_id": 25019
+}, {
+    "base_id": 20007,
+    "mod_id": 50020,
+    "result_id": 25019
+}, {
+    "base_id": 20007,
+    "mod_id": 10020,
+    "result_id": 25019
+}, {
+    "base_id": 20007,
+    "mod_id": 60011,
+    "result_id": 25019
+}, {
+    "base_id": 20003,
+    "mod_id": 20020,
+    "result_id": 25023
+}, {
+    "base_id": 20003,
+    "mod_id": 50020,
+    "result_id": 25023
+}, {
+    "base_id": 20003,
+    "mod_id": 10020,
+    "result_id": 25023
+}, {
+    "base_id": 20003,
+    "mod_id": 60011,
+    "result_id": 25023
+}, {
+    "base_id": 20007,
+    "mod_id": 30003,
+    "result_id": 25048
+}, {
+    "base_id": 20007,
+    "mod_id": 50014,
+    "result_id": 25048
+}, {
+    "base_id": 20007,
+    "mod_id": 60005,
+    "result_id": 25048
+}, {
+    "base_id": 20007,
+    "mod_id": 20025,
+    "result_id": 25048
+}, {
+    "base_id": 20007,
+    "mod_id": 50026,
+    "result_id": 25048
+}, {
+    "base_id": 20007,
+    "mod_id": 30033,
+    "result_id": 25048
+}, {
+    "base_id": 20001,
+    "mod_id": 20016,
+    "result_id": 25059
+}, {
+    "base_id": 20001,
+    "mod_id": 40018,
+    "result_id": 25059
+}, {
+    "base_id": 20001,
+    "mod_id": 50018,
+    "result_id": 25059
+}, {
+    "base_id": 20001,
+    "mod_id": 10017,
+    "result_id": 25059
+}, {
+    "base_id": 20001,
+    "mod_id": 60012,
+    "result_id": 25059
+}, {
+    "base_id": 20001,
+    "mod_id": 30036,
+    "result_id": 25059
+}, {
+    "base_id": 20003,
+    "mod_id": 40018,
+    "result_id": 25061
+}, {
+    "base_id": 20003,
+    "mod_id": 20016,
+    "result_id": 25061
+}, {
+    "base_id": 20003,
+    "mod_id": 30020,
+    "result_id": 25061
+}, {
+    "base_id": 20003,
+    "mod_id": 50018,
+    "result_id": 25061
+}, {
+    "base_id": 20003,
+    "mod_id": 10017,
+    "result_id": 25061
+}, {
+    "base_id": 20003,
+    "mod_id": 60012,
+    "result_id": 25061
+}, {
+    "base_id": 20003,
+    "mod_id": 30036,
+    "result_id": 25061
+}, {
+    "base_id": 30007,
+    "mod_id": 40038,
+    "result_id": 35122
+}, {
+    "base_id": 30048,
+    "mod_id": 40038,
+    "result_id": 35122
+}, {
+    "base_id": 30007,
+    "mod_id": 10033,
+    "result_id": 35122
+}, {
+    "base_id": 30048,
+    "mod_id": 10033,
+    "result_id": 35122
+}, {
+    "base_id": 30007,
+    "mod_id": 50026,
+    "result_id": 35122
+}, {
+    "base_id": 30048,
+    "mod_id": 50026,
+    "result_id": 35122
+}, {
+    "base_id": 30007,
+    "mod_id": 30039,
+    "result_id": 35122
+}, {
+    "base_id": 30048,
+    "mod_id": 30039,
+    "result_id": 35122
+}, {
+    "base_id": 30005,
+    "mod_id": 10048,
+    "result_id": 35121
+}, {
+    "base_id": 30005,
+    "mod_id": 50043,
+    "result_id": 35121
+}, {
+    "base_id": 30005,
+    "mod_id": 40038,
+    "result_id": 35121
+}, {
+    "base_id": 30005,
+    "mod_id": 30051,
+    "result_id": 35121
+}, {
+    "base_id": 30005,
+    "mod_id": 50034,
+    "result_id": 35120
+}, {
+    "base_id": 30005,
+    "mod_id": 30040,
+    "result_id": 35120
+}, {
+    "base_id": 30005,
+    "mod_id": 10040,
+    "result_id": 35120
+}, {
+    "base_id": 30005,
+    "mod_id": 30050,
+    "result_id": 35120
+}, {
+    "base_id": 30005,
+    "mod_id": 20038,
+    "result_id": 35120
+}, {
+    "base_id": 30005,
+    "mod_id": 50042,
+    "result_id": 35120
+}, {
+    "base_id": 30007,
+    "mod_id": 10040,
+    "result_id": 35119
+}, {
+    "base_id": 30048,
+    "mod_id": 10040,
+    "result_id": 35119
+}, {
+    "base_id": 30007,
+    "mod_id": 30050,
+    "result_id": 35119
+}, {
+    "base_id": 30048,
+    "mod_id": 30050,
+    "result_id": 35119
+}, {
+    "base_id": 30007,
+    "mod_id": 40037,
+    "result_id": 35119
+}, {
+    "base_id": 30048,
+    "mod_id": 40037,
+    "result_id": 35119
+}, {
+    "base_id": 30007,
+    "mod_id": 10047,
+    "result_id": 35119
+}, {
+    "base_id": 30048,
+    "mod_id": 10047,
+    "result_id": 35119
+}, {
+    "base_id": 30006,
+    "mod_id": 50041,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 50041,
+    "result_id": 35118
+}, {
+    "base_id": 30006,
+    "mod_id": 50032,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 50032,
+    "result_id": 35118
+}, {
+    "base_id": 30006,
+    "mod_id": 20031,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 20031,
+    "result_id": 35118
+}, {
+    "base_id": 30006,
+    "mod_id": 10046,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 10046,
+    "result_id": 35118
+}, {
+    "base_id": 30006,
+    "mod_id": 10038,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 10038,
+    "result_id": 35118
+}, {
+    "base_id": 30006,
+    "mod_id": 40030,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 40030,
+    "result_id": 35118
+}, {
+    "base_id": 30006,
+    "mod_id": 30049,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 30049,
+    "result_id": 35118
+}, {
+    "base_id": 30006,
+    "mod_id": 40036,
+    "result_id": 35118
+}, {
+    "base_id": 30035,
+    "mod_id": 40036,
+    "result_id": 35118
+}, {
+    "base_id": 30001,
+    "mod_id": 10046,
+    "result_id": 35117
+}, {
+    "base_id": 1300002,
+    "mod_id": 10046,
+    "result_id": 35117
+}, {
+    "base_id": 30001,
+    "mod_id": 40036,
+    "result_id": 35117
+}, {
+    "base_id": 1300002,
+    "mod_id": 40036,
+    "result_id": 35117
+}, {
+    "base_id": 30001,
+    "mod_id": 30023,
+    "result_id": 35117
+}, {
+    "base_id": 1300002,
+    "mod_id": 30023,
+    "result_id": 35117
+}, {
+    "base_id": 30001,
+    "mod_id": 50041,
+    "result_id": 35117
+}, {
+    "base_id": 1300002,
+    "mod_id": 50041,
+    "result_id": 35117
+}, {
+    "base_id": 30005,
+    "mod_id": 30049,
+    "result_id": 35116
+}, {
+    "base_id": 30007,
+    "mod_id": 30049,
+    "result_id": 35116
+}, {
+    "base_id": 30048,
+    "mod_id": 30049,
+    "result_id": 35116
+}, {
+    "base_id": 30005,
+    "mod_id": 10046,
+    "result_id": 35116
+}, {
+    "base_id": 30007,
+    "mod_id": 10046,
+    "result_id": 35116
+}, {
+    "base_id": 30048,
+    "mod_id": 10046,
+    "result_id": 35116
+}, {
+    "base_id": 30005,
+    "mod_id": 40036,
+    "result_id": 35116
+}, {
+    "base_id": 30005,
+    "mod_id": 50041,
+    "result_id": 35116
+}, {
+    "base_id": 30007,
+    "mod_id": 50041,
+    "result_id": 35116
+}, {
+    "base_id": 30048,
+    "mod_id": 50041,
+    "result_id": 35116
+}, {
+    "base_id": 30002,
+    "mod_id": 20036,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 20036,
+    "result_id": 35115
+}, {
+    "base_id": 30002,
+    "mod_id": 30046,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 30046,
+    "result_id": 35115
+}, {
+    "base_id": 30002,
+    "mod_id": 10044,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 10044,
+    "result_id": 35115
+}, {
+    "base_id": 30002,
+    "mod_id": 50039,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 50039,
+    "result_id": 35115
+}, {
+    "base_id": 30002,
+    "mod_id": 30047,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 30047,
+    "result_id": 35115
+}, {
+    "base_id": 30002,
+    "mod_id": 40035,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 40035,
+    "result_id": 35115
+}, {
+    "base_id": 30002,
+    "mod_id": 10045,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 10045,
+    "result_id": 35115
+}, {
+    "base_id": 30002,
+    "mod_id": 50040,
+    "result_id": 35115
+}, {
+    "base_id": 1300001,
+    "mod_id": 50040,
+    "result_id": 35115
+}, {
+    "base_id": 30007,
+    "mod_id": 30046,
+    "result_id": 35114
+}, {
+    "base_id": 30007,
+    "mod_id": 10044,
+    "result_id": 35114
+}, {
+    "base_id": 30007,
+    "mod_id": 50039,
+    "result_id": 35114
+}, {
+    "base_id": 30007,
+    "mod_id": 40035,
+    "result_id": 35114
+}, {
+    "base_id": 30007,
+    "mod_id": 50040,
+    "result_id": 35114
+}, {
+    "base_id": 30048,
+    "mod_id": 30046,
+    "result_id": 35114
+}, {
+    "base_id": 30048,
+    "mod_id": 10044,
+    "result_id": 35114
+}, {
+    "base_id": 30048,
+    "mod_id": 50039,
+    "result_id": 35114
+}, {
+    "base_id": 30048,
+    "mod_id": 40035,
+    "result_id": 35114
+}, {
+    "base_id": 30048,
+    "mod_id": 50040,
+    "result_id": 35114
+}, {
+    "base_id": 30005,
+    "mod_id": 30046,
+    "result_id": 35113
+}, {
+    "base_id": 30005,
+    "mod_id": 10044,
+    "result_id": 35113
+}, {
+    "base_id": 30005,
+    "mod_id": 30047,
+    "result_id": 35113
+}, {
+    "base_id": 30005,
+    "mod_id": 50040,
+    "result_id": 35113
+}, {
+    "base_id": 30001,
+    "mod_id": 10043,
+    "result_id": 35112
+}, {
+    "base_id": 1300002,
+    "mod_id": 10043,
+    "result_id": 35112
+}, {
+    "base_id": 30001,
+    "mod_id": 30044,
+    "result_id": 35112
+}, {
+    "base_id": 30001,
+    "mod_id": 20035,
+    "result_id": 35112
+}, {
+    "base_id": 1300002,
+    "mod_id": 30044,
+    "result_id": 35112
+}, {
+    "base_id": 1300002,
+    "mod_id": 20035,
+    "result_id": 35112
+}, {
+    "base_id": 30006,
+    "mod_id": 30044,
+    "result_id": 35111
+}, {
+    "base_id": 30035,
+    "mod_id": 30044,
+    "result_id": 35111
+}, {
+    "base_id": 30006,
+    "mod_id": 50037,
+    "result_id": 35111
+}, {
+    "base_id": 30035,
+    "mod_id": 50037,
+    "result_id": 35111
+}, {
+    "base_id": 30006,
+    "mod_id": 30045,
+    "result_id": 35111
+}, {
+    "base_id": 30035,
+    "mod_id": 30045,
+    "result_id": 35111
+}, {
+    "base_id": 30006,
+    "mod_id": 10042,
+    "result_id": 35110
+}, {
+    "base_id": 30035,
+    "mod_id": 10042,
+    "result_id": 35110
+}, {
+    "base_id": 30006,
+    "mod_id": 30042,
+    "result_id": 35110
+}, {
+    "base_id": 30035,
+    "mod_id": 30042,
+    "result_id": 35110
+}, {
+    "base_id": 30006,
+    "mod_id": 30043,
+    "result_id": 35110
+}, {
+    "base_id": 30035,
+    "mod_id": 30043,
+    "result_id": 35110
+}, {
+    "base_id": 30005,
+    "mod_id": 40033,
+    "result_id": 35109
+}, {
+    "base_id": 30005,
+    "mod_id": 50036,
+    "result_id": 35109
+}, {
+    "base_id": 30005,
+    "mod_id": 30042,
+    "result_id": 35109
+}, {
+    "base_id": 30005,
+    "mod_id": 10042,
+    "result_id": 35109
+}, {
+    "base_id": 30005,
+    "mod_id": 30043,
+    "result_id": 35109
+}, {
+    "base_id": 30035,
+    "mod_id": 10041,
+    "result_id": 35108
+}, {
+    "base_id": 30006,
+    "mod_id": 10041,
+    "result_id": 35108
+}, {
+    "base_id": 30035,
+    "mod_id": 20028,
+    "result_id": 35108
+}, {
+    "base_id": 30006,
+    "mod_id": 20028,
+    "result_id": 35108
+}, {
+    "base_id": 30035,
+    "mod_id": 50029,
+    "result_id": 35108
+}, {
+    "base_id": 30006,
+    "mod_id": 50029,
+    "result_id": 35108
+}, {
+    "base_id": 30035,
+    "mod_id": 40028,
+    "result_id": 35108
+}, {
+    "base_id": 30006,
+    "mod_id": 40028,
+    "result_id": 35108
+}, {
+    "base_id": 30035,
+    "mod_id": 20034,
+    "result_id": 35108
+}, {
+    "base_id": 30006,
+    "mod_id": 20034,
+    "result_id": 35108
+}, {
+    "base_id": 30035,
+    "mod_id": 30041,
+    "result_id": 35108
+}, {
+    "base_id": 30006,
+    "mod_id": 30041,
+    "result_id": 35108
+}, {
+    "base_id": 30035,
+    "mod_id": 40032,
+    "result_id": 35108
+}, {
+    "base_id": 30006,
+    "mod_id": 40032,
+    "result_id": 35108
+}, {
+    "base_id": 30001,
+    "mod_id": 20034,
+    "result_id": 35107
+}, {
+    "base_id": 30001,
+    "mod_id": 30041,
+    "result_id": 35107
+}, {
+    "base_id": 30001,
+    "mod_id": 40032,
+    "result_id": 35107
+}, {
+    "base_id": 30001,
+    "mod_id": 10041,
+    "result_id": 35107
+}, {
+    "base_id": 1300002,
+    "mod_id": 20034,
+    "result_id": 35107
+}, {
+    "base_id": 1300002,
+    "mod_id": 30041,
+    "result_id": 35107
+}, {
+    "base_id": 1300002,
+    "mod_id": 40032,
+    "result_id": 35107
+}, {
+    "base_id": 1300002,
+    "mod_id": 10041,
+    "result_id": 35107
+}, {
+    "base_id": 30007,
+    "mod_id": 30041,
+    "result_id": 35106
+}, {
+    "base_id": 30007,
+    "mod_id": 50021,
+    "result_id": 35106
+}, {
+    "base_id": 30007,
+    "mod_id": 40028,
+    "result_id": 35106
+}, {
+    "base_id": 30007,
+    "mod_id": 30038,
+    "result_id": 35106
+}, {
+    "base_id": 30007,
+    "mod_id": 10036,
+    "result_id": 35106
+}, {
+    "base_id": 30007,
+    "mod_id": 20034,
+    "result_id": 35106
+}, {
+    "base_id": 30048,
+    "mod_id": 30041,
+    "result_id": 35106
+}, {
+    "base_id": 30048,
+    "mod_id": 50021,
+    "result_id": 35106
+}, {
+    "base_id": 30048,
+    "mod_id": 40028,
+    "result_id": 35106
+}, {
+    "base_id": 30048,
+    "mod_id": 30038,
+    "result_id": 35106
+}, {
+    "base_id": 30048,
+    "mod_id": 10036,
+    "result_id": 35106
+}, {
+    "base_id": 30048,
+    "mod_id": 20034,
+    "result_id": 35106
+}, {
+    "base_id": 30002,
+    "mod_id": 30038,
+    "result_id": 35106
+}, {
+    "base_id": 1300001,
+    "mod_id": 30038,
+    "result_id": 35106
+}, {
+    "base_id": 30002,
+    "mod_id": 10036,
+    "result_id": 35106
+}, {
+    "base_id": 1300001,
+    "mod_id": 10036,
+    "result_id": 35106
+}, {
+    "base_id": 30002,
+    "mod_id": 20034,
+    "result_id": 35106
+}, {
+    "base_id": 1300001,
+    "mod_id": 20034,
+    "result_id": 35106
+}, {
+    "base_id": 30002,
+    "mod_id": 30041,
+    "result_id": 35106
+}, {
+    "base_id": 1300001,
+    "mod_id": 30041,
+    "result_id": 35106
+}, {
+    "base_id": 30002,
+    "mod_id": 50035,
+    "result_id": 35106
+}, {
+    "base_id": 1300001,
+    "mod_id": 50035,
+    "result_id": 35106
+}, {
+    "base_id": 30035,
+    "mod_id": 50034,
+    "result_id": 35105
+}, {
+    "base_id": 30006,
+    "mod_id": 50034,
+    "result_id": 35105
+}, {
+    "base_id": 30035,
+    "mod_id": 30032,
+    "result_id": 35105
+}, {
+    "base_id": 30006,
+    "mod_id": 30032,
+    "result_id": 35105
+}, {
+    "base_id": 30035,
+    "mod_id": 30040,
+    "result_id": 35105
+}, {
+    "base_id": 30006,
+    "mod_id": 30040,
+    "result_id": 35105
+}, {
+    "base_id": 30035,
+    "mod_id": 30050,
+    "result_id": 35105
+}, {
+    "base_id": 30006,
+    "mod_id": 30050,
+    "result_id": 35105
+}, {
+    "base_id": 30035,
+    "mod_id": 10047,
+    "result_id": 35105
+}, {
+    "base_id": 30006,
+    "mod_id": 10047,
+    "result_id": 35105
+}, {
+    "base_id": 30001,
+    "mod_id": 30040,
+    "result_id": 35105
+}, {
+    "base_id": 1300002,
+    "mod_id": 30040,
+    "result_id": 35105
+}, {
+    "base_id": 30001,
+    "mod_id": 30032,
+    "result_id": 35105
+}, {
+    "base_id": 1300002,
+    "mod_id": 30032,
+    "result_id": 35105
+}, {
+    "base_id": 30001,
+    "mod_id": 30050,
+    "result_id": 35105
+}, {
+    "base_id": 1300002,
+    "mod_id": 30050,
+    "result_id": 35105
+}, {
+    "base_id": 30001,
+    "mod_id": 10047,
+    "result_id": 35105
+}, {
+    "base_id": 1300002,
+    "mod_id": 10047,
+    "result_id": 35105
+}, {
+    "base_id": 30002,
+    "mod_id": 30040,
+    "result_id": 35104
+}, {
+    "base_id": 1300001,
+    "mod_id": 30040,
+    "result_id": 35104
+}, {
+    "base_id": 30002,
+    "mod_id": 40024,
+    "result_id": 35104
+}, {
+    "base_id": 1300001,
+    "mod_id": 40024,
+    "result_id": 35104
+}, {
+    "base_id": 30002,
+    "mod_id": 50024,
+    "result_id": 35104
+}, {
+    "base_id": 1300001,
+    "mod_id": 50024,
+    "result_id": 35104
+}, {
+    "base_id": 30002,
+    "mod_id": 20033,
+    "result_id": 35104
+}, {
+    "base_id": 1300001,
+    "mod_id": 20033,
+    "result_id": 35104
+}, {
+    "base_id": 30002,
+    "mod_id": 30049,
+    "result_id": 35104
+}, {
+    "base_id": 1300001,
+    "mod_id": 30049,
+    "result_id": 35104
+}, {
+    "base_id": 30002,
+    "mod_id": 50041,
+    "result_id": 35104
+}, {
+    "base_id": 1300001,
+    "mod_id": 50041,
+    "result_id": 35104
+}, {
+    "base_id": 30002,
+    "mod_id": 20037,
+    "result_id": 35104
+}, {
+    "base_id": 1300001,
+    "mod_id": 20037,
+    "result_id": 35104
+}, {
+    "base_id": 30002,
+    "mod_id": 20020,
+    "result_id": 35103
+}, {
+    "base_id": 1300001,
+    "mod_id": 20020,
+    "result_id": 35103
+}, {
+    "base_id": 30002,
+    "mod_id": 60011,
+    "result_id": 35103
+}, {
+    "base_id": 1300001,
+    "mod_id": 60011,
+    "result_id": 35103
+}, {
+    "base_id": 30002,
+    "mod_id": 10020,
+    "result_id": 35103
+}, {
+    "base_id": 1300001,
+    "mod_id": 10020,
+    "result_id": 35103
+}, {
+    "base_id": 30002,
+    "mod_id": 50020,
+    "result_id": 35103
+}, {
+    "base_id": 1300001,
+    "mod_id": 50020,
+    "result_id": 35103
+}, {
+    "base_id": 30005,
+    "mod_id": 20032,
+    "result_id": 35102
+}, {
+    "base_id": 30005,
+    "mod_id": 10034,
+    "result_id": 35102
+}, {
+    "base_id": 30005,
+    "mod_id": 30033,
+    "result_id": 35102
+}, {
+    "base_id": 30005,
+    "mod_id": 50033,
+    "result_id": 35102
+}, {
+    "base_id": 30035,
+    "mod_id": 30039,
+    "result_id": 35101
+}, {
+    "base_id": 30006,
+    "mod_id": 30039,
+    "result_id": 35101
+}, {
+    "base_id": 30035,
+    "mod_id": 20025,
+    "result_id": 35101
+}, {
+    "base_id": 30006,
+    "mod_id": 20025,
+    "result_id": 35101
+}, {
+    "base_id": 30035,
+    "mod_id": 40031,
+    "result_id": 35101
+}, {
+    "base_id": 30006,
+    "mod_id": 40031,
+    "result_id": 35101
+}, {
+    "base_id": 30002,
+    "mod_id": 30039,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 30039,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 40031,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 40031,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 10033,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 10033,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 20025,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 20025,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 40026,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 40026,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 50026,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 50026,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 20032,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 20032,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 50033,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 50033,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 10039,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 10039,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 10048,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 10048,
+    "result_id": 35100
+}, {
+    "base_id": 30002,
+    "mod_id": 50043,
+    "result_id": 35100
+}, {
+    "base_id": 1300001,
+    "mod_id": 50043,
+    "result_id": 35100
+}, {
+    "base_id": 30007,
+    "mod_id": 20031,
+    "result_id": 35098
+}, {
+    "base_id": 30007,
+    "mod_id": 30023,
+    "result_id": 35098
+}, {
+    "base_id": 30007,
+    "mod_id": 40030,
+    "result_id": 35098
+}, {
+    "base_id": 30048,
+    "mod_id": 20031,
+    "result_id": 35098
+}, {
+    "base_id": 30048,
+    "mod_id": 30023,
+    "result_id": 35098
+}, {
+    "base_id": 30048,
+    "mod_id": 40030,
+    "result_id": 35098
+}, {
+    "base_id": 30001,
+    "mod_id": 10026,
+    "result_id": 35097
+}, {
+    "base_id": 30001,
+    "mod_id": 40023,
+    "result_id": 35097
+}, {
+    "base_id": 30001,
+    "mod_id": 50030,
+    "result_id": 35097
+}, {
+    "base_id": 30001,
+    "mod_id": 40029,
+    "result_id": 35097
+}, {
+    "base_id": 30001,
+    "mod_id": 20030,
+    "result_id": 35097
+}, {
+    "base_id": 30001,
+    "mod_id": 30029,
+    "result_id": 35097
+}, {
+    "base_id": 1300002,
+    "mod_id": 10026,
+    "result_id": 35097
+}, {
+    "base_id": 1300002,
+    "mod_id": 40023,
+    "result_id": 35097
+}, {
+    "base_id": 1300002,
+    "mod_id": 50030,
+    "result_id": 35097
+}, {
+    "base_id": 1300002,
+    "mod_id": 40029,
+    "result_id": 35097
+}, {
+    "base_id": 1300002,
+    "mod_id": 20030,
+    "result_id": 35097
+}, {
+    "base_id": 1300002,
+    "mod_id": 30029,
+    "result_id": 35097
+}, {
+    "base_id": 30006,
+    "mod_id": 10027,
+    "result_id": 35096
+}, {
+    "base_id": 30035,
+    "mod_id": 10027,
+    "result_id": 35096
+}, {
+    "base_id": 30006,
+    "mod_id": 30027,
+    "result_id": 35096
+}, {
+    "base_id": 30035,
+    "mod_id": 30027,
+    "result_id": 35096
+}, {
+    "base_id": 30006,
+    "mod_id": 50030,
+    "result_id": 35096
+}, {
+    "base_id": 30035,
+    "mod_id": 50030,
+    "result_id": 35096
+}, {
+    "base_id": 30006,
+    "mod_id": 20030,
+    "result_id": 35096
+}, {
+    "base_id": 30035,
+    "mod_id": 20030,
+    "result_id": 35096
+}, {
+    "base_id": 30006,
+    "mod_id": 50023,
+    "result_id": 35096
+}, {
+    "base_id": 30035,
+    "mod_id": 50023,
+    "result_id": 35096
+}, {
+    "base_id": 30006,
+    "mod_id": 50031,
+    "result_id": 35096
+}, {
+    "base_id": 30035,
+    "mod_id": 50031,
+    "result_id": 35096
+}, {
+    "base_id": 1300001,
+    "mod_id": 20013,
+    "result_id": 35079
+}, {
+    "base_id": 1300001,
+    "mod_id": 40006,
+    "result_id": 35079
+}, {
+    "base_id": 1300001,
+    "mod_id": 30003,
+    "result_id": 35079
+}, {
+    "base_id": 1300001,
+    "mod_id": 50014,
+    "result_id": 35079
+}, {
+    "base_id": 1300001,
+    "mod_id": 10016,
+    "result_id": 35079
+}, {
+    "base_id": 1300001,
+    "mod_id": 60005,
+    "result_id": 35079
+}, {
+    "base_id": 1300001,
+    "mod_id": 30033,
+    "result_id": 35079
+}, {
+    "base_id": 1300001,
+    "mod_id": 40018,
+    "result_id": 35081
+}, {
+    "base_id": 1300001,
+    "mod_id": 20016,
+    "result_id": 35081
+}, {
+    "base_id": 1300001,
+    "mod_id": 30020,
+    "result_id": 35081
+}, {
+    "base_id": 1300001,
+    "mod_id": 50018,
+    "result_id": 35081
+}, {
+    "base_id": 1300001,
+    "mod_id": 10017,
+    "result_id": 35081
+}, {
+    "base_id": 1300001,
+    "mod_id": 60012,
+    "result_id": 35081
+}, {
+    "base_id": 1300001,
+    "mod_id": 30036,
+    "result_id": 35081
+}, {
+    "base_id": 1300001,
+    "mod_id": 20021,
+    "result_id": 35066
+}, {
+    "base_id": 1300001,
+    "mod_id": 40021,
+    "result_id": 35066
+}, {
+    "base_id": 1300001,
+    "mod_id": 30021,
+    "result_id": 35066
+}, {
+    "base_id": 1300001,
+    "mod_id": 10037,
+    "result_id": 35066
+}, {
+    "base_id": 1300001,
+    "mod_id": 50022,
+    "result_id": 35066
+}, {
+    "base_id": 1300001,
+    "mod_id": 20029,
+    "result_id": 35066
+}, {
+    "base_id": 1300001,
+    "mod_id": 20017,
+    "result_id": 35039
+}, {
+    "base_id": 1300001,
+    "mod_id": 40017,
+    "result_id": 35039
+}, {
+    "base_id": 1300001,
+    "mod_id": 30019,
+    "result_id": 35039
+}, {
+    "base_id": 1300001,
+    "mod_id": 50017,
+    "result_id": 35039
+}, {
+    "base_id": 1300001,
+    "mod_id": 60010,
+    "result_id": 35039
+}, {
+    "base_id": 1300001,
+    "mod_id": 10032,
+    "result_id": 35039
+}, {
+    "base_id": 1300001,
+    "mod_id": 10035,
+    "result_id": 35039
+}, {
+    "base_id": 1300001,
+    "mod_id": 20015,
+    "result_id": 35034
+}, {
+    "base_id": 1300001,
+    "mod_id": 40016,
+    "result_id": 35034
+}, {
+    "base_id": 1300001,
+    "mod_id": 30008,
+    "result_id": 35034
+}, {
+    "base_id": 1300001,
+    "mod_id": 50016,
+    "result_id": 35034
+}, {
+    "base_id": 1300001,
+    "mod_id": 10010,
+    "result_id": 35034
+}, {
+    "base_id": 1300001,
+    "mod_id": 60008,
+    "result_id": 35034
+}, {
+    "base_id": 1300001,
+    "mod_id": 20008,
+    "result_id": 35028
+}, {
+    "base_id": 1300001,
+    "mod_id": 50013,
+    "result_id": 35028
+}, {
+    "base_id": 1300001,
+    "mod_id": 40010,
+    "result_id": 35028
+}, {
+    "base_id": 1300001,
+    "mod_id": 10015,
+    "result_id": 35028
+}, {
+    "base_id": 1300001,
+    "mod_id": 60002,
+    "result_id": 35028
+}, {
+    "base_id": 1300001,
+    "mod_id": 10031,
+    "result_id": 35028
+}, {
+    "base_id": 1300001,
+    "mod_id": 20011,
+    "result_id": 35020
+}, {
+    "base_id": 1300001,
+    "mod_id": 40011,
+    "result_id": 35020
+}, {
+    "base_id": 1300001,
+    "mod_id": 30016,
+    "result_id": 35020
+}, {
+    "base_id": 1300001,
+    "mod_id": 50007,
+    "result_id": 35020
+}, {
+    "base_id": 1300001,
+    "mod_id": 10013,
+    "result_id": 35020
+}, {
+    "base_id": 1300001,
+    "mod_id": 60001,
+    "result_id": 35020
+}, {
+    "base_id": 1300001,
+    "mod_id": 40014,
+    "result_id": 35024
+}, {
+    "base_id": 1300001,
+    "mod_id": 30017,
+    "result_id": 35024
+}, {
+    "base_id": 1300001,
+    "mod_id": 50012,
+    "result_id": 35024
+}, {
+    "base_id": 1300001,
+    "mod_id": 10004,
+    "result_id": 35024
+}, {
+    "base_id": 1300001,
+    "mod_id": 20010,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 40013,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 30009,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 50009,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 10014,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 10024,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 60007,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 30031,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 20024,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 40025,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 50034,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 50034,
+    "result_id": 35007
+}, {
+    "base_id": 1300001,
+    "mod_id": 20012,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 40012,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 30015,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 10012,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 50011,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 60006,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 10026,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 30027,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 50023,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 10027,
+    "result_id": 35012
+}, {
+    "base_id": 1300001,
+    "mod_id": 30029,
+    "result_id": 35085
+}, {
+    "base_id": 1300001,
+    "mod_id": 30044,
+    "result_id": 35085
+}, {
+    "base_id": 1300001,
+    "mod_id": 20035,
+    "result_id": 35085
+}, {
+    "base_id": 1300001,
+    "mod_id": 30045,
+    "result_id": 35085
+}, {
+    "base_id": 1300001,
+    "mod_id": 50010,
+    "result_id": 35054
+}, {
+    "base_id": 1300001,
+    "mod_id": 20006,
+    "result_id": 35011
+}, {
+    "base_id": 1300001,
+    "mod_id": 40007,
+    "result_id": 35011
+}, {
+    "base_id": 1300001,
+    "mod_id": 30010,
+    "result_id": 35011
+}, {
+    "base_id": 1300001,
+    "mod_id": 50008,
+    "result_id": 35011
+}, {
+    "base_id": 1300001,
+    "mod_id": 10011,
+    "result_id": 35011
+}, {
+    "base_id": 1300001,
+    "mod_id": 60009,
+    "result_id": 35011
+}, {
+    "base_id": 1300001,
+    "mod_id": 10029,
+    "result_id": 35011
+}, {
+    "base_id": 1300001,
+    "mod_id": 30014,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 40020,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 20019,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 10019,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 10021,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 60003,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 30030,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 50029,
+    "result_id": 35046
+}, {
+    "base_id": 1300001,
+    "mod_id": 20018,
+    "result_id": 35050
+}, {
+    "base_id": 1300001,
+    "mod_id": 30013,
+    "result_id": 35050
+}, {
+    "base_id": 1300001,
+    "mod_id": 40019,
+    "result_id": 35050
+}, {
+    "base_id": 1300001,
+    "mod_id": 10008,
+    "result_id": 35050
+}, {
+    "base_id": 1300001,
+    "mod_id": 60013,
+    "result_id": 35050
+}, {
+    "base_id": 1300001,
+    "mod_id": 30034,
+    "result_id": 35050
+}, {
+    "base_id": 1300001,
+    "mod_id": 30011,
+    "result_id": 35052
+}, {
+    "base_id": 30035,
+    "mod_id": 20012,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 40012,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 30015,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 10012,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 50011,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 60006,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 10026,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 40023,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 30028,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 30029,
+    "result_id": 35082
+}, {
+    "base_id": 30035,
+    "mod_id": 30033,
+    "result_id": 35090
+}, {
+    "base_id": 30035,
+    "mod_id": 50026,
+    "result_id": 35090
+}, {
+    "base_id": 30035,
+    "mod_id": 40026,
+    "result_id": 35090
+}, {
+    "base_id": 30035,
+    "mod_id": 10039,
+    "result_id": 35090
+}, {
+    "base_id": 30035,
+    "mod_id": 20017,
+    "result_id": 35038
+}, {
+    "base_id": 30035,
+    "mod_id": 40017,
+    "result_id": 35038
+}, {
+    "base_id": 30035,
+    "mod_id": 30019,
+    "result_id": 35038
+}, {
+    "base_id": 30035,
+    "mod_id": 50017,
+    "result_id": 35038
+}, {
+    "base_id": 30035,
+    "mod_id": 60010,
+    "result_id": 35038
+}, {
+    "base_id": 30035,
+    "mod_id": 10032,
+    "result_id": 35038
+}, {
+    "base_id": 30035,
+    "mod_id": 10035,
+    "result_id": 35038
+}, {
+    "base_id": 30035,
+    "mod_id": 20016,
+    "result_id": 35042
+}, {
+    "base_id": 30035,
+    "mod_id": 40018,
+    "result_id": 35042
+}, {
+    "base_id": 30035,
+    "mod_id": 30020,
+    "result_id": 35042
+}, {
+    "base_id": 30035,
+    "mod_id": 50018,
+    "result_id": 35042
+}, {
+    "base_id": 30035,
+    "mod_id": 10017,
+    "result_id": 35042
+}, {
+    "base_id": 30035,
+    "mod_id": 60012,
+    "result_id": 35042
+}, {
+    "base_id": 30035,
+    "mod_id": 30036,
+    "result_id": 35042
+}, {
+    "base_id": 30035,
+    "mod_id": 20015,
+    "result_id": 35033
+}, {
+    "base_id": 30035,
+    "mod_id": 40016,
+    "result_id": 35033
+}, {
+    "base_id": 30035,
+    "mod_id": 30008,
+    "result_id": 35033
+}, {
+    "base_id": 30035,
+    "mod_id": 50016,
+    "result_id": 35033
+}, {
+    "base_id": 30035,
+    "mod_id": 10010,
+    "result_id": 35033
+}, {
+    "base_id": 30035,
+    "mod_id": 60008,
+    "result_id": 35033
+}, {
+    "base_id": 30035,
+    "mod_id": 20013,
+    "result_id": 35027
+}, {
+    "base_id": 30035,
+    "mod_id": 40006,
+    "result_id": 35027
+}, {
+    "base_id": 30035,
+    "mod_id": 30003,
+    "result_id": 35027
+}, {
+    "base_id": 30035,
+    "mod_id": 50014,
+    "result_id": 35027
+}, {
+    "base_id": 30035,
+    "mod_id": 10016,
+    "result_id": 35027
+}, {
+    "base_id": 30035,
+    "mod_id": 60005,
+    "result_id": 35027
+}, {
+    "base_id": 30035,
+    "mod_id": 20011,
+    "result_id": 35019
+}, {
+    "base_id": 30035,
+    "mod_id": 40011,
+    "result_id": 35019
+}, {
+    "base_id": 30035,
+    "mod_id": 30016,
+    "result_id": 35019
+}, {
+    "base_id": 30035,
+    "mod_id": 50007,
+    "result_id": 35019
+}, {
+    "base_id": 30035,
+    "mod_id": 10013,
+    "result_id": 35019
+}, {
+    "base_id": 30035,
+    "mod_id": 60001,
+    "result_id": 35019
+}, {
+    "base_id": 30035,
+    "mod_id": 20006,
+    "result_id": 35016
+}, {
+    "base_id": 30035,
+    "mod_id": 40007,
+    "result_id": 35016
+}, {
+    "base_id": 30035,
+    "mod_id": 30010,
+    "result_id": 35016
+}, {
+    "base_id": 30035,
+    "mod_id": 50008,
+    "result_id": 35016
+}, {
+    "base_id": 30035,
+    "mod_id": 10011,
+    "result_id": 35016
+}, {
+    "base_id": 30035,
+    "mod_id": 60009,
+    "result_id": 35016
+}, {
+    "base_id": 30035,
+    "mod_id": 10029,
+    "result_id": 35016
+}, {
+    "base_id": 30035,
+    "mod_id": 30009,
+    "result_id": 35013
+}, {
+    "base_id": 30035,
+    "mod_id": 50009,
+    "result_id": 35013
+}, {
+    "base_id": 30035,
+    "mod_id": 20010,
+    "result_id": 35013
+}, {
+    "base_id": 30035,
+    "mod_id": 40013,
+    "result_id": 35013
+}, {
+    "base_id": 30035,
+    "mod_id": 10014,
+    "result_id": 35013
+}, {
+    "base_id": 30035,
+    "mod_id": 10024,
+    "result_id": 35013
+}, {
+    "base_id": 30035,
+    "mod_id": 60007,
+    "result_id": 35013
+}, {
+    "base_id": 30035,
+    "mod_id": 30014,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 40020,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 20019,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 10019,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 10021,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 60003,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 50021,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 30030,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 50027,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 10036,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 30038,
+    "result_id": 35045
+}, {
+    "base_id": 30035,
+    "mod_id": 20020,
+    "result_id": 35004
+}, {
+    "base_id": 30035,
+    "mod_id": 50020,
+    "result_id": 35004
+}, {
+    "base_id": 30035,
+    "mod_id": 10020,
+    "result_id": 35004
+}, {
+    "base_id": 30035,
+    "mod_id": 60011,
+    "result_id": 35004
+}, {
+    "base_id": 30001,
+    "mod_id": 30034,
+    "result_id": 35091
+}, {
+    "base_id": 1300002,
+    "mod_id": 30034,
+    "result_id": 35091
+}, {
+    "base_id": 30001,
+    "mod_id": 50021,
+    "result_id": 35095
+}, {
+    "base_id": 30001,
+    "mod_id": 40028,
+    "result_id": 35095
+}, {
+    "base_id": 30001,
+    "mod_id": 30038,
+    "result_id": 35095
+}, {
+    "base_id": 30001,
+    "mod_id": 10036,
+    "result_id": 35095
+}, {
+    "base_id": 1300002,
+    "mod_id": 50021,
+    "result_id": 35095
+}, {
+    "base_id": 1300002,
+    "mod_id": 40028,
+    "result_id": 35095
+}, {
+    "base_id": 1300002,
+    "mod_id": 30038,
+    "result_id": 35095
+}, {
+    "base_id": 1300002,
+    "mod_id": 10036,
+    "result_id": 35095
+}, {
+    "base_id": 30007,
+    "mod_id": 20024,
+    "result_id": 35089
+}, {
+    "base_id": 30007,
+    "mod_id": 30031,
+    "result_id": 35089
+}, {
+    "base_id": 30007,
+    "mod_id": 30032,
+    "result_id": 35089
+}, {
+    "base_id": 30007,
+    "mod_id": 40025,
+    "result_id": 35089
+}, {
+    "base_id": 30007,
+    "mod_id": 20033,
+    "result_id": 35089
+}, {
+    "base_id": 30048,
+    "mod_id": 20024,
+    "result_id": 35089
+}, {
+    "base_id": 30048,
+    "mod_id": 30031,
+    "result_id": 35089
+}, {
+    "base_id": 30048,
+    "mod_id": 30032,
+    "result_id": 35089
+}, {
+    "base_id": 30048,
+    "mod_id": 40025,
+    "result_id": 35089
+}, {
+    "base_id": 30048,
+    "mod_id": 20033,
+    "result_id": 35089
+}, {
+    "base_id": 30005,
+    "mod_id": 30031,
+    "result_id": 35086
+}, {
+    "base_id": 30005,
+    "mod_id": 20024,
+    "result_id": 35086
+}, {
+    "base_id": 30005,
+    "mod_id": 50025,
+    "result_id": 35086
+}, {
+    "base_id": 30005,
+    "mod_id": 30032,
+    "result_id": 35086
+}, {
+    "base_id": 30005,
+    "mod_id": 40025,
+    "result_id": 35086
+}, {
+    "base_id": 30005,
+    "mod_id": 20033,
+    "result_id": 35086
+}, {
+    "base_id": 30007,
+    "mod_id": 40024,
+    "result_id": 35088
+}, {
+    "base_id": 30007,
+    "mod_id": 50024,
+    "result_id": 35088
+}, {
+    "base_id": 30007,
+    "mod_id": 10038,
+    "result_id": 35088
+}, {
+    "base_id": 30007,
+    "mod_id": 20037,
+    "result_id": 35088
+}, {
+    "base_id": 30048,
+    "mod_id": 40024,
+    "result_id": 35088
+}, {
+    "base_id": 30048,
+    "mod_id": 50024,
+    "result_id": 35088
+}, {
+    "base_id": 30048,
+    "mod_id": 10038,
+    "result_id": 35088
+}, {
+    "base_id": 30048,
+    "mod_id": 20037,
+    "result_id": 35088
+}, {
+    "base_id": 30004,
+    "mod_id": 30014,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 40020,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 20019,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 10019,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 10021,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 50021,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 60003,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 50029,
+    "result_id": 35078
+}, {
+    "base_id": 30004,
+    "mod_id": 30030,
+    "result_id": 35087
+}, {
+    "base_id": 30002,
+    "mod_id": 20013,
+    "result_id": 35079
+}, {
+    "base_id": 30002,
+    "mod_id": 40006,
+    "result_id": 35079
+}, {
+    "base_id": 30002,
+    "mod_id": 30003,
+    "result_id": 35079
+}, {
+    "base_id": 30002,
+    "mod_id": 50014,
+    "result_id": 35079
+}, {
+    "base_id": 30002,
+    "mod_id": 10016,
+    "result_id": 35079
+}, {
+    "base_id": 30002,
+    "mod_id": 60005,
+    "result_id": 35079
+}, {
+    "base_id": 30002,
+    "mod_id": 30033,
+    "result_id": 35079
+}, {
+    "base_id": 30007,
+    "mod_id": 20018,
+    "result_id": 35080
+}, {
+    "base_id": 30007,
+    "mod_id": 30013,
+    "result_id": 35080
+}, {
+    "base_id": 30007,
+    "mod_id": 40019,
+    "result_id": 35080
+}, {
+    "base_id": 30007,
+    "mod_id": 10008,
+    "result_id": 35080
+}, {
+    "base_id": 30007,
+    "mod_id": 60013,
+    "result_id": 35080
+}, {
+    "base_id": 30007,
+    "mod_id": 30034,
+    "result_id": 35080
+}, {
+    "base_id": 30048,
+    "mod_id": 20018,
+    "result_id": 35080
+}, {
+    "base_id": 30048,
+    "mod_id": 30013,
+    "result_id": 35080
+}, {
+    "base_id": 30048,
+    "mod_id": 40019,
+    "result_id": 35080
+}, {
+    "base_id": 30048,
+    "mod_id": 10008,
+    "result_id": 35080
+}, {
+    "base_id": 30048,
+    "mod_id": 60013,
+    "result_id": 35080
+}, {
+    "base_id": 30048,
+    "mod_id": 30034,
+    "result_id": 35080
+}, {
+    "base_id": 30002,
+    "mod_id": 40018,
+    "result_id": 35081
+}, {
+    "base_id": 30002,
+    "mod_id": 20016,
+    "result_id": 35081
+}, {
+    "base_id": 30002,
+    "mod_id": 30020,
+    "result_id": 35081
+}, {
+    "base_id": 30002,
+    "mod_id": 50018,
+    "result_id": 35081
+}, {
+    "base_id": 30002,
+    "mod_id": 10017,
+    "result_id": 35081
+}, {
+    "base_id": 30002,
+    "mod_id": 60012,
+    "result_id": 35081
+}, {
+    "base_id": 30002,
+    "mod_id": 30036,
+    "result_id": 35081
+}, {
+    "base_id": 30006,
+    "mod_id": 20012,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 40012,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 30015,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 10012,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 50011,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 60006,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 10026,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 40023,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 30028,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 30029,
+    "result_id": 35082
+}, {
+    "base_id": 30006,
+    "mod_id": 30033,
+    "result_id": 35090
+}, {
+    "base_id": 30006,
+    "mod_id": 50026,
+    "result_id": 35090
+}, {
+    "base_id": 30006,
+    "mod_id": 40026,
+    "result_id": 35090
+}, {
+    "base_id": 30006,
+    "mod_id": 10039,
+    "result_id": 35090
+}, {
+    "base_id": 30007,
+    "mod_id": 20014,
+    "result_id": 35083
+}, {
+    "base_id": 30007,
+    "mod_id": 30018,
+    "result_id": 35083
+}, {
+    "base_id": 30007,
+    "mod_id": 40015,
+    "result_id": 35083
+}, {
+    "base_id": 30007,
+    "mod_id": 50015,
+    "result_id": 35083
+}, {
+    "base_id": 30007,
+    "mod_id": 10003,
+    "result_id": 35083
+}, {
+    "base_id": 30007,
+    "mod_id": 60004,
+    "result_id": 35083
+}, {
+    "base_id": 30007,
+    "mod_id": 30037,
+    "result_id": 35083
+}, {
+    "base_id": 30048,
+    "mod_id": 20014,
+    "result_id": 35083
+}, {
+    "base_id": 30048,
+    "mod_id": 30018,
+    "result_id": 35083
+}, {
+    "base_id": 30048,
+    "mod_id": 40015,
+    "result_id": 35083
+}, {
+    "base_id": 30048,
+    "mod_id": 50015,
+    "result_id": 35083
+}, {
+    "base_id": 30048,
+    "mod_id": 10003,
+    "result_id": 35083
+}, {
+    "base_id": 30048,
+    "mod_id": 60004,
+    "result_id": 35083
+}, {
+    "base_id": 30048,
+    "mod_id": 30037,
+    "result_id": 35083
+}, {
+    "base_id": 30001,
+    "mod_id": 20021,
+    "result_id": 35065
+}, {
+    "base_id": 30001,
+    "mod_id": 40021,
+    "result_id": 35065
+}, {
+    "base_id": 30001,
+    "mod_id": 30021,
+    "result_id": 35065
+}, {
+    "base_id": 30001,
+    "mod_id": 50022,
+    "result_id": 35065
+}, {
+    "base_id": 30001,
+    "mod_id": 20029,
+    "result_id": 35065
+}, {
+    "base_id": 30001,
+    "mod_id": 10037,
+    "result_id": 35065
+}, {
+    "base_id": 1300002,
+    "mod_id": 20021,
+    "result_id": 35065
+}, {
+    "base_id": 1300002,
+    "mod_id": 40021,
+    "result_id": 35065
+}, {
+    "base_id": 1300002,
+    "mod_id": 30021,
+    "result_id": 35065
+}, {
+    "base_id": 1300002,
+    "mod_id": 50022,
+    "result_id": 35065
+}, {
+    "base_id": 1300002,
+    "mod_id": 20029,
+    "result_id": 35065
+}, {
+    "base_id": 1300002,
+    "mod_id": 10037,
+    "result_id": 35065
+}, {
+    "base_id": 30002,
+    "mod_id": 20021,
+    "result_id": 35066
+}, {
+    "base_id": 30002,
+    "mod_id": 40021,
+    "result_id": 35066
+}, {
+    "base_id": 30002,
+    "mod_id": 30021,
+    "result_id": 35066
+}, {
+    "base_id": 30002,
+    "mod_id": 10037,
+    "result_id": 35066
+}, {
+    "base_id": 30002,
+    "mod_id": 50022,
+    "result_id": 35066
+}, {
+    "base_id": 30002,
+    "mod_id": 20029,
+    "result_id": 35066
+}, {
+    "base_id": 30005,
+    "mod_id": 20021,
+    "result_id": 35067
+}, {
+    "base_id": 30005,
+    "mod_id": 40021,
+    "result_id": 35067
+}, {
+    "base_id": 30005,
+    "mod_id": 30021,
+    "result_id": 35067
+}, {
+    "base_id": 30005,
+    "mod_id": 10037,
+    "result_id": 35067
+}, {
+    "base_id": 30005,
+    "mod_id": 50022,
+    "result_id": 35067
+}, {
+    "base_id": 30005,
+    "mod_id": 20029,
+    "result_id": 35067
+}, {
+    "base_id": 30001,
+    "mod_id": 20017,
+    "result_id": 35037
+}, {
+    "base_id": 30001,
+    "mod_id": 40017,
+    "result_id": 35037
+}, {
+    "base_id": 30001,
+    "mod_id": 30019,
+    "result_id": 35037
+}, {
+    "base_id": 30001,
+    "mod_id": 50017,
+    "result_id": 35037
+}, {
+    "base_id": 30001,
+    "mod_id": 60010,
+    "result_id": 35037
+}, {
+    "base_id": 30001,
+    "mod_id": 10032,
+    "result_id": 35037
+}, {
+    "base_id": 30001,
+    "mod_id": 10035,
+    "result_id": 35037
+}, {
+    "base_id": 1300002,
+    "mod_id": 20017,
+    "result_id": 35037
+}, {
+    "base_id": 1300002,
+    "mod_id": 40017,
+    "result_id": 35037
+}, {
+    "base_id": 1300002,
+    "mod_id": 30019,
+    "result_id": 35037
+}, {
+    "base_id": 1300002,
+    "mod_id": 50017,
+    "result_id": 35037
+}, {
+    "base_id": 1300002,
+    "mod_id": 60010,
+    "result_id": 35037
+}, {
+    "base_id": 1300002,
+    "mod_id": 10032,
+    "result_id": 35037
+}, {
+    "base_id": 1300002,
+    "mod_id": 10035,
+    "result_id": 35037
+}, {
+    "base_id": 30006,
+    "mod_id": 20017,
+    "result_id": 35038
+}, {
+    "base_id": 30006,
+    "mod_id": 40017,
+    "result_id": 35038
+}, {
+    "base_id": 30006,
+    "mod_id": 30019,
+    "result_id": 35038
+}, {
+    "base_id": 30006,
+    "mod_id": 50017,
+    "result_id": 35038
+}, {
+    "base_id": 30006,
+    "mod_id": 60010,
+    "result_id": 35038
+}, {
+    "base_id": 30006,
+    "mod_id": 10032,
+    "result_id": 35038
+}, {
+    "base_id": 30006,
+    "mod_id": 10035,
+    "result_id": 35038
+}, {
+    "base_id": 30002,
+    "mod_id": 20017,
+    "result_id": 35039
+}, {
+    "base_id": 30002,
+    "mod_id": 40017,
+    "result_id": 35039
+}, {
+    "base_id": 30002,
+    "mod_id": 30019,
+    "result_id": 35039
+}, {
+    "base_id": 30002,
+    "mod_id": 50017,
+    "result_id": 35039
+}, {
+    "base_id": 30002,
+    "mod_id": 60010,
+    "result_id": 35039
+}, {
+    "base_id": 30007,
+    "mod_id": 20017,
+    "result_id": 35039
+}, {
+    "base_id": 30007,
+    "mod_id": 40017,
+    "result_id": 35039
+}, {
+    "base_id": 30007,
+    "mod_id": 30019,
+    "result_id": 35039
+}, {
+    "base_id": 30007,
+    "mod_id": 50017,
+    "result_id": 35039
+}, {
+    "base_id": 30007,
+    "mod_id": 60010,
+    "result_id": 35039
+}, {
+    "base_id": 30002,
+    "mod_id": 10032,
+    "result_id": 35039
+}, {
+    "base_id": 30007,
+    "mod_id": 10032,
+    "result_id": 35039
+}, {
+    "base_id": 30002,
+    "mod_id": 10035,
+    "result_id": 35039
+}, {
+    "base_id": 30007,
+    "mod_id": 10035,
+    "result_id": 35039
+}, {
+    "base_id": 30048,
+    "mod_id": 20017,
+    "result_id": 35039
+}, {
+    "base_id": 30048,
+    "mod_id": 40017,
+    "result_id": 35039
+}, {
+    "base_id": 30048,
+    "mod_id": 30019,
+    "result_id": 35039
+}, {
+    "base_id": 30048,
+    "mod_id": 50017,
+    "result_id": 35039
+}, {
+    "base_id": 30048,
+    "mod_id": 60010,
+    "result_id": 35039
+}, {
+    "base_id": 30048,
+    "mod_id": 10035,
+    "result_id": 35039
+}, {
+    "base_id": 30048,
+    "mod_id": 10032,
+    "result_id": 35039
+}, {
+    "base_id": 30005,
+    "mod_id": 20017,
+    "result_id": 35040
+}, {
+    "base_id": 30005,
+    "mod_id": 40017,
+    "result_id": 35040
+}, {
+    "base_id": 30005,
+    "mod_id": 30019,
+    "result_id": 35040
+}, {
+    "base_id": 30005,
+    "mod_id": 50017,
+    "result_id": 35040
+}, {
+    "base_id": 30005,
+    "mod_id": 60010,
+    "result_id": 35040
+}, {
+    "base_id": 30005,
+    "mod_id": 10032,
+    "result_id": 35040
+}, {
+    "base_id": 30005,
+    "mod_id": 10035,
+    "result_id": 35040
+}, {
+    "base_id": 30001,
+    "mod_id": 30020,
+    "result_id": 35041
+}, {
+    "base_id": 30001,
+    "mod_id": 60012,
+    "result_id": 35041
+}, {
+    "base_id": 30001,
+    "mod_id": 30036,
+    "result_id": 35041
+}, {
+    "base_id": 1300002,
+    "mod_id": 30020,
+    "result_id": 35041
+}, {
+    "base_id": 1300002,
+    "mod_id": 60012,
+    "result_id": 35041
+}, {
+    "base_id": 1300002,
+    "mod_id": 30036,
+    "result_id": 35041
+}, {
+    "base_id": 30006,
+    "mod_id": 20016,
+    "result_id": 35042
+}, {
+    "base_id": 30006,
+    "mod_id": 40018,
+    "result_id": 35042
+}, {
+    "base_id": 30006,
+    "mod_id": 30020,
+    "result_id": 35042
+}, {
+    "base_id": 30006,
+    "mod_id": 50018,
+    "result_id": 35042
+}, {
+    "base_id": 30006,
+    "mod_id": 10017,
+    "result_id": 35042
+}, {
+    "base_id": 30006,
+    "mod_id": 60012,
+    "result_id": 35042
+}, {
+    "base_id": 30006,
+    "mod_id": 30036,
+    "result_id": 35042
+}, {
+    "base_id": 30005,
+    "mod_id": 20016,
+    "result_id": 35043
+}, {
+    "base_id": 30005,
+    "mod_id": 40018,
+    "result_id": 35043
+}, {
+    "base_id": 30005,
+    "mod_id": 30020,
+    "result_id": 35043
+}, {
+    "base_id": 30005,
+    "mod_id": 50018,
+    "result_id": 35043
+}, {
+    "base_id": 30005,
+    "mod_id": 10017,
+    "result_id": 35043
+}, {
+    "base_id": 30005,
+    "mod_id": 60012,
+    "result_id": 35043
+}, {
+    "base_id": 30005,
+    "mod_id": 30036,
+    "result_id": 35043
+}, {
+    "base_id": 30007,
+    "mod_id": 30020,
+    "result_id": 35044
+}, {
+    "base_id": 30007,
+    "mod_id": 60012,
+    "result_id": 35044
+}, {
+    "base_id": 30007,
+    "mod_id": 30036,
+    "result_id": 35044
+}, {
+    "base_id": 30048,
+    "mod_id": 30020,
+    "result_id": 35044
+}, {
+    "base_id": 30048,
+    "mod_id": 60012,
+    "result_id": 35044
+}, {
+    "base_id": 30048,
+    "mod_id": 30036,
+    "result_id": 35044
+}, {
+    "base_id": 30006,
+    "mod_id": 20015,
+    "result_id": 35033
+}, {
+    "base_id": 30006,
+    "mod_id": 40016,
+    "result_id": 35033
+}, {
+    "base_id": 30006,
+    "mod_id": 30008,
+    "result_id": 35033
+}, {
+    "base_id": 30006,
+    "mod_id": 50016,
+    "result_id": 35033
+}, {
+    "base_id": 30006,
+    "mod_id": 10010,
+    "result_id": 35033
+}, {
+    "base_id": 30006,
+    "mod_id": 60008,
+    "result_id": 35033
+}, {
+    "base_id": 30002,
+    "mod_id": 20015,
+    "result_id": 35034
+}, {
+    "base_id": 30002,
+    "mod_id": 40016,
+    "result_id": 35034
+}, {
+    "base_id": 30002,
+    "mod_id": 30008,
+    "result_id": 35034
+}, {
+    "base_id": 30002,
+    "mod_id": 50016,
+    "result_id": 35034
+}, {
+    "base_id": 30002,
+    "mod_id": 10010,
+    "result_id": 35034
+}, {
+    "base_id": 30002,
+    "mod_id": 60008,
+    "result_id": 35034
+}, {
+    "base_id": 30005,
+    "mod_id": 20015,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 40016,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 30008,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 50016,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 10010,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 60008,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 30014,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 40020,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 20019,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 10019,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 10021,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 60003,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 30030,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 50029,
+    "result_id": 35035
+}, {
+    "base_id": 30005,
+    "mod_id": 40028,
+    "result_id": 35035
+}, {
+    "base_id": 30007,
+    "mod_id": 20015,
+    "result_id": 35036
+}, {
+    "base_id": 30007,
+    "mod_id": 40016,
+    "result_id": 35036
+}, {
+    "base_id": 30007,
+    "mod_id": 30008,
+    "result_id": 35036
+}, {
+    "base_id": 30007,
+    "mod_id": 50016,
+    "result_id": 35036
+}, {
+    "base_id": 30007,
+    "mod_id": 10010,
+    "result_id": 35036
+}, {
+    "base_id": 30007,
+    "mod_id": 60008,
+    "result_id": 35036
+}, {
+    "base_id": 30048,
+    "mod_id": 20015,
+    "result_id": 35036
+}, {
+    "base_id": 30048,
+    "mod_id": 40016,
+    "result_id": 35036
+}, {
+    "base_id": 30048,
+    "mod_id": 30008,
+    "result_id": 35036
+}, {
+    "base_id": 30048,
+    "mod_id": 50016,
+    "result_id": 35036
+}, {
+    "base_id": 30048,
+    "mod_id": 10010,
+    "result_id": 35036
+}, {
+    "base_id": 30048,
+    "mod_id": 60008,
+    "result_id": 35036
+}, {
+    "base_id": 30004,
+    "mod_id": 20015,
+    "result_id": 35060
+}, {
+    "base_id": 30004,
+    "mod_id": 40016,
+    "result_id": 35060
+}, {
+    "base_id": 30004,
+    "mod_id": 30008,
+    "result_id": 35060
+}, {
+    "base_id": 30004,
+    "mod_id": 50016,
+    "result_id": 35060
+}, {
+    "base_id": 30004,
+    "mod_id": 10010,
+    "result_id": 35060
+}, {
+    "base_id": 30004,
+    "mod_id": 60008,
+    "result_id": 35060
+}, {
+    "base_id": 30004,
+    "mod_id": 30033,
+    "result_id": 35092
+}, {
+    "base_id": 30004,
+    "mod_id": 20025,
+    "result_id": 35092
+}, {
+    "base_id": 30004,
+    "mod_id": 40026,
+    "result_id": 35092
+}, {
+    "base_id": 30004,
+    "mod_id": 30039,
+    "result_id": 35092
+}, {
+    "base_id": 30004,
+    "mod_id": 20032,
+    "result_id": 35092
+}, {
+    "base_id": 30004,
+    "mod_id": 10039,
+    "result_id": 35092
+}, {
+    "base_id": 30001,
+    "mod_id": 20015,
+    "result_id": 35032
+}, {
+    "base_id": 30001,
+    "mod_id": 40016,
+    "result_id": 35032
+}, {
+    "base_id": 30001,
+    "mod_id": 30008,
+    "result_id": 35032
+}, {
+    "base_id": 30001,
+    "mod_id": 50016,
+    "result_id": 35032
+}, {
+    "base_id": 30001,
+    "mod_id": 10010,
+    "result_id": 35032
+}, {
+    "base_id": 30001,
+    "mod_id": 60008,
+    "result_id": 35032
+}, {
+    "base_id": 1300002,
+    "mod_id": 20015,
+    "result_id": 35032
+}, {
+    "base_id": 1300002,
+    "mod_id": 40016,
+    "result_id": 35032
+}, {
+    "base_id": 1300002,
+    "mod_id": 30008,
+    "result_id": 35032
+}, {
+    "base_id": 1300002,
+    "mod_id": 50016,
+    "result_id": 35032
+}, {
+    "base_id": 1300002,
+    "mod_id": 10010,
+    "result_id": 35032
+}, {
+    "base_id": 1300002,
+    "mod_id": 60008,
+    "result_id": 35032
+}, {
+    "base_id": 30001,
+    "mod_id": 20008,
+    "result_id": 35025
+}, {
+    "base_id": 30001,
+    "mod_id": 50013,
+    "result_id": 35025
+}, {
+    "base_id": 30001,
+    "mod_id": 40010,
+    "result_id": 35025
+}, {
+    "base_id": 30001,
+    "mod_id": 10015,
+    "result_id": 35025
+}, {
+    "base_id": 30001,
+    "mod_id": 60002,
+    "result_id": 35025
+}, {
+    "base_id": 30001,
+    "mod_id": 10031,
+    "result_id": 35025
+}, {
+    "base_id": 1300002,
+    "mod_id": 20008,
+    "result_id": 35025
+}, {
+    "base_id": 1300002,
+    "mod_id": 50013,
+    "result_id": 35025
+}, {
+    "base_id": 1300002,
+    "mod_id": 40010,
+    "result_id": 35025
+}, {
+    "base_id": 1300002,
+    "mod_id": 10015,
+    "result_id": 35025
+}, {
+    "base_id": 1300002,
+    "mod_id": 60002,
+    "result_id": 35025
+}, {
+    "base_id": 1300002,
+    "mod_id": 10031,
+    "result_id": 35025
+}, {
+    "base_id": 30002,
+    "mod_id": 20008,
+    "result_id": 35028
+}, {
+    "base_id": 30002,
+    "mod_id": 50013,
+    "result_id": 35028
+}, {
+    "base_id": 30002,
+    "mod_id": 40010,
+    "result_id": 35028
+}, {
+    "base_id": 30002,
+    "mod_id": 10015,
+    "result_id": 35028
+}, {
+    "base_id": 30002,
+    "mod_id": 60002,
+    "result_id": 35028
+}, {
+    "base_id": 30002,
+    "mod_id": 10031,
+    "result_id": 35028
+}, {
+    "base_id": 30005,
+    "mod_id": 20008,
+    "result_id": 35029
+}, {
+    "base_id": 30005,
+    "mod_id": 50013,
+    "result_id": 35029
+}, {
+    "base_id": 30005,
+    "mod_id": 40010,
+    "result_id": 35029
+}, {
+    "base_id": 30005,
+    "mod_id": 10015,
+    "result_id": 35029
+}, {
+    "base_id": 30005,
+    "mod_id": 60002,
+    "result_id": 35029
+}, {
+    "base_id": 30005,
+    "mod_id": 10031,
+    "result_id": 35029
+}, {
+    "base_id": 30001,
+    "mod_id": 20013,
+    "result_id": 35026
+}, {
+    "base_id": 30001,
+    "mod_id": 40006,
+    "result_id": 35026
+}, {
+    "base_id": 30001,
+    "mod_id": 30003,
+    "result_id": 35026
+}, {
+    "base_id": 30001,
+    "mod_id": 50014,
+    "result_id": 35026
+}, {
+    "base_id": 30001,
+    "mod_id": 10016,
+    "result_id": 35026
+}, {
+    "base_id": 30001,
+    "mod_id": 60005,
+    "result_id": 35026
+}, {
+    "base_id": 30001,
+    "mod_id": 20025,
+    "result_id": 35026
+}, {
+    "base_id": 1300002,
+    "mod_id": 20013,
+    "result_id": 35026
+}, {
+    "base_id": 1300002,
+    "mod_id": 40006,
+    "result_id": 35026
+}, {
+    "base_id": 1300002,
+    "mod_id": 30003,
+    "result_id": 35026
+}, {
+    "base_id": 1300002,
+    "mod_id": 50014,
+    "result_id": 35026
+}, {
+    "base_id": 1300002,
+    "mod_id": 10016,
+    "result_id": 35026
+}, {
+    "base_id": 1300002,
+    "mod_id": 60005,
+    "result_id": 35026
+}, {
+    "base_id": 1300002,
+    "mod_id": 20025,
+    "result_id": 35026
+}, {
+    "base_id": 30001,
+    "mod_id": 10033,
+    "result_id": 35093
+}, {
+    "base_id": 30001,
+    "mod_id": 40026,
+    "result_id": 35093
+}, {
+    "base_id": 30001,
+    "mod_id": 50026,
+    "result_id": 35093
+}, {
+    "base_id": 30001,
+    "mod_id": 30039,
+    "result_id": 35093
+}, {
+    "base_id": 30001,
+    "mod_id": 50033,
+    "result_id": 35093
+}, {
+    "base_id": 30001,
+    "mod_id": 10039,
+    "result_id": 35093
+}, {
+    "base_id": 1300002,
+    "mod_id": 10033,
+    "result_id": 35093
+}, {
+    "base_id": 1300002,
+    "mod_id": 40026,
+    "result_id": 35093
+}, {
+    "base_id": 1300002,
+    "mod_id": 50026,
+    "result_id": 35093
+}, {
+    "base_id": 1300002,
+    "mod_id": 30039,
+    "result_id": 35093
+}, {
+    "base_id": 1300002,
+    "mod_id": 50033,
+    "result_id": 35093
+}, {
+    "base_id": 1300002,
+    "mod_id": 10039,
+    "result_id": 35093
+}, {
+    "base_id": 30004,
+    "mod_id": 20013,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 40006,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 30003,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 50014,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 10016,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 60005,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 10033,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 10034,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 50026,
+    "result_id": 35061
+}, {
+    "base_id": 30004,
+    "mod_id": 40031,
+    "result_id": 35061
+}, {
+    "base_id": 30006,
+    "mod_id": 20013,
+    "result_id": 35027
+}, {
+    "base_id": 30006,
+    "mod_id": 40006,
+    "result_id": 35027
+}, {
+    "base_id": 30006,
+    "mod_id": 30003,
+    "result_id": 35027
+}, {
+    "base_id": 30006,
+    "mod_id": 50014,
+    "result_id": 35027
+}, {
+    "base_id": 30006,
+    "mod_id": 10016,
+    "result_id": 35027
+}, {
+    "base_id": 30006,
+    "mod_id": 60005,
+    "result_id": 35027
+}, {
+    "base_id": 30005,
+    "mod_id": 20013,
+    "result_id": 35030
+}, {
+    "base_id": 30005,
+    "mod_id": 40006,
+    "result_id": 35030
+}, {
+    "base_id": 30005,
+    "mod_id": 30003,
+    "result_id": 35030
+}, {
+    "base_id": 30005,
+    "mod_id": 50014,
+    "result_id": 35030
+}, {
+    "base_id": 30005,
+    "mod_id": 10016,
+    "result_id": 35030
+}, {
+    "base_id": 30005,
+    "mod_id": 60005,
+    "result_id": 35030
+}, {
+    "base_id": 30007,
+    "mod_id": 20013,
+    "result_id": 35031
+}, {
+    "base_id": 30007,
+    "mod_id": 40006,
+    "result_id": 35031
+}, {
+    "base_id": 30007,
+    "mod_id": 30003,
+    "result_id": 35031
+}, {
+    "base_id": 30007,
+    "mod_id": 50014,
+    "result_id": 35031
+}, {
+    "base_id": 30007,
+    "mod_id": 10016,
+    "result_id": 35031
+}, {
+    "base_id": 30007,
+    "mod_id": 60005,
+    "result_id": 35031
+}, {
+    "base_id": 30007,
+    "mod_id": 30033,
+    "result_id": 35031
+}, {
+    "base_id": 30048,
+    "mod_id": 20013,
+    "result_id": 35031
+}, {
+    "base_id": 30048,
+    "mod_id": 40006,
+    "result_id": 35031
+}, {
+    "base_id": 30048,
+    "mod_id": 30003,
+    "result_id": 35031
+}, {
+    "base_id": 30048,
+    "mod_id": 50014,
+    "result_id": 35031
+}, {
+    "base_id": 30048,
+    "mod_id": 10016,
+    "result_id": 35031
+}, {
+    "base_id": 30048,
+    "mod_id": 60005,
+    "result_id": 35031
+}, {
+    "base_id": 30048,
+    "mod_id": 30033,
+    "result_id": 35031
+}, {
+    "base_id": 30001,
+    "mod_id": 20011,
+    "result_id": 35018
+}, {
+    "base_id": 30001,
+    "mod_id": 40011,
+    "result_id": 35018
+}, {
+    "base_id": 30001,
+    "mod_id": 30016,
+    "result_id": 35018
+}, {
+    "base_id": 30001,
+    "mod_id": 50007,
+    "result_id": 35018
+}, {
+    "base_id": 30001,
+    "mod_id": 10013,
+    "result_id": 35018
+}, {
+    "base_id": 30001,
+    "mod_id": 60001,
+    "result_id": 35018
+}, {
+    "base_id": 1300002,
+    "mod_id": 20011,
+    "result_id": 35018
+}, {
+    "base_id": 1300002,
+    "mod_id": 40011,
+    "result_id": 35018
+}, {
+    "base_id": 1300002,
+    "mod_id": 30016,
+    "result_id": 35018
+}, {
+    "base_id": 1300002,
+    "mod_id": 50007,
+    "result_id": 35018
+}, {
+    "base_id": 1300002,
+    "mod_id": 10013,
+    "result_id": 35018
+}, {
+    "base_id": 1300002,
+    "mod_id": 60001,
+    "result_id": 35018
+}, {
+    "base_id": 30006,
+    "mod_id": 20011,
+    "result_id": 35019
+}, {
+    "base_id": 30006,
+    "mod_id": 40011,
+    "result_id": 35019
+}, {
+    "base_id": 30006,
+    "mod_id": 30016,
+    "result_id": 35019
+}, {
+    "base_id": 30006,
+    "mod_id": 50007,
+    "result_id": 35019
+}, {
+    "base_id": 30006,
+    "mod_id": 10013,
+    "result_id": 35019
+}, {
+    "base_id": 30006,
+    "mod_id": 60001,
+    "result_id": 35019
+}, {
+    "base_id": 30002,
+    "mod_id": 20011,
+    "result_id": 35020
+}, {
+    "base_id": 30002,
+    "mod_id": 40011,
+    "result_id": 35020
+}, {
+    "base_id": 30002,
+    "mod_id": 30016,
+    "result_id": 35020
+}, {
+    "base_id": 30002,
+    "mod_id": 50007,
+    "result_id": 35020
+}, {
+    "base_id": 30002,
+    "mod_id": 10013,
+    "result_id": 35020
+}, {
+    "base_id": 30002,
+    "mod_id": 60001,
+    "result_id": 35020
+}, {
+    "base_id": 30005,
+    "mod_id": 20011,
+    "result_id": 35021
+}, {
+    "base_id": 30005,
+    "mod_id": 40011,
+    "result_id": 35021
+}, {
+    "base_id": 30005,
+    "mod_id": 30016,
+    "result_id": 35021
+}, {
+    "base_id": 30005,
+    "mod_id": 50007,
+    "result_id": 35021
+}, {
+    "base_id": 30005,
+    "mod_id": 10013,
+    "result_id": 35021
+}, {
+    "base_id": 30005,
+    "mod_id": 40015,
+    "result_id": 35021
+}, {
+    "base_id": 30005,
+    "mod_id": 60001,
+    "result_id": 35021
+}, {
+    "base_id": 30005,
+    "mod_id": 30037,
+    "result_id": 35021
+}, {
+    "base_id": 30007,
+    "mod_id": 20011,
+    "result_id": 35022
+}, {
+    "base_id": 30007,
+    "mod_id": 40011,
+    "result_id": 35022
+}, {
+    "base_id": 30007,
+    "mod_id": 30016,
+    "result_id": 35022
+}, {
+    "base_id": 30007,
+    "mod_id": 50007,
+    "result_id": 35022
+}, {
+    "base_id": 30007,
+    "mod_id": 10013,
+    "result_id": 35022
+}, {
+    "base_id": 30007,
+    "mod_id": 60001,
+    "result_id": 35022
+}, {
+    "base_id": 30048,
+    "mod_id": 20011,
+    "result_id": 35022
+}, {
+    "base_id": 30048,
+    "mod_id": 40011,
+    "result_id": 35022
+}, {
+    "base_id": 30048,
+    "mod_id": 30016,
+    "result_id": 35022
+}, {
+    "base_id": 30048,
+    "mod_id": 50007,
+    "result_id": 35022
+}, {
+    "base_id": 30048,
+    "mod_id": 10013,
+    "result_id": 35022
+}, {
+    "base_id": 30048,
+    "mod_id": 60001,
+    "result_id": 35022
+}, {
+    "base_id": 30001,
+    "mod_id": 40014,
+    "result_id": 35023
+}, {
+    "base_id": 30001,
+    "mod_id": 30017,
+    "result_id": 35023
+}, {
+    "base_id": 30001,
+    "mod_id": 50012,
+    "result_id": 35023
+}, {
+    "base_id": 30001,
+    "mod_id": 10004,
+    "result_id": 35023
+}, {
+    "base_id": 30001,
+    "mod_id": 30018,
+    "result_id": 35023
+}, {
+    "base_id": 30001,
+    "mod_id": 30037,
+    "result_id": 35023
+}, {
+    "base_id": 1300002,
+    "mod_id": 40014,
+    "result_id": 35023
+}, {
+    "base_id": 1300002,
+    "mod_id": 30017,
+    "result_id": 35023
+}, {
+    "base_id": 1300002,
+    "mod_id": 50012,
+    "result_id": 35023
+}, {
+    "base_id": 1300002,
+    "mod_id": 10004,
+    "result_id": 35023
+}, {
+    "base_id": 1300002,
+    "mod_id": 30018,
+    "result_id": 35023
+}, {
+    "base_id": 1300002,
+    "mod_id": 30037,
+    "result_id": 35023
+}, {
+    "base_id": 30007,
+    "mod_id": 40014,
+    "result_id": 35024
+}, {
+    "base_id": 30007,
+    "mod_id": 30017,
+    "result_id": 35024
+}, {
+    "base_id": 30007,
+    "mod_id": 50012,
+    "result_id": 35024
+}, {
+    "base_id": 30007,
+    "mod_id": 10004,
+    "result_id": 35024
+}, {
+    "base_id": 30048,
+    "mod_id": 40014,
+    "result_id": 35024
+}, {
+    "base_id": 30048,
+    "mod_id": 30017,
+    "result_id": 35024
+}, {
+    "base_id": 30048,
+    "mod_id": 50012,
+    "result_id": 35024
+}, {
+    "base_id": 30048,
+    "mod_id": 10004,
+    "result_id": 35024
+}, {
+    "base_id": 30002,
+    "mod_id": 40014,
+    "result_id": 35024
+}, {
+    "base_id": 30002,
+    "mod_id": 30017,
+    "result_id": 35024
+}, {
+    "base_id": 30002,
+    "mod_id": 50012,
+    "result_id": 35024
+}, {
+    "base_id": 30002,
+    "mod_id": 10004,
+    "result_id": 35024
+}, {
+    "base_id": 30005,
+    "mod_id": 40014,
+    "result_id": 35024
+}, {
+    "base_id": 30005,
+    "mod_id": 30017,
+    "result_id": 35024
+}, {
+    "base_id": 30005,
+    "mod_id": 50012,
+    "result_id": 35024
+}, {
+    "base_id": 30005,
+    "mod_id": 10004,
+    "result_id": 35024
+}, {
+    "base_id": 30005,
+    "mod_id": 30011,
+    "result_id": 35015
+}, {
+    "base_id": 30004,
+    "mod_id": 30011,
+    "result_id": 35057
+}, {
+    "base_id": 30006,
+    "mod_id": 20006,
+    "result_id": 35016
+}, {
+    "base_id": 30006,
+    "mod_id": 40007,
+    "result_id": 35016
+}, {
+    "base_id": 30006,
+    "mod_id": 30010,
+    "result_id": 35016
+}, {
+    "base_id": 30006,
+    "mod_id": 50008,
+    "result_id": 35016
+}, {
+    "base_id": 30006,
+    "mod_id": 10011,
+    "result_id": 35016
+}, {
+    "base_id": 30006,
+    "mod_id": 60009,
+    "result_id": 35016
+}, {
+    "base_id": 30006,
+    "mod_id": 10029,
+    "result_id": 35016
+}, {
+    "base_id": 30004,
+    "mod_id": 20006,
+    "result_id": 35058
+}, {
+    "base_id": 30004,
+    "mod_id": 40007,
+    "result_id": 35058
+}, {
+    "base_id": 30004,
+    "mod_id": 30010,
+    "result_id": 35058
+}, {
+    "base_id": 30004,
+    "mod_id": 50008,
+    "result_id": 35058
+}, {
+    "base_id": 30004,
+    "mod_id": 10011,
+    "result_id": 35058
+}, {
+    "base_id": 30004,
+    "mod_id": 60009,
+    "result_id": 35058
+}, {
+    "base_id": 30004,
+    "mod_id": 10029,
+    "result_id": 35058
+}, {
+    "base_id": 30004,
+    "mod_id": 20031,
+    "result_id": 35058
+}, {
+    "base_id": 30005,
+    "mod_id": 20006,
+    "result_id": 35017
+}, {
+    "base_id": 30005,
+    "mod_id": 40007,
+    "result_id": 35017
+}, {
+    "base_id": 30005,
+    "mod_id": 30010,
+    "result_id": 35017
+}, {
+    "base_id": 30005,
+    "mod_id": 50008,
+    "result_id": 35017
+}, {
+    "base_id": 30005,
+    "mod_id": 10011,
+    "result_id": 35017
+}, {
+    "base_id": 30005,
+    "mod_id": 60009,
+    "result_id": 35017
+}, {
+    "base_id": 30005,
+    "mod_id": 10029,
+    "result_id": 35017
+}, {
+    "base_id": 30006,
+    "mod_id": 30009,
+    "result_id": 35013
+}, {
+    "base_id": 30006,
+    "mod_id": 50009,
+    "result_id": 35013
+}, {
+    "base_id": 30006,
+    "mod_id": 20010,
+    "result_id": 35013
+}, {
+    "base_id": 30006,
+    "mod_id": 40013,
+    "result_id": 35013
+}, {
+    "base_id": 30006,
+    "mod_id": 10014,
+    "result_id": 35013
+}, {
+    "base_id": 30006,
+    "mod_id": 10024,
+    "result_id": 35013
+}, {
+    "base_id": 30006,
+    "mod_id": 60007,
+    "result_id": 35013
+}, {
+    "base_id": 30002,
+    "mod_id": 20010,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 40013,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 30009,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 50009,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 10014,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 10024,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 60007,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 30031,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 20024,
+    "result_id": 35007
+}, {
+    "base_id": 30002,
+    "mod_id": 40025,
+    "result_id": 35007
+}, {
+    "base_id": 30005,
+    "mod_id": 30009,
+    "result_id": 35014
+}, {
+    "base_id": 30005,
+    "mod_id": 50009,
+    "result_id": 35014
+}, {
+    "base_id": 30005,
+    "mod_id": 20010,
+    "result_id": 35014
+}, {
+    "base_id": 30005,
+    "mod_id": 40013,
+    "result_id": 35014
+}, {
+    "base_id": 30005,
+    "mod_id": 10014,
+    "result_id": 35014
+}, {
+    "base_id": 30005,
+    "mod_id": 10024,
+    "result_id": 35014
+}, {
+    "base_id": 30005,
+    "mod_id": 60007,
+    "result_id": 35014
+}, {
+    "base_id": 30012,
+    "mod_id": 20028,
+    "result_id": 35094
+}, {
+    "base_id": 30012,
+    "mod_id": 50021,
+    "result_id": 35094
+}, {
+    "base_id": 30012,
+    "mod_id": 40028,
+    "result_id": 35094
+}, {
+    "base_id": 30012,
+    "mod_id": 50035,
+    "result_id": 35094
+}, {
+    "base_id": 30012,
+    "mod_id": 30041,
+    "result_id": 35094
+}, {
+    "base_id": 30012,
+    "mod_id": 20034,
+    "result_id": 35094
+}, {
+    "base_id": 30012,
+    "mod_id": 10041,
+    "result_id": 35094
+}, {
+    "base_id": 30012,
+    "mod_id": 20012,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 40012,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 30015,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 10012,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 50011,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 60006,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 10026,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 30027,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 10027,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 40023,
+    "result_id": 35062
+}, {
+    "base_id": 30012,
+    "mod_id": 30028,
+    "result_id": 35062
+}, {
+    "base_id": 30002,
+    "mod_id": 20012,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 40012,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 30015,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 10012,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 50011,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 60006,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 20012,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 40012,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 30015,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 10012,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 50011,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 60006,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 20012,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 40012,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 30015,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 10012,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 50011,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 60006,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 10026,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 10026,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 10026,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 30027,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 30027,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 30027,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 50023,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 50023,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 50023,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 10027,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 10027,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 10027,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 30029,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 30029,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 20035,
+    "result_id": 35012
+}, {
+    "base_id": 30007,
+    "mod_id": 30025,
+    "result_id": 35012
+}, {
+    "base_id": 30005,
+    "mod_id": 30025,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 20012,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 40012,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 30015,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 10012,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 50011,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 60006,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 10026,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 30027,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 50023,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 10027,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 30029,
+    "result_id": 35012
+}, {
+    "base_id": 30048,
+    "mod_id": 30025,
+    "result_id": 35012
+}, {
+    "base_id": 30002,
+    "mod_id": 30029,
+    "result_id": 35085
+}, {
+    "base_id": 30002,
+    "mod_id": 30044,
+    "result_id": 35085
+}, {
+    "base_id": 30002,
+    "mod_id": 20035,
+    "result_id": 35085
+}, {
+    "base_id": 30002,
+    "mod_id": 30045,
+    "result_id": 35085
+}, {
+    "base_id": 30004,
+    "mod_id": 20012,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 40012,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 30015,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 10012,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 50011,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 60006,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 10026,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 40023,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 30029,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 50030,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 40029,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 20030,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 50031,
+    "result_id": 35055
+}, {
+    "base_id": 30004,
+    "mod_id": 10043,
+    "result_id": 35055
+}, {
+    "base_id": 30001,
+    "mod_id": 20012,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 40012,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 30015,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 10012,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 50011,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 60006,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 50010,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 30028,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 20012,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 40012,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 30015,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 10012,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 50011,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 60006,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 50010,
+    "result_id": 35006
+}, {
+    "base_id": 1300002,
+    "mod_id": 30028,
+    "result_id": 35006
+}, {
+    "base_id": 30001,
+    "mod_id": 30027,
+    "result_id": 35084
+}, {
+    "base_id": 30001,
+    "mod_id": 50023,
+    "result_id": 35084
+}, {
+    "base_id": 30001,
+    "mod_id": 10027,
+    "result_id": 35084
+}, {
+    "base_id": 1300002,
+    "mod_id": 30027,
+    "result_id": 35084
+}, {
+    "base_id": 1300002,
+    "mod_id": 50023,
+    "result_id": 35084
+}, {
+    "base_id": 1300002,
+    "mod_id": 10027,
+    "result_id": 35084
+}, {
+    "base_id": 30002,
+    "mod_id": 50010,
+    "result_id": 35054
+}, {
+    "base_id": 30001,
+    "mod_id": 20006,
+    "result_id": 35002
+}, {
+    "base_id": 30001,
+    "mod_id": 40007,
+    "result_id": 35002
+}, {
+    "base_id": 30001,
+    "mod_id": 30010,
+    "result_id": 35002
+}, {
+    "base_id": 30001,
+    "mod_id": 50008,
+    "result_id": 35002
+}, {
+    "base_id": 30001,
+    "mod_id": 10011,
+    "result_id": 35002
+}, {
+    "base_id": 30001,
+    "mod_id": 60009,
+    "result_id": 35002
+}, {
+    "base_id": 30001,
+    "mod_id": 10029,
+    "result_id": 35002
+}, {
+    "base_id": 1300002,
+    "mod_id": 20006,
+    "result_id": 35002
+}, {
+    "base_id": 1300002,
+    "mod_id": 40007,
+    "result_id": 35002
+}, {
+    "base_id": 1300002,
+    "mod_id": 30010,
+    "result_id": 35002
+}, {
+    "base_id": 1300002,
+    "mod_id": 50008,
+    "result_id": 35002
+}, {
+    "base_id": 1300002,
+    "mod_id": 10011,
+    "result_id": 35002
+}, {
+    "base_id": 1300002,
+    "mod_id": 60009,
+    "result_id": 35002
+}, {
+    "base_id": 1300002,
+    "mod_id": 10029,
+    "result_id": 35002
+}, {
+    "base_id": 30001,
+    "mod_id": 30009,
+    "result_id": 35008
+}, {
+    "base_id": 30001,
+    "mod_id": 50009,
+    "result_id": 35008
+}, {
+    "base_id": 30001,
+    "mod_id": 20010,
+    "result_id": 35008
+}, {
+    "base_id": 30001,
+    "mod_id": 40013,
+    "result_id": 35008
+}, {
+    "base_id": 30001,
+    "mod_id": 10014,
+    "result_id": 35008
+}, {
+    "base_id": 30001,
+    "mod_id": 10024,
+    "result_id": 35008
+}, {
+    "base_id": 30001,
+    "mod_id": 60007,
+    "result_id": 35008
+}, {
+    "base_id": 1300002,
+    "mod_id": 30009,
+    "result_id": 35008
+}, {
+    "base_id": 1300002,
+    "mod_id": 50009,
+    "result_id": 35008
+}, {
+    "base_id": 1300002,
+    "mod_id": 20010,
+    "result_id": 35008
+}, {
+    "base_id": 1300002,
+    "mod_id": 40013,
+    "result_id": 35008
+}, {
+    "base_id": 1300002,
+    "mod_id": 10014,
+    "result_id": 35008
+}, {
+    "base_id": 1300002,
+    "mod_id": 10024,
+    "result_id": 35008
+}, {
+    "base_id": 1300002,
+    "mod_id": 60007,
+    "result_id": 35008
+}, {
+    "base_id": 30002,
+    "mod_id": 20006,
+    "result_id": 35011
+}, {
+    "base_id": 30002,
+    "mod_id": 40007,
+    "result_id": 35011
+}, {
+    "base_id": 30002,
+    "mod_id": 30010,
+    "result_id": 35011
+}, {
+    "base_id": 30002,
+    "mod_id": 50008,
+    "result_id": 35011
+}, {
+    "base_id": 30002,
+    "mod_id": 10011,
+    "result_id": 35011
+}, {
+    "base_id": 30002,
+    "mod_id": 60009,
+    "result_id": 35011
+}, {
+    "base_id": 30002,
+    "mod_id": 10029,
+    "result_id": 35011
+}, {
+    "base_id": 30007,
+    "mod_id": 20006,
+    "result_id": 35010
+}, {
+    "base_id": 30007,
+    "mod_id": 40007,
+    "result_id": 35010
+}, {
+    "base_id": 30007,
+    "mod_id": 30010,
+    "result_id": 35010
+}, {
+    "base_id": 30007,
+    "mod_id": 50008,
+    "result_id": 35010
+}, {
+    "base_id": 30007,
+    "mod_id": 10011,
+    "result_id": 35010
+}, {
+    "base_id": 30007,
+    "mod_id": 60009,
+    "result_id": 35010
+}, {
+    "base_id": 30007,
+    "mod_id": 10029,
+    "result_id": 35010
+}, {
+    "base_id": 30048,
+    "mod_id": 20006,
+    "result_id": 35010
+}, {
+    "base_id": 30048,
+    "mod_id": 40007,
+    "result_id": 35010
+}, {
+    "base_id": 30048,
+    "mod_id": 30010,
+    "result_id": 35010
+}, {
+    "base_id": 30048,
+    "mod_id": 50008,
+    "result_id": 35010
+}, {
+    "base_id": 30048,
+    "mod_id": 10011,
+    "result_id": 35010
+}, {
+    "base_id": 30048,
+    "mod_id": 60009,
+    "result_id": 35010
+}, {
+    "base_id": 30048,
+    "mod_id": 10029,
+    "result_id": 35010
+}, {
+    "base_id": 30007,
+    "mod_id": 30009,
+    "result_id": 35009
+}, {
+    "base_id": 30007,
+    "mod_id": 50009,
+    "result_id": 35009
+}, {
+    "base_id": 30007,
+    "mod_id": 20010,
+    "result_id": 35009
+}, {
+    "base_id": 30007,
+    "mod_id": 40013,
+    "result_id": 35009
+}, {
+    "base_id": 30007,
+    "mod_id": 10014,
+    "result_id": 35009
+}, {
+    "base_id": 30007,
+    "mod_id": 10024,
+    "result_id": 35009
+}, {
+    "base_id": 30007,
+    "mod_id": 60007,
+    "result_id": 35009
+}, {
+    "base_id": 30048,
+    "mod_id": 30009,
+    "result_id": 35009
+}, {
+    "base_id": 30048,
+    "mod_id": 50009,
+    "result_id": 35009
+}, {
+    "base_id": 30048,
+    "mod_id": 20010,
+    "result_id": 35009
+}, {
+    "base_id": 30048,
+    "mod_id": 40013,
+    "result_id": 35009
+}, {
+    "base_id": 30048,
+    "mod_id": 10014,
+    "result_id": 35009
+}, {
+    "base_id": 30048,
+    "mod_id": 10024,
+    "result_id": 35009
+}, {
+    "base_id": 30048,
+    "mod_id": 60007,
+    "result_id": 35009
+}, {
+    "base_id": 30004,
+    "mod_id": 30009,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 50009,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 20010,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 40013,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 10014,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 10024,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 60007,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 50024,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 40024,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 30031,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 20024,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 40025,
+    "result_id": 35059
+}, {
+    "base_id": 30004,
+    "mod_id": 20033,
+    "result_id": 35059
+}, {
+    "base_id": 30012,
+    "mod_id": 30009,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 50009,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 20010,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 40013,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 10014,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 10024,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 60007,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 30031,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 20024,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 40025,
+    "result_id": 35063
+}, {
+    "base_id": 30012,
+    "mod_id": 20033,
+    "result_id": 35063
+}, {
+    "base_id": 30007,
+    "mod_id": 50010,
+    "result_id": 35003
+}, {
+    "base_id": 30048,
+    "mod_id": 50010,
+    "result_id": 35003
+}, {
+    "base_id": 30004,
+    "mod_id": 50010,
+    "result_id": 35056
+}, {
+    "base_id": 30001,
+    "mod_id": 20018,
+    "result_id": 35051
+}, {
+    "base_id": 30001,
+    "mod_id": 30013,
+    "result_id": 35051
+}, {
+    "base_id": 30001,
+    "mod_id": 40019,
+    "result_id": 35051
+}, {
+    "base_id": 30001,
+    "mod_id": 10008,
+    "result_id": 35051
+}, {
+    "base_id": 30001,
+    "mod_id": 60013,
+    "result_id": 35051
+}, {
+    "base_id": 1300002,
+    "mod_id": 20018,
+    "result_id": 35051
+}, {
+    "base_id": 1300002,
+    "mod_id": 30013,
+    "result_id": 35051
+}, {
+    "base_id": 1300002,
+    "mod_id": 40019,
+    "result_id": 35051
+}, {
+    "base_id": 1300002,
+    "mod_id": 10008,
+    "result_id": 35051
+}, {
+    "base_id": 1300002,
+    "mod_id": 60013,
+    "result_id": 35051
+}, {
+    "base_id": 30006,
+    "mod_id": 30014,
+    "result_id": 35045
+}, {
+    "base_id": 30006,
+    "mod_id": 40020,
+    "result_id": 35045
+}, {
+    "base_id": 30006,
+    "mod_id": 20019,
+    "result_id": 35045
+}, {
+    "base_id": 30006,
+    "mod_id": 10019,
+    "result_id": 35045
+}, {
+    "base_id": 30006,
+    "mod_id": 10021,
+    "result_id": 35045
+}, {
+    "base_id": 30006,
+    "mod_id": 60003,
+    "result_id": 35045
+}, {
+    "base_id": 30006,
+    "mod_id": 50021,
+    "result_id": 35045
+}, {
+    "base_id": 30006,
+    "mod_id": 30030,
+    "result_id": 35045
+}, {
+    "base_id": 30002,
+    "mod_id": 30014,
+    "result_id": 35046
+}, {
+    "base_id": 30002,
+    "mod_id": 40020,
+    "result_id": 35046
+}, {
+    "base_id": 30002,
+    "mod_id": 20019,
+    "result_id": 35046
+}, {
+    "base_id": 30002,
+    "mod_id": 10019,
+    "result_id": 35046
+}, {
+    "base_id": 30002,
+    "mod_id": 10021,
+    "result_id": 35046
+}, {
+    "base_id": 30002,
+    "mod_id": 60003,
+    "result_id": 35046
+}, {
+    "base_id": 30002,
+    "mod_id": 30030,
+    "result_id": 35046
+}, {
+    "base_id": 30002,
+    "mod_id": 50029,
+    "result_id": 35046
+}, {
+    "base_id": 30001,
+    "mod_id": 30014,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 40020,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 20019,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 10019,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 10021,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 60003,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 30030,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 50029,
+    "result_id": 35047
+}, {
+    "base_id": 30001,
+    "mod_id": 20028,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 30014,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 40020,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 20019,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 10019,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 60003,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 30030,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 50029,
+    "result_id": 35047
+}, {
+    "base_id": 1300002,
+    "mod_id": 20028,
+    "result_id": 35047
+}, {
+    "base_id": 30007,
+    "mod_id": 20008,
+    "result_id": 35048
+}, {
+    "base_id": 30007,
+    "mod_id": 50013,
+    "result_id": 35048
+}, {
+    "base_id": 30007,
+    "mod_id": 40010,
+    "result_id": 35048
+}, {
+    "base_id": 30007,
+    "mod_id": 10015,
+    "result_id": 35048
+}, {
+    "base_id": 30007,
+    "mod_id": 60002,
+    "result_id": 35048
+}, {
+    "base_id": 30007,
+    "mod_id": 10031,
+    "result_id": 35048
+}, {
+    "base_id": 30048,
+    "mod_id": 20008,
+    "result_id": 35048
+}, {
+    "base_id": 30048,
+    "mod_id": 50013,
+    "result_id": 35048
+}, {
+    "base_id": 30048,
+    "mod_id": 40010,
+    "result_id": 35048
+}, {
+    "base_id": 30048,
+    "mod_id": 10015,
+    "result_id": 35048
+}, {
+    "base_id": 30048,
+    "mod_id": 60002,
+    "result_id": 35048
+}, {
+    "base_id": 30048,
+    "mod_id": 10031,
+    "result_id": 35048
+}, {
+    "base_id": 30012,
+    "mod_id": 30014,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 40020,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 20019,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 10019,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 10021,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 60003,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 20006,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 40007,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 30010,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 50008,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 10011,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 60009,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 10029,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 30030,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 50029,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 10036,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 30038,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 50032,
+    "result_id": 35053
+}, {
+    "base_id": 30012,
+    "mod_id": 10038,
+    "result_id": 35053
+}, {
+    "base_id": 30005,
+    "mod_id": 20018,
+    "result_id": 35049
+}, {
+    "base_id": 30005,
+    "mod_id": 30013,
+    "result_id": 35049
+}, {
+    "base_id": 30005,
+    "mod_id": 40019,
+    "result_id": 35049
+}, {
+    "base_id": 30005,
+    "mod_id": 10008,
+    "result_id": 35049
+}, {
+    "base_id": 30005,
+    "mod_id": 60013,
+    "result_id": 35049
+}, {
+    "base_id": 30005,
+    "mod_id": 30034,
+    "result_id": 35049
+}, {
+    "base_id": 30002,
+    "mod_id": 20018,
+    "result_id": 35050
+}, {
+    "base_id": 30002,
+    "mod_id": 30013,
+    "result_id": 35050
+}, {
+    "base_id": 30002,
+    "mod_id": 40019,
+    "result_id": 35050
+}, {
+    "base_id": 30002,
+    "mod_id": 10008,
+    "result_id": 35050
+}, {
+    "base_id": 30002,
+    "mod_id": 60013,
+    "result_id": 35050
+}, {
+    "base_id": 30002,
+    "mod_id": 30034,
+    "result_id": 35050
+}, {
+    "base_id": 30005,
+    "mod_id": 20020,
+    "result_id": 35001
+}, {
+    "base_id": 30005,
+    "mod_id": 50020,
+    "result_id": 35001
+}, {
+    "base_id": 30005,
+    "mod_id": 10020,
+    "result_id": 35001
+}, {
+    "base_id": 30005,
+    "mod_id": 60011,
+    "result_id": 35001
+}, {
+    "base_id": 30001,
+    "mod_id": 20020,
+    "result_id": 35004
+}, {
+    "base_id": 30001,
+    "mod_id": 50020,
+    "result_id": 35004
+}, {
+    "base_id": 30001,
+    "mod_id": 10020,
+    "result_id": 35004
+}, {
+    "base_id": 30001,
+    "mod_id": 60011,
+    "result_id": 35004
+}, {
+    "base_id": 1300002,
+    "mod_id": 20020,
+    "result_id": 35004
+}, {
+    "base_id": 1300002,
+    "mod_id": 50020,
+    "result_id": 35004
+}, {
+    "base_id": 1300002,
+    "mod_id": 10020,
+    "result_id": 35004
+}, {
+    "base_id": 30006,
+    "mod_id": 20020,
+    "result_id": 35004
+}, {
+    "base_id": 30006,
+    "mod_id": 50020,
+    "result_id": 35004
+}, {
+    "base_id": 30006,
+    "mod_id": 10020,
+    "result_id": 35004
+}, {
+    "base_id": 30006,
+    "mod_id": 60011,
+    "result_id": 35004
+}, {
+    "base_id": 30002,
+    "mod_id": 30011,
+    "result_id": 35052
+}, {
+    "base_id": 30012,
+    "mod_id": 40018,
+    "result_id": 35064
+}, {
+    "base_id": 30012,
+    "mod_id": 20016,
+    "result_id": 35064
+}, {
+    "base_id": 30012,
+    "mod_id": 30020,
+    "result_id": 35064
+}, {
+    "base_id": 30012,
+    "mod_id": 50018,
+    "result_id": 35064
+}, {
+    "base_id": 30012,
+    "mod_id": 10017,
+    "result_id": 35064
+}, {
+    "base_id": 30012,
+    "mod_id": 60012,
+    "result_id": 35064
+}, {
+    "base_id": 30012,
+    "mod_id": 30036,
+    "result_id": 35064
+}, {
+    "base_id": 30025,
+    "mod_id": 30001,
+    "result_id": 35075
+}, {
+    "base_id": 30026,
+    "mod_id": 30006,
+    "result_id": 35075
+}, {
+    "base_id": 30025,
+    "mod_id": 30006,
+    "result_id": 35076
+}, {
+    "base_id": 30026,
+    "mod_id": 30024,
+    "result_id": 35077
+}, {
+    "base_id": 30026,
+    "mod_id": 30004,
+    "result_id": 35068
+}, {
+    "base_id": 30024,
+    "mod_id": 30006,
+    "result_id": 35072
+}, {
+    "base_id": 30024,
+    "mod_id": 30007,
+    "result_id": 35073
+}, {
+    "base_id": 30024,
+    "mod_id": 30002,
+    "result_id": 35073
+}, {
+    "base_id": 30024,
+    "mod_id": 30005,
+    "result_id": 35073
+}, {
+    "base_id": 30024,
+    "mod_id": 30004,
+    "result_id": 35074
+}, {
+    "base_id": 40004,
+    "mod_id": 50033,
+    "result_id": 45113
+}, {
+    "base_id": 40004,
+    "mod_id": 30051,
+    "result_id": 45113
+}, {
+    "base_id": 40001,
+    "mod_id": 50043,
+    "result_id": 45112
+}, {
+    "base_id": 40027,
+    "mod_id": 50043,
+    "result_id": 45112
+}, {
+    "base_id": 40001,
+    "mod_id": 30051,
+    "result_id": 45112
+}, {
+    "base_id": 40027,
+    "mod_id": 30051,
+    "result_id": 45112
+}, {
+    "base_id": 40001,
+    "mod_id": 40038,
+    "result_id": 45112
+}, {
+    "base_id": 40027,
+    "mod_id": 40038,
+    "result_id": 45112
+}, {
+    "base_id": 40001,
+    "mod_id": 40037,
+    "result_id": 45111
+}, {
+    "base_id": 40027,
+    "mod_id": 40037,
+    "result_id": 45111
+}, {
+    "base_id": 40001,
+    "mod_id": 10047,
+    "result_id": 45111
+}, {
+    "base_id": 40027,
+    "mod_id": 10047,
+    "result_id": 45111
+}, {
+    "base_id": 40001,
+    "mod_id": 50034,
+    "result_id": 45111
+}, {
+    "base_id": 40027,
+    "mod_id": 50034,
+    "result_id": 45111
+}, {
+    "base_id": 40001,
+    "mod_id": 30050,
+    "result_id": 45111
+}, {
+    "base_id": 40027,
+    "mod_id": 30050,
+    "result_id": 45111
+}, {
+    "base_id": 40001,
+    "mod_id": 20038,
+    "result_id": 45111
+}, {
+    "base_id": 40027,
+    "mod_id": 20038,
+    "result_id": 45111
+}, {
+    "base_id": 40001,
+    "mod_id": 50042,
+    "result_id": 45111
+}, {
+    "base_id": 40027,
+    "mod_id": 50042,
+    "result_id": 45111
+}, {
+    "base_id": 40004,
+    "mod_id": 50034,
+    "result_id": 45110
+}, {
+    "base_id": 40004,
+    "mod_id": 10040,
+    "result_id": 45110
+}, {
+    "base_id": 40004,
+    "mod_id": 10047,
+    "result_id": 45110
+}, {
+    "base_id": 40004,
+    "mod_id": 30050,
+    "result_id": 45110
+}, {
+    "base_id": 40004,
+    "mod_id": 20038,
+    "result_id": 45110
+}, {
+    "base_id": 40004,
+    "mod_id": 40037,
+    "result_id": 45110
+}, {
+    "base_id": 40004,
+    "mod_id": 50042,
+    "result_id": 45110
+}, {
+    "base_id": 40003,
+    "mod_id": 40024,
+    "result_id": 45109
+}, {
+    "base_id": 40003,
+    "mod_id": 30032,
+    "result_id": 45109
+}, {
+    "base_id": 40003,
+    "mod_id": 50024,
+    "result_id": 45109
+}, {
+    "base_id": 40003,
+    "mod_id": 30050,
+    "result_id": 45109
+}, {
+    "base_id": 40003,
+    "mod_id": 20038,
+    "result_id": 45109
+}, {
+    "base_id": 40003,
+    "mod_id": 40037,
+    "result_id": 45109
+}, {
+    "base_id": 40003,
+    "mod_id": 10047,
+    "result_id": 45109
+}, {
+    "base_id": 40003,
+    "mod_id": 50042,
+    "result_id": 45109
+}, {
+    "base_id": 40008,
+    "mod_id": 50032,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 20037,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 30023,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 20031,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 10046,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 10038,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 40030,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 40036,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 30049,
+    "result_id": 45108
+}, {
+    "base_id": 40008,
+    "mod_id": 50041,
+    "result_id": 45108
+}, {
+    "base_id": 40002,
+    "mod_id": 50032,
+    "result_id": 45107
+}, {
+    "base_id": 1400001,
+    "mod_id": 50032,
+    "result_id": 45107
+}, {
+    "base_id": 40002,
+    "mod_id": 40036,
+    "result_id": 45107
+}, {
+    "base_id": 1400001,
+    "mod_id": 40036,
+    "result_id": 45107
+}, {
+    "base_id": 40002,
+    "mod_id": 20031,
+    "result_id": 45107
+}, {
+    "base_id": 1400001,
+    "mod_id": 20031,
+    "result_id": 45107
+}, {
+    "base_id": 40002,
+    "mod_id": 40030,
+    "result_id": 45107
+}, {
+    "base_id": 1400001,
+    "mod_id": 40030,
+    "result_id": 45107
+}, {
+    "base_id": 40002,
+    "mod_id": 20037,
+    "result_id": 45107
+}, {
+    "base_id": 1400001,
+    "mod_id": 20037,
+    "result_id": 45107
+}, {
+    "base_id": 40004,
+    "mod_id": 30049,
+    "result_id": 45106
+}, {
+    "base_id": 40004,
+    "mod_id": 30023,
+    "result_id": 45106
+}, {
+    "base_id": 40004,
+    "mod_id": 10046,
+    "result_id": 45106
+}, {
+    "base_id": 40004,
+    "mod_id": 40036,
+    "result_id": 45106
+}, {
+    "base_id": 40004,
+    "mod_id": 20037,
+    "result_id": 45106
+}, {
+    "base_id": 40001,
+    "mod_id": 20036,
+    "result_id": 45105
+}, {
+    "base_id": 40027,
+    "mod_id": 20036,
+    "result_id": 45105
+}, {
+    "base_id": 40001,
+    "mod_id": 30047,
+    "result_id": 45105
+}, {
+    "base_id": 40027,
+    "mod_id": 30047,
+    "result_id": 45105
+}, {
+    "base_id": 40001,
+    "mod_id": 10045,
+    "result_id": 45105
+}, {
+    "base_id": 40027,
+    "mod_id": 10045,
+    "result_id": 45105
+}, {
+    "base_id": 40001,
+    "mod_id": 50040,
+    "result_id": 45105
+}, {
+    "base_id": 40027,
+    "mod_id": 50040,
+    "result_id": 45105
+}, {
+    "base_id": 40002,
+    "mod_id": 10044,
+    "result_id": 45104
+}, {
+    "base_id": 1400001,
+    "mod_id": 10044,
+    "result_id": 45104
+}, {
+    "base_id": 40002,
+    "mod_id": 30046,
+    "result_id": 45104
+}, {
+    "base_id": 1400001,
+    "mod_id": 30046,
+    "result_id": 45104
+}, {
+    "base_id": 40002,
+    "mod_id": 20036,
+    "result_id": 45104
+}, {
+    "base_id": 1400001,
+    "mod_id": 20036,
+    "result_id": 45104
+}, {
+    "base_id": 40002,
+    "mod_id": 40035,
+    "result_id": 45104
+}, {
+    "base_id": 1400001,
+    "mod_id": 40035,
+    "result_id": 45104
+}, {
+    "base_id": 40003,
+    "mod_id": 30046,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 10044,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 50039,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 20036,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 30047,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 50040,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 10045,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 40035,
+    "result_id": 45103
+}, {
+    "base_id": 40003,
+    "mod_id": 50037,
+    "result_id": 45102
+}, {
+    "base_id": 40003,
+    "mod_id": 20030,
+    "result_id": 45102
+}, {
+    "base_id": 40003,
+    "mod_id": 50023,
+    "result_id": 45102
+}, {
+    "base_id": 40003,
+    "mod_id": 30044,
+    "result_id": 45102
+}, {
+    "base_id": 40003,
+    "mod_id": 10043,
+    "result_id": 45102
+}, {
+    "base_id": 40003,
+    "mod_id": 20035,
+    "result_id": 45102
+}, {
+    "base_id": 40003,
+    "mod_id": 30045,
+    "result_id": 45102
+}, {
+    "base_id": 40002,
+    "mod_id": 40029,
+    "result_id": 45101
+}, {
+    "base_id": 1400001,
+    "mod_id": 40029,
+    "result_id": 45101
+}, {
+    "base_id": 40002,
+    "mod_id": 20030,
+    "result_id": 45101
+}, {
+    "base_id": 1400001,
+    "mod_id": 20030,
+    "result_id": 45101
+}, {
+    "base_id": 40002,
+    "mod_id": 50031,
+    "result_id": 45101
+}, {
+    "base_id": 1400001,
+    "mod_id": 50031,
+    "result_id": 45101
+}, {
+    "base_id": 40002,
+    "mod_id": 30044,
+    "result_id": 45101
+}, {
+    "base_id": 1400001,
+    "mod_id": 30044,
+    "result_id": 45101
+}, {
+    "base_id": 40002,
+    "mod_id": 20035,
+    "result_id": 45101
+}, {
+    "base_id": 1400001,
+    "mod_id": 20035,
+    "result_id": 45101
+}, {
+    "base_id": 40002,
+    "mod_id": 30045,
+    "result_id": 45101
+}, {
+    "base_id": 1400001,
+    "mod_id": 30045,
+    "result_id": 45101
+}, {
+    "base_id": 40004,
+    "mod_id": 30042,
+    "result_id": 45100
+}, {
+    "base_id": 40004,
+    "mod_id": 40033,
+    "result_id": 45100
+}, {
+    "base_id": 40004,
+    "mod_id": 50036,
+    "result_id": 45100
+}, {
+    "base_id": 40004,
+    "mod_id": 10042,
+    "result_id": 45100
+}, {
+    "base_id": 40004,
+    "mod_id": 30043,
+    "result_id": 45100
+}, {
+    "base_id": 40004,
+    "mod_id": 40034,
+    "result_id": 45100
+}, {
+    "base_id": 40002,
+    "mod_id": 40033,
+    "result_id": 45099
+}, {
+    "base_id": 1400001,
+    "mod_id": 40033,
+    "result_id": 45099
+}, {
+    "base_id": 40002,
+    "mod_id": 50036,
+    "result_id": 45099
+}, {
+    "base_id": 1400001,
+    "mod_id": 50036,
+    "result_id": 45099
+}, {
+    "base_id": 40002,
+    "mod_id": 30042,
+    "result_id": 45099
+}, {
+    "base_id": 1400001,
+    "mod_id": 30042,
+    "result_id": 45099
+}, {
+    "base_id": 40002,
+    "mod_id": 30043,
+    "result_id": 45099
+}, {
+    "base_id": 1400001,
+    "mod_id": 30043,
+    "result_id": 45099
+}, {
+    "base_id": 40001,
+    "mod_id": 50029,
+    "result_id": 45098
+}, {
+    "base_id": 40027,
+    "mod_id": 50029,
+    "result_id": 45098
+}, {
+    "base_id": 40001,
+    "mod_id": 40028,
+    "result_id": 45098
+}, {
+    "base_id": 40027,
+    "mod_id": 40028,
+    "result_id": 45098
+}, {
+    "base_id": 40001,
+    "mod_id": 30038,
+    "result_id": 45098
+}, {
+    "base_id": 40027,
+    "mod_id": 30038,
+    "result_id": 45098
+}, {
+    "base_id": 40001,
+    "mod_id": 50035,
+    "result_id": 45098
+}, {
+    "base_id": 40027,
+    "mod_id": 50035,
+    "result_id": 45098
+}, {
+    "base_id": 40001,
+    "mod_id": 30041,
+    "result_id": 45098
+}, {
+    "base_id": 40027,
+    "mod_id": 30041,
+    "result_id": 45098
+}, {
+    "base_id": 40001,
+    "mod_id": 40032,
+    "result_id": 45098
+}, {
+    "base_id": 40027,
+    "mod_id": 40032,
+    "result_id": 45098
+}, {
+    "base_id": 40004,
+    "mod_id": 30041,
+    "result_id": 45097
+}, {
+    "base_id": 40004,
+    "mod_id": 50029,
+    "result_id": 45097
+}, {
+    "base_id": 40004,
+    "mod_id": 50035,
+    "result_id": 45097
+}, {
+    "base_id": 40004,
+    "mod_id": 40032,
+    "result_id": 45097
+}, {
+    "base_id": 40004,
+    "mod_id": 10041,
+    "result_id": 45097
+}, {
+    "base_id": 40009,
+    "mod_id": 50035,
+    "result_id": 45096
+}, {
+    "base_id": 40009,
+    "mod_id": 50029,
+    "result_id": 45096
+}, {
+    "base_id": 40009,
+    "mod_id": 30041,
+    "result_id": 45096
+}, {
+    "base_id": 40009,
+    "mod_id": 40028,
+    "result_id": 45096
+}, {
+    "base_id": 40009,
+    "mod_id": 20034,
+    "result_id": 45096
+}, {
+    "base_id": 40009,
+    "mod_id": 40032,
+    "result_id": 45096
+}, {
+    "base_id": 40009,
+    "mod_id": 10041,
+    "result_id": 45096
+}, {
+    "base_id": 40002,
+    "mod_id": 10040,
+    "result_id": 45095
+}, {
+    "base_id": 1400001,
+    "mod_id": 10040,
+    "result_id": 45095
+}, {
+    "base_id": 40002,
+    "mod_id": 50034,
+    "result_id": 45095
+}, {
+    "base_id": 1400001,
+    "mod_id": 50034,
+    "result_id": 45095
+}, {
+    "base_id": 40002,
+    "mod_id": 30050,
+    "result_id": 45095
+}, {
+    "base_id": 1400001,
+    "mod_id": 30050,
+    "result_id": 45095
+}, {
+    "base_id": 40002,
+    "mod_id": 40037,
+    "result_id": 45095
+}, {
+    "base_id": 1400001,
+    "mod_id": 40037,
+    "result_id": 45095
+}, {
+    "base_id": 40002,
+    "mod_id": 10047,
+    "result_id": 45095
+}, {
+    "base_id": 1400001,
+    "mod_id": 10047,
+    "result_id": 45095
+}, {
+    "base_id": 40027,
+    "mod_id": 30040,
+    "result_id": 45094
+}, {
+    "base_id": 40001,
+    "mod_id": 30040,
+    "result_id": 45094
+}, {
+    "base_id": 40027,
+    "mod_id": 40024,
+    "result_id": 45094
+}, {
+    "base_id": 40001,
+    "mod_id": 40024,
+    "result_id": 45094
+}, {
+    "base_id": 40027,
+    "mod_id": 30032,
+    "result_id": 45094
+}, {
+    "base_id": 40001,
+    "mod_id": 30032,
+    "result_id": 45094
+}, {
+    "base_id": 40009,
+    "mod_id": 60006,
+    "result_id": 45093
+}, {
+    "base_id": 40009,
+    "mod_id": 30015,
+    "result_id": 45093
+}, {
+    "base_id": 40009,
+    "mod_id": 20012,
+    "result_id": 45093
+}, {
+    "base_id": 40009,
+    "mod_id": 10012,
+    "result_id": 45093
+}, {
+    "base_id": 40009,
+    "mod_id": 40012,
+    "result_id": 45093
+}, {
+    "base_id": 40009,
+    "mod_id": 50011,
+    "result_id": 45093
+}, {
+    "base_id": 40008,
+    "mod_id": 10033,
+    "result_id": 45092
+}, {
+    "base_id": 40008,
+    "mod_id": 10034,
+    "result_id": 45092
+}, {
+    "base_id": 40008,
+    "mod_id": 20025,
+    "result_id": 45092
+}, {
+    "base_id": 40008,
+    "mod_id": 50026,
+    "result_id": 45092
+}, {
+    "base_id": 40008,
+    "mod_id": 30039,
+    "result_id": 45092
+}, {
+    "base_id": 40008,
+    "mod_id": 20032,
+    "result_id": 45092
+}, {
+    "base_id": 40008,
+    "mod_id": 50033,
+    "result_id": 45092
+}, {
+    "base_id": 40002,
+    "mod_id": 10033,
+    "result_id": 45091
+}, {
+    "base_id": 1400001,
+    "mod_id": 10033,
+    "result_id": 45091
+}, {
+    "base_id": 40002,
+    "mod_id": 10034,
+    "result_id": 45091
+}, {
+    "base_id": 1400001,
+    "mod_id": 10034,
+    "result_id": 45091
+}, {
+    "base_id": 40002,
+    "mod_id": 40031,
+    "result_id": 45091
+}, {
+    "base_id": 1400001,
+    "mod_id": 40031,
+    "result_id": 45091
+}, {
+    "base_id": 40002,
+    "mod_id": 20032,
+    "result_id": 45091
+}, {
+    "base_id": 1400001,
+    "mod_id": 20032,
+    "result_id": 45091
+}, {
+    "base_id": 40002,
+    "mod_id": 50033,
+    "result_id": 45091
+}, {
+    "base_id": 1400001,
+    "mod_id": 50033,
+    "result_id": 45091
+}, {
+    "base_id": 40001,
+    "mod_id": 10033,
+    "result_id": 45090
+}, {
+    "base_id": 40027,
+    "mod_id": 10033,
+    "result_id": 45090
+}, {
+    "base_id": 40001,
+    "mod_id": 10034,
+    "result_id": 45090
+}, {
+    "base_id": 40027,
+    "mod_id": 10034,
+    "result_id": 45090
+}, {
+    "base_id": 40001,
+    "mod_id": 30039,
+    "result_id": 45090
+}, {
+    "base_id": 40027,
+    "mod_id": 30039,
+    "result_id": 45090
+}, {
+    "base_id": 40001,
+    "mod_id": 20032,
+    "result_id": 45090
+}, {
+    "base_id": 40027,
+    "mod_id": 20032,
+    "result_id": 45090
+}, {
+    "base_id": 40001,
+    "mod_id": 50033,
+    "result_id": 45090
+}, {
+    "base_id": 40027,
+    "mod_id": 50033,
+    "result_id": 45090
+}, {
+    "base_id": 40001,
+    "mod_id": 10039,
+    "result_id": 45090
+}, {
+    "base_id": 40027,
+    "mod_id": 10039,
+    "result_id": 45090
+}, {
+    "base_id": 40003,
+    "mod_id": 30023,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 50032,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 20031,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 10038,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 40030,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 30049,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 10046,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 40036,
+    "result_id": 45089
+}, {
+    "base_id": 40003,
+    "mod_id": 50041,
+    "result_id": 45089
+}, {
+    "base_id": 40001,
+    "mod_id": 20031,
+    "result_id": 45088
+}, {
+    "base_id": 40027,
+    "mod_id": 20031,
+    "result_id": 45088
+}, {
+    "base_id": 40001,
+    "mod_id": 30023,
+    "result_id": 45088
+}, {
+    "base_id": 40027,
+    "mod_id": 30023,
+    "result_id": 45088
+}, {
+    "base_id": 40001,
+    "mod_id": 40030,
+    "result_id": 45088
+}, {
+    "base_id": 40027,
+    "mod_id": 40030,
+    "result_id": 45088
+}, {
+    "base_id": 40001,
+    "mod_id": 10046,
+    "result_id": 45088
+}, {
+    "base_id": 40027,
+    "mod_id": 10046,
+    "result_id": 45088
+}, {
+    "base_id": 40001,
+    "mod_id": 40036,
+    "result_id": 45088
+}, {
+    "base_id": 40027,
+    "mod_id": 40036,
+    "result_id": 45088
+}, {
+    "base_id": 40001,
+    "mod_id": 20037,
+    "result_id": 45088
+}, {
+    "base_id": 40027,
+    "mod_id": 20037,
+    "result_id": 45088
+}, {
+    "base_id": 40005,
+    "mod_id": 10026,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 10027,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 30028,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 40023,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 50030,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 40029,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 20030,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 50031,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 30029,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 10043,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 50037,
+    "result_id": 45087
+}, {
+    "base_id": 40005,
+    "mod_id": 30045,
+    "result_id": 45087
+}, {
+    "base_id": 40004,
+    "mod_id": 10026,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 40023,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 50030,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 40029,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 30029,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 20030,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 50031,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 10043,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 50037,
+    "result_id": 45086
+}, {
+    "base_id": 40004,
+    "mod_id": 30045,
+    "result_id": 45086
+}, {
+    "base_id": 40002,
+    "mod_id": 50030,
+    "result_id": 45085
+}, {
+    "base_id": 1400001,
+    "mod_id": 50030,
+    "result_id": 45085
+}, {
+    "base_id": 40002,
+    "mod_id": 10027,
+    "result_id": 45085
+}, {
+    "base_id": 1400001,
+    "mod_id": 10027,
+    "result_id": 45085
+}, {
+    "base_id": 40002,
+    "mod_id": 30027,
+    "result_id": 45085
+}, {
+    "base_id": 1400001,
+    "mod_id": 30027,
+    "result_id": 45085
+}, {
+    "base_id": 40002,
+    "mod_id": 50023,
+    "result_id": 45085
+}, {
+    "base_id": 1400001,
+    "mod_id": 50023,
+    "result_id": 45085
+}, {
+    "base_id": 40002,
+    "mod_id": 30029,
+    "result_id": 45085
+}, {
+    "base_id": 1400001,
+    "mod_id": 30029,
+    "result_id": 45085
+}, {
+    "base_id": 1400001,
+    "mod_id": 30031,
+    "result_id": 45078
+}, {
+    "base_id": 1400001,
+    "mod_id": 40025,
+    "result_id": 45078
+}, {
+    "base_id": 1400001,
+    "mod_id": 30032,
+    "result_id": 45078
+}, {
+    "base_id": 1400001,
+    "mod_id": 20012,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 30015,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 10012,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 50011,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 60006,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 10026,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 40023,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 30028,
+    "result_id": 45056
+}, {
+    "base_id": 1400001,
+    "mod_id": 40012,
+    "result_id": 45070
+}, {
+    "base_id": 1400001,
+    "mod_id": 20025,
+    "result_id": 45077
+}, {
+    "base_id": 1400001,
+    "mod_id": 50026,
+    "result_id": 45077
+}, {
+    "base_id": 1400001,
+    "mod_id": 30039,
+    "result_id": 45077
+}, {
+    "base_id": 40002,
+    "mod_id": 30039,
+    "result_id": 45077
+}, {
+    "base_id": 1400001,
+    "mod_id": 40006,
+    "result_id": 45026
+}, {
+    "base_id": 1400001,
+    "mod_id": 10016,
+    "result_id": 45026
+}, {
+    "base_id": 1400001,
+    "mod_id": 30003,
+    "result_id": 45027
+}, {
+    "base_id": 1400001,
+    "mod_id": 50014,
+    "result_id": 45027
+}, {
+    "base_id": 1400001,
+    "mod_id": 60005,
+    "result_id": 45027
+}, {
+    "base_id": 1400001,
+    "mod_id": 20011,
+    "result_id": 45021
+}, {
+    "base_id": 1400001,
+    "mod_id": 40011,
+    "result_id": 45021
+}, {
+    "base_id": 1400001,
+    "mod_id": 30016,
+    "result_id": 45021
+}, {
+    "base_id": 1400001,
+    "mod_id": 50007,
+    "result_id": 45021
+}, {
+    "base_id": 1400001,
+    "mod_id": 10013,
+    "result_id": 45021
+}, {
+    "base_id": 1400001,
+    "mod_id": 60001,
+    "result_id": 45021
+}, {
+    "base_id": 1400001,
+    "mod_id": 40014,
+    "result_id": 45003
+}, {
+    "base_id": 1400001,
+    "mod_id": 30017,
+    "result_id": 45003
+}, {
+    "base_id": 1400001,
+    "mod_id": 50012,
+    "result_id": 45003
+}, {
+    "base_id": 1400001,
+    "mod_id": 10004,
+    "result_id": 45003
+}, {
+    "base_id": 1400001,
+    "mod_id": 20014,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 30018,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 40015,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 10003,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 30011,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 50010,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 60004,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 30037,
+    "result_id": 45004
+}, {
+    "base_id": 1400001,
+    "mod_id": 20006,
+    "result_id": 45012
+}, {
+    "base_id": 1400001,
+    "mod_id": 40007,
+    "result_id": 45012
+}, {
+    "base_id": 1400001,
+    "mod_id": 30010,
+    "result_id": 45012
+}, {
+    "base_id": 1400001,
+    "mod_id": 50008,
+    "result_id": 45012
+}, {
+    "base_id": 1400001,
+    "mod_id": 10011,
+    "result_id": 45012
+}, {
+    "base_id": 1400001,
+    "mod_id": 60009,
+    "result_id": 45012
+}, {
+    "base_id": 1400001,
+    "mod_id": 10029,
+    "result_id": 45012
+}, {
+    "base_id": 1400001,
+    "mod_id": 20015,
+    "result_id": 45034
+}, {
+    "base_id": 1400001,
+    "mod_id": 40016,
+    "result_id": 45034
+}, {
+    "base_id": 1400001,
+    "mod_id": 30008,
+    "result_id": 45034
+}, {
+    "base_id": 1400001,
+    "mod_id": 50016,
+    "result_id": 45034
+}, {
+    "base_id": 1400001,
+    "mod_id": 10010,
+    "result_id": 45034
+}, {
+    "base_id": 1400001,
+    "mod_id": 60008,
+    "result_id": 45034
+}, {
+    "base_id": 1400001,
+    "mod_id": 20010,
+    "result_id": 45005
+}, {
+    "base_id": 1400001,
+    "mod_id": 40013,
+    "result_id": 45005
+}, {
+    "base_id": 1400001,
+    "mod_id": 30009,
+    "result_id": 45005
+}, {
+    "base_id": 1400001,
+    "mod_id": 50009,
+    "result_id": 45005
+}, {
+    "base_id": 1400001,
+    "mod_id": 10014,
+    "result_id": 45005
+}, {
+    "base_id": 1400001,
+    "mod_id": 10024,
+    "result_id": 45005
+}, {
+    "base_id": 1400001,
+    "mod_id": 60007,
+    "result_id": 45005
+}, {
+    "base_id": 1400001,
+    "mod_id": 20017,
+    "result_id": 45024
+}, {
+    "base_id": 1400001,
+    "mod_id": 40017,
+    "result_id": 45024
+}, {
+    "base_id": 1400001,
+    "mod_id": 30019,
+    "result_id": 45024
+}, {
+    "base_id": 1400001,
+    "mod_id": 50017,
+    "result_id": 45024
+}, {
+    "base_id": 1400001,
+    "mod_id": 60010,
+    "result_id": 45024
+}, {
+    "base_id": 1400001,
+    "mod_id": 10032,
+    "result_id": 45024
+}, {
+    "base_id": 1400001,
+    "mod_id": 10035,
+    "result_id": 45024
+}, {
+    "base_id": 1400001,
+    "mod_id": 20020,
+    "result_id": 45039
+}, {
+    "base_id": 1400001,
+    "mod_id": 50020,
+    "result_id": 45039
+}, {
+    "base_id": 1400001,
+    "mod_id": 10020,
+    "result_id": 45039
+}, {
+    "base_id": 1400001,
+    "mod_id": 60011,
+    "result_id": 45039
+}, {
+    "base_id": 1400001,
+    "mod_id": 40020,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 20019,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 10019,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 10021,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 60003,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 30030,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 50029,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 40028,
+    "result_id": 45042
+}, {
+    "base_id": 1400001,
+    "mod_id": 30038,
+    "result_id": 45042
+}, {
+    "base_id": 40027,
+    "mod_id": 20012,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 40012,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 30015,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 10012,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 50011,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 60006,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 30027,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 10027,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 30028,
+    "result_id": 45054
+}, {
+    "base_id": 40027,
+    "mod_id": 40023,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 30029,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 50030,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 50030,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 40029,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 40029,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 20030,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 20030,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 50031,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 50031,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 10043,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 10043,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 50037,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 50037,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 30045,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 30045,
+    "result_id": 45074
+}, {
+    "base_id": 40027,
+    "mod_id": 20017,
+    "result_id": 45036
+}, {
+    "base_id": 40027,
+    "mod_id": 40017,
+    "result_id": 45036
+}, {
+    "base_id": 40027,
+    "mod_id": 30019,
+    "result_id": 45036
+}, {
+    "base_id": 40027,
+    "mod_id": 50017,
+    "result_id": 45036
+}, {
+    "base_id": 40027,
+    "mod_id": 60010,
+    "result_id": 45036
+}, {
+    "base_id": 40027,
+    "mod_id": 10035,
+    "result_id": 45036
+}, {
+    "base_id": 40027,
+    "mod_id": 20008,
+    "result_id": 45023
+}, {
+    "base_id": 40027,
+    "mod_id": 50013,
+    "result_id": 45023
+}, {
+    "base_id": 40027,
+    "mod_id": 40010,
+    "result_id": 45023
+}, {
+    "base_id": 40027,
+    "mod_id": 10015,
+    "result_id": 45023
+}, {
+    "base_id": 40027,
+    "mod_id": 60002,
+    "result_id": 45023
+}, {
+    "base_id": 40027,
+    "mod_id": 10031,
+    "result_id": 45023
+}, {
+    "base_id": 40027,
+    "mod_id": 30003,
+    "result_id": 45025
+}, {
+    "base_id": 40027,
+    "mod_id": 50014,
+    "result_id": 45025
+}, {
+    "base_id": 40027,
+    "mod_id": 60005,
+    "result_id": 45025
+}, {
+    "base_id": 40027,
+    "mod_id": 20011,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 40011,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 30016,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 50007,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 10013,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 40006,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 10016,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 60001,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 30033,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 40026,
+    "result_id": 45020
+}, {
+    "base_id": 40027,
+    "mod_id": 40014,
+    "result_id": 45022
+}, {
+    "base_id": 40027,
+    "mod_id": 30017,
+    "result_id": 45022
+}, {
+    "base_id": 40027,
+    "mod_id": 50012,
+    "result_id": 45022
+}, {
+    "base_id": 40027,
+    "mod_id": 10004,
+    "result_id": 45022
+}, {
+    "base_id": 40027,
+    "mod_id": 30009,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 50009,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 20010,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 40013,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 10014,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 10024,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 60007,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 50024,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 30031,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 20024,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 40025,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 20033,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 20033,
+    "result_id": 45018
+}, {
+    "base_id": 40027,
+    "mod_id": 20014,
+    "result_id": 45055
+}, {
+    "base_id": 40027,
+    "mod_id": 30018,
+    "result_id": 45001
+}, {
+    "base_id": 40027,
+    "mod_id": 40015,
+    "result_id": 45001
+}, {
+    "base_id": 40027,
+    "mod_id": 10003,
+    "result_id": 45001
+}, {
+    "base_id": 40027,
+    "mod_id": 30011,
+    "result_id": 45001
+}, {
+    "base_id": 40027,
+    "mod_id": 50010,
+    "result_id": 45001
+}, {
+    "base_id": 40027,
+    "mod_id": 60004,
+    "result_id": 45001
+}, {
+    "base_id": 40027,
+    "mod_id": 30037,
+    "result_id": 45001
+}, {
+    "base_id": 40027,
+    "mod_id": 20006,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 40007,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 30010,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 50008,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 10011,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 60009,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 10029,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 10038,
+    "result_id": 45011
+}, {
+    "base_id": 40001,
+    "mod_id": 10038,
+    "result_id": 45011
+}, {
+    "base_id": 40027,
+    "mod_id": 40020,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 20019,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 10019,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 10021,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 60003,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 30030,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 50027,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 10036,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 20028,
+    "result_id": 45047
+}, {
+    "base_id": 40027,
+    "mod_id": 50021,
+    "result_id": 45083
+}, {
+    "base_id": 40001,
+    "mod_id": 20034,
+    "result_id": 45083
+}, {
+    "base_id": 40027,
+    "mod_id": 20034,
+    "result_id": 45083
+}, {
+    "base_id": 40001,
+    "mod_id": 10041,
+    "result_id": 45083
+}, {
+    "base_id": 40027,
+    "mod_id": 10041,
+    "result_id": 45083
+}, {
+    "base_id": 40027,
+    "mod_id": 20018,
+    "result_id": 45044
+}, {
+    "base_id": 40027,
+    "mod_id": 30013,
+    "result_id": 45044
+}, {
+    "base_id": 40027,
+    "mod_id": 40019,
+    "result_id": 45044
+}, {
+    "base_id": 40027,
+    "mod_id": 10008,
+    "result_id": 45044
+}, {
+    "base_id": 40027,
+    "mod_id": 60013,
+    "result_id": 45044
+}, {
+    "base_id": 40027,
+    "mod_id": 30034,
+    "result_id": 45044
+}, {
+    "base_id": 40027,
+    "mod_id": 20020,
+    "result_id": 45053
+}, {
+    "base_id": 40027,
+    "mod_id": 50020,
+    "result_id": 45053
+}, {
+    "base_id": 40027,
+    "mod_id": 10020,
+    "result_id": 45053
+}, {
+    "base_id": 40027,
+    "mod_id": 60011,
+    "result_id": 45053
+}, {
+    "base_id": 40002,
+    "mod_id": 30031,
+    "result_id": 45078
+}, {
+    "base_id": 40002,
+    "mod_id": 40025,
+    "result_id": 45078
+}, {
+    "base_id": 40002,
+    "mod_id": 30032,
+    "result_id": 45078
+}, {
+    "base_id": 1400001,
+    "mod_id": 20033,
+    "result_id": 45078
+}, {
+    "base_id": 40002,
+    "mod_id": 20033,
+    "result_id": 45078
+}, {
+    "base_id": 40004,
+    "mod_id": 20028,
+    "result_id": 45081
+}, {
+    "base_id": 40004,
+    "mod_id": 40028,
+    "result_id": 45081
+}, {
+    "base_id": 40004,
+    "mod_id": 10036,
+    "result_id": 45081
+}, {
+    "base_id": 40004,
+    "mod_id": 20034,
+    "result_id": 45081
+}, {
+    "base_id": 40004,
+    "mod_id": 40024,
+    "result_id": 45076
+}, {
+    "base_id": 40004,
+    "mod_id": 50024,
+    "result_id": 45076
+}, {
+    "base_id": 40004,
+    "mod_id": 50025,
+    "result_id": 45076
+}, {
+    "base_id": 40004,
+    "mod_id": 30032,
+    "result_id": 45076
+}, {
+    "base_id": 40004,
+    "mod_id": 40025,
+    "result_id": 45076
+}, {
+    "base_id": 40004,
+    "mod_id": 30040,
+    "result_id": 45076
+}, {
+    "base_id": 40004,
+    "mod_id": 20033,
+    "result_id": 45076
+}, {
+    "base_id": 40008,
+    "mod_id": 40028,
+    "result_id": 45082
+}, {
+    "base_id": 40008,
+    "mod_id": 40021,
+    "result_id": 45082
+}, {
+    "base_id": 40008,
+    "mod_id": 20029,
+    "result_id": 45082
+}, {
+    "base_id": 40008,
+    "mod_id": 30041,
+    "result_id": 45082
+}, {
+    "base_id": 40008,
+    "mod_id": 20034,
+    "result_id": 45082
+}, {
+    "base_id": 40008,
+    "mod_id": 20021,
+    "result_id": 45084
+}, {
+    "base_id": 40008,
+    "mod_id": 30021,
+    "result_id": 45084
+}, {
+    "base_id": 40008,
+    "mod_id": 10037,
+    "result_id": 45084
+}, {
+    "base_id": 40008,
+    "mod_id": 40024,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 50024,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 30032,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 40025,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 30040,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 50034,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 20033,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 10040,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 30050,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 20038,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 10047,
+    "result_id": 45075
+}, {
+    "base_id": 40008,
+    "mod_id": 20014,
+    "result_id": 45040
+}, {
+    "base_id": 40008,
+    "mod_id": 30018,
+    "result_id": 45040
+}, {
+    "base_id": 40008,
+    "mod_id": 40015,
+    "result_id": 45040
+}, {
+    "base_id": 40008,
+    "mod_id": 10003,
+    "result_id": 45040
+}, {
+    "base_id": 40008,
+    "mod_id": 60004,
+    "result_id": 45040
+}, {
+    "base_id": 40008,
+    "mod_id": 30037,
+    "result_id": 45040
+}, {
+    "base_id": 40004,
+    "mod_id": 20021,
+    "result_id": 45072
+}, {
+    "base_id": 40004,
+    "mod_id": 40021,
+    "result_id": 45072
+}, {
+    "base_id": 40004,
+    "mod_id": 30021,
+    "result_id": 45072
+}, {
+    "base_id": 40004,
+    "mod_id": 10037,
+    "result_id": 45072
+}, {
+    "base_id": 40004,
+    "mod_id": 50022,
+    "result_id": 45072
+}, {
+    "base_id": 40004,
+    "mod_id": 20029,
+    "result_id": 45072
+}, {
+    "base_id": 40008,
+    "mod_id": 20018,
+    "result_id": 45067
+}, {
+    "base_id": 40008,
+    "mod_id": 30013,
+    "result_id": 45067
+}, {
+    "base_id": 40008,
+    "mod_id": 40019,
+    "result_id": 45067
+}, {
+    "base_id": 40008,
+    "mod_id": 10008,
+    "result_id": 45067
+}, {
+    "base_id": 40008,
+    "mod_id": 60013,
+    "result_id": 45067
+}, {
+    "base_id": 40008,
+    "mod_id": 30034,
+    "result_id": 45067
+}, {
+    "base_id": 40004,
+    "mod_id": 20018,
+    "result_id": 45068
+}, {
+    "base_id": 40004,
+    "mod_id": 30013,
+    "result_id": 45068
+}, {
+    "base_id": 40004,
+    "mod_id": 40019,
+    "result_id": 45068
+}, {
+    "base_id": 40004,
+    "mod_id": 10008,
+    "result_id": 45068
+}, {
+    "base_id": 40004,
+    "mod_id": 60013,
+    "result_id": 45068
+}, {
+    "base_id": 40004,
+    "mod_id": 30034,
+    "result_id": 45068
+}, {
+    "base_id": 40001,
+    "mod_id": 20012,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 40012,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 30015,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 10012,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 50011,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 60006,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 30027,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 10027,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 30028,
+    "result_id": 45054
+}, {
+    "base_id": 40001,
+    "mod_id": 40023,
+    "result_id": 45074
+}, {
+    "base_id": 40001,
+    "mod_id": 30029,
+    "result_id": 45074
+}, {
+    "base_id": 40002,
+    "mod_id": 20012,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 30015,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 10012,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 50011,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 60006,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 10026,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 40023,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 30028,
+    "result_id": 45056
+}, {
+    "base_id": 40002,
+    "mod_id": 40012,
+    "result_id": 45070
+}, {
+    "base_id": 40002,
+    "mod_id": 20025,
+    "result_id": 45077
+}, {
+    "base_id": 40002,
+    "mod_id": 50026,
+    "result_id": 45077
+}, {
+    "base_id": 40003,
+    "mod_id": 20012,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 40012,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 30015,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 10012,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 50011,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 60006,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 10026,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 30027,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 10027,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 40023,
+    "result_id": 45071
+}, {
+    "base_id": 40003,
+    "mod_id": 30029,
+    "result_id": 45071
+}, {
+    "base_id": 40001,
+    "mod_id": 20017,
+    "result_id": 45036
+}, {
+    "base_id": 40001,
+    "mod_id": 40017,
+    "result_id": 45036
+}, {
+    "base_id": 40001,
+    "mod_id": 30019,
+    "result_id": 45036
+}, {
+    "base_id": 40001,
+    "mod_id": 50017,
+    "result_id": 45036
+}, {
+    "base_id": 40001,
+    "mod_id": 60010,
+    "result_id": 45036
+}, {
+    "base_id": 40001,
+    "mod_id": 10032,
+    "result_id": 45036
+}, {
+    "base_id": 40001,
+    "mod_id": 10035,
+    "result_id": 45036
+}, {
+    "base_id": 40004,
+    "mod_id": 40018,
+    "result_id": 45037
+}, {
+    "base_id": 40004,
+    "mod_id": 20016,
+    "result_id": 45037
+}, {
+    "base_id": 40004,
+    "mod_id": 30020,
+    "result_id": 45037
+}, {
+    "base_id": 40004,
+    "mod_id": 50018,
+    "result_id": 45037
+}, {
+    "base_id": 40004,
+    "mod_id": 10017,
+    "result_id": 45037
+}, {
+    "base_id": 40004,
+    "mod_id": 60012,
+    "result_id": 45037
+}, {
+    "base_id": 40004,
+    "mod_id": 30036,
+    "result_id": 45037
+}, {
+    "base_id": 40001,
+    "mod_id": 20008,
+    "result_id": 45023
+}, {
+    "base_id": 40001,
+    "mod_id": 50013,
+    "result_id": 45023
+}, {
+    "base_id": 40001,
+    "mod_id": 40010,
+    "result_id": 45023
+}, {
+    "base_id": 40001,
+    "mod_id": 10015,
+    "result_id": 45023
+}, {
+    "base_id": 40001,
+    "mod_id": 60002,
+    "result_id": 45023
+}, {
+    "base_id": 40001,
+    "mod_id": 10031,
+    "result_id": 45023
+}, {
+    "base_id": 40004,
+    "mod_id": 20013,
+    "result_id": 45028
+}, {
+    "base_id": 40004,
+    "mod_id": 10033,
+    "result_id": 45028
+}, {
+    "base_id": 40004,
+    "mod_id": 10034,
+    "result_id": 45028
+}, {
+    "base_id": 40004,
+    "mod_id": 40006,
+    "result_id": 45029
+}, {
+    "base_id": 40004,
+    "mod_id": 10016,
+    "result_id": 45029
+}, {
+    "base_id": 40004,
+    "mod_id": 30003,
+    "result_id": 45030
+}, {
+    "base_id": 40004,
+    "mod_id": 50014,
+    "result_id": 45030
+}, {
+    "base_id": 40004,
+    "mod_id": 60005,
+    "result_id": 45030
+}, {
+    "base_id": 40004,
+    "mod_id": 20025,
+    "result_id": 45079
+}, {
+    "base_id": 40004,
+    "mod_id": 30033,
+    "result_id": 45079
+}, {
+    "base_id": 40004,
+    "mod_id": 40026,
+    "result_id": 45079
+}, {
+    "base_id": 40004,
+    "mod_id": 30039,
+    "result_id": 45079
+}, {
+    "base_id": 40004,
+    "mod_id": 10039,
+    "result_id": 45079
+}, {
+    "base_id": 40004,
+    "mod_id": 50026,
+    "result_id": 45080
+}, {
+    "base_id": 40004,
+    "mod_id": 40031,
+    "result_id": 45080
+}, {
+    "base_id": 40004,
+    "mod_id": 10048,
+    "result_id": 45080
+}, {
+    "base_id": 40001,
+    "mod_id": 30003,
+    "result_id": 45025
+}, {
+    "base_id": 40001,
+    "mod_id": 50014,
+    "result_id": 45025
+}, {
+    "base_id": 40001,
+    "mod_id": 60005,
+    "result_id": 45025
+}, {
+    "base_id": 40002,
+    "mod_id": 40006,
+    "result_id": 45026
+}, {
+    "base_id": 40002,
+    "mod_id": 10016,
+    "result_id": 45026
+}, {
+    "base_id": 40002,
+    "mod_id": 30003,
+    "result_id": 45027
+}, {
+    "base_id": 40002,
+    "mod_id": 50014,
+    "result_id": 45027
+}, {
+    "base_id": 40002,
+    "mod_id": 60005,
+    "result_id": 45027
+}, {
+    "base_id": 40005,
+    "mod_id": 30003,
+    "result_id": 45031
+}, {
+    "base_id": 40005,
+    "mod_id": 50014,
+    "result_id": 45031
+}, {
+    "base_id": 40005,
+    "mod_id": 60005,
+    "result_id": 45031
+}, {
+    "base_id": 40005,
+    "mod_id": 20025,
+    "result_id": 45031
+}, {
+    "base_id": 40005,
+    "mod_id": 50026,
+    "result_id": 45031
+}, {
+    "base_id": 40005,
+    "mod_id": 40031,
+    "result_id": 45031
+}, {
+    "base_id": 40001,
+    "mod_id": 20011,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 40011,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 30016,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 50007,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 10013,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 40006,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 10016,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 60001,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 30033,
+    "result_id": 45020
+}, {
+    "base_id": 40001,
+    "mod_id": 40026,
+    "result_id": 45020
+}, {
+    "base_id": 40002,
+    "mod_id": 20011,
+    "result_id": 45021
+}, {
+    "base_id": 40002,
+    "mod_id": 40011,
+    "result_id": 45021
+}, {
+    "base_id": 40002,
+    "mod_id": 30016,
+    "result_id": 45021
+}, {
+    "base_id": 40002,
+    "mod_id": 50007,
+    "result_id": 45021
+}, {
+    "base_id": 40002,
+    "mod_id": 10013,
+    "result_id": 45021
+}, {
+    "base_id": 40002,
+    "mod_id": 60001,
+    "result_id": 45021
+}, {
+    "base_id": 40001,
+    "mod_id": 40014,
+    "result_id": 45022
+}, {
+    "base_id": 40001,
+    "mod_id": 30017,
+    "result_id": 45022
+}, {
+    "base_id": 40001,
+    "mod_id": 50012,
+    "result_id": 45022
+}, {
+    "base_id": 40001,
+    "mod_id": 10004,
+    "result_id": 45022
+}, {
+    "base_id": 40002,
+    "mod_id": 40014,
+    "result_id": 45003
+}, {
+    "base_id": 40002,
+    "mod_id": 30017,
+    "result_id": 45003
+}, {
+    "base_id": 40002,
+    "mod_id": 50012,
+    "result_id": 45003
+}, {
+    "base_id": 40002,
+    "mod_id": 10004,
+    "result_id": 45003
+}, {
+    "base_id": 40004,
+    "mod_id": 40014,
+    "result_id": 45069
+}, {
+    "base_id": 40004,
+    "mod_id": 30017,
+    "result_id": 45069
+}, {
+    "base_id": 40004,
+    "mod_id": 50012,
+    "result_id": 45069
+}, {
+    "base_id": 40004,
+    "mod_id": 10004,
+    "result_id": 45069
+}, {
+    "base_id": 40001,
+    "mod_id": 30009,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 50009,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 20010,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 40013,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 10014,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 10024,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 60007,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 50024,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 30031,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 20024,
+    "result_id": 45018
+}, {
+    "base_id": 40001,
+    "mod_id": 40025,
+    "result_id": 45018
+}, {
+    "base_id": 40004,
+    "mod_id": 50009,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 20010,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 40013,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 10014,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 10024,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 60007,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 30031,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 20024,
+    "result_id": 45019
+}, {
+    "base_id": 40004,
+    "mod_id": 20012,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 40012,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 30015,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 10012,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 50011,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 60006,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 30027,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 50023,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 10027,
+    "result_id": 45017
+}, {
+    "base_id": 40004,
+    "mod_id": 30028,
+    "result_id": 45017
+}, {
+    "base_id": 40005,
+    "mod_id": 50010,
+    "result_id": 45014
+}, {
+    "base_id": 40005,
+    "mod_id": 30009,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 50009,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 20010,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 40013,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 10014,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 10024,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 60007,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 30031,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 20024,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 40025,
+    "result_id": 45015
+}, {
+    "base_id": 40005,
+    "mod_id": 20033,
+    "result_id": 45015
+}, {
+    "base_id": 40001,
+    "mod_id": 20014,
+    "result_id": 45055
+}, {
+    "base_id": 40001,
+    "mod_id": 30018,
+    "result_id": 45001
+}, {
+    "base_id": 40001,
+    "mod_id": 40015,
+    "result_id": 45001
+}, {
+    "base_id": 40001,
+    "mod_id": 10003,
+    "result_id": 45001
+}, {
+    "base_id": 40001,
+    "mod_id": 30011,
+    "result_id": 45001
+}, {
+    "base_id": 40001,
+    "mod_id": 50010,
+    "result_id": 45001
+}, {
+    "base_id": 40001,
+    "mod_id": 60004,
+    "result_id": 45001
+}, {
+    "base_id": 40001,
+    "mod_id": 30037,
+    "result_id": 45001
+}, {
+    "base_id": 40001,
+    "mod_id": 20006,
+    "result_id": 45011
+}, {
+    "base_id": 40001,
+    "mod_id": 40007,
+    "result_id": 45011
+}, {
+    "base_id": 40001,
+    "mod_id": 30010,
+    "result_id": 45011
+}, {
+    "base_id": 40001,
+    "mod_id": 50008,
+    "result_id": 45011
+}, {
+    "base_id": 40001,
+    "mod_id": 10011,
+    "result_id": 45011
+}, {
+    "base_id": 40001,
+    "mod_id": 60009,
+    "result_id": 45011
+}, {
+    "base_id": 40001,
+    "mod_id": 10029,
+    "result_id": 45011
+}, {
+    "base_id": 40008,
+    "mod_id": 20006,
+    "result_id": 45059
+}, {
+    "base_id": 40008,
+    "mod_id": 40007,
+    "result_id": 45059
+}, {
+    "base_id": 40008,
+    "mod_id": 30010,
+    "result_id": 45059
+}, {
+    "base_id": 40008,
+    "mod_id": 50008,
+    "result_id": 45059
+}, {
+    "base_id": 40008,
+    "mod_id": 10011,
+    "result_id": 45059
+}, {
+    "base_id": 40008,
+    "mod_id": 60009,
+    "result_id": 45059
+}, {
+    "base_id": 40008,
+    "mod_id": 10029,
+    "result_id": 45059
+}, {
+    "base_id": 40003,
+    "mod_id": 20006,
+    "result_id": 45061
+}, {
+    "base_id": 40003,
+    "mod_id": 40007,
+    "result_id": 45061
+}, {
+    "base_id": 40003,
+    "mod_id": 30010,
+    "result_id": 45061
+}, {
+    "base_id": 40003,
+    "mod_id": 50008,
+    "result_id": 45061
+}, {
+    "base_id": 40003,
+    "mod_id": 10011,
+    "result_id": 45061
+}, {
+    "base_id": 40003,
+    "mod_id": 60009,
+    "result_id": 45061
+}, {
+    "base_id": 40003,
+    "mod_id": 10029,
+    "result_id": 45061
+}, {
+    "base_id": 40009,
+    "mod_id": 20006,
+    "result_id": 45063
+}, {
+    "base_id": 40009,
+    "mod_id": 40007,
+    "result_id": 45063
+}, {
+    "base_id": 40009,
+    "mod_id": 30010,
+    "result_id": 45063
+}, {
+    "base_id": 40009,
+    "mod_id": 50008,
+    "result_id": 45063
+}, {
+    "base_id": 40009,
+    "mod_id": 10011,
+    "result_id": 45063
+}, {
+    "base_id": 40009,
+    "mod_id": 60009,
+    "result_id": 45063
+}, {
+    "base_id": 40009,
+    "mod_id": 10029,
+    "result_id": 45063
+}, {
+    "base_id": 40002,
+    "mod_id": 20014,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 30018,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 40015,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 10003,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 30011,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 50010,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 60004,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 30037,
+    "result_id": 45004
+}, {
+    "base_id": 40002,
+    "mod_id": 20006,
+    "result_id": 45012
+}, {
+    "base_id": 40002,
+    "mod_id": 40007,
+    "result_id": 45012
+}, {
+    "base_id": 40002,
+    "mod_id": 30010,
+    "result_id": 45012
+}, {
+    "base_id": 40002,
+    "mod_id": 50008,
+    "result_id": 45012
+}, {
+    "base_id": 40002,
+    "mod_id": 10011,
+    "result_id": 45012
+}, {
+    "base_id": 40002,
+    "mod_id": 60009,
+    "result_id": 45012
+}, {
+    "base_id": 40002,
+    "mod_id": 10029,
+    "result_id": 45012
+}, {
+    "base_id": 40004,
+    "mod_id": 20014,
+    "result_id": 45006
+}, {
+    "base_id": 40004,
+    "mod_id": 40015,
+    "result_id": 45006
+}, {
+    "base_id": 40004,
+    "mod_id": 30011,
+    "result_id": 45006
+}, {
+    "base_id": 40004,
+    "mod_id": 60004,
+    "result_id": 45006
+}, {
+    "base_id": 40004,
+    "mod_id": 30037,
+    "result_id": 45006
+}, {
+    "base_id": 40004,
+    "mod_id": 30018,
+    "result_id": 45032
+}, {
+    "base_id": 40005,
+    "mod_id": 30018,
+    "result_id": 45033
+}, {
+    "base_id": 40005,
+    "mod_id": 60004,
+    "result_id": 45033
+}, {
+    "base_id": 40002,
+    "mod_id": 20015,
+    "result_id": 45034
+}, {
+    "base_id": 40002,
+    "mod_id": 40016,
+    "result_id": 45034
+}, {
+    "base_id": 40002,
+    "mod_id": 30008,
+    "result_id": 45034
+}, {
+    "base_id": 40002,
+    "mod_id": 50016,
+    "result_id": 45034
+}, {
+    "base_id": 40002,
+    "mod_id": 10010,
+    "result_id": 45034
+}, {
+    "base_id": 40002,
+    "mod_id": 60008,
+    "result_id": 45034
+}, {
+    "base_id": 40005,
+    "mod_id": 20015,
+    "result_id": 45057
+}, {
+    "base_id": 40005,
+    "mod_id": 40016,
+    "result_id": 45057
+}, {
+    "base_id": 40005,
+    "mod_id": 30008,
+    "result_id": 45057
+}, {
+    "base_id": 40005,
+    "mod_id": 50016,
+    "result_id": 45057
+}, {
+    "base_id": 40005,
+    "mod_id": 10010,
+    "result_id": 45057
+}, {
+    "base_id": 40005,
+    "mod_id": 60008,
+    "result_id": 45057
+}, {
+    "base_id": 40004,
+    "mod_id": 20015,
+    "result_id": 45035
+}, {
+    "base_id": 40004,
+    "mod_id": 40016,
+    "result_id": 45035
+}, {
+    "base_id": 40004,
+    "mod_id": 30008,
+    "result_id": 45035
+}, {
+    "base_id": 40004,
+    "mod_id": 50016,
+    "result_id": 45035
+}, {
+    "base_id": 40004,
+    "mod_id": 10010,
+    "result_id": 45035
+}, {
+    "base_id": 40004,
+    "mod_id": 60008,
+    "result_id": 45035
+}, {
+    "base_id": 40004,
+    "mod_id": 50010,
+    "result_id": 45010
+}, {
+    "base_id": 40004,
+    "mod_id": 30009,
+    "result_id": 45010
+}, {
+    "base_id": 40004,
+    "mod_id": 20006,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 40007,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 30010,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 50008,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 10011,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 60009,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 10029,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 50032,
+    "result_id": 45013
+}, {
+    "base_id": 40004,
+    "mod_id": 20031,
+    "result_id": 45013
+}, {
+    "base_id": 40001,
+    "mod_id": 40020,
+    "result_id": 45047
+}, {
+    "base_id": 40001,
+    "mod_id": 20019,
+    "result_id": 45047
+}, {
+    "base_id": 40001,
+    "mod_id": 10019,
+    "result_id": 45047
+}, {
+    "base_id": 40001,
+    "mod_id": 10021,
+    "result_id": 45047
+}, {
+    "base_id": 40001,
+    "mod_id": 60003,
+    "result_id": 45047
+}, {
+    "base_id": 40001,
+    "mod_id": 30030,
+    "result_id": 45047
+}, {
+    "base_id": 40001,
+    "mod_id": 20028,
+    "result_id": 45047
+}, {
+    "base_id": 40001,
+    "mod_id": 50021,
+    "result_id": 45083
+}, {
+    "base_id": 40004,
+    "mod_id": 40020,
+    "result_id": 45048
+}, {
+    "base_id": 40004,
+    "mod_id": 20019,
+    "result_id": 45048
+}, {
+    "base_id": 40004,
+    "mod_id": 10019,
+    "result_id": 45048
+}, {
+    "base_id": 40004,
+    "mod_id": 10021,
+    "result_id": 45048
+}, {
+    "base_id": 40004,
+    "mod_id": 50021,
+    "result_id": 45048
+}, {
+    "base_id": 40004,
+    "mod_id": 60003,
+    "result_id": 45048
+}, {
+    "base_id": 40004,
+    "mod_id": 30030,
+    "result_id": 45048
+}, {
+    "base_id": 40004,
+    "mod_id": 50027,
+    "result_id": 45048
+}, {
+    "base_id": 40008,
+    "mod_id": 40020,
+    "result_id": 45046
+}, {
+    "base_id": 40008,
+    "mod_id": 20019,
+    "result_id": 45046
+}, {
+    "base_id": 40008,
+    "mod_id": 10019,
+    "result_id": 45046
+}, {
+    "base_id": 40008,
+    "mod_id": 50021,
+    "result_id": 45046
+}, {
+    "base_id": 40008,
+    "mod_id": 60003,
+    "result_id": 45046
+}, {
+    "base_id": 40008,
+    "mod_id": 30030,
+    "result_id": 45046
+}, {
+    "base_id": 40004,
+    "mod_id": 20008,
+    "result_id": 45043
+}, {
+    "base_id": 40004,
+    "mod_id": 50013,
+    "result_id": 45043
+}, {
+    "base_id": 40004,
+    "mod_id": 40010,
+    "result_id": 45043
+}, {
+    "base_id": 40004,
+    "mod_id": 10015,
+    "result_id": 45043
+}, {
+    "base_id": 40004,
+    "mod_id": 60002,
+    "result_id": 45043
+}, {
+    "base_id": 40004,
+    "mod_id": 10031,
+    "result_id": 45043
+}, {
+    "base_id": 40001,
+    "mod_id": 20018,
+    "result_id": 45044
+}, {
+    "base_id": 40001,
+    "mod_id": 30013,
+    "result_id": 45044
+}, {
+    "base_id": 40001,
+    "mod_id": 40019,
+    "result_id": 45044
+}, {
+    "base_id": 40001,
+    "mod_id": 10008,
+    "result_id": 45044
+}, {
+    "base_id": 40001,
+    "mod_id": 60013,
+    "result_id": 45044
+}, {
+    "base_id": 40001,
+    "mod_id": 30034,
+    "result_id": 45044
+}, {
+    "base_id": 40005,
+    "mod_id": 20018,
+    "result_id": 45058
+}, {
+    "base_id": 40005,
+    "mod_id": 30013,
+    "result_id": 45058
+}, {
+    "base_id": 40005,
+    "mod_id": 40019,
+    "result_id": 45058
+}, {
+    "base_id": 40005,
+    "mod_id": 10008,
+    "result_id": 45058
+}, {
+    "base_id": 40005,
+    "mod_id": 60013,
+    "result_id": 45058
+}, {
+    "base_id": 40005,
+    "mod_id": 30034,
+    "result_id": 45058
+}, {
+    "base_id": 40003,
+    "mod_id": 20018,
+    "result_id": 45002
+}, {
+    "base_id": 40003,
+    "mod_id": 30013,
+    "result_id": 45002
+}, {
+    "base_id": 40003,
+    "mod_id": 40019,
+    "result_id": 45002
+}, {
+    "base_id": 40003,
+    "mod_id": 10008,
+    "result_id": 45002
+}, {
+    "base_id": 40003,
+    "mod_id": 60013,
+    "result_id": 45002
+}, {
+    "base_id": 40003,
+    "mod_id": 30034,
+    "result_id": 45002
+}, {
+    "base_id": 40002,
+    "mod_id": 20010,
+    "result_id": 45005
+}, {
+    "base_id": 40002,
+    "mod_id": 40013,
+    "result_id": 45005
+}, {
+    "base_id": 40002,
+    "mod_id": 30009,
+    "result_id": 45005
+}, {
+    "base_id": 40002,
+    "mod_id": 50009,
+    "result_id": 45005
+}, {
+    "base_id": 40002,
+    "mod_id": 10014,
+    "result_id": 45005
+}, {
+    "base_id": 40002,
+    "mod_id": 10024,
+    "result_id": 45005
+}, {
+    "base_id": 40002,
+    "mod_id": 60007,
+    "result_id": 45005
+}, {
+    "base_id": 40009,
+    "mod_id": 20010,
+    "result_id": 45064
+}, {
+    "base_id": 40009,
+    "mod_id": 30009,
+    "result_id": 45064
+}, {
+    "base_id": 40009,
+    "mod_id": 50009,
+    "result_id": 45064
+}, {
+    "base_id": 40009,
+    "mod_id": 10014,
+    "result_id": 45064
+}, {
+    "base_id": 40009,
+    "mod_id": 10024,
+    "result_id": 45064
+}, {
+    "base_id": 40009,
+    "mod_id": 60007,
+    "result_id": 45064
+}, {
+    "base_id": 40009,
+    "mod_id": 40025,
+    "result_id": 45064
+}, {
+    "base_id": 40009,
+    "mod_id": 40013,
+    "result_id": 45065
+}, {
+    "base_id": 40008,
+    "mod_id": 20010,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 40013,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 30009,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 50009,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 10014,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 10024,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 60007,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 30031,
+    "result_id": 45060
+}, {
+    "base_id": 40008,
+    "mod_id": 20024,
+    "result_id": 45060
+}, {
+    "base_id": 40003,
+    "mod_id": 20010,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 40013,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 30009,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 50009,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 10014,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 10024,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 60007,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 30031,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 20024,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 40025,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 50034,
+    "result_id": 45062
+}, {
+    "base_id": 40003,
+    "mod_id": 20033,
+    "result_id": 45062
+}, {
+    "base_id": 40009,
+    "mod_id": 30003,
+    "result_id": 45007
+}, {
+    "base_id": 40009,
+    "mod_id": 50014,
+    "result_id": 45007
+}, {
+    "base_id": 40009,
+    "mod_id": 60005,
+    "result_id": 45007
+}, {
+    "base_id": 40009,
+    "mod_id": 40006,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 10016,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 20011,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 40011,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 30016,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 50007,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 10013,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 60001,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 30033,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 40026,
+    "result_id": 45049
+}, {
+    "base_id": 40009,
+    "mod_id": 10039,
+    "result_id": 45049
+}, {
+    "base_id": 40003,
+    "mod_id": 30003,
+    "result_id": 45008
+}, {
+    "base_id": 40003,
+    "mod_id": 50014,
+    "result_id": 45008
+}, {
+    "base_id": 40003,
+    "mod_id": 60005,
+    "result_id": 45008
+}, {
+    "base_id": 40003,
+    "mod_id": 40006,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 10016,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 20011,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 40011,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 30016,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 50007,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 10013,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 60001,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 20025,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 30033,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 40026,
+    "result_id": 45050
+}, {
+    "base_id": 40003,
+    "mod_id": 10039,
+    "result_id": 45050
+}, {
+    "base_id": 40004,
+    "mod_id": 20011,
+    "result_id": 45052
+}, {
+    "base_id": 40004,
+    "mod_id": 40011,
+    "result_id": 45052
+}, {
+    "base_id": 40004,
+    "mod_id": 30016,
+    "result_id": 45052
+}, {
+    "base_id": 40004,
+    "mod_id": 50007,
+    "result_id": 45052
+}, {
+    "base_id": 40004,
+    "mod_id": 10013,
+    "result_id": 45052
+}, {
+    "base_id": 40004,
+    "mod_id": 60001,
+    "result_id": 45052
+}, {
+    "base_id": 40008,
+    "mod_id": 20013,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 40006,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 10016,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 20011,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 40011,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 30016,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 50007,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 10013,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 60001,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 30033,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 40026,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 10039,
+    "result_id": 45051
+}, {
+    "base_id": 40008,
+    "mod_id": 30003,
+    "result_id": 45009
+}, {
+    "base_id": 40008,
+    "mod_id": 50014,
+    "result_id": 45009
+}, {
+    "base_id": 40008,
+    "mod_id": 60005,
+    "result_id": 45009
+}, {
+    "base_id": 40002,
+    "mod_id": 20017,
+    "result_id": 45024
+}, {
+    "base_id": 40002,
+    "mod_id": 40017,
+    "result_id": 45024
+}, {
+    "base_id": 40002,
+    "mod_id": 30019,
+    "result_id": 45024
+}, {
+    "base_id": 40002,
+    "mod_id": 50017,
+    "result_id": 45024
+}, {
+    "base_id": 40002,
+    "mod_id": 60010,
+    "result_id": 45024
+}, {
+    "base_id": 40002,
+    "mod_id": 10032,
+    "result_id": 45024
+}, {
+    "base_id": 40002,
+    "mod_id": 10035,
+    "result_id": 45024
+}, {
+    "base_id": 40009,
+    "mod_id": 20016,
+    "result_id": 45038
+}, {
+    "base_id": 40009,
+    "mod_id": 40018,
+    "result_id": 45038
+}, {
+    "base_id": 40009,
+    "mod_id": 30020,
+    "result_id": 45038
+}, {
+    "base_id": 40009,
+    "mod_id": 50018,
+    "result_id": 45038
+}, {
+    "base_id": 40009,
+    "mod_id": 10017,
+    "result_id": 45038
+}, {
+    "base_id": 40009,
+    "mod_id": 60012,
+    "result_id": 45038
+}, {
+    "base_id": 40009,
+    "mod_id": 30036,
+    "result_id": 45038
+}, {
+    "base_id": 40002,
+    "mod_id": 20020,
+    "result_id": 45039
+}, {
+    "base_id": 40002,
+    "mod_id": 50020,
+    "result_id": 45039
+}, {
+    "base_id": 40002,
+    "mod_id": 10020,
+    "result_id": 45039
+}, {
+    "base_id": 40002,
+    "mod_id": 60011,
+    "result_id": 45039
+}, {
+    "base_id": 40001,
+    "mod_id": 20020,
+    "result_id": 45053
+}, {
+    "base_id": 40001,
+    "mod_id": 50020,
+    "result_id": 45053
+}, {
+    "base_id": 40001,
+    "mod_id": 10020,
+    "result_id": 45053
+}, {
+    "base_id": 40001,
+    "mod_id": 60011,
+    "result_id": 45053
+}, {
+    "base_id": 40003,
+    "mod_id": 20017,
+    "result_id": 45041
+}, {
+    "base_id": 40003,
+    "mod_id": 40017,
+    "result_id": 45041
+}, {
+    "base_id": 40003,
+    "mod_id": 30019,
+    "result_id": 45041
+}, {
+    "base_id": 40003,
+    "mod_id": 50017,
+    "result_id": 45041
+}, {
+    "base_id": 40003,
+    "mod_id": 60010,
+    "result_id": 45041
+}, {
+    "base_id": 40003,
+    "mod_id": 10032,
+    "result_id": 45041
+}, {
+    "base_id": 40003,
+    "mod_id": 10035,
+    "result_id": 45041
+}, {
+    "base_id": 40009,
+    "mod_id": 20017,
+    "result_id": 45066
+}, {
+    "base_id": 40009,
+    "mod_id": 40017,
+    "result_id": 45066
+}, {
+    "base_id": 40009,
+    "mod_id": 30019,
+    "result_id": 45066
+}, {
+    "base_id": 40009,
+    "mod_id": 50017,
+    "result_id": 45066
+}, {
+    "base_id": 40009,
+    "mod_id": 60010,
+    "result_id": 45066
+}, {
+    "base_id": 40009,
+    "mod_id": 10032,
+    "result_id": 45066
+}, {
+    "base_id": 40009,
+    "mod_id": 10035,
+    "result_id": 45066
+}, {
+    "base_id": 40002,
+    "mod_id": 40020,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 20019,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 10019,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 10021,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 60003,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 30030,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 50029,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 40028,
+    "result_id": 45042
+}, {
+    "base_id": 40002,
+    "mod_id": 30038,
+    "result_id": 45042
+}, {
+    "base_id": 50002,
+    "mod_id": 40038,
+    "result_id": 55113
+}, {
+    "base_id": 50028,
+    "mod_id": 40038,
+    "result_id": 55113
+}, {
+    "base_id": 50002,
+    "mod_id": 50043,
+    "result_id": 55113
+}, {
+    "base_id": 50028,
+    "mod_id": 50043,
+    "result_id": 55113
+}, {
+    "base_id": 50002,
+    "mod_id": 30051,
+    "result_id": 55113
+}, {
+    "base_id": 50028,
+    "mod_id": 30051,
+    "result_id": 55113
+}, {
+    "base_id": 50001,
+    "mod_id": 50043,
+    "result_id": 55112
+}, {
+    "base_id": 50001,
+    "mod_id": 30051,
+    "result_id": 55112
+}, {
+    "base_id": 50019,
+    "mod_id": 10048,
+    "result_id": 55111
+}, {
+    "base_id": 50038,
+    "mod_id": 10048,
+    "result_id": 55111
+}, {
+    "base_id": 50019,
+    "mod_id": 50043,
+    "result_id": 55111
+}, {
+    "base_id": 50038,
+    "mod_id": 50043,
+    "result_id": 55111
+}, {
+    "base_id": 50019,
+    "mod_id": 30051,
+    "result_id": 55111
+}, {
+    "base_id": 50038,
+    "mod_id": 30051,
+    "result_id": 55111
+}, {
+    "base_id": 50019,
+    "mod_id": 40038,
+    "result_id": 55111
+}, {
+    "base_id": 50038,
+    "mod_id": 40038,
+    "result_id": 55111
+}, {
+    "base_id": 50002,
+    "mod_id": 30050,
+    "result_id": 55110
+}, {
+    "base_id": 50028,
+    "mod_id": 30050,
+    "result_id": 55110
+}, {
+    "base_id": 50002,
+    "mod_id": 20038,
+    "result_id": 55110
+}, {
+    "base_id": 50028,
+    "mod_id": 20038,
+    "result_id": 55110
+}, {
+    "base_id": 50002,
+    "mod_id": 50042,
+    "result_id": 55110
+}, {
+    "base_id": 50028,
+    "mod_id": 50042,
+    "result_id": 55110
+}, {
+    "base_id": 50019,
+    "mod_id": 40037,
+    "result_id": 55109
+}, {
+    "base_id": 50038,
+    "mod_id": 40037,
+    "result_id": 55109
+}, {
+    "base_id": 50019,
+    "mod_id": 30050,
+    "result_id": 55109
+}, {
+    "base_id": 50038,
+    "mod_id": 30050,
+    "result_id": 55109
+}, {
+    "base_id": 50019,
+    "mod_id": 20038,
+    "result_id": 55109
+}, {
+    "base_id": 50038,
+    "mod_id": 20038,
+    "result_id": 55109
+}, {
+    "base_id": 50019,
+    "mod_id": 50042,
+    "result_id": 55109
+}, {
+    "base_id": 50038,
+    "mod_id": 50042,
+    "result_id": 55109
+}, {
+    "base_id": 50003,
+    "mod_id": 20037,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 20037,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 50032,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 50032,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 30023,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 30023,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 20031,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 20031,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 10046,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 10046,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 10038,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 10038,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 40030,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 40030,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 40036,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 40036,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 30049,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 30049,
+    "result_id": 55108
+}, {
+    "base_id": 50003,
+    "mod_id": 50041,
+    "result_id": 55108
+}, {
+    "base_id": 1500001,
+    "mod_id": 50041,
+    "result_id": 55108
+}, {
+    "base_id": 50005,
+    "mod_id": 30023,
+    "result_id": 55107
+}, {
+    "base_id": 50005,
+    "mod_id": 10046,
+    "result_id": 55107
+}, {
+    "base_id": 50005,
+    "mod_id": 40030,
+    "result_id": 55107
+}, {
+    "base_id": 50005,
+    "mod_id": 50041,
+    "result_id": 55107
+}, {
+    "base_id": 50001,
+    "mod_id": 20036,
+    "result_id": 55106
+}, {
+    "base_id": 50001,
+    "mod_id": 30046,
+    "result_id": 55106
+}, {
+    "base_id": 50001,
+    "mod_id": 50039,
+    "result_id": 55106
+}, {
+    "base_id": 50001,
+    "mod_id": 40035,
+    "result_id": 55106
+}, {
+    "base_id": 50001,
+    "mod_id": 50040,
+    "result_id": 55106
+}, {
+    "base_id": 50001,
+    "mod_id": 10045,
+    "result_id": 55106
+}, {
+    "base_id": 50002,
+    "mod_id": 10044,
+    "result_id": 55105
+}, {
+    "base_id": 50028,
+    "mod_id": 10044,
+    "result_id": 55105
+}, {
+    "base_id": 50002,
+    "mod_id": 30046,
+    "result_id": 55105
+}, {
+    "base_id": 50028,
+    "mod_id": 30046,
+    "result_id": 55105
+}, {
+    "base_id": 50002,
+    "mod_id": 50039,
+    "result_id": 55105
+}, {
+    "base_id": 50028,
+    "mod_id": 50039,
+    "result_id": 55105
+}, {
+    "base_id": 50002,
+    "mod_id": 40035,
+    "result_id": 55105
+}, {
+    "base_id": 50028,
+    "mod_id": 40035,
+    "result_id": 55105
+}, {
+    "base_id": 50003,
+    "mod_id": 10044,
+    "result_id": 55104
+}, {
+    "base_id": 1500001,
+    "mod_id": 10044,
+    "result_id": 55104
+}, {
+    "base_id": 50003,
+    "mod_id": 30046,
+    "result_id": 55104
+}, {
+    "base_id": 1500001,
+    "mod_id": 30046,
+    "result_id": 55104
+}, {
+    "base_id": 50003,
+    "mod_id": 50039,
+    "result_id": 55104
+}, {
+    "base_id": 1500001,
+    "mod_id": 50039,
+    "result_id": 55104
+}, {
+    "base_id": 50003,
+    "mod_id": 40035,
+    "result_id": 55104
+}, {
+    "base_id": 1500001,
+    "mod_id": 40035,
+    "result_id": 55104
+}, {
+    "base_id": 50003,
+    "mod_id": 50040,
+    "result_id": 55104
+}, {
+    "base_id": 1500001,
+    "mod_id": 50040,
+    "result_id": 55104
+}, {
+    "base_id": 50002,
+    "mod_id": 50037,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 50037,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 10026,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 10026,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 50030,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 50030,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 40029,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 40029,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 20030,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 20030,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 50031,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 50031,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 30044,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 30044,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 10043,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 10043,
+    "result_id": 55103
+}, {
+    "base_id": 50002,
+    "mod_id": 20035,
+    "result_id": 55103
+}, {
+    "base_id": 50028,
+    "mod_id": 20035,
+    "result_id": 55103
+}, {
+    "base_id": 50019,
+    "mod_id": 10043,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 10043,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 40023,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 40023,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 50030,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 50030,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 40029,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 40029,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 20030,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 20030,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 50031,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 50031,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 30044,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 30044,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 20035,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 20035,
+    "result_id": 55102
+}, {
+    "base_id": 50019,
+    "mod_id": 50037,
+    "result_id": 55102
+}, {
+    "base_id": 50038,
+    "mod_id": 50037,
+    "result_id": 55102
+}, {
+    "base_id": 50001,
+    "mod_id": 20035,
+    "result_id": 55101
+}, {
+    "base_id": 50001,
+    "mod_id": 30044,
+    "result_id": 55101
+}, {
+    "base_id": 50001,
+    "mod_id": 30045,
+    "result_id": 55101
+}, {
+    "base_id": 50005,
+    "mod_id": 30042,
+    "result_id": 55099
+}, {
+    "base_id": 50005,
+    "mod_id": 50036,
+    "result_id": 55099
+}, {
+    "base_id": 50005,
+    "mod_id": 40033,
+    "result_id": 55099
+}, {
+    "base_id": 50005,
+    "mod_id": 30043,
+    "result_id": 55099
+}, {
+    "base_id": 50005,
+    "mod_id": 40034,
+    "result_id": 55099
+}, {
+    "base_id": 50001,
+    "mod_id": 30043,
+    "result_id": 55100
+}, {
+    "base_id": 50001,
+    "mod_id": 40033,
+    "result_id": 55100
+}, {
+    "base_id": 50001,
+    "mod_id": 40034,
+    "result_id": 55100
+}, {
+    "base_id": 50001,
+    "mod_id": 50036,
+    "result_id": 55098
+}, {
+    "base_id": 50001,
+    "mod_id": 30042,
+    "result_id": 55098
+}, {
+    "base_id": 50001,
+    "mod_id": 10042,
+    "result_id": 55098
+}, {
+    "base_id": 50003,
+    "mod_id": 10041,
+    "result_id": 55097
+}, {
+    "base_id": 1500001,
+    "mod_id": 10041,
+    "result_id": 55097
+}, {
+    "base_id": 50003,
+    "mod_id": 20034,
+    "result_id": 55097
+}, {
+    "base_id": 1500001,
+    "mod_id": 20034,
+    "result_id": 55097
+}, {
+    "base_id": 50003,
+    "mod_id": 50035,
+    "result_id": 55097
+}, {
+    "base_id": 1500001,
+    "mod_id": 50035,
+    "result_id": 55097
+}, {
+    "base_id": 1500001,
+    "mod_id": 30041,
+    "result_id": 55097
+}, {
+    "base_id": 50003,
+    "mod_id": 30041,
+    "result_id": 55097
+}, {
+    "base_id": 50003,
+    "mod_id": 40032,
+    "result_id": 55097
+}, {
+    "base_id": 1500001,
+    "mod_id": 40032,
+    "result_id": 55097
+}, {
+    "base_id": 50001,
+    "mod_id": 50035,
+    "result_id": 55096
+}, {
+    "base_id": 50001,
+    "mod_id": 50021,
+    "result_id": 55096
+}, {
+    "base_id": 50001,
+    "mod_id": 30041,
+    "result_id": 55096
+}, {
+    "base_id": 50001,
+    "mod_id": 20034,
+    "result_id": 55096
+}, {
+    "base_id": 50001,
+    "mod_id": 40032,
+    "result_id": 55096
+}, {
+    "base_id": 50001,
+    "mod_id": 10041,
+    "result_id": 55096
+}, {
+    "base_id": 50002,
+    "mod_id": 50034,
+    "result_id": 55094
+}, {
+    "base_id": 50028,
+    "mod_id": 50034,
+    "result_id": 55094
+}, {
+    "base_id": 50002,
+    "mod_id": 40024,
+    "result_id": 55094
+}, {
+    "base_id": 50028,
+    "mod_id": 40024,
+    "result_id": 55094
+}, {
+    "base_id": 50002,
+    "mod_id": 30032,
+    "result_id": 55094
+}, {
+    "base_id": 50028,
+    "mod_id": 30032,
+    "result_id": 55094
+}, {
+    "base_id": 50002,
+    "mod_id": 50024,
+    "result_id": 55094
+}, {
+    "base_id": 50028,
+    "mod_id": 50024,
+    "result_id": 55094
+}, {
+    "base_id": 50019,
+    "mod_id": 50034,
+    "result_id": 55095
+}, {
+    "base_id": 50019,
+    "mod_id": 30031,
+    "result_id": 55095
+}, {
+    "base_id": 50019,
+    "mod_id": 10040,
+    "result_id": 55095
+}, {
+    "base_id": 50019,
+    "mod_id": 10047,
+    "result_id": 55095
+}, {
+    "base_id": 50038,
+    "mod_id": 50034,
+    "result_id": 55095
+}, {
+    "base_id": 50038,
+    "mod_id": 30031,
+    "result_id": 55095
+}, {
+    "base_id": 50038,
+    "mod_id": 10040,
+    "result_id": 55095
+}, {
+    "base_id": 50038,
+    "mod_id": 10047,
+    "result_id": 55095
+}, {
+    "base_id": 50003,
+    "mod_id": 20017,
+    "result_id": 55093
+}, {
+    "base_id": 1500001,
+    "mod_id": 20017,
+    "result_id": 55093
+}, {
+    "base_id": 50003,
+    "mod_id": 30019,
+    "result_id": 55093
+}, {
+    "base_id": 1500001,
+    "mod_id": 30019,
+    "result_id": 55093
+}, {
+    "base_id": 50003,
+    "mod_id": 40017,
+    "result_id": 55093
+}, {
+    "base_id": 1500001,
+    "mod_id": 40017,
+    "result_id": 55093
+}, {
+    "base_id": 50003,
+    "mod_id": 50017,
+    "result_id": 55093
+}, {
+    "base_id": 1500001,
+    "mod_id": 50017,
+    "result_id": 55093
+}, {
+    "base_id": 50003,
+    "mod_id": 60010,
+    "result_id": 55093
+}, {
+    "base_id": 1500001,
+    "mod_id": 60010,
+    "result_id": 55093
+}, {
+    "base_id": 50003,
+    "mod_id": 10035,
+    "result_id": 55093
+}, {
+    "base_id": 1500001,
+    "mod_id": 10035,
+    "result_id": 55093
+}, {
+    "base_id": 50003,
+    "mod_id": 10032,
+    "result_id": 55093
+}, {
+    "base_id": 1500001,
+    "mod_id": 10032,
+    "result_id": 55093
+}, {
+    "base_id": 50003,
+    "mod_id": 30033,
+    "result_id": 55092
+}, {
+    "base_id": 1500001,
+    "mod_id": 30033,
+    "result_id": 55092
+}, {
+    "base_id": 50003,
+    "mod_id": 30039,
+    "result_id": 55092
+}, {
+    "base_id": 1500001,
+    "mod_id": 30039,
+    "result_id": 55092
+}, {
+    "base_id": 50003,
+    "mod_id": 40031,
+    "result_id": 55092
+}, {
+    "base_id": 1500001,
+    "mod_id": 40031,
+    "result_id": 55092
+}, {
+    "base_id": 50002,
+    "mod_id": 40031,
+    "result_id": 55091
+}, {
+    "base_id": 50028,
+    "mod_id": 40031,
+    "result_id": 55091
+}, {
+    "base_id": 50002,
+    "mod_id": 10033,
+    "result_id": 55091
+}, {
+    "base_id": 50028,
+    "mod_id": 10033,
+    "result_id": 55091
+}, {
+    "base_id": 50002,
+    "mod_id": 40026,
+    "result_id": 55091
+}, {
+    "base_id": 50028,
+    "mod_id": 40026,
+    "result_id": 55091
+}, {
+    "base_id": 50002,
+    "mod_id": 20032,
+    "result_id": 55091
+}, {
+    "base_id": 50028,
+    "mod_id": 20032,
+    "result_id": 55091
+}, {
+    "base_id": 50002,
+    "mod_id": 50033,
+    "result_id": 55091
+}, {
+    "base_id": 50028,
+    "mod_id": 50033,
+    "result_id": 55091
+}, {
+    "base_id": 50002,
+    "mod_id": 10039,
+    "result_id": 55091
+}, {
+    "base_id": 50028,
+    "mod_id": 10039,
+    "result_id": 55091
+}, {
+    "base_id": 50001,
+    "mod_id": 20031,
+    "result_id": 55090
+}, {
+    "base_id": 50001,
+    "mod_id": 50032,
+    "result_id": 55090
+}, {
+    "base_id": 50001,
+    "mod_id": 10046,
+    "result_id": 55090
+}, {
+    "base_id": 50001,
+    "mod_id": 40036,
+    "result_id": 55090
+}, {
+    "base_id": 50001,
+    "mod_id": 50041,
+    "result_id": 55090
+}, {
+    "base_id": 50001,
+    "mod_id": 20037,
+    "result_id": 55090
+}, {
+    "base_id": 50002,
+    "mod_id": 50032,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 50032,
+    "result_id": 55088
+}, {
+    "base_id": 50002,
+    "mod_id": 20031,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 20031,
+    "result_id": 55088
+}, {
+    "base_id": 50002,
+    "mod_id": 30023,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 30023,
+    "result_id": 55088
+}, {
+    "base_id": 50002,
+    "mod_id": 40030,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 40030,
+    "result_id": 55088
+}, {
+    "base_id": 50002,
+    "mod_id": 30049,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 30049,
+    "result_id": 55088
+}, {
+    "base_id": 50002,
+    "mod_id": 10046,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 10046,
+    "result_id": 55088
+}, {
+    "base_id": 50002,
+    "mod_id": 40036,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 40036,
+    "result_id": 55088
+}, {
+    "base_id": 50002,
+    "mod_id": 50041,
+    "result_id": 55088
+}, {
+    "base_id": 50028,
+    "mod_id": 50041,
+    "result_id": 55088
+}, {
+    "base_id": 50005,
+    "mod_id": 50032,
+    "result_id": 55089
+}, {
+    "base_id": 50005,
+    "mod_id": 20031,
+    "result_id": 55089
+}, {
+    "base_id": 50005,
+    "mod_id": 40036,
+    "result_id": 55089
+}, {
+    "base_id": 50005,
+    "mod_id": 20037,
+    "result_id": 55089
+}, {
+    "base_id": 50001,
+    "mod_id": 10026,
+    "result_id": 55087
+}, {
+    "base_id": 50001,
+    "mod_id": 10027,
+    "result_id": 55087
+}, {
+    "base_id": 50001,
+    "mod_id": 30027,
+    "result_id": 55087
+}, {
+    "base_id": 50001,
+    "mod_id": 50023,
+    "result_id": 55087
+}, {
+    "base_id": 50003,
+    "mod_id": 50030,
+    "result_id": 55086
+}, {
+    "base_id": 50003,
+    "mod_id": 40023,
+    "result_id": 55086
+}, {
+    "base_id": 50003,
+    "mod_id": 40029,
+    "result_id": 55086
+}, {
+    "base_id": 50003,
+    "mod_id": 20030,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 50030,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 40023,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 40029,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 20030,
+    "result_id": 55086
+}, {
+    "base_id": 50003,
+    "mod_id": 30044,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 30044,
+    "result_id": 55086
+}, {
+    "base_id": 50003,
+    "mod_id": 20035,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 20035,
+    "result_id": 55086
+}, {
+    "base_id": 50003,
+    "mod_id": 10043,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 10043,
+    "result_id": 55086
+}, {
+    "base_id": 50003,
+    "mod_id": 50037,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 50037,
+    "result_id": 55086
+}, {
+    "base_id": 1500001,
+    "mod_id": 40021,
+    "result_id": 55085
+}, {
+    "base_id": 1500001,
+    "mod_id": 30021,
+    "result_id": 55085
+}, {
+    "base_id": 1500001,
+    "mod_id": 20029,
+    "result_id": 55085
+}, {
+    "base_id": 1500001,
+    "mod_id": 20021,
+    "result_id": 55071
+}, {
+    "base_id": 1500001,
+    "mod_id": 10037,
+    "result_id": 55071
+}, {
+    "base_id": 1500001,
+    "mod_id": 50022,
+    "result_id": 55071
+}, {
+    "base_id": 1500001,
+    "mod_id": 10015,
+    "result_id": 55025
+}, {
+    "base_id": 1500001,
+    "mod_id": 40010,
+    "result_id": 55025
+}, {
+    "base_id": 1500001,
+    "mod_id": 20008,
+    "result_id": 55025
+}, {
+    "base_id": 1500001,
+    "mod_id": 50013,
+    "result_id": 55025
+}, {
+    "base_id": 1500001,
+    "mod_id": 60002,
+    "result_id": 55025
+}, {
+    "base_id": 1500001,
+    "mod_id": 10031,
+    "result_id": 55025
+}, {
+    "base_id": 1500001,
+    "mod_id": 20013,
+    "result_id": 55026
+}, {
+    "base_id": 1500001,
+    "mod_id": 40006,
+    "result_id": 55026
+}, {
+    "base_id": 1500001,
+    "mod_id": 30003,
+    "result_id": 55026
+}, {
+    "base_id": 1500001,
+    "mod_id": 50014,
+    "result_id": 55026
+}, {
+    "base_id": 1500001,
+    "mod_id": 10016,
+    "result_id": 55026
+}, {
+    "base_id": 1500001,
+    "mod_id": 60005,
+    "result_id": 55026
+}, {
+    "base_id": 1500001,
+    "mod_id": 20012,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 40012,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 30015,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 10012,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 50011,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 60006,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 10026,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 30027,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 10027,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 30028,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 30029,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 30045,
+    "result_id": 55013
+}, {
+    "base_id": 1500001,
+    "mod_id": 20006,
+    "result_id": 55002
+}, {
+    "base_id": 1500001,
+    "mod_id": 40007,
+    "result_id": 55002
+}, {
+    "base_id": 1500001,
+    "mod_id": 30010,
+    "result_id": 55002
+}, {
+    "base_id": 1500001,
+    "mod_id": 50008,
+    "result_id": 55002
+}, {
+    "base_id": 1500001,
+    "mod_id": 10011,
+    "result_id": 55002
+}, {
+    "base_id": 1500001,
+    "mod_id": 60009,
+    "result_id": 55002
+}, {
+    "base_id": 1500001,
+    "mod_id": 10029,
+    "result_id": 55002
+}, {
+    "base_id": 1500001,
+    "mod_id": 20014,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 50015,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 20010,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 40013,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 30009,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 50009,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 10014,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 10024,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 60004,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 60007,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 20024,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 50025,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 30018,
+    "result_id": 55031
+}, {
+    "base_id": 1500001,
+    "mod_id": 10033,
+    "result_id": 55031
+}, {
+    "base_id": 1500001,
+    "mod_id": 10034,
+    "result_id": 55031
+}, {
+    "base_id": 1500001,
+    "mod_id": 20025,
+    "result_id": 55031
+}, {
+    "base_id": 1500001,
+    "mod_id": 50026,
+    "result_id": 55031
+}, {
+    "base_id": 1500001,
+    "mod_id": 50010,
+    "result_id": 55010
+}, {
+    "base_id": 1500001,
+    "mod_id": 10010,
+    "result_id": 55035
+}, {
+    "base_id": 1500001,
+    "mod_id": 20015,
+    "result_id": 55035
+}, {
+    "base_id": 1500001,
+    "mod_id": 40016,
+    "result_id": 55035
+}, {
+    "base_id": 1500001,
+    "mod_id": 30008,
+    "result_id": 55035
+}, {
+    "base_id": 1500001,
+    "mod_id": 50016,
+    "result_id": 55035
+}, {
+    "base_id": 1500001,
+    "mod_id": 60008,
+    "result_id": 55035
+}, {
+    "base_id": 1500001,
+    "mod_id": 30014,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 40020,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 20019,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 10019,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 10021,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 50021,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 60003,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 30030,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 50027,
+    "result_id": 55001
+}, {
+    "base_id": 1500001,
+    "mod_id": 20020,
+    "result_id": 55038
+}, {
+    "base_id": 1500001,
+    "mod_id": 50020,
+    "result_id": 55038
+}, {
+    "base_id": 1500001,
+    "mod_id": 10020,
+    "result_id": 55038
+}, {
+    "base_id": 1500001,
+    "mod_id": 60011,
+    "result_id": 55038
+}, {
+    "base_id": 1500001,
+    "mod_id": 20018,
+    "result_id": 55056
+}, {
+    "base_id": 1500001,
+    "mod_id": 30013,
+    "result_id": 55056
+}, {
+    "base_id": 1500001,
+    "mod_id": 40019,
+    "result_id": 55056
+}, {
+    "base_id": 1500001,
+    "mod_id": 10008,
+    "result_id": 55056
+}, {
+    "base_id": 1500001,
+    "mod_id": 60013,
+    "result_id": 55056
+}, {
+    "base_id": 1500001,
+    "mod_id": 30034,
+    "result_id": 55056
+}, {
+    "base_id": 50003,
+    "mod_id": 40021,
+    "result_id": 55085
+}, {
+    "base_id": 50003,
+    "mod_id": 30021,
+    "result_id": 55085
+}, {
+    "base_id": 50003,
+    "mod_id": 20029,
+    "result_id": 55085
+}, {
+    "base_id": 50028,
+    "mod_id": 50027,
+    "result_id": 55081
+}, {
+    "base_id": 50028,
+    "mod_id": 10036,
+    "result_id": 55081
+}, {
+    "base_id": 50028,
+    "mod_id": 50021,
+    "result_id": 55081
+}, {
+    "base_id": 50028,
+    "mod_id": 20028,
+    "result_id": 55081
+}, {
+    "base_id": 50028,
+    "mod_id": 50035,
+    "result_id": 55081
+}, {
+    "base_id": 50002,
+    "mod_id": 50035,
+    "result_id": 55081
+}, {
+    "base_id": 50028,
+    "mod_id": 20034,
+    "result_id": 55081
+}, {
+    "base_id": 50002,
+    "mod_id": 20034,
+    "result_id": 55081
+}, {
+    "base_id": 50028,
+    "mod_id": 40032,
+    "result_id": 55081
+}, {
+    "base_id": 50002,
+    "mod_id": 40032,
+    "result_id": 55081
+}, {
+    "base_id": 50028,
+    "mod_id": 30031,
+    "result_id": 55076
+}, {
+    "base_id": 50028,
+    "mod_id": 40025,
+    "result_id": 55076
+}, {
+    "base_id": 50028,
+    "mod_id": 40037,
+    "result_id": 55076
+}, {
+    "base_id": 50028,
+    "mod_id": 10034,
+    "result_id": 55079
+}, {
+    "base_id": 50028,
+    "mod_id": 20025,
+    "result_id": 55079
+}, {
+    "base_id": 50028,
+    "mod_id": 50026,
+    "result_id": 55079
+}, {
+    "base_id": 50028,
+    "mod_id": 30039,
+    "result_id": 55079
+}, {
+    "base_id": 50002,
+    "mod_id": 30039,
+    "result_id": 55079
+}, {
+    "base_id": 50028,
+    "mod_id": 20016,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 40018,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 30020,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 50018,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 10017,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 40016,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 30008,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 50016,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 10010,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 20015,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 20020,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 50020,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 10020,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 60012,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 60011,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 60008,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 30036,
+    "result_id": 55034
+}, {
+    "base_id": 50028,
+    "mod_id": 10015,
+    "result_id": 55023
+}, {
+    "base_id": 50028,
+    "mod_id": 40010,
+    "result_id": 55023
+}, {
+    "base_id": 50028,
+    "mod_id": 20008,
+    "result_id": 55023
+}, {
+    "base_id": 50028,
+    "mod_id": 50013,
+    "result_id": 55023
+}, {
+    "base_id": 50028,
+    "mod_id": 60002,
+    "result_id": 55023
+}, {
+    "base_id": 50028,
+    "mod_id": 10031,
+    "result_id": 55023
+}, {
+    "base_id": 50028,
+    "mod_id": 20013,
+    "result_id": 55024
+}, {
+    "base_id": 50028,
+    "mod_id": 40006,
+    "result_id": 55024
+}, {
+    "base_id": 50028,
+    "mod_id": 30003,
+    "result_id": 55024
+}, {
+    "base_id": 50028,
+    "mod_id": 50014,
+    "result_id": 55024
+}, {
+    "base_id": 50028,
+    "mod_id": 10016,
+    "result_id": 55024
+}, {
+    "base_id": 50028,
+    "mod_id": 60005,
+    "result_id": 55024
+}, {
+    "base_id": 50028,
+    "mod_id": 20011,
+    "result_id": 55018
+}, {
+    "base_id": 50028,
+    "mod_id": 40011,
+    "result_id": 55018
+}, {
+    "base_id": 50028,
+    "mod_id": 30016,
+    "result_id": 55018
+}, {
+    "base_id": 50028,
+    "mod_id": 50007,
+    "result_id": 55018
+}, {
+    "base_id": 50028,
+    "mod_id": 10013,
+    "result_id": 55018
+}, {
+    "base_id": 50028,
+    "mod_id": 60001,
+    "result_id": 55018
+}, {
+    "base_id": 50028,
+    "mod_id": 40014,
+    "result_id": 55021
+}, {
+    "base_id": 50028,
+    "mod_id": 30017,
+    "result_id": 55021
+}, {
+    "base_id": 50028,
+    "mod_id": 50012,
+    "result_id": 55021
+}, {
+    "base_id": 50028,
+    "mod_id": 10004,
+    "result_id": 55021
+}, {
+    "base_id": 50028,
+    "mod_id": 20012,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 40012,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 30015,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 10012,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 50011,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 60006,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 30027,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 10027,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 40023,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 30028,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 30029,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 30045,
+    "result_id": 55012
+}, {
+    "base_id": 50028,
+    "mod_id": 20006,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 40007,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 30010,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 50008,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 10011,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 60009,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 10029,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 10038,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 10038,
+    "result_id": 55006
+}, {
+    "base_id": 50028,
+    "mod_id": 50010,
+    "result_id": 55003
+}, {
+    "base_id": 50028,
+    "mod_id": 20014,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 50015,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 20010,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 40013,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 30009,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 50009,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 10014,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 10024,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 60004,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 60007,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 20024,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 50025,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 30037,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 30040,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 30040,
+    "result_id": 55007
+}, {
+    "base_id": 50028,
+    "mod_id": 20017,
+    "result_id": 55049
+}, {
+    "base_id": 50028,
+    "mod_id": 40017,
+    "result_id": 55049
+}, {
+    "base_id": 50028,
+    "mod_id": 30019,
+    "result_id": 55049
+}, {
+    "base_id": 50028,
+    "mod_id": 50017,
+    "result_id": 55049
+}, {
+    "base_id": 50028,
+    "mod_id": 60010,
+    "result_id": 55049
+}, {
+    "base_id": 50028,
+    "mod_id": 10032,
+    "result_id": 55049
+}, {
+    "base_id": 50028,
+    "mod_id": 10035,
+    "result_id": 55049
+}, {
+    "base_id": 50028,
+    "mod_id": 20018,
+    "result_id": 55057
+}, {
+    "base_id": 50028,
+    "mod_id": 30013,
+    "result_id": 55057
+}, {
+    "base_id": 50028,
+    "mod_id": 40019,
+    "result_id": 55057
+}, {
+    "base_id": 50028,
+    "mod_id": 10008,
+    "result_id": 55057
+}, {
+    "base_id": 50028,
+    "mod_id": 60013,
+    "result_id": 55057
+}, {
+    "base_id": 50028,
+    "mod_id": 30034,
+    "result_id": 55057
+}, {
+    "base_id": 50002,
+    "mod_id": 50027,
+    "result_id": 55081
+}, {
+    "base_id": 50002,
+    "mod_id": 10036,
+    "result_id": 55081
+}, {
+    "base_id": 50002,
+    "mod_id": 50021,
+    "result_id": 55081
+}, {
+    "base_id": 50002,
+    "mod_id": 20028,
+    "result_id": 55081
+}, {
+    "base_id": 50002,
+    "mod_id": 20021,
+    "result_id": 55083
+}, {
+    "base_id": 50002,
+    "mod_id": 40021,
+    "result_id": 55083
+}, {
+    "base_id": 50002,
+    "mod_id": 30021,
+    "result_id": 55083
+}, {
+    "base_id": 50002,
+    "mod_id": 10037,
+    "result_id": 55083
+}, {
+    "base_id": 50028,
+    "mod_id": 20021,
+    "result_id": 55083
+}, {
+    "base_id": 50028,
+    "mod_id": 40021,
+    "result_id": 55083
+}, {
+    "base_id": 50028,
+    "mod_id": 30021,
+    "result_id": 55083
+}, {
+    "base_id": 50028,
+    "mod_id": 10037,
+    "result_id": 55083
+}, {
+    "base_id": 50004,
+    "mod_id": 40025,
+    "result_id": 55077
+}, {
+    "base_id": 50004,
+    "mod_id": 30031,
+    "result_id": 55077
+}, {
+    "base_id": 50004,
+    "mod_id": 20024,
+    "result_id": 55077
+}, {
+    "base_id": 50004,
+    "mod_id": 50025,
+    "result_id": 55077
+}, {
+    "base_id": 50004,
+    "mod_id": 20033,
+    "result_id": 55077
+}, {
+    "base_id": 50004,
+    "mod_id": 40037,
+    "result_id": 55077
+}, {
+    "base_id": 50002,
+    "mod_id": 30031,
+    "result_id": 55076
+}, {
+    "base_id": 50002,
+    "mod_id": 40025,
+    "result_id": 55076
+}, {
+    "base_id": 50002,
+    "mod_id": 10034,
+    "result_id": 55079
+}, {
+    "base_id": 50002,
+    "mod_id": 20025,
+    "result_id": 55079
+}, {
+    "base_id": 50002,
+    "mod_id": 50026,
+    "result_id": 55079
+}, {
+    "base_id": 50001,
+    "mod_id": 40024,
+    "result_id": 55075
+}, {
+    "base_id": 50001,
+    "mod_id": 20024,
+    "result_id": 55075
+}, {
+    "base_id": 50001,
+    "mod_id": 50024,
+    "result_id": 55075
+}, {
+    "base_id": 50001,
+    "mod_id": 30032,
+    "result_id": 55075
+}, {
+    "base_id": 50001,
+    "mod_id": 30040,
+    "result_id": 55075
+}, {
+    "base_id": 50001,
+    "mod_id": 20033,
+    "result_id": 55075
+}, {
+    "base_id": 50001,
+    "mod_id": 50027,
+    "result_id": 55080
+}, {
+    "base_id": 50001,
+    "mod_id": 50029,
+    "result_id": 55080
+}, {
+    "base_id": 50001,
+    "mod_id": 20028,
+    "result_id": 55080
+}, {
+    "base_id": 50028,
+    "mod_id": 50029,
+    "result_id": 55082
+}, {
+    "base_id": 50002,
+    "mod_id": 50029,
+    "result_id": 55082
+}, {
+    "base_id": 50028,
+    "mod_id": 40028,
+    "result_id": 55082
+}, {
+    "base_id": 50002,
+    "mod_id": 40028,
+    "result_id": 55082
+}, {
+    "base_id": 50028,
+    "mod_id": 30038,
+    "result_id": 55082
+}, {
+    "base_id": 50002,
+    "mod_id": 30038,
+    "result_id": 55082
+}, {
+    "base_id": 50028,
+    "mod_id": 30041,
+    "result_id": 55082
+}, {
+    "base_id": 50002,
+    "mod_id": 30041,
+    "result_id": 55082
+}, {
+    "base_id": 50028,
+    "mod_id": 10041,
+    "result_id": 55082
+}, {
+    "base_id": 50002,
+    "mod_id": 10041,
+    "result_id": 55082
+}, {
+    "base_id": 50003,
+    "mod_id": 20021,
+    "result_id": 55071
+}, {
+    "base_id": 50003,
+    "mod_id": 10037,
+    "result_id": 55071
+}, {
+    "base_id": 50003,
+    "mod_id": 50022,
+    "result_id": 55071
+}, {
+    "base_id": 50001,
+    "mod_id": 10033,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 10034,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 20025,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 50026,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 40026,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 40021,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 30021,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 20029,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 30039,
+    "result_id": 55073
+}, {
+    "base_id": 50001,
+    "mod_id": 20021,
+    "result_id": 55084
+}, {
+    "base_id": 50001,
+    "mod_id": 10037,
+    "result_id": 55084
+}, {
+    "base_id": 50001,
+    "mod_id": 50022,
+    "result_id": 55073
+}, {
+    "base_id": 50005,
+    "mod_id": 20021,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 40021,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 30021,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 10025,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 50022,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 10033,
+    "result_id": 55078
+}, {
+    "base_id": 50005,
+    "mod_id": 10034,
+    "result_id": 55078
+}, {
+    "base_id": 50005,
+    "mod_id": 30033,
+    "result_id": 55078
+}, {
+    "base_id": 50005,
+    "mod_id": 40026,
+    "result_id": 55078
+}, {
+    "base_id": 50005,
+    "mod_id": 30039,
+    "result_id": 55078
+}, {
+    "base_id": 50005,
+    "mod_id": 40031,
+    "result_id": 55078
+}, {
+    "base_id": 50005,
+    "mod_id": 20032,
+    "result_id": 55078
+}, {
+    "base_id": 50005,
+    "mod_id": 50033,
+    "result_id": 55078
+}, {
+    "base_id": 50019,
+    "mod_id": 20021,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 40021,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 30021,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 10025,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 50022,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 20021,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 40021,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 30021,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 10025,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 50022,
+    "result_id": 55069
+}, {
+    "base_id": 50002,
+    "mod_id": 20016,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 40018,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 30020,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 50018,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 10017,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 40016,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 30008,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 50016,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 10010,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 20015,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 20020,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 50020,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 10020,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 60012,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 60011,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 60008,
+    "result_id": 55034
+}, {
+    "base_id": 50002,
+    "mod_id": 30036,
+    "result_id": 55034
+}, {
+    "base_id": 50004,
+    "mod_id": 20016,
+    "result_id": 55039
+}, {
+    "base_id": 50004,
+    "mod_id": 40018,
+    "result_id": 55039
+}, {
+    "base_id": 50004,
+    "mod_id": 30020,
+    "result_id": 55039
+}, {
+    "base_id": 50004,
+    "mod_id": 50018,
+    "result_id": 55039
+}, {
+    "base_id": 50004,
+    "mod_id": 10017,
+    "result_id": 55039
+}, {
+    "base_id": 50004,
+    "mod_id": 60012,
+    "result_id": 55039
+}, {
+    "base_id": 50004,
+    "mod_id": 30036,
+    "result_id": 55039
+}, {
+    "base_id": 50005,
+    "mod_id": 20016,
+    "result_id": 55040
+}, {
+    "base_id": 50005,
+    "mod_id": 40018,
+    "result_id": 55040
+}, {
+    "base_id": 50005,
+    "mod_id": 30020,
+    "result_id": 55040
+}, {
+    "base_id": 50005,
+    "mod_id": 50018,
+    "result_id": 55040
+}, {
+    "base_id": 50005,
+    "mod_id": 10017,
+    "result_id": 55040
+}, {
+    "base_id": 50005,
+    "mod_id": 60012,
+    "result_id": 55040
+}, {
+    "base_id": 50005,
+    "mod_id": 30036,
+    "result_id": 55040
+}, {
+    "base_id": 50019,
+    "mod_id": 20016,
+    "result_id": 55041
+}, {
+    "base_id": 50019,
+    "mod_id": 40018,
+    "result_id": 55041
+}, {
+    "base_id": 50019,
+    "mod_id": 30020,
+    "result_id": 55041
+}, {
+    "base_id": 50019,
+    "mod_id": 50018,
+    "result_id": 55041
+}, {
+    "base_id": 50019,
+    "mod_id": 10017,
+    "result_id": 55041
+}, {
+    "base_id": 50019,
+    "mod_id": 60012,
+    "result_id": 55041
+}, {
+    "base_id": 50019,
+    "mod_id": 30036,
+    "result_id": 55041
+}, {
+    "base_id": 50038,
+    "mod_id": 20016,
+    "result_id": 55041
+}, {
+    "base_id": 50038,
+    "mod_id": 40018,
+    "result_id": 55041
+}, {
+    "base_id": 50038,
+    "mod_id": 30020,
+    "result_id": 55041
+}, {
+    "base_id": 50038,
+    "mod_id": 50018,
+    "result_id": 55041
+}, {
+    "base_id": 50038,
+    "mod_id": 10017,
+    "result_id": 55041
+}, {
+    "base_id": 50038,
+    "mod_id": 60012,
+    "result_id": 55041
+}, {
+    "base_id": 50038,
+    "mod_id": 30036,
+    "result_id": 55041
+}, {
+    "base_id": 50002,
+    "mod_id": 10015,
+    "result_id": 55023
+}, {
+    "base_id": 50002,
+    "mod_id": 40010,
+    "result_id": 55023
+}, {
+    "base_id": 50002,
+    "mod_id": 20008,
+    "result_id": 55023
+}, {
+    "base_id": 50002,
+    "mod_id": 50013,
+    "result_id": 55023
+}, {
+    "base_id": 50002,
+    "mod_id": 60002,
+    "result_id": 55023
+}, {
+    "base_id": 50002,
+    "mod_id": 10031,
+    "result_id": 55023
+}, {
+    "base_id": 50003,
+    "mod_id": 10015,
+    "result_id": 55025
+}, {
+    "base_id": 50003,
+    "mod_id": 40010,
+    "result_id": 55025
+}, {
+    "base_id": 50003,
+    "mod_id": 20008,
+    "result_id": 55025
+}, {
+    "base_id": 50003,
+    "mod_id": 50013,
+    "result_id": 55025
+}, {
+    "base_id": 50003,
+    "mod_id": 60002,
+    "result_id": 55025
+}, {
+    "base_id": 50003,
+    "mod_id": 10031,
+    "result_id": 55025
+}, {
+    "base_id": 50001,
+    "mod_id": 10015,
+    "result_id": 55028
+}, {
+    "base_id": 50001,
+    "mod_id": 40010,
+    "result_id": 55028
+}, {
+    "base_id": 50001,
+    "mod_id": 20008,
+    "result_id": 55028
+}, {
+    "base_id": 50001,
+    "mod_id": 50013,
+    "result_id": 55028
+}, {
+    "base_id": 50001,
+    "mod_id": 60002,
+    "result_id": 55028
+}, {
+    "base_id": 50001,
+    "mod_id": 10031,
+    "result_id": 55028
+}, {
+    "base_id": 50005,
+    "mod_id": 10015,
+    "result_id": 55030
+}, {
+    "base_id": 50005,
+    "mod_id": 40010,
+    "result_id": 55030
+}, {
+    "base_id": 50005,
+    "mod_id": 20008,
+    "result_id": 55030
+}, {
+    "base_id": 50005,
+    "mod_id": 50013,
+    "result_id": 55030
+}, {
+    "base_id": 50005,
+    "mod_id": 60002,
+    "result_id": 55030
+}, {
+    "base_id": 50005,
+    "mod_id": 10031,
+    "result_id": 55030
+}, {
+    "base_id": 50019,
+    "mod_id": 10015,
+    "result_id": 55067
+}, {
+    "base_id": 50019,
+    "mod_id": 40010,
+    "result_id": 55067
+}, {
+    "base_id": 50019,
+    "mod_id": 20008,
+    "result_id": 55067
+}, {
+    "base_id": 50019,
+    "mod_id": 50013,
+    "result_id": 55067
+}, {
+    "base_id": 50019,
+    "mod_id": 60002,
+    "result_id": 55067
+}, {
+    "base_id": 50019,
+    "mod_id": 10031,
+    "result_id": 55067
+}, {
+    "base_id": 50038,
+    "mod_id": 10015,
+    "result_id": 55067
+}, {
+    "base_id": 50038,
+    "mod_id": 40010,
+    "result_id": 55067
+}, {
+    "base_id": 50038,
+    "mod_id": 20008,
+    "result_id": 55067
+}, {
+    "base_id": 50038,
+    "mod_id": 50013,
+    "result_id": 55067
+}, {
+    "base_id": 50038,
+    "mod_id": 60002,
+    "result_id": 55067
+}, {
+    "base_id": 50038,
+    "mod_id": 10031,
+    "result_id": 55067
+}, {
+    "base_id": 50006,
+    "mod_id": 10015,
+    "result_id": 55068
+}, {
+    "base_id": 50006,
+    "mod_id": 40010,
+    "result_id": 55068
+}, {
+    "base_id": 50006,
+    "mod_id": 20008,
+    "result_id": 55068
+}, {
+    "base_id": 50006,
+    "mod_id": 50013,
+    "result_id": 55068
+}, {
+    "base_id": 50006,
+    "mod_id": 60002,
+    "result_id": 55068
+}, {
+    "base_id": 50006,
+    "mod_id": 10031,
+    "result_id": 55068
+}, {
+    "base_id": 50002,
+    "mod_id": 20013,
+    "result_id": 55024
+}, {
+    "base_id": 50002,
+    "mod_id": 40006,
+    "result_id": 55024
+}, {
+    "base_id": 50002,
+    "mod_id": 30003,
+    "result_id": 55024
+}, {
+    "base_id": 50002,
+    "mod_id": 50014,
+    "result_id": 55024
+}, {
+    "base_id": 50002,
+    "mod_id": 10016,
+    "result_id": 55024
+}, {
+    "base_id": 50002,
+    "mod_id": 60005,
+    "result_id": 55024
+}, {
+    "base_id": 50003,
+    "mod_id": 20013,
+    "result_id": 55026
+}, {
+    "base_id": 50003,
+    "mod_id": 40006,
+    "result_id": 55026
+}, {
+    "base_id": 50003,
+    "mod_id": 30003,
+    "result_id": 55026
+}, {
+    "base_id": 50003,
+    "mod_id": 50014,
+    "result_id": 55026
+}, {
+    "base_id": 50003,
+    "mod_id": 10016,
+    "result_id": 55026
+}, {
+    "base_id": 50003,
+    "mod_id": 60005,
+    "result_id": 55026
+}, {
+    "base_id": 50004,
+    "mod_id": 20013,
+    "result_id": 55027
+}, {
+    "base_id": 50004,
+    "mod_id": 40006,
+    "result_id": 55027
+}, {
+    "base_id": 50004,
+    "mod_id": 30003,
+    "result_id": 55027
+}, {
+    "base_id": 50004,
+    "mod_id": 50014,
+    "result_id": 55027
+}, {
+    "base_id": 50004,
+    "mod_id": 10016,
+    "result_id": 55027
+}, {
+    "base_id": 50004,
+    "mod_id": 60005,
+    "result_id": 55027
+}, {
+    "base_id": 50004,
+    "mod_id": 30033,
+    "result_id": 55027
+}, {
+    "base_id": 50001,
+    "mod_id": 20013,
+    "result_id": 55029
+}, {
+    "base_id": 50001,
+    "mod_id": 40006,
+    "result_id": 55029
+}, {
+    "base_id": 50001,
+    "mod_id": 30003,
+    "result_id": 55029
+}, {
+    "base_id": 50001,
+    "mod_id": 50014,
+    "result_id": 55029
+}, {
+    "base_id": 50001,
+    "mod_id": 10016,
+    "result_id": 55029
+}, {
+    "base_id": 50001,
+    "mod_id": 60005,
+    "result_id": 55029
+}, {
+    "base_id": 50019,
+    "mod_id": 20013,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 40006,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 30003,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 50014,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 10016,
+    "result_id": 55069
+}, {
+    "base_id": 50019,
+    "mod_id": 60005,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 20013,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 40006,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 30003,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 50014,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 10016,
+    "result_id": 55069
+}, {
+    "base_id": 50038,
+    "mod_id": 60005,
+    "result_id": 55069
+}, {
+    "base_id": 50006,
+    "mod_id": 20013,
+    "result_id": 55070
+}, {
+    "base_id": 50006,
+    "mod_id": 40006,
+    "result_id": 55070
+}, {
+    "base_id": 50006,
+    "mod_id": 30003,
+    "result_id": 55070
+}, {
+    "base_id": 50006,
+    "mod_id": 50014,
+    "result_id": 55070
+}, {
+    "base_id": 50006,
+    "mod_id": 10016,
+    "result_id": 55070
+}, {
+    "base_id": 50006,
+    "mod_id": 60005,
+    "result_id": 55070
+}, {
+    "base_id": 50002,
+    "mod_id": 20011,
+    "result_id": 55018
+}, {
+    "base_id": 50002,
+    "mod_id": 40011,
+    "result_id": 55018
+}, {
+    "base_id": 50002,
+    "mod_id": 30016,
+    "result_id": 55018
+}, {
+    "base_id": 50002,
+    "mod_id": 50007,
+    "result_id": 55018
+}, {
+    "base_id": 50002,
+    "mod_id": 10013,
+    "result_id": 55018
+}, {
+    "base_id": 50002,
+    "mod_id": 60001,
+    "result_id": 55018
+}, {
+    "base_id": 50004,
+    "mod_id": 20011,
+    "result_id": 55019
+}, {
+    "base_id": 50004,
+    "mod_id": 40011,
+    "result_id": 55019
+}, {
+    "base_id": 50004,
+    "mod_id": 30016,
+    "result_id": 55019
+}, {
+    "base_id": 50004,
+    "mod_id": 50007,
+    "result_id": 55019
+}, {
+    "base_id": 50004,
+    "mod_id": 10013,
+    "result_id": 55019
+}, {
+    "base_id": 50004,
+    "mod_id": 60001,
+    "result_id": 55019
+}, {
+    "base_id": 50001,
+    "mod_id": 20011,
+    "result_id": 55020
+}, {
+    "base_id": 50001,
+    "mod_id": 40011,
+    "result_id": 55020
+}, {
+    "base_id": 50001,
+    "mod_id": 30016,
+    "result_id": 55020
+}, {
+    "base_id": 50001,
+    "mod_id": 50007,
+    "result_id": 55020
+}, {
+    "base_id": 50001,
+    "mod_id": 10013,
+    "result_id": 55020
+}, {
+    "base_id": 50001,
+    "mod_id": 60001,
+    "result_id": 55020
+}, {
+    "base_id": 50019,
+    "mod_id": 20011,
+    "result_id": 55063
+}, {
+    "base_id": 50019,
+    "mod_id": 40011,
+    "result_id": 55063
+}, {
+    "base_id": 50019,
+    "mod_id": 30016,
+    "result_id": 55063
+}, {
+    "base_id": 50019,
+    "mod_id": 50007,
+    "result_id": 55063
+}, {
+    "base_id": 50019,
+    "mod_id": 10013,
+    "result_id": 55063
+}, {
+    "base_id": 50019,
+    "mod_id": 60001,
+    "result_id": 55063
+}, {
+    "base_id": 50019,
+    "mod_id": 30046,
+    "result_id": 55063
+}, {
+    "base_id": 50038,
+    "mod_id": 20011,
+    "result_id": 55063
+}, {
+    "base_id": 50038,
+    "mod_id": 40011,
+    "result_id": 55063
+}, {
+    "base_id": 50038,
+    "mod_id": 30016,
+    "result_id": 55063
+}, {
+    "base_id": 50038,
+    "mod_id": 50007,
+    "result_id": 55063
+}, {
+    "base_id": 50038,
+    "mod_id": 10013,
+    "result_id": 55063
+}, {
+    "base_id": 50038,
+    "mod_id": 60001,
+    "result_id": 55063
+}, {
+    "base_id": 50002,
+    "mod_id": 40014,
+    "result_id": 55021
+}, {
+    "base_id": 50002,
+    "mod_id": 30017,
+    "result_id": 55021
+}, {
+    "base_id": 50002,
+    "mod_id": 50012,
+    "result_id": 55021
+}, {
+    "base_id": 50002,
+    "mod_id": 10004,
+    "result_id": 55021
+}, {
+    "base_id": 50001,
+    "mod_id": 40014,
+    "result_id": 55022
+}, {
+    "base_id": 50001,
+    "mod_id": 30017,
+    "result_id": 55022
+}, {
+    "base_id": 50001,
+    "mod_id": 50012,
+    "result_id": 55022
+}, {
+    "base_id": 50001,
+    "mod_id": 10004,
+    "result_id": 55022
+}, {
+    "base_id": 50002,
+    "mod_id": 20012,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 40012,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 30015,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 10012,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 50011,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 60006,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 30027,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 10027,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 40023,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 30028,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 30029,
+    "result_id": 55012
+}, {
+    "base_id": 50002,
+    "mod_id": 30045,
+    "result_id": 55012
+}, {
+    "base_id": 50003,
+    "mod_id": 20012,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 40012,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 30015,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 10012,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 50011,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 60006,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 10026,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 30027,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 10027,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 30028,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 30029,
+    "result_id": 55013
+}, {
+    "base_id": 50003,
+    "mod_id": 30045,
+    "result_id": 55013
+}, {
+    "base_id": 50004,
+    "mod_id": 20012,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 40012,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 30015,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 10012,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 50011,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 60006,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 10026,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 30027,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 50023,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 10027,
+    "result_id": 55014
+}, {
+    "base_id": 50004,
+    "mod_id": 30028,
+    "result_id": 55014
+}, {
+    "base_id": 50001,
+    "mod_id": 20012,
+    "result_id": 55015
+}, {
+    "base_id": 50001,
+    "mod_id": 40012,
+    "result_id": 55015
+}, {
+    "base_id": 50001,
+    "mod_id": 30015,
+    "result_id": 55015
+}, {
+    "base_id": 50001,
+    "mod_id": 10012,
+    "result_id": 55015
+}, {
+    "base_id": 50001,
+    "mod_id": 50011,
+    "result_id": 55015
+}, {
+    "base_id": 50001,
+    "mod_id": 60006,
+    "result_id": 55015
+}, {
+    "base_id": 50001,
+    "mod_id": 30029,
+    "result_id": 55015
+}, {
+    "base_id": 50001,
+    "mod_id": 30028,
+    "result_id": 55074
+}, {
+    "base_id": 50001,
+    "mod_id": 40023,
+    "result_id": 55074
+}, {
+    "base_id": 50001,
+    "mod_id": 50030,
+    "result_id": 55074
+}, {
+    "base_id": 50001,
+    "mod_id": 40029,
+    "result_id": 55074
+}, {
+    "base_id": 50001,
+    "mod_id": 20030,
+    "result_id": 55074
+}, {
+    "base_id": 50001,
+    "mod_id": 50031,
+    "result_id": 55074
+}, {
+    "base_id": 50005,
+    "mod_id": 20012,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 40012,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 30015,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 10012,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 50011,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 60006,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 30027,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 50023,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 10027,
+    "result_id": 55016
+}, {
+    "base_id": 50005,
+    "mod_id": 30028,
+    "result_id": 55016
+}, {
+    "base_id": 50019,
+    "mod_id": 20012,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 40012,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 30015,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 10012,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 50011,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 60006,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 10026,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 30027,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 10027,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 30028,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 30029,
+    "result_id": 55061
+}, {
+    "base_id": 50019,
+    "mod_id": 30045,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 20012,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 40012,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 30015,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 10012,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 50011,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 60006,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 10026,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 30027,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 10027,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 30028,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 30029,
+    "result_id": 55061
+}, {
+    "base_id": 50038,
+    "mod_id": 30045,
+    "result_id": 55061
+}, {
+    "base_id": 50006,
+    "mod_id": 20012,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 40012,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 30015,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 10012,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 50011,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 60006,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 10026,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 30027,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 10027,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 30028,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 30029,
+    "result_id": 55062
+}, {
+    "base_id": 50006,
+    "mod_id": 30045,
+    "result_id": 55062
+}, {
+    "base_id": 50005,
+    "mod_id": 20006,
+    "result_id": 55017
+}, {
+    "base_id": 50005,
+    "mod_id": 40007,
+    "result_id": 55017
+}, {
+    "base_id": 50005,
+    "mod_id": 30010,
+    "result_id": 55017
+}, {
+    "base_id": 50005,
+    "mod_id": 50008,
+    "result_id": 55017
+}, {
+    "base_id": 50005,
+    "mod_id": 10011,
+    "result_id": 55017
+}, {
+    "base_id": 50005,
+    "mod_id": 60009,
+    "result_id": 55017
+}, {
+    "base_id": 50005,
+    "mod_id": 10029,
+    "result_id": 55017
+}, {
+    "base_id": 50002,
+    "mod_id": 20006,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 40007,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 30010,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 50008,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 10011,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 60009,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 10029,
+    "result_id": 55006
+}, {
+    "base_id": 50002,
+    "mod_id": 50010,
+    "result_id": 55003
+}, {
+    "base_id": 50002,
+    "mod_id": 20014,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 50015,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 20010,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 40013,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 30009,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 50009,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 10014,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 10024,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 60004,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 60007,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 20024,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 50025,
+    "result_id": 55007
+}, {
+    "base_id": 50002,
+    "mod_id": 30037,
+    "result_id": 55007
+}, {
+    "base_id": 50003,
+    "mod_id": 20006,
+    "result_id": 55002
+}, {
+    "base_id": 50003,
+    "mod_id": 40007,
+    "result_id": 55002
+}, {
+    "base_id": 50003,
+    "mod_id": 30010,
+    "result_id": 55002
+}, {
+    "base_id": 50003,
+    "mod_id": 50008,
+    "result_id": 55002
+}, {
+    "base_id": 50003,
+    "mod_id": 10011,
+    "result_id": 55002
+}, {
+    "base_id": 50003,
+    "mod_id": 60009,
+    "result_id": 55002
+}, {
+    "base_id": 50003,
+    "mod_id": 10029,
+    "result_id": 55002
+}, {
+    "base_id": 50003,
+    "mod_id": 20014,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 50015,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 20010,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 40013,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 30009,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 50009,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 10014,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 10024,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 60004,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 60007,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 20024,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 50025,
+    "result_id": 55004
+}, {
+    "base_id": 1500001,
+    "mod_id": 30040,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 30040,
+    "result_id": 55004
+}, {
+    "base_id": 50003,
+    "mod_id": 30018,
+    "result_id": 55031
+}, {
+    "base_id": 50003,
+    "mod_id": 10033,
+    "result_id": 55031
+}, {
+    "base_id": 50003,
+    "mod_id": 10034,
+    "result_id": 55031
+}, {
+    "base_id": 50003,
+    "mod_id": 20025,
+    "result_id": 55031
+}, {
+    "base_id": 50003,
+    "mod_id": 50026,
+    "result_id": 55031
+}, {
+    "base_id": 50019,
+    "mod_id": 20014,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 30018,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 50015,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 60004,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 10033,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 10034,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 20025,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 50026,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 30037,
+    "result_id": 55033
+}, {
+    "base_id": 50019,
+    "mod_id": 30039,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 20014,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 30018,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 50015,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 60004,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 10033,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 10034,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 20025,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 50026,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 30037,
+    "result_id": 55033
+}, {
+    "base_id": 50038,
+    "mod_id": 30039,
+    "result_id": 55033
+}, {
+    "base_id": 50003,
+    "mod_id": 50010,
+    "result_id": 55010
+}, {
+    "base_id": 50001,
+    "mod_id": 20006,
+    "result_id": 55005
+}, {
+    "base_id": 50001,
+    "mod_id": 40007,
+    "result_id": 55005
+}, {
+    "base_id": 50001,
+    "mod_id": 30010,
+    "result_id": 55005
+}, {
+    "base_id": 50001,
+    "mod_id": 50008,
+    "result_id": 55005
+}, {
+    "base_id": 50001,
+    "mod_id": 10011,
+    "result_id": 55005
+}, {
+    "base_id": 50001,
+    "mod_id": 60009,
+    "result_id": 55005
+}, {
+    "base_id": 50001,
+    "mod_id": 10029,
+    "result_id": 55005
+}, {
+    "base_id": 50006,
+    "mod_id": 20006,
+    "result_id": 55065
+}, {
+    "base_id": 50006,
+    "mod_id": 40007,
+    "result_id": 55065
+}, {
+    "base_id": 50006,
+    "mod_id": 30010,
+    "result_id": 55065
+}, {
+    "base_id": 50006,
+    "mod_id": 50008,
+    "result_id": 55065
+}, {
+    "base_id": 50006,
+    "mod_id": 10011,
+    "result_id": 55065
+}, {
+    "base_id": 50006,
+    "mod_id": 60009,
+    "result_id": 55065
+}, {
+    "base_id": 50006,
+    "mod_id": 10029,
+    "result_id": 55065
+}, {
+    "base_id": 50003,
+    "mod_id": 10010,
+    "result_id": 55035
+}, {
+    "base_id": 50003,
+    "mod_id": 20015,
+    "result_id": 55035
+}, {
+    "base_id": 50003,
+    "mod_id": 40016,
+    "result_id": 55035
+}, {
+    "base_id": 50003,
+    "mod_id": 30008,
+    "result_id": 55035
+}, {
+    "base_id": 50003,
+    "mod_id": 50016,
+    "result_id": 55035
+}, {
+    "base_id": 50003,
+    "mod_id": 60008,
+    "result_id": 55035
+}, {
+    "base_id": 50001,
+    "mod_id": 20015,
+    "result_id": 55036
+}, {
+    "base_id": 50001,
+    "mod_id": 40016,
+    "result_id": 55036
+}, {
+    "base_id": 50001,
+    "mod_id": 30008,
+    "result_id": 55036
+}, {
+    "base_id": 50001,
+    "mod_id": 50016,
+    "result_id": 55036
+}, {
+    "base_id": 50001,
+    "mod_id": 10010,
+    "result_id": 55036
+}, {
+    "base_id": 50001,
+    "mod_id": 60008,
+    "result_id": 55036
+}, {
+    "base_id": 50005,
+    "mod_id": 20015,
+    "result_id": 55037
+}, {
+    "base_id": 50005,
+    "mod_id": 40016,
+    "result_id": 55037
+}, {
+    "base_id": 50005,
+    "mod_id": 30008,
+    "result_id": 55037
+}, {
+    "base_id": 50005,
+    "mod_id": 50016,
+    "result_id": 55037
+}, {
+    "base_id": 50005,
+    "mod_id": 10010,
+    "result_id": 55037
+}, {
+    "base_id": 50005,
+    "mod_id": 60008,
+    "result_id": 55037
+}, {
+    "base_id": 50001,
+    "mod_id": 20014,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 50015,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 40013,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 30009,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 50009,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 10014,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 10024,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 60004,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 60007,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 30031,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 50025,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 30037,
+    "result_id": 55009
+}, {
+    "base_id": 50001,
+    "mod_id": 20010,
+    "result_id": 55066
+}, {
+    "base_id": 50001,
+    "mod_id": 40015,
+    "result_id": 55032
+}, {
+    "base_id": 50001,
+    "mod_id": 50010,
+    "result_id": 55011
+}, {
+    "base_id": 50003,
+    "mod_id": 30014,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 40020,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 20019,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 10019,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 10021,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 50021,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 60003,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 30030,
+    "result_id": 55001
+}, {
+    "base_id": 50003,
+    "mod_id": 50027,
+    "result_id": 55001
+}, {
+    "base_id": 50019,
+    "mod_id": 20010,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 40013,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 30009,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 50009,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 10014,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 10024,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 20020,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 50020,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 10020,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 60007,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 60011,
+    "result_id": 55060
+}, {
+    "base_id": 50019,
+    "mod_id": 50025,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 20010,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 40013,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 30009,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 50009,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 10014,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 10024,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 20020,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 50020,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 10020,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 60007,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 60011,
+    "result_id": 55060
+}, {
+    "base_id": 50038,
+    "mod_id": 50025,
+    "result_id": 55060
+}, {
+    "base_id": 50001,
+    "mod_id": 20020,
+    "result_id": 55008
+}, {
+    "base_id": 50001,
+    "mod_id": 50020,
+    "result_id": 55008
+}, {
+    "base_id": 50001,
+    "mod_id": 10020,
+    "result_id": 55008
+}, {
+    "base_id": 50001,
+    "mod_id": 60011,
+    "result_id": 55008
+}, {
+    "base_id": 50004,
+    "mod_id": 20020,
+    "result_id": 55059
+}, {
+    "base_id": 50004,
+    "mod_id": 50020,
+    "result_id": 55059
+}, {
+    "base_id": 50004,
+    "mod_id": 10020,
+    "result_id": 55059
+}, {
+    "base_id": 50004,
+    "mod_id": 60011,
+    "result_id": 55059
+}, {
+    "base_id": 50003,
+    "mod_id": 20020,
+    "result_id": 55038
+}, {
+    "base_id": 50003,
+    "mod_id": 50020,
+    "result_id": 55038
+}, {
+    "base_id": 50003,
+    "mod_id": 10020,
+    "result_id": 55038
+}, {
+    "base_id": 50003,
+    "mod_id": 60011,
+    "result_id": 55038
+}, {
+    "base_id": 50004,
+    "mod_id": 30014,
+    "result_id": 55042
+}, {
+    "base_id": 50004,
+    "mod_id": 40020,
+    "result_id": 55042
+}, {
+    "base_id": 50004,
+    "mod_id": 20019,
+    "result_id": 55042
+}, {
+    "base_id": 50004,
+    "mod_id": 10019,
+    "result_id": 55042
+}, {
+    "base_id": 50004,
+    "mod_id": 10021,
+    "result_id": 55042
+}, {
+    "base_id": 50004,
+    "mod_id": 50021,
+    "result_id": 55042
+}, {
+    "base_id": 50004,
+    "mod_id": 60003,
+    "result_id": 55042
+}, {
+    "base_id": 50004,
+    "mod_id": 30030,
+    "result_id": 55042
+}, {
+    "base_id": 50005,
+    "mod_id": 30014,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 40020,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 20019,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 10019,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 10021,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 60003,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 30030,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 50027,
+    "result_id": 55043
+}, {
+    "base_id": 50005,
+    "mod_id": 50029,
+    "result_id": 55043
+}, {
+    "base_id": 50006,
+    "mod_id": 30014,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 40020,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 20019,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 10019,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 10021,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 60003,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 30030,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 10036,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 50029,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 40028,
+    "result_id": 55044
+}, {
+    "base_id": 50006,
+    "mod_id": 20034,
+    "result_id": 55044
+}, {
+    "base_id": 50005,
+    "mod_id": 20017,
+    "result_id": 55045
+}, {
+    "base_id": 50005,
+    "mod_id": 40017,
+    "result_id": 55045
+}, {
+    "base_id": 50005,
+    "mod_id": 30019,
+    "result_id": 55045
+}, {
+    "base_id": 50005,
+    "mod_id": 50017,
+    "result_id": 55045
+}, {
+    "base_id": 50005,
+    "mod_id": 60010,
+    "result_id": 55045
+}, {
+    "base_id": 50005,
+    "mod_id": 10032,
+    "result_id": 55045
+}, {
+    "base_id": 50005,
+    "mod_id": 10035,
+    "result_id": 55045
+}, {
+    "base_id": 50004,
+    "mod_id": 20017,
+    "result_id": 55046
+}, {
+    "base_id": 50004,
+    "mod_id": 40017,
+    "result_id": 55046
+}, {
+    "base_id": 50004,
+    "mod_id": 30019,
+    "result_id": 55046
+}, {
+    "base_id": 50004,
+    "mod_id": 50017,
+    "result_id": 55046
+}, {
+    "base_id": 50004,
+    "mod_id": 60010,
+    "result_id": 55046
+}, {
+    "base_id": 50004,
+    "mod_id": 10032,
+    "result_id": 55046
+}, {
+    "base_id": 50004,
+    "mod_id": 10035,
+    "result_id": 55046
+}, {
+    "base_id": 50004,
+    "mod_id": 40033,
+    "result_id": 55046
+}, {
+    "base_id": 50019,
+    "mod_id": 20017,
+    "result_id": 55047
+}, {
+    "base_id": 50019,
+    "mod_id": 40017,
+    "result_id": 55047
+}, {
+    "base_id": 50019,
+    "mod_id": 30019,
+    "result_id": 55047
+}, {
+    "base_id": 50019,
+    "mod_id": 50017,
+    "result_id": 55047
+}, {
+    "base_id": 50019,
+    "mod_id": 60010,
+    "result_id": 55047
+}, {
+    "base_id": 50019,
+    "mod_id": 10032,
+    "result_id": 55047
+}, {
+    "base_id": 50019,
+    "mod_id": 10035,
+    "result_id": 55047
+}, {
+    "base_id": 50038,
+    "mod_id": 20017,
+    "result_id": 55047
+}, {
+    "base_id": 50038,
+    "mod_id": 40017,
+    "result_id": 55047
+}, {
+    "base_id": 50038,
+    "mod_id": 30019,
+    "result_id": 55047
+}, {
+    "base_id": 50038,
+    "mod_id": 50017,
+    "result_id": 55047
+}, {
+    "base_id": 50038,
+    "mod_id": 60010,
+    "result_id": 55047
+}, {
+    "base_id": 50038,
+    "mod_id": 10032,
+    "result_id": 55047
+}, {
+    "base_id": 50038,
+    "mod_id": 10035,
+    "result_id": 55047
+}, {
+    "base_id": 50001,
+    "mod_id": 20017,
+    "result_id": 55050
+}, {
+    "base_id": 50001,
+    "mod_id": 50017,
+    "result_id": 55050
+}, {
+    "base_id": 50001,
+    "mod_id": 40017,
+    "result_id": 55048
+}, {
+    "base_id": 50001,
+    "mod_id": 30019,
+    "result_id": 55048
+}, {
+    "base_id": 50001,
+    "mod_id": 60010,
+    "result_id": 55048
+}, {
+    "base_id": 50001,
+    "mod_id": 10032,
+    "result_id": 55048
+}, {
+    "base_id": 50001,
+    "mod_id": 10035,
+    "result_id": 55048
+}, {
+    "base_id": 50002,
+    "mod_id": 20017,
+    "result_id": 55049
+}, {
+    "base_id": 50002,
+    "mod_id": 40017,
+    "result_id": 55049
+}, {
+    "base_id": 50002,
+    "mod_id": 30019,
+    "result_id": 55049
+}, {
+    "base_id": 50002,
+    "mod_id": 50017,
+    "result_id": 55049
+}, {
+    "base_id": 50002,
+    "mod_id": 60010,
+    "result_id": 55049
+}, {
+    "base_id": 50002,
+    "mod_id": 10032,
+    "result_id": 55049
+}, {
+    "base_id": 50002,
+    "mod_id": 10035,
+    "result_id": 55049
+}, {
+    "base_id": 50001,
+    "mod_id": 20016,
+    "result_id": 55051
+}, {
+    "base_id": 50001,
+    "mod_id": 40018,
+    "result_id": 55051
+}, {
+    "base_id": 50001,
+    "mod_id": 30020,
+    "result_id": 55051
+}, {
+    "base_id": 50001,
+    "mod_id": 50018,
+    "result_id": 55051
+}, {
+    "base_id": 50001,
+    "mod_id": 10017,
+    "result_id": 55051
+}, {
+    "base_id": 50001,
+    "mod_id": 60012,
+    "result_id": 55051
+}, {
+    "base_id": 50001,
+    "mod_id": 30036,
+    "result_id": 55051
+}, {
+    "base_id": 50006,
+    "mod_id": 20018,
+    "result_id": 55052
+}, {
+    "base_id": 50006,
+    "mod_id": 30013,
+    "result_id": 55052
+}, {
+    "base_id": 50006,
+    "mod_id": 40019,
+    "result_id": 55052
+}, {
+    "base_id": 50006,
+    "mod_id": 10008,
+    "result_id": 55052
+}, {
+    "base_id": 50006,
+    "mod_id": 60013,
+    "result_id": 55052
+}, {
+    "base_id": 50006,
+    "mod_id": 30034,
+    "result_id": 55052
+}, {
+    "base_id": 50019,
+    "mod_id": 20018,
+    "result_id": 55053
+}, {
+    "base_id": 50019,
+    "mod_id": 30013,
+    "result_id": 55053
+}, {
+    "base_id": 50019,
+    "mod_id": 40019,
+    "result_id": 55053
+}, {
+    "base_id": 50019,
+    "mod_id": 10008,
+    "result_id": 55053
+}, {
+    "base_id": 50019,
+    "mod_id": 60013,
+    "result_id": 55053
+}, {
+    "base_id": 50019,
+    "mod_id": 30034,
+    "result_id": 55053
+}, {
+    "base_id": 50038,
+    "mod_id": 20018,
+    "result_id": 55053
+}, {
+    "base_id": 50038,
+    "mod_id": 30013,
+    "result_id": 55053
+}, {
+    "base_id": 50038,
+    "mod_id": 40019,
+    "result_id": 55053
+}, {
+    "base_id": 50038,
+    "mod_id": 10008,
+    "result_id": 55053
+}, {
+    "base_id": 50038,
+    "mod_id": 60013,
+    "result_id": 55053
+}, {
+    "base_id": 50038,
+    "mod_id": 30034,
+    "result_id": 55053
+}, {
+    "base_id": 50005,
+    "mod_id": 20018,
+    "result_id": 55054
+}, {
+    "base_id": 50005,
+    "mod_id": 30013,
+    "result_id": 55054
+}, {
+    "base_id": 50005,
+    "mod_id": 40019,
+    "result_id": 55054
+}, {
+    "base_id": 50005,
+    "mod_id": 10008,
+    "result_id": 55054
+}, {
+    "base_id": 50005,
+    "mod_id": 60013,
+    "result_id": 55054
+}, {
+    "base_id": 50005,
+    "mod_id": 30034,
+    "result_id": 55054
+}, {
+    "base_id": 50001,
+    "mod_id": 20018,
+    "result_id": 55055
+}, {
+    "base_id": 50001,
+    "mod_id": 30013,
+    "result_id": 55055
+}, {
+    "base_id": 50001,
+    "mod_id": 40019,
+    "result_id": 55055
+}, {
+    "base_id": 50001,
+    "mod_id": 10008,
+    "result_id": 55055
+}, {
+    "base_id": 50001,
+    "mod_id": 60013,
+    "result_id": 55055
+}, {
+    "base_id": 50001,
+    "mod_id": 30034,
+    "result_id": 55055
+}, {
+    "base_id": 50003,
+    "mod_id": 20018,
+    "result_id": 55056
+}, {
+    "base_id": 50003,
+    "mod_id": 30013,
+    "result_id": 55056
+}, {
+    "base_id": 50003,
+    "mod_id": 40019,
+    "result_id": 55056
+}, {
+    "base_id": 50003,
+    "mod_id": 10008,
+    "result_id": 55056
+}, {
+    "base_id": 50003,
+    "mod_id": 60013,
+    "result_id": 55056
+}, {
+    "base_id": 50003,
+    "mod_id": 30034,
+    "result_id": 55056
+}, {
+    "base_id": 50002,
+    "mod_id": 20018,
+    "result_id": 55057
+}, {
+    "base_id": 50002,
+    "mod_id": 30013,
+    "result_id": 55057
+}, {
+    "base_id": 50002,
+    "mod_id": 40019,
+    "result_id": 55057
+}, {
+    "base_id": 50002,
+    "mod_id": 10008,
+    "result_id": 55057
+}, {
+    "base_id": 50002,
+    "mod_id": 60013,
+    "result_id": 55057
+}, {
+    "base_id": 50002,
+    "mod_id": 30034,
+    "result_id": 55057
+}, {
+    "base_id": 50004,
+    "mod_id": 20018,
+    "result_id": 55058
+}, {
+    "base_id": 50004,
+    "mod_id": 30013,
+    "result_id": 55058
+}, {
+    "base_id": 50004,
+    "mod_id": 40019,
+    "result_id": 55058
+}, {
+    "base_id": 50004,
+    "mod_id": 10008,
+    "result_id": 55058
+}, {
+    "base_id": 50004,
+    "mod_id": 60013,
+    "result_id": 55058
+}, {
+    "base_id": 50004,
+    "mod_id": 30034,
+    "result_id": 55058
+}]

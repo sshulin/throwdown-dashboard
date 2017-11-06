@@ -13,5 +13,8 @@ export default {
   },
   '5': {
     name: 'King of the hill'
+  },
+  '6': {
+    name: 'Generic'
   }
 }
